@@ -1,0 +1,39 @@
+{
+  "name": "@hiennc24/constant",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "prepare": "npm run clean && npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "action-constant-project",
+    "typescript"
+  ],
+  "description": "",
+  "author": "Hien Nguyen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiennc24/moleculer-action-constants.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hiennc24/moleculer-action-constants.git/issues"
+  },
+  "homepage": "https://github.com/hiennc24/moleculer-action-constants.git#readme",
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

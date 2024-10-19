@@ -1,0 +1,1644 @@
+{
+  "MIGRATIONS": {
+    "NAME": "svc-migrations",
+    "ACTION_INIT_MASTER_DATA": "initMasterData",
+    "ACTION_MIGRATION_MASTER": "migrationsMaster"
+  },
+
+  "SVC_ADMINISTRATION_LIST_CUSTOMER": {
+    "NAME": "svc-administration-list.customers",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_TAX_CODE": "getTaxCode",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_LOCK_UNLOCK": "lockUnlock",
+    "ACTION_UPLOAD": "upload"
+  },
+
+  "SVC_ADMINISTRATION_LIST_CUSTOMER_DETAIL": {
+    "NAME": "svc-administration-list.customer-details"
+  },
+
+  "API_WAREHOUSE_SETTINGS": {
+    "NAME": "api-warehouse.settings",
+    "ACTION_GET_MASTER_DATA": "getOrCreateMasterData",
+    "ACTION_CREATE": "createSettings",
+    "ACTION_UPDATE": "updateSettings",
+    "ACTION_DELETE": "deleteSettings"
+  },
+
+  "API_WAREHOUSE_VOUCHERS": {
+    "NAME": "api-warehouse.vouchers",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_EXIST_DATA": "getExistData",
+    "ACTION_GET_LIST_IO_CODE": "getListIOCode",
+    "ACTION_GENERATE_CODE": "generateCode",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE_VOUCHERS": "createVouchers",
+    "ACTION_UPDATE_VOUCHERS": "updateVouchers",
+    "ACTION_UPDATE_VOUCHERS_STATUS": "updateVouchersStatus",
+    "ACTION_TOGGLE_LOCK": "toggleLock",
+    "ACTION_DELETE_VOUCHERS": "deleteVouchers",
+    "ACTION_DELETE_MANY_VOUCHERS": "deleteManyVouchers"
+  },
+
+  "API_WAREHOUSE_INVENTORIES": {
+    "NAME": "api-warehouse.inventories",
+    "ACTION_GET_EXIST_DATA": "getExistData",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GEN_CODE": "generateCode",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "createInventories",
+    "ACTION_UPDATE": "updateInventories",
+    "ACTION_TOGGLE_LOCK": "toggleLock",
+    "ACTION_DELETE_INVENTORIES": "deleteInventories",
+    "ACTION_DELETE_MANY_INVENTORIES": "deleteManyInventories"
+  },
+
+  "API_SALES_ACTUAL_SALES_GROUP": {
+    "NAME": "api-sales.actual-sales-group",
+    "ACTION_GET_TOP_GROUP": "getTopGroup",
+    "ACTION_UPDATE_CORRESPOND_TO_ACTUAL_SALES_PRODUCT": "updateCorrspondToActualSalesProduct",
+    "ACTION_DELETE_HIERARCHY": "deleteHierarchy",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_UPDATE": "update",
+    "ACTION_DETAIL_WITH_SUMMARY": "detailWithSummary",
+    "ACTION_CREATE_WITH_NEW_PRODUCTS": "createWithNewProducts",
+    "ACTION_UPLOAD": "upload",
+    "ACTION_DOWNLOAD_EXCEL_TEMPLATE": "downloadExcelTemplate",
+    "ACTION_UPLOAD_EXCEL": "uploadExcel"
+  },
+
+  "API_SALES_ACTUAL_SALES_PRODUCT": {
+    "NAME": "api-sales.actual-sales-product",
+    "ACTION_UPDATE_AND_RECALCULATE": "update-and-recaculate",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "API_SALES_DEBT_ITEMS": {
+    "NAME": "api-sales.debt-items"
+  },
+
+  "API_SALES_DEBTS": {
+    "NAME": "api-sales.debts"
+  },
+
+  "API_SALES_DELIVERY_MODIFY_HISTORY": {
+    "NAME": "api-sales.delivery-modify-history"
+  },
+
+  "API_SALES_DELIVERY_ORDER": {
+    "NAME": "api-sales.delivery-order",
+    "ACTION_GET_LIST": "get-list-delivery",
+    "ACTION_CREATE_DELIVERY_ORDER_FROM_SO": "create-delivery-order-from-so",
+    "ACTION_CREATE_DELIVERY_ORDER_FROM_WAREHOUSE": "create-delivery-order-from-warehouse",
+    "ACTION_UPDATE_DELIVERY_ORDER": "update-delivery-order",
+    "ACTION_CANCEL_DELIVERY_ORDER_FROM_SO": "cancel-delivery-order-from-so"
+  },
+
+  "API_SALES_PROMOTIONS_TYPES": {
+    "NAME": "api-sales.promotions-types"
+  },
+
+  "API_SALES_DELIVERY_PRODUCT": {
+    "NAME": "api-sales.delivery-product",
+    "ACTION_CREATE_DELIVERY_PRODUCT_FROM_SO": "create-delivery-product-from-so",
+    "ACTION_CREATE_DELIVERY_PRODUCT_FROM_WAREHOUSE_VOUCHERS": "create-delivery-product-from-warehouse-vouchers"
+  },
+
+  "API_SALES_PROMOTIONS": {
+    "NAME": "api-sales.promotions",
+    "ACTION_GET_DETAIL_PROMOTIONS": "getDetailPromotions"
+  },
+
+  "API_SALES_LEAD": {
+    "NAME": "api-sales.lead",
+    "ACTION_SYNC_DATA": "sync-data",
+    "ACTION_COUNT_LEAD_BY_EMPLOYEE": "countLeadByEmployee"
+  },
+
+  "API_SALES_LEAD_PRODUCT": {
+    "NAME": "api-sales.lead-product",
+    "ACTION_CREATE_LEAD_PRODUCT": "create-lead-product"
+  },
+
+  "API_SALES_LEAD_STATUS": {
+    "NAME": "api-sales.lead-status"
+  },
+
+  "API_SALES_LEAD_HISTORY": {
+    "NAME": "api-sales.lead-history"
+  },
+
+  "API_SALES_LEAD_NEGOTIATION_DETAIL": {
+    "NAME": "api-sales.lead-negotiation-detail"
+  },
+
+  "API_SALES_SETTING": {
+    "NAME": "api-sales.settings",
+    "ACTIONS_GET_SALES_SETTING": "getSalesSetting",
+    "ACTIONS_GET_SETTING_ALLOW_OUT_OF_STOCK": "getSettingAllowOutOfStock"
+  },
+
+  "API_SALES_PROMOTIONS_PRODUCT": {
+    "NAME": "api-sales.promotionProduct"
+  },
+
+  "API_SALES_PROMOTIONS_GROUP_LABEL": {
+    "NAME": "api-sales.promotionGroupLabel"
+  },
+
+  "API_SALES_PROMOTIONS_REPORT": {
+    "NAME": "api-sales.promotionsReport"
+  },
+
+  "API_SALES_SALES_ORDER": {
+    "NAME": "api-sales.salesOrder",
+    "ACTION_GET_LIST": "getListSaleOrder",
+    "ACTION_GET_DETAIL_SALE_ORDER": "getDetailSaleOrder",
+    "ACTION_GET_CREATE_SALE_ORDER": "createSaleOrder",
+    "ACTION_UPDATE_SALE_ORDER": "updateSaleOrder",
+    "ACTION_UPDATE_STATUS_SALE_ORDER": "updateStatusSaleOrder",
+    "ACTION_DELETE_SALE_ORDER": "deleteSaleOrder",
+    "ACTION_DELETE_MANY_SALE_ORDERS": "deleteManySaleOrders",
+    "ACTION_GET_SO_FOR_DELIVERY_ORDERS": "getSOForDeliveryOrders",
+    "ACTION_CLONE_SALE_ORDER": "cloneSaleOrder",
+    "ACTION_ACKNOWLEDGE_VALUE": "acknowledgeValue",
+    "ACTION_CANCEL_ACKNOWLEDGE_VALUE": "cancelAcknowledgeValue",
+    "ACTION_CREATE_ORDER_VOUCHERS": "createOrderVouchers",
+    "ACTION_UPDATE_ADDITION": "updateAddition",
+    "ACTION_APPROVE_ADDITION": "approveAddition",
+    "ACTION_GET_SO_DETAIL_FOR_EXPORT": "getSODetailForExport",
+    "ACTION_RESCIND": "rescind",
+    "ACTION_AMEND": "amend"
+  },
+
+  "API_SALES_PROMOTIONS_REPORT_VIEWS": {
+    "NAME": "api-sales.promotionsReportViews"
+  },
+
+  "API_SALES_ORDER_PRODUCT_SERVICE": {
+    "NAME": "api-sales.orderProduct"
+  },
+
+  "API_SALES_PRODUCT_ACCOUNTING_VALUES": {
+    "NAME": "api-sales.productAccountingValues",
+    "ACTION_GET_TOP_GROUPS": "getTopGroups",
+    "ACTION_CREATE_MANY_FROM_RAW": "createManyFromRaw",
+    "ACTION_CANCEL_SO_ACKNOWLEDGE_VALUE": "cancelSOAcknowledgeValue"
+  },
+
+  "API_SALES_SALES_COST": {
+    "NAME": "api-sales.salesCosts",
+    "ACTION_GET_LIST": "getListSalesCost",
+    "ACTION_GET_LIST_USED": "getListSalesCostUsed",
+    "ACTION_UPDATE": "updateSalesCost",
+    "ACTION_RESET_DATA": "resetData"
+  },
+
+  "API_SALES_SALES_COST_CONFIGURATION": {
+    "NAME": "api-sales.salesCostsConfiguration",
+    "ACTION_GET_CONFIG": "getConfig",
+    "ACTION_ADD_OR_UPDATE_CONFIG": "addOrUpdateConfig",
+    "ACTION_GET_CONFIG_EXPENSE_LIST": "getConfigExpenseList"
+  },
+
+  "API_SALES_SALETYPE": {
+    "NAME": "api-sales.salesType"
+  },
+
+  "API_SALES_ORDER_DASHBOARD": {
+    "NAME": "api-sales.orderDashboard",
+    "ACTION_GET_LIST": "getListOrderDashboard"
+  },
+
+  "API_SALES_ORDER_VOUCHER": {
+    "NAME": "api-sales.orderVouchers",
+    "ACTION_CREATE_ORDER_VOUCHERS": "createOrderVouchers",
+    "ACTION_GET_LIST": "getListOrderVouchers"
+  },
+
+  "API_SALES_ORDER_PRODUCT": {
+    "NAME": "api-sales.orderProducts",
+    "ACTION_CREATE_HOLDING_QTY": "createHoldingQty",
+    "ACTION_CRUD_ORDER_PRODUCTS": "crudOrderProducts",
+    "ACTION_CREATE_ADDITION_PRODUCTS": "createAdditionProducts",
+    "ACTION_UPDATE_ADDITION_PRODUCTS": "updateAdditionProducts",
+    "ACTION_APPROVE_ADDITION_PRODUCTS": "approveAdditionProducts",
+    "ACTION_UPDATE_ORDER_VOUCER_4_PRODUCT": "updateOrderVoucherId4Product"
+  },
+
+  "API_SALES_ORDER_ADDRESS": {
+    "NAME": "api-sales.orderAddress",
+    "ACTION_CRUD_ORDER_ADDRESS": "crudOrderAddress"
+  },
+
+  "API_PURCHASE_SETTING": {
+    "NAME": "api-purchase.settings",
+    "ACTIONS_GET_PURCHASE_SETTING": "getSetting",
+    "ACTION_GET_OR_CREATE_MASTER_DATA_PURCHASE_SETTING": "getOrCreateMasterDataSetting",
+    "ACTION_CREATE_SETTING": "createSetting",
+    "ACTION_UPDATE_SETTING": "updateSetting",
+    "ACTION_DELETE_SETTING": "deleteSetting"
+  },
+
+  "API_PURCHASE_DEBT_ITEMS": {
+    "NAME": "api-purchase.debt-items",
+    "ACTION_GENERATE_CODE": "generatecode",
+    "ACTION_GET_LIST": "getlist",
+    "ACTION_GET_DETAIL_DEBT_ITEMS": "getDetailDebtItems",
+    "ACTION_CREATE_DEBT_ITEMS": "createDebtItems",
+    "ACTION_UPDATE_DEBT_ITEMS": "updateDebtItems",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+
+  "API_PURCHASE_DEBT": {
+    "NAME": "api-purchase.debt",
+    "ACTION_GENERATE_CODE": "generatecode",
+    "ACTION_GET_LIST": "getlist",
+    "ACTION_GET_DETAIL_DEBT": "getDetailDebts",
+    "ACTION_CREATE_DEBT_ITEMS": "createDebts",
+    "ACTION_UPDATE_DEBT_ITEMS": "updateDebts",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+
+  "API_PURCHASE_DELIVERY_HISTORY": {
+    "NAME": "api-purchase.delivery-history",
+    "ACTION_CREATE_DELIVERY_HISTORY": "createDeliveryHistories",
+    "ACTION_UPDATE_DELIVERY_HISTORY": "updateDeliveryHistories"
+  },
+
+  "API_PURCHASE_DELIVERY_MODIFY_HISTORY": {
+    "NAME": "api-purchase.delivery-modify-history"
+  },
+
+  "API_PURCHASE_DELIVERY_PRODUCT": {
+    "NAME": "api-purchase-delivery-product",
+    "ACTION_CRUD_DELIVERY_PRODUCT": "crudDeliveryProduct",
+    "ACTION_APPROVE_DELIVERY_PRODUCTS": "approveDeliveryProducts"
+  },
+
+  "API_PURCHASE_DELIVERY_ORDER": {
+    "NAME": "api-purchase.delivery-order",
+    "ACTION_GET_PAGE_DELIVERY_ORDER": "getPageDeliveryOrder",
+    "ACTION_GET_DETAIL_DELIVERY_ORDER": "getDetailDeliveryOrder",
+    "ACTION_CREATE_DELIVERY_ORDER": "createDeliveryOrder",
+    "ACTION_UPDATE_DELIVERY_ORDER": "updateDeliveryOrder",
+    "ACTION_DELETE_DELIVERY_ORDER": "deleteDeliveryOrder",
+    "ACTION_APPROVE_DELIVERY_ORDER": "approveDeliveryOrder"
+  },
+
+  "API_PURCHASE_INVOICE": {
+    "NAME": "api-purchase.invoice",
+    "ACTION_GET_PAGE_INVOICE": "getPageInvoice",
+    "ACTION_GET_DETAIL_INVOICE": "getDetailInvoice",
+    "ACTION_CREATE_DELIVERY_ORDER": "createDeliveryOrder",
+    "ACTION_UPDATE_INVOICE": "updateInvoice",
+    "ACTION_DELETE_INVOICE": "deleteInvoices",
+    "ACTION_LOCK_UNLOCK_INVOICE": "lockUnlockInvoices",
+    "ACTION_GENERATE_INVOICE_CODE": "generateInvoiceCode"
+  },
+
+  "API_PURCHASE_INVOICE_DETAIL": {
+    "NAME": "api-purchase.invoice-detail",
+    "ACTION_CRUD_INVOICE_DETAIL": "crudInvoiceDetail"
+  },
+
+  "API_PURCHASE_INVOICE_PAYMENT_TYPE": {
+    "NAME": "api-purchase.invoice-payment-type",
+    "ACTION_GET_LIST_INVOICE_PAYMENT_TYPES": "getListInvoicePaymentTypes",
+    "ACTION_MODIFY_INVOICE_PAYMENT_TYPES": "modifyInvoicePaymentTypes"
+  },
+
+  "API_PURCHASE_ORDER_DASHBOARD": {
+    "NAME": "api-purchase.orderDashboard",
+    "ACTION_GET_LIST_ORDER_DASHBOARDS": "getListOrderDashboards",
+    "ACTION_UPDATE_ORDER_DASHBOARDS": "updateOrderDashboards"
+  },
+
+  "API_PURCHASE_PURCHASE_TYPE": {
+    "NAME": "api-purchase.purchaseType"
+  },
+
+  "API_PURCHASE_DASHBOARD_PROCESS_ITEM": {
+    "NAME": "api-purchase.dashboardProcessItem"
+  },
+
+  "API_PURCHASE_DELIVERY_TYPE": {
+    "NAME": "api-purchase.deliveryType"
+  },
+
+  "API_PURCHASE_ORDER_CONFIRM": {
+    "NAME": "api-purchase.orderConfirm"
+  },
+
+  "API_PURCHASE_ORDER": {
+    "NAME": "api-purchase.purchaseOrder",
+    "ACTION_GET_DETAIL_PURCHASE_ORDER": "getDetailPurchaseOrder",
+    "ACTION_UPDATE_PURCHASE_ORDER": "updatePurchaseOrder",
+    "ACTION_CREATE_ADDITIONAL_PURCHASE_ORDER": "createAdditionalPurchaseOrder",
+    "ACTION_GET_PAGE_PURCHASE_ORDER": "getPagePurchaseOrder"
+  },
+
+  "API_PURCHASE_ORDER_VOUCHERS": {
+    "NAME": "api-purchase.orderVouchers",
+    "ACTION_GET_LIST": "getListOrderVouchers",
+    "ACTION_CREATE": "createOrderVouchers"
+  },
+
+  "API_PURCHASE_ORDER_MODIFY_HISTORY": {
+    "NAME": "api-purchase.orderModifyHistory"
+  },
+
+  "API_PURCHASE_ORDER_PRODUCT": {
+    "NAME": "api-purchase.orderProduct",
+    "ACTION_UPDATE_VOUCHER_ID_4_PRODUCT": "updateVoucherId4Product",
+    "ACTION_BACTH_UPDATE_ORDER_PRODUCT": "bacthUpdateOrderProduct",
+    "ACTION_GET_WAREHOUSE_INVENTORIES": "getDetailWarehouseInventories"
+  },
+
+  "SVC_SALES_PLANS_CONFIGURATIONS": {
+    "NAME": "svc-sales-plans.configurations",
+    "ACTION_GET_SALES_PLAN_GROUP_CONFIGURATION_DETAILS": "getSalesPlanGroupConfigurationDetails",
+    "ACTION_GET_SALES_PLAN_PRODUCT_CONFIGURATION_DETAILS": "getSalesPlanProductConfigurationDetails",
+    "ACTION_UPDATE_SALES_PLAN_GROUP_CONFIGURATION": "updateSalesPlanGroupConfiguration",
+    "ACTION_UPDATE_SALES_PLAN_PRODUCT_CONFIGURATION": "updateSalesPlanProductConfiguration"
+  },
+
+  "SVC_SALES_PLANS_REVENUE_CONFIGURATIONS": {
+    "NAME": "svc-sales-plans.revenue-configurations",
+    "ACTION_INIT_REVENUE_CONFIG_MASTER_DATA": "initRevenueConfigMasterData",
+    "ACTION_GET_REVENUE_CONFIG_DETAIL": "getRevenueConfigDetail"
+  },
+
+  "SVC_SYNC_ACTUAL_SALES_GROUP": {
+    "NAME": "svc-sync-actual-sales-group"
+  },
+
+  "SVC_SYNC_ACTUAL_SALES_PRODUCT": {
+    "NAME": "svc-sync-actual-sales-product"
+  },
+
+  "SVC_SYNC_ACTUAL_SALES_VALUES": {
+    "NAME": "svc-sync-actual-sales-values",
+    "ACTION_GET_GROUP_LIST_SUMMARY": "getGroupListSummary",
+    "ACTION_GET_GROUP_SUMMARY_BY_ELEMENT_IDS": "getGroupSummaryByElementIds",
+    "ACTION_GET_GROUP_TOTAL_DETAIL": "getGroupTotalDetail",
+    "ACTION_GET_PRODUCT_TOTAL_DETAIL": "getProductTotalDetail"
+  },
+
+  "SVC_SYNC_ADMINISTRATION_ITEMS": {
+    "NAME": "svc-sync-administration-items"
+  },
+
+  "SVC_SYNC_MANAGEMENT_CRITERIA": {
+    "NAME": "svc-sync-management-criteria",
+    "ACTION_FIND_IN_BUSINESS_CRITERIA": "findInBusinessCriteria"
+  },
+
+  "SVC_SYNC_METHOD_LISTS": {
+    "NAME": "svc-sync-sales-plan-group"
+  },
+
+  "SVC_SALES_PLAN_ACTION_PLANS": {
+    "NAME": "svc-sales-plan.action-plans",
+    "ACTION_DELETE_ACTION_PLAN_DETAIL_BY_SALES_PLAN_ID": "deleteActionPlanBySalesPlanId",
+    "ACTION_GET_ACTION_PLAN_DETAIL_BY_SALES_PLAN_ID": "getActionPlanDetailBySalesPlanId",
+    "ACTION_CREATE_ACTION_PLANS": "createActionPlans",
+    "ACTION_UPDATE_ACTION_PLAN": "updateActionPlans",
+    "ACTION_FIND": "find",
+    "ACTION_DELETE_ACTION_PLANS": "deleteActionPlans",
+    "ACTION_DELETE_ACTION_PLAN": "deleteActionPlan"
+  },
+
+  "SVC_SALES_PLAN_SYNC_METHOD": {
+    "NAME": "svc-sales-plan.sync-method",
+    "ACTION_GET_SYNC_METHOD_DETAIL": "getDetail",
+    "ACTION_GET_SYNC_METHOD_WITH_COUNT_DATA": "getSyncMethodWithCountData",
+    "ACTION_UPDATE_SYNC_METHOD_DETAIL": "updateSyncMethodDetail",
+    "ACTION_FIND_ONE": "findOne",
+    "ACTION_UPDATE_ONE": "updateOne",
+    "ACTION_FIND": "find"
+  },
+
+  "SVC_SALES_PLAN_SALES_PLAN": {
+    "NAME": "svc-sales-plan.sales-plan",
+    "ACTION_DELETE_MANY_SALES_PLAN": "deleteManySalePlan",
+    "ACTION_FIND_ONE": "findOne",
+    "ACTION_FIND": "find",
+    "ACTION_FIND_WITH_POPULATED_FIELDS": "findWithPopulatedFields",
+    "ACTION_INSERT_MANY": "insertMany",
+    "ACTION_UPDATE_ONE": "updateOne",
+    "ACTION_GET_SALES_PLAN_LIST": "getSalesPlanList",
+    "ACTION_GET_PAGINATED_LIST": "getPaginatedList",
+    "ACTION_GET_CLASSIFICATION_ITEMS": "getClassificationItems",
+    "ACTION_GET_CLASSIFICATIONS_OF_VERSION": "getClassificationsOfVersion",
+    "ACTION_GET_SALES_PLAN_DETAIL": "getSalesPlanDetail",
+    "ACTION_GET_AVAILABLE_SELLING_METHODS": "getAvailableSellingMethods",
+    "ACTION_GET_STATISTICS": "getStatistics",
+    "ACTION_FILTER_BOTTOM_UP_FINANCIAL_YEARS": "filterBottomUpFinancialYears",
+    "ACTION_SYNC_PLAN_YEAR": "syncPlanYear",
+    "ACTION_UPDATE_SALES_PLAN_ELEMENT_STATUS": "updateSalesPlanElementStatus",
+    "ACTION_GET_AVAILABLE_CLASSIFICATION_LIST": "getAvailableClassificationList",
+    "ACTION_CREATE_ACTION_PLAN_FOR_SALES_PLAN": "createActionPlanForSalesPlan",
+    "ACTION_GET_ACTION_PLAN_BY_SALES_PLAN_ID": "getActionPlanBySalesPlanId",
+    "ACTION_UPDATE_ACTION_PLAN": "updateActionPlan",
+    "ACTION_CREATE_SALE_PLAN": "createSalePlan",
+    "ACTION_UPDATE_SALE_PLAN": "updateSalePlan",
+    "ACTION_UPDATE_FLAG": "updateFlag",
+    "ACTION_DELETE_ACTION_PLAN": "deleteActionPlan",
+    "ACTION_DELETE_SALE_PLAN": "deleteSalePlan",
+    "ACTION_BATCH_DELETE": "batchDelete",
+    "ACTION_BATCH_UPDATE_STATUS": "batchUpdateStatus",
+    "ACTION_GET_APPLY_FOR_AVAILABLE": "getApplyForAvailable",
+    "ACTION_GET_STATISTICAL_FOR_HCM": "getStatisticalForHCM"
+  },
+
+  "SVC_SALES_PLAN_DATA_STATISTICS_VIEW": {
+    "NAME": "svc-sales-plan.data-statistics-view",
+    "ACTION_DELETE_MANY_DATA_STATISTICS_VIEW": "deleteManyDataStatisticsView"
+  },
+
+  "SVC_SALES_PLAN_SALES_PLAN_GROUP": {
+    "NAME": "svc-sales-plan.sales-plan-group",
+    "ACTION_UPDATE_CORRESPOND_TO_SALES_PLAN_PRODUCT": "updateCorrespondToSalesPlanProduct",
+    "ACTION_CREATE_TREE_CORRESPOND_TO_SYNC_METHOD": "createTreeCorrespondToSyncMethod",
+    "ACTION_FIND_ONE": "findOne",
+    "ACTION_FIND": "find",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_CALCULATE_LIST_TOP_DOWN_COMBINATION": "calculateListTopDownCombination",
+    "ACTION_SET_PLAN_YEAR_AND_VERSION_ID": "setPlanYearAndVersionId",
+    "ACTION_UPDATE_ONE": "updateOne",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE_BY_CONFIGURATION_DETAIL": "updateByConfigurationDetail",
+    "ACTION_UPDATE_PARENT_ID": "updateParentId",
+    "ACTION_GET_LIST_IN_ACTIVE_BSC_VERSION": "getListInActiveBSCVersion",
+    "ACTION_GET_TOTAL_REVENUE": "getTotalRevenue",
+    "ACTION_GET_COUNT_CORRESPOND_TO_SYNC_METHOD": "getCountCorrespondToSyncMethod",
+    "ACTION_GET_DETAILS_REVENUE": "getDetailsRevenue",
+    "ACTION_UPDATE_LAST_YEAR_ACTUAL_REVENUE": "updateLastYearActualRevenue",
+    "ACTION_GET_SALES_PLAN_GROUPS": "getSalesPlanGroups",
+    "ACTION_GET_NOT_YET_PLANNED_GROUP_LABEL_AND_PRODUCT_CORRESPOND_TO_SYNC_METHOD": "getNotYetPlannedGroupLabelAndProductCorrespondToSyncMethod",
+    "ACTION_DELETE_SALES_PLAN_GROUPS_AND_PRODUCT": "deleteSalesPlanGroupsAndProducts",
+    "ACTION_RECALCULATED_ALL_SALES_PLAN_GROUP_VALUE": "reCalculatedAllSalesPlanGroupValue",
+    "ACTION_INTERNAL_GET_TOP_GROUPS": "internalGetTopGroups",
+    "ACTION_INTERNAL_GET_TOTAL_REVENUE": "internalGetTotalRevenue",
+    "ACTION_INTERNAL_GET_DETAILS": "internalGetDetails",
+    "ACTION_GET_PRIORITIES": "getPriorities",
+    "ACTION_TREE_HAS_REAL_VALUE": "getTreeHasRealValue",
+    "ACTION_UPDATE_PRIORITIES": "updatePriorities"
+  },
+
+  "SVC_SALES_PLAN_SUBDIVISION_CONFIG": {
+    "NAME": "svc-sales-plan.subdivision-config",
+    "ACTION_DELETE_MANY_SUBDIVISION_CONFIG": "deleteManySubdivisionConfig",
+    "ACTION_GET_LIST_PAGINATED": "getListPaginated",
+    "ACTION_FIND_ONE": "findOne",
+    "ACTION_FIND": "find",
+    "ACTION_UPDATE_ONE": "updateOne",
+    "ACTION_BULK_UPDATE": "bulkUpdate",
+    "ACTION_TRIGGER_ANCESTORS_SHOULD_RECALCULATE": "triggerAncestorsShouldRecalculate",
+    "ACTION_SYNC_SUBDIVISION": "syncSubdivision"
+  },
+
+  "SVC_SALES_PLAN_ALLOCATION": {
+    "NAME": "svc-sales-plan.allocation",
+    "ACTION_DELETE_MANY_ALLOCATION": "deleteManyAllocation",
+    "ACTION_GET_LIST_PAGINATED": "getListPaginated",
+    "ACTION_SYNC_SUBDIVISION": "syncSubdivision",
+    "ACTION_FIND_ONE": "findOne",
+    "ACTION_BULK_UPDATE": "bulkUpdate",
+    "ACTION_UPDATE_ONE": "updateOne",
+    "ACTION_FIND": "find",
+    "ACTION_INSERT_MANY": "insertMany"
+  },
+
+  "SVC_SALES_PLAN_SETTING": {
+    "NAME": "svc-sales-plan.setting",
+    "ACTION_SET_PLAN_YEAR_AND_VERSION_ID": "setPlanYearAndVersionId",
+    "ACTION_CREATE_OR_UPDATE_SALE_PLAN_SETTING": "createOrUpdateSalePlanetting",
+    "ACTION_GET_AND_CREATE_IF_NOT_EXIST": "getAndCreateIfNotExist",
+    "ACTION_FIND_ONE": "findOne",
+    "ACTION_CREATE": "create",
+    "ACTION_GET_SALE_PLAN_SETTING": "getSalesPlanSetting"
+  },
+
+  "SVC_SALES_PLAN_VERSION": {
+    "NAME": "svc-sales-plan.version",
+    "ACTION_DELETE_MANY_VERSION": "deleteManyVersion",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_INTERNAL_UPDATE_VERSION_ACTIVE": "internalUpdateVersionActive",
+    "ACTION_FIND_BY_ID": "findById",
+    "ACTION_FIND_ONE": "findOne",
+    "ACTION_FIND": "find",
+    "ACTION_INSERT_MANY": "insertMany",
+    "ACTION_COUNT_DOCUMENTS": "countDocuments",
+    "ACTION_DELETE_VERSION": "deleteVersion"
+  },
+
+  "SVC_SALES_PLAN_SALES_PLAN_PRODUCT": {
+    "NAME": "svc-sales-plan.sales-plan-product",
+    "ACTION_UPDATE_SALES_PLAN_PRODUCT": "updateSalesPlanProduct",
+    "ACTION_GET_SALES_PLAN_PRODUCT_DETAIL": "getSalesPlanProductDetail",
+    "ACTION_GET_DETAIL_BY_PRODUCT_CODE": "getDetailsByProductCode",
+    "ACTION_GET_LIST_IN_ACTIVE_BSC_VERSION": "getListInActiveBSCVersion",
+    "ACTION_GET_LIST_HAS_REAL_VALUE_BASE_ON_SYNC_METHOD": "getListHasRealValueBaseOnSyncMethod",
+    "ACTION_INTERNAL_GET_DETAILS": "internalGetDetails",
+    "ACTIONS_GET_DETAILS_REVENUE": "getDetailsRevenue",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_FIND_ONE_AND_UPDATE": "findOneAndUpdate",
+    "ACTION_UPDATE_MANY": "updateMany",
+    "ACTION_SET_PLAN_YEAR_AND_VERSION_ID": "setPlanYearAndVersionId",
+    "ACTION_FIND_ONE": "findOne",
+    "ACTION_FIND": "find",
+    "ACTION_UPDATE_BY_CONFIGURATION_DETAIL": "updateByConfigurationDetail",
+    "ACTION_UPDATE_ONE": "updateOne",
+    "ACTION_FIND_ALL": "findAll",
+    "ACTION_CREATE_MANY": "createMany",
+    "ACTION_AGGREGATE": "aggregate",
+    "ACTION_COMPOSE_BOTTOM_UP": "composedBottomUp",
+    "ACTION_CREATE": "create",
+    "ACTION_GET_LIST": "getList"
+  },
+
+  "SVC_SALES_PLAN_PLAN_QUANTITY": {
+    "NAME": "svc-sales-plan.plan-quantity",
+    "ACTION_FIND": "find",
+    "ACTIONS_UPDATE": "update",
+    "ACTION_FIND_ONE": "findOne",
+    "ACTION_INSERT_MANY": "insertMany",
+    "ACTION_GET_DETAILS_FOR_CONFIGURATION": "getDetailsForConfiguration",
+    "ACTION_DELETE_DATA": "deleteData",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_UPLOAD": "upload"
+  },
+
+  "SVC_SALES_PLAN_FM01_CLASSIFICATION_MAPPING": {
+    "NAME": "svc-sales-plan.fm01-classification-mapping"
+  },
+
+  "API_HCM_PROVINCE": {
+    "NAME": "api-hcm.province",
+    "ACTION_GET_LIST_PROVINCE": "getListProvince"
+  },
+
+  "API_HCM_COMPULSORY_INSURANCES": {
+    "NAME": "api-hcm.compulsoryInsurances"
+  },
+
+  "API_HCM_MOBILE_SETTING": {
+    "NAME": "api-hcm.mobileSettings"
+  },
+
+  "API_HCM_SALARY_SETTINGS": {
+    "NAME": "api-hcm.salarySettings",
+    "ACTION_GET": "get",
+    "ACTION_UPDATE": "update"
+  },
+
+  "API_HCM_SALARY_RANGES": {
+    "NAME": "api-hcm.salaryRanges"
+  },
+
+  "API_HCM_SALARY_COMPOSITIONS": {
+    "NAME": "api-hcm.salaryCompositions",
+    "ACTION_GET_LIST": "getList"
+  },
+
+  "API_HCM_PAYROLL_TEMPLATE_SETTINGS": {
+    "NAME": "api-hcm.payrollTemplateSettings",
+    "ACTION_GET": "get"
+  },
+
+  "API_HCM_PAYROLL_TEMPLATE_EMPLOYEES": {
+    "NAME": "api-hcm.payrollTemplateEmployees"
+  },
+
+  "API_HCM_PAYROLL": {
+    "NAME": "api-hcm.payrolls"
+  },
+
+  "API_HCM_PAYROLL_SETTINGS": {
+    "NAME": "api-hcm.payrollSettings",
+    "ACTION_GET": "get"
+  },
+
+  "API_HCM_PAYROLL_EMPLOYEES": {
+    "NAME": "api-hcm.payrollEmployees"
+  },
+
+  "API_HCM_PAYCHECK_EMPLOYEES": {
+    "NAME": "api-hcm.paycheckEmployees",
+    "ACTION_GET_DETAIL": "getDetail"
+  },
+
+  "API_HCM_PAYCHECK_SETTINGS": {
+    "NAME": "api-hcm.paycheckSettings",
+    "ACTION_GET": "get"
+  },
+
+  "API_HCM_BONUS_COLUMNS": {
+    "NAME": "api-hcm.bonusColumns",
+    "ACTION_GET": "get",
+    "ACTION_ADD": "add",
+    "ACTION_UPDATE_TITLE": "updateTitle"
+  },
+
+  "API_HCM_BONUS_CONFIGS": {
+    "NAME": "api-hcm.bonusConfigs"
+  },
+
+  "API_HCM_BONUS_CONFIG_VALUES": {
+    "NAME": "api-hcm.bonusConfigValues"
+  },
+
+  "API_HCM_BONUS_DEPARTMENTS": {
+    "NAME": "api-hcm.bonusDepartments",
+    "ACTION_CREATE_BY_DEPARTMENT": "createByDepartment",
+    "ACTION_GET_APPLY_EMPLOYEE": "getApplyEmployee"
+  },
+
+  "API_HCM_BONUS_EMPLOYEES": {
+    "NAME": "api-hcm.bonusEmployees",
+    "ACTION_CREATE_BY_EMPLOYEE": "createByEmployee"
+  },
+
+  "API_HCM_BONUS_ITEMS": {
+    "NAME": "api-hcm.bonusItems",
+    "ACTION_GET_PAGE_SPREADSHEET_VIEW": "getPageSpreadsheetView",
+    "ACTION_GET_PAGE_APPROVED": "getPageApproved"
+  },
+
+  "API_HCM_BONUS_STATUS_HISTORIES": {
+    "NAME": "api-hcm.bonusStatusHistories"
+  },
+
+  "API_HCM_SETTINGS": {
+    "NAME": "api-hcm.settings"
+  },
+
+  "API_HCM_LEAVES": {
+    "NAME": "api-hcm.leaves",
+    "ACTION_CREATE": "create",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployeeId"
+  },
+
+  "API_HCM_LEAVE_EMPLOYEES": {
+    "NAME": "api-hcm.leave-employees",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE_MANY": "createMany"
+  },
+
+  "API_HCM_LEAVE_CONFIGS": {
+    "NAME": "api-hcm.leave-configs",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployee"
+  },
+
+  "API_HCM_LEAVE_DEPARTMENTS": {
+    "NAME": "api-hcm.leave-departments"
+  },
+
+  "API_HCM_TIMEKEEPING_SETTINGS": {
+    "NAME": "api-hcm.timekeeping-settings"
+  },
+
+  "API_HCM_TIMEKEEPING_EMPLOYEES": {
+    "NAME": "api-hcm.timekeeping-employees"
+  },
+
+  "API_HCM_TIMEKEEPING_COMPONENTS": {
+    "NAME": "api-hcm.timekeeping-components",
+    "ACTION_GET_LIST": "getList"
+  },
+
+  "API_HCM_TIMEKEEPING_REQUESTS": {
+    "NAME": "api-hcm.timekeeping-requests"
+  },
+
+  "API_HCM_TIMEKEEPING_EMPLOYEE_CONFIGS": {
+    "NAME": "api-hcm.timekeeping-configs"
+  },
+
+  "API_HCM_TIMEKEEPING_DETAILS": {
+    "NAME": "api-hcm.timekeeping-details"
+  },
+
+  "API_HCM_TIMEKEEPING_SUMMARIES": {
+    "NAME": "api-hcm.timekeeping-summaries"
+  },
+
+  "API_HCM_TIMEKEEPING_TIMEKEEPERS": {
+    "NAME": "api-hcm.timekeeping-timekeepers"
+  },
+
+  "API_HCM_WORKSHIFT_EMPLOYEES": {
+    "NAME": "api-hcm.workshift-employees"
+  },
+
+  "API_HCM_WORKSHIFT_ITEMS": {
+    "NAME": "api-hcm.workshift-items"
+  },
+
+  "API_HCM_WORKSHIFTS": {
+    "NAME": "api-hcm.workshifts"
+  },
+
+  "API_HCM_DASHBOARD": {
+    "NAME": "api-hcm.dashboard",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_UPDATE": "update"
+  },
+
+  "API_HCM_ORG_SETTING": {
+    "NAME": "api-hcm.orgSetting",
+    "ACTION_GET_ORG_SETTING": "getDetail",
+    "ACTION_UPDATE_ORG_SETTING": "updateOrgSetting"
+  },
+
+  "SVC_PLATFORM_INTEGRATION": {
+    "NAME": "svc-platform-integration"
+  },
+
+  "SVC_PLATFORM_VERIFY": {
+    "NAME": "svc-platform-integration.authorize",
+
+    "ACTION_GET_TOKEN": "getToken",
+    "ACTION_CREATE_TOKEN_REDIRECT": "createTokenRedirect"
+  },
+
+  "SVC_AUTH_AUTHENTICATIONS": {
+    "NAME": "svc-auth.authentications",
+    "ACTION_LOGIN": "login",
+    "ACTION_VERIFY_JWT_TOKEN": "verifyJWTToken",
+    "ACTION_REFRESH_TOKEN": "refreshToken"
+  },
+
+  "SVC_AUTH_VERIFY_EMAIL_TOKENS": {
+    "NAME": "svc-auth.verify_email_token",
+    "ACTION_FIND_ONE_WITH_OUT_ORGIDS": "findOneWithOutOrgIds",
+    "ACTION_CREATE_WITH_OUT_ORGIDS": "createWithOutOrgIds",
+    "ACTION_DELETE_BY_ID_WITH_OUT_ORGIDS": "deleteByIdWithOutOrgIds",
+    "ACTION_DELETE_MANY_WITH_OUT_ORGIDS": "deleteManyWithOutOrgIds",
+    "ACTION_CREATE_WITH_OUT_ORGIDS_BYPASS_AUTH": "createWithOutOrgIdsByPassAuth"
+  },
+
+  "SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE": {
+    "NAME": "svc-auth.authorizations.tenant-role",
+    "ACTION_GET_TENANT_ROLES": "getTenantRoles",
+    "ACTION_CREATE_TENANT_ROLES": "createTenantRoles",
+    "ACTION_UPDATE_TENANT_ROLES": "updateTenantRoles",
+    "ACTION_DELETE_TENANT_ROLES": "deleteTenantRoles",
+    "ACTION_UPDATE_MANY_TENANT_ROLES": "updateManyTenantRoles"
+  },
+
+  "SVC_AUTH_AUTHORIZATIONS_APP_ACTION": {
+    "NAME": "svc-auth.authorizations.app-action",
+    "ACTION_GET_ACTION_LIST": "getActionList",
+    "ACTION_CREATE_ACTION": "createAction",
+    "ACTION_UPDATE_ACTION": "updateAction"
+  },
+
+  "SVC_AUTH_USERS": {
+    "NAME": "svc-auth.users",
+    "ACTION_GET_LIST_USER": "getListUser",
+    "ACTION_CREATE_USER": "createUser",
+    "ACTION_UPDATE_USER": "updateUser",
+    "ACTION_DELETE_USER": "deleteUser",
+    "ACTION_DELETE_LIST_USER": "deleteListUser",
+    "ACTION_DELETE_USER_BY_EMPLOYEE_ID": "deleteUserByEmployeeId",
+    "ACTION_CREATE_USER_PASSWORD": "createUserPassword",
+    "ACTION_RESET_PASSWORD": "resetPassword",
+    "ACTION_CHANGE_PASSWORD": "changePassword",
+    "ACTION_FORGOT_PASSWORD": "forgotPassword",
+    "ACTION_RESTORE_ACCOUNT": "restoreAccount",
+    "ACTION_VERIFY_EMAIL_REGISTER": "verifyEmailRegister",
+    "ACTION_ASSIGN_ROLE_ID": "assignRoleId",
+    "ACTION_ASSIGN_ROLE_TO_USERS": "assignRoleToUsers",
+    "ACTION_VERIFY_USER_ACCOUNT": "verifyUserAccount",
+    "ACTION_CREATE_OR_UPDATE_USER_BY_EMPLOYEE_ID": "createOrUpdateUserByEmployeeId",
+    "ACTION_GET_USER_ACCOUNT_BY_EMPLOYEE_ID": "getUserAccountByEmployeeId",
+    "ACTION_GET_USER_DETAIL_BY_ID_OR_EMAIL": "getUserDetailByIdOrEmail",
+    "ACTION_SWITCH_ORG": "switchOrg",
+    "ACTION_SEND_MAIL": "sendMail",
+    "ACTION_DELETE_USER_FROM_EMPLOYEE": "deleteUserFromEmployee"
+  },
+
+  "SVC_ORGANIZATION_EMPLOYEES": {
+    "NAME": "svc-organization.employees",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GENERATE_CODE": "generateCode",
+    "ACTION_LOCK_UNLOCK": "lockOrUnlock",
+    "ACTION_COUNT": "count",
+    "ACTION_DELETE": "delete",
+    "ACTION_UPDATE_EMPLOYEE_FROM_AUTH": "updateEmployeeFromAuth",
+    "ACTION_GENERATE_CODE_SAMPLE_EMPLOYEES": "generateCodeSampleEmployee",
+    "ACTION_CREATE_EMPLOYEE_BY_USER": "createEmployeeByUser",
+    "ACTION_IMPORT": "import",
+    "ACTION_EXPORT": "export",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update"
+  },
+
+  "SVC_ORGANIZATION_EMPLOYEE_SALARY_HISTORIES": {
+    "NAME": "svc-organization.employee-salary-histories"
+  },
+
+  "SVC_ORGANIZATION_EMPLOYEE_SALARIES": {
+    "NAME": "svc-organization.employee-salaries"
+  },
+
+  "SVC_ORGANIZATION_EMPLOYEE_JOBS": {
+    "NAME": "svc-organization.employee-jobs"
+  },
+
+  "SVC_ORGANIZATION_EMPLOYEE_DETAILS": {
+    "NAME": "svc-organization.employee-details"
+  },
+
+  "SVC_ORGANIZATION_EMPLOYEE_SETTINGS": {
+    "NAME": "svc-organization.employee-settings",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "update"
+  },
+
+  "SVC_ORGANIZATION_ORGANIZATION": {
+    "NAME": "svc-organization.organizations",
+    "ACTION_CREATE_ORGANIZATION": "createOrganization",
+    "ACTION_GET_ORGANIZATION": "getOrganization",
+    "ACTION_UPDATE_ORGANIZATION": "updateOrganization",
+    "ACTION_DELETE_ORGANIZATION": "deleteOrganization",
+    "ACTION_EXPORT_ORGANIZATION": "exportOrganization",
+    "ACTION_IMPORT_ORGANIZATION": "importOrganization"
+  },
+
+  "SVC_ORGANIZATION_DEPARTMENTS": {
+    "NAME": "svc-organization.departments",
+    "ACTION_GET_LIST_DEPARTMENT": "getListDepartment",
+    "ACTION_DELETE_ALL_DEPARTMENT": "deleteAllDepartment",
+    "ACTION_CREATE_DEPARTMENT": "createDepartment",
+    "ACTION_CLONE_DEPARTMENT": "cloneDepartment",
+    "ACTION_GET_DEPARTMENT_LISTS_FOR_EMPLOYEE": "getDepartmentListsForEmployee",
+    "ACTION_GET_DEPARTMENT_FLAT_LISTS": "getDepartmentFlatLists",
+    "ACTION_GET_TREE_DEPARTMENTS": "getTreeDepartments",
+    "ACTION_GET_DEPARTMENT_DETAIL": "getDepartmentDetail",
+    "ACTION_GET_FLAT_TREE_DEPARTMENT_IDS": "getFlatTreeDepartmentIds",
+    "ACTION_UPDATE_MANY_DEPARTMENT": "updateManyDepartment",
+    "ACTION_CHANGE_COLOR_DEPARTMENTS": "changeColorDepartments",
+    "ACTION_UPDATE_DEPARTMENT": "updateDepartment",
+    "ACTION_DELETE_MANY_DEPARTMENT": "deleteManyDepartment",
+    "ACTION_GET_DEPARTMENT_DETAIL_WITH_FLAT_EMPLOYEE": "getDepartmentDetailWithFlatEmployee",
+    "ACTION_CREATE_POSITION": "createPosition",
+    "ACTION_CLONE_POSITION": "clonePosition",
+    "ACTION_GET_ALL_DEPARTMENT_WITH_POSITION": "getAllDepartmentWithPosition",
+    "ACTION_EXPORT_POSITION": "exportPosition",
+    "ACTION_GET_POSITION_LIST": "getPositionList",
+    "ACTION_COUNT_POSITION": "countPosition",
+    "ACTION_GET_PLAIN_POSITION_LIST": "getPlainPositionList",
+    "ACTION_LIST_POSITION_BY_DEPARTMENT": "getListPositionByDepartment",
+    "ACTION_GET_POSITION": "getPosition",
+    "ACTION_UPDATE_POSITION": "updatePosition",
+    "ACTION_DELETE_MANY_POSITION": "deleteManyPosition",
+    "ACTION_UPLOAD_POSITION": "uploadPosition"
+  },
+
+  "SVC_ORGANIZATION_ORG_SETTING": {
+    "NAME": "svc-organization.orgSetting",
+    "ACTION_GET_ORG_SETTING": "getDetail",
+    "ACTION_UPDATE_ORG_SETTING": "updateOrgSetting"
+  },
+
+  "SVC_PRODUCT_IMPORT_HISTORIES": {
+    "NAME": "svc-product.historiesImportInventories",
+    "ACTION_GET_IMPORT_HISTORIES": "getImportHistories"
+  },
+
+  "SVC_PRODUCT_ORDER_INVENTORIES": {
+    "NAME": "svc-product.orderInventories",
+    "ACTION_IN_INVENTORIERS": "inInventories",
+    "ACTION_OUT_INVENTORIERS": "outInventories",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CHECK_EXIST_PRODUCT": "isExistProduct",
+    "ACTION_GET_EXIST_DATA": "getExistData",
+    "ACTION_CALCULATE_COST_PRODUCT": "calculateCostProduct"
+  },
+
+  "SVC_PRODUCT_INVENTORIES": {
+    "NAME": "svc-product.inventories",
+    "ACTION_IN_INVENTORIERS": "inInventories",
+    "ACTION_OUT_INVENTORIERS": "outInventories",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CHECK_EXIST_PRODUCT": "isExistProduct",
+    "ACTION_GET_EXIST_DATA": "getExistData",
+    "ACTION_GET_GROUP_LABELS": "getGroupLabels",
+    "ACTION_GET_PRODUCT_ITEMS": "getProductItems",
+    "ACTION_GET_AVAILABLE_PRODUCT_ITEMS": "getAvailableProductItems",
+    "ACTION_GET_PRODUCT_ITEMS_BY_CODE": "getProductItemByCode",
+    "ACTION_GET_AVAILABLE_WAREHOUSE": "getAvailableWarehouse",
+    "ACTION_HANDLE_HOLDING_QTY": "handleHoldingQty",
+    "ACTION_IMPORT_PRODUCTS": "importProducts",
+    "ACTION_CALCULATE_COST_PRODUCT": "calculateCostProduct"
+  },
+  "SVC_PRODUCT_GROUP_LABEL": {
+    "NAME": "svc-product.groupLabels",
+    "ACTION_FIND_GROUP_LABEL": "findGroupLabel",
+    "ACTION_CREATE_GROUP_LABEL": "createGroupLabel",
+    "ACTION_UPDATE_GROUP_LABEL": "updateGroupLabel",
+    "ACTION_UPLOAD_GROUP_LABEL": "upload",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_LIST_AVAILABLE_FOR_ORG": "getListAvailableForOrg",
+    "ACTION_GET_LIST_MORE": "getListMore",
+    "ACTION_GET_DOWNLOAD_INFORMATION": "getDownloadInfo",
+    "ACTION_DOWNLOAD_FILE": "downloadFile",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CHECK_GROUP_LABEL_IDS": "checkIds",
+    "ACTION_UPDATE_MANY_GROUP_LABEL": "updateMany",
+    "ACTION_DELETE_MANY_GROUP_LABEL": "deleteMany",
+    "ACTION_GET_MORE_GROUP_LABEL": "getMoreGroupLabels",
+    "ACTION_REMOVE_GROUP_LABEL_IDS": "removeGroupLabelIds",
+    "ACTION_DOWNLOAD_FILE_GROUP_LABEL": "downloadFileGroupLabel",
+    "ACTION_GET_PRODUCT_BY_CATEGORY": "getProductItemByProductCategoryCode"
+  },
+
+  "SVC_PRODUCT_ITEMS": {
+    "NAME": "svc-product.items",
+    "ACTION_GET_PRODUCT_ITEM_PAGE": "getPage",
+    "ACTION_GET_MORE_PRODUCT_ITEM_PAGINATION": "getMoreItemPagination",
+    "ACTION_GET_DOWNLOAD_INFORMATION_PRODUCT_ITEM": "getDownloadInfo",
+    "ACTION_DOWNLOAD_PRODUCT_ITEM": "download",
+    "ACTION_GET_PRODUCT_ITEM_DETAIL": "getDetail",
+    "ACTION_UPLOAD_PRODUCT_ITEM": "upload",
+    "ACTION_CREATE_PRODUCT": "createProduct",
+    "ACTION_CREATE_PRODUCT_ITEM": "createProductItem",
+    "ACTION_ASSIGN_INTO_ORD_ID_PRODUCT_ITEM": "assignGroupLabelOrProductIntoOrgId",
+    "ACTION_REMOVE_GROUP_LABEL_OR_PRODUCT_ITEM": "removeGroupLabelOrProductItemIds",
+    "ACTION_UPDATE_PRODUCT_ITEM": "updateProduct",
+    "ACTION_UPDATE_MANY_PRODUCT_ITEM": "updateManyProduct",
+    "ACTION_DELETE_PRODUCT_ITEM": "deleteProduct"
+  },
+  "SVC_PRODUCT_SETTING": {
+    "NAME": "svc-product.productSetting",
+    "ACTION_GET_SETTING": "getSetting",
+    "ACTION_ADD_TAG": "addTag",
+    "ACTION_UPDATE_TAG": "updateTag",
+    "ACTION_REMOVE_TAG": "removeTag",
+    "ACTION_BATCH_UPDATE_OTHER": "batchUpdateOther",
+    "ACTION_ADD_ATTRIBUTE": "addAttribute",
+    "ACTION_UPDATE_ATTRIBUTE": "updateAttribute",
+    "ACTION_REMOVE_ATTRIBUTE": "removeAttribute",
+    "ACTION_BATCH_UPDATE_TAX": "batchUpdateTax",
+    "ACTION_UPDATE_ACTIVE_ATTRIBUTE": "updateActiveAttribute",
+    "ACTION_UPDATE_FIELD": "updateField"
+  },
+
+  "SVC_PRODUCT_VARIANT": {
+    "NAME": "svc-product.productVariant",
+    "ACTION_GET_VARIANT": "getVariant"
+  },
+
+  "SVC_PRODUCT_DETAIL": {
+    "NAME": "svc-product.productDetail"
+  },
+
+  "API_BIZCORE_BSC_VERSION": {
+    "NAME": "api-bizcore.bsc-version"
+  },
+
+  "API_BIZCORE_BSC": {
+    "NAME": "api-bizcore.bsc",
+    "ACTION_CREATE_BSC": "createBSC",
+    "ACTION_CREATE_SCORE_CARD_LIST": "createScoreCardList",
+    "ACTION_CREATE_SCORE_CARD_ITEM": "createScoreCardItem",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_FOR_CREATE_BSC": "getForCreateBSC",
+    "ACTION_GET_BSC": "getBalanceScoreCard",
+    "ACTION_GET_SCORE_CARD_LIST": "getScoreCardList",
+    "ACTION_GET_SCORE_CARD_ITEM": "getScoreCardItem",
+    "ACTION_UPDATE_BSC": "updateBalanceScoreCards",
+    "ACTION_UPDATE_SCORE_CARD_LIST": "updateScoreCardList",
+    "ACTION_UPDATE_SCORE_CARD_ITEMS": "updateScoreCardItems",
+    "ACTION_DELETE_BSC": "deleteBalanceScoreCards",
+    "ACTION_DELETE_SCORE_CARD_LIST": "deleteScoreCardList",
+    "ACTION_DELETE_SCORE_CARD_ITEM": "deleteScoreCardItem",
+    "ACTION_GET_BSC_ITEM_FIELD": "getListBSCItemField",
+    "ACTION_CREATE_BSC_ITEM_FIELD": "createBSCItemField",
+    "ACTION_UPDATE_BSC_ITEM_FIELD": "updateBSCItemField",
+    "ACTION_DELETE_BSC_ITEM_FIELD": "deleteBSCItemField",
+    "ACTION_GET_VERSION": "getVersions",
+    "ACTION_UPDATE_VERSION_STATUS": "updateVersionStatus",
+    "ACTION_DELETE_VESION": "deleteVersion",
+    "ACTION_CREATE_VERSION": "createVersion",
+    "ACTION_UPDATE_VERSION_ACTIVE": "updateVersionActive",
+    "ACTION_UPDTE_VERSION_MAPPING": "updateVersionMapping",
+    "ACTION_GET_SYNC_CLASSIFICATION_LIST": "getSyncClassificationsList",
+    "ACTION_INIT_BSC_MASTER_DATA": "initBSCMasterData"
+  },
+
+  "API_BIZCORE_CASHFLOW_LIST": {
+    "NAME": "api-bizcore.cashflow-list",
+    "ACTION_GET_LIST": "getFilteredCashFlowLists",
+    "ACTION_INIT_MASTER_DATA": "initMasterData",
+    "ACTION_CREATE_CASHFLOW": "createCashFlow",
+    "ACTION_UPDATE_CASHFLOW": "updateCashFlow",
+    "ACTION_RESET_MASTER_DATA": "resetMasterData",
+    "ACTION_COUNT_CASHFLOW_LISTS": "countCashFlowLists",
+    "ACTION_SORT": "sort",
+    "ACTION_DELETE_MULTIPLE": "deleteMultiple",
+    "ACTION_UPLOAD": "upload",
+    "ACTION_GET_AVAILABLE_DATA": "getAvailableData",
+    "ACTION_LOCK_OR_UNlOCK_CASH_FLOW_LIST": "lockOrUnlockCashFlowList",
+    "ACTION_DELETE_ALL_MASTER_DATA": "deleteAllMasterData",
+    "ACTION_COUNT": "countCashFlowLists"
+  },
+
+  "API_BIZCORE_REAL_CASHFLOW_LIST": {
+    "NAME": "api-bizcore.real-cashflow-list",
+
+    "ACTION_INSERT_MANY_REAL_CASH_FLOW_LIST": "insertManyRealCashFlowList",
+    "ACTION_INSERT_OR_UPDATE_REAL_CASH_FLOW_LIST": "insertOrUpdateRealCashFlowList",
+    "ACTION_GET_REAL_CASH_FLOW_LIST": "getRealCashFlowList",
+    "ACTION_DELETE_REAL_CASH_FLOW_LIST": "deleteRealCashFlowList"
+  },
+
+  "API_BIZCORE_ACTUAL_CASHFLOW_LIST": {
+    "NAME": "api-bizcore.actual-cashflow-list",
+    "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData",
+    "ACTION_FORMAT_INPUT_TEMPLATE": "formatInputTemplate",
+    "ACTION_GET_ACTUAL_CASHFLOW_TEMPLATE": "getActualCashFlowTemplate",
+    "ACTION_GET_ACTUAL_CASHFLOW_LIST": "getActualCashFlowList"
+  },
+
+  "API_BIZCORE_INCOME_AND_REVENUE_LIST": {
+    "NAME": "api-bizcore.income-and-revenue-list",
+    "ACTION_INIT_MASTER_DATA": "initMasterData",
+    "ACTION_CREATE_DATA": "createData",
+    "ACTION_DELETE_MULTIPLE": "deleteMultiple",
+    "ACTION_UPDATE_INCOME_AND_REVENUE": "updateIncomeAndRevenue",
+    "ACTION_RESET_MASTER_DATA": "resetMasterData",
+    "ACTION_COUNT_INCOME_AND_REVENUE_LIST": "countIncomeAndRevenueList",
+    "ACTION_SORT": "sort",
+    "ACTION_GET_LIST": "getFilteredIncomeAndRevenueLists",
+    "ACTION_UPLOAD": "upload",
+    "ACTION_GET_AVAILABLE_DATA": "getAvailableData",
+    "ACTION_LOCK_OR_UNLOCK_INCOME_AND_REVENUE_LIST": "lockOrUnlockIncomeAndRevenueList"
+  },
+
+  "API_BIZCORE_ACTUAL_INCOME_AND_REVENUE_LIST": {
+    "NAME": "api-bizcore.actual-income-and-revenue-list",
+    "ACTION_FORMAT_INPUT_TEMPLATE": "formatInputTemplate",
+    "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData"
+  },
+
+  "API_BIZCORE_ACTUAL_PROFIT": {
+    "NAME": "api-bizcore.actual-profit",
+    "ACTION_FORMAT_INPUT_TEMPLATE": "formatInputTemplate",
+    "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData"
+  },
+
+  "API_BIZCORE_FM01_ALLOCATION_MAPPING": {
+    "NAME": "api-bizcore.fm01-allocation-mapping",
+    "ACTION_GET_CLASSIFICATIONS": "getClassifications",
+    "ACTION_UPDATE_CLASSIFICATION": "updateClassification",
+    "ACTION_UPDATE_ALLOCATION": "updateAllocation",
+    "ACTION_SYNC_ALLOCATION": "syncAllocation",
+    "ACTION_GET_ALLOCATIONS": "getAllocations",
+    "ACTION_UPDATE_VERSION_MAPPING": "updateVersionMapping",
+    "ACTION_GET_ALLOCATION_CONFIGS": "getAllocationConfigs"
+  },
+
+  "API_BIZCORE_FM01_CONFIGURATION": {
+    "NAME": "api-bizcore.fm01-configuration",
+    "ACTION_ADD_OR_UPDATE_CONFIG": "addOrUpdateConfig",
+    "ACTION_GET_FINANCIAL_MODEL_CONFIGURATION": "getFinancialModelConfiguration"
+  },
+
+  "API_BIZCORE_FM02_LIST": {
+    "NAME": "api-bizcore.fm02-list",
+    "ACTION_CREATE_FM02_LIST": "createFm02List",
+    "ACTION_REMOVE_MANY_DATA": "removeMany",
+    "ACTION_GET_CASHFLOW_AVAILABLE": "getCashflowAvailabe",
+    "ACTION_REMOVE_SYNC_DATA": "removeSyncData",
+    "ACTION_GET_FM02_DATA": "getFM02Data",
+    "ACTION_GET_SYNC_LIST": "getSyncList"
+  },
+
+  "API_BIZCORE_FM02_VERSION": {
+    "NAME": "api-bizcore.fm02-version",
+    "ACTION_CREATE_VERSION": "createVersion",
+    "ACTION_UPDATE_VERSION_STATUS": "updateVersionStatus",
+    "ACTION_DELETE_VERSION": "deleteVersion",
+    "ACTION_GET_VERSIONS": "getVersions",
+    "ACTION_UPDATE_VERSION_MAPPING": "updateVersionMapping",
+    "ACTION_GET_ACTIVE_VERSION": "getActiveVersion",
+    "ACTION_UPDATE_VERSION_ACTIVE": "updateVersionActive"
+  },
+
+  "API_BIZCORE_FM02_ALLOCATION_CONFIG": {
+    "NAME": "api-bizcore.fm02-allocation-config",
+    "ACTION_GET_SUBDIVISIONS": "getSubdivisions",
+    "ACTION_UPDATE_ALLOCATION": "updateAllocation",
+    "ACTION_SYNC_SUBDIVISIONS": "syncSubdivisions"
+  },
+
+  "API_BIZCORE_FM02_CONFIGURATION": {
+    "NAME": "api-bizcore.fm02-configuration",
+    "ACTION_ADD_CONFIG": "addConfig",
+    "ACTION_GET_CONFIGS": "getConfigs",
+    "ACTION_UPDATE_CONFIGS": "updateConfigs",
+    "ACTION_REMOVE": "remove",
+    "ACTION_GET_CONFIG": "getConfig",
+    "ACTION_REMOVE_CONFIGS": "removeConfigs"
+  },
+
+  "API_BIZCORE_FM02_TARGET": {
+    "NAME": "api-bizcore.fm02-target",
+    "ACTION_GET_TARGET": "getTarget",
+    "ACTION_UPDATE_TARGET": "updateTarget",
+    "ACTION_INIT_MASTER_DATA": "initMasterData",
+    "ACTION_INIT_TARGET": "initTarget"
+  },
+
+  "API_BIZCORE_FINANCIAL_PLAN_AND_REPORT": {
+    "NAME": "api-bizcore.financial-plan-and-report",
+    "ACTION_PREVIEW_PROFIT_AND_LOST": "previewProfitAndLost",
+    "ACTION_PREVIEW_CASHFLOW": "previewCashflow",
+    "ACTION_GENERATE_PLAN_AND_REPORT_CODE": "generatePlanAndReportCode",
+    "ACTION_ADD_PLAN_AND_REPORT": "addPlanAndReport",
+    "ACTION_UPDATE_PLAN_AND_REPORT": "updatePlanAndReport",
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_GET_PLAN_AND_REPORTS": "getPlanAndReports",
+    "ACTION_DELETE_REPORT": "deleteReport",
+    "ACTION_DELETE_MANY_REPORTS": "deleteManyReports",
+    "ACTION_GET_DETAILS": "getDetails",
+    "ACTION_GET_ITEM_CONFIG_OPTION_VALUE": "getItemConfigOptionValue"
+  },
+
+  "API_BIZCORE_FINANCIAL_PLAN_AND_REPORT_FM01_ITEM": {
+    "NAME": "api-bizcore.financial-plan-and-report-fm01-item",
+    "ACTION_ADD_MANY_ITEMS": "addManyItems",
+    "ACTION_UPDATE_MANY_ITEMS": "updateManyItems",
+    "ACTION_GET_ITEMS_DETAILS": "getItemsDetails"
+  },
+
+  "API_BIZCORE_FM01_VERSION": {
+    "NAME": "api-bizcore.fm01-version",
+    "ACTION_GET_ACTIVE_VERSION": "getActiveVersion",
+    "ACTION_GET_VERSIONS": "getVersions",
+    "ACTION_GET_TARGET_WITH_ACTUAL_VALUE": "getTargetWithActualValue",
+    "ACTION_UPDATE_VERSION_STATUS": "updateVersionStatus",
+    "ACTION_DELETE_VERSION": "deleteVersion",
+    "ACTION_CREATE_VERSION": "createVersion",
+    "ACTION_UPDTE_VERSION_MAPPING": "updateVersionMapping",
+    "ACTION_GET_TARGET_BY_BSC_VERSION": "getTagetByBscVersion",
+    "ACTION_GET_REPORT": "getReport",
+    "ACTION_RESET_DATA": "resetData",
+    "ACTION_GET_STATISTICAL_FM01_DATA": "getStatisticalFM01Data"
+  },
+
+  "API_BIZCORE_FM01_TARGET": {
+    "NAME": "api-bizcore.fm01-target",
+    "ACTION_GET_FINANCIAL_MODEL_TARGET_LIST": "getFinancialModelTargetList",
+    "ACTION_UPDATE_CONFIGS": "updateConfigs",
+    "ACTION_UPDATE_TARGET_CONFIGS": "updateTagetConfig",
+    "ACTION_UPDATE_FINANCIAL_MODEL_TARGET": "updateFinancialModelTarget",
+    "ACTION_CHECK_INITIAL": "checkInitial",
+    "ACTION_INIT_DATA": "initData"
+  },
+
+  "API_BIZCORE_FM01_TARGET_CONFIG": {
+    "NAME": "api-bizcore.fm01-target-config"
+  },
+
+  "API_BIZCORE_FM01_LIST": {
+    "NAME": "api-bizcore.fm01-list",
+    "ACTION_GET_SALE_COST_EXPENSE": "getSaleCostsExpense",
+    "ACTION_GET_SALE_COST": "getSaleCosts",
+    "ACTION_GET_ALLOCATION_HAS_CONFIG": "getAllocationHasConfig",
+    "ACTION_GET_SALE_PLAN_HAS_CONFIG": "getSalesPlanHasConfig",
+    "ACTION_ADD_FINANCIAL_MODEL_LIST": "addFinancialModelLists",
+    "ACTION_GET_FINANCIAL_MODEL_LISTS": "getFinancialModelLists",
+    "ACTION_GET_EXPENSE_CONFIGURED_AVAILABLE": "getExpenseConfiguredAvailable",
+    "ACTION_GET_EXPENSE_AND_INCOME": "getExpenseAndIncome",
+    "ACTION_REMOVE_FINANCIAL_MODEL_LISTS": "removeFinancialModelLists",
+    "ACTION_GET_DETAILS": "getDetails",
+    "ACTION_SUM_FINANCIAL_MODEL_LISTS": "sumFinancialModelLists",
+    "ACTION_CALCULATE_FORMULAR_TARGETS": "calculateFormulaTargets"
+  },
+
+  "API_BIZCORE_EXPENSE_LIST": {
+    "NAME": "api-bizcore.expense-list",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_UPDATE_EXPENSE_LIST": "updateExpenseList",
+    "ACTION_DELETE_EXPENSE_LIST": "deleteExpenseList",
+    "ACTION_DELETE_MANY_EXPENSE_LIST": "deleteManyExpenseList",
+    "ACTION_GET_DETAIL_EXPENSE_LIST": "getDetailExpenseList",
+    "ACTION_CREATE_DEFAULT_EXPENSE_LIST": "createDefaultExpenseList",
+    "ACTION_CREATE_EXPENSE_LIST": "createExpense",
+    "ACTION_RESET_MASTER_DATA": "resetMaseterData",
+    "ACTION_SORT": "sort",
+    "ACTION_COUNT_EXPENSE_LISTS": "countExpenseLists",
+    "ACTION_UPLOAD": "upload",
+    "ACTION_GET_AVAILABLE_DATA": "getAvailableData",
+    "ACTION_LOCK_MANY": "lockMany"
+  },
+
+  "API_BIZCORE_ACTUAL_EXPENSE_LIST": {
+    "NAME": "api-bizcore.actual-expense-list",
+    "ACTION_GET_ACTUAL_EXPENSE_LIST_TEMPLATE": "getActualExpenseListTemplate",
+    "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData"
+  },
+
+  "API_BIZCORE_REAL_EXPENSE_LIST": {
+    "NAME": "api-bizcore.real-expense-list",
+    "ACTION_INSERT_MANY_REAL_EXPENSE_LIST": "insertManyRealExpenList",
+    "ACTION_GET_REAL_EXPENSE_LIST": "getRealExpenList"
+  },
+
+  "API_BIZCORE_REVENUE_LIST": {
+    "NAME": "api-bizcore.revenue-list"
+  },
+
+  "API_BIZCORE_SETTINGS": {
+    "NAME": "api-bizcore.setting",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_COUNT_FM_AND_BSC_VERSIONS": "countFMAndBSCVersions",
+    "ACTION_UPDATE": "update",
+    "ACTION_INIT_MASTER_DATA": "initialMasterData",
+    "ACTION_UPDATE_INITIAL": "updateInitial",
+    "ACTION_GET_COLUMN_PARTNER_LIST": "getColumnPartnerList",
+    "ACTION_UPDATE_COLUMN_PARTNER_LIST": "updateColumnPartnerList",
+    "ACTION_UPDATE_COLUMN_BSC": "updateColumnBSC",
+    "ACTION_GET_SALE_PLAN_TABLE": "getSalePlanTable",
+    "ACTION_UPDATE_SALE_PLAN_TABLE": "updateSalePlanTable",
+    "ACTION_GET_COLUMN_BSC": "getColumnBSC",
+    "ACTION_GET_COLUMN_PRIORITITES_BSC": "getColumnPrioritiesBSC",
+    "ACTION_GET_COLUMN_PRIORITIES_PARTNER_LIST": "getColumnPrioritiesPartnerList",
+    "ACTION_GET_COLUMN_PRIORITIES_SALE_PLAN": "getColumnPrioritiesSalePlan",
+    "ACTION_GET_COLUMN_PRODUCT_ITEM": "getColumnProductItem",
+    "ACTION_UPDATE_COLUMN_PRODUCT_ITEM": "updateColumnProductItem",
+    "ACTION_GET_COLUMN_PRIORITIES_PRODUCT_ITEM": "getColumnPrioritiesProductItem",
+    "ACTION_GET_DASHBOARD_SETTINGS": "getDashboardSettings",
+    "ACTION_UPDATE_DASHBOARD_SETTING": "updateDashboardSettings",
+    "ACTION_GET_MASTER_DATA": "getMasterData"
+  },
+
+  "API_BIZCORE_FINANCIAL_YEAR": {
+    "NAME": "api-bizcore.financial-year",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_AUTO_GENERATE_FINANCIAL_YEAR": "autoGenerateFinancialYear",
+    "ACTION_CREATE_FINANCIAL_YEAR": "createFinancialYear",
+    "ACTION_UPDATE_FINANCIAL_YEAR": "updateFinancialYear",
+    "ACTION_DELETE_LIST_FINANCIAL_YEAR": "deleteListFinancialYear",
+    "ACTION_GET_FINANCIAL_YEAR_FROM_CURRENT_FISCAL_ON_WARDS": "getFinancialYearFromCurrentFiscalOnWards",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_DETAIL_BY_YEAR": "getDetailByYear"
+  },
+
+  "API_BIZCORE_VALUE_CHAIN": {
+    "NAME": "api-bizcore.valueChain",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "API_BIZCORE_PROCESS_DETAIL": {
+    "NAME": "api-bizcore.processDetail",
+    "ACTION_UPDATE_PD_SEGMENT": "bathcUpdatePdSegment",
+    "ACTION_UPDATE_PD_TO_DO": "bathcUpdatePdToDo",
+    "ACTION_GET_TREE_PROCESS_DETAIL": "getTreeProcessDetail",
+    "ACTION_GET_PARENT_ID": "getParentId",
+    "ACTION_GET_TREE_PD_NOT_IN_VALUE_CHAIN": "getTreePDNotInValueChain",
+    "ACTION_GET_PROCESS_DETAIL_REGULATION": "getProcessDetailRegulation",
+    "ACTION_CREATE_PROCESS_DETAIL": "createProcessDetail",
+    "ACTION_UPDATE_PROCESS_DETAIL": "updateProcessDetail",
+    "ACTION_DELETE_PROCESS_DETAIL": "deleteProcessDetail"
+  },
+
+  "API_BIZCORE_PROCESS": {
+    "NAME": "api-bizcore.process",
+    "ACTION_CREATE_PROCESS": "createProcess",
+    "ACTION_UPDATE_PROCESS": "updateProcess",
+    "ACTION_MODIFY_PROCESS": "modifyProcesses",
+    "ACTION_DELETE_PROCESS": "deleteProcesses",
+    "ACTION_DELETE_MANY_PROCESSES": "deleteManyProcesses"
+  },
+
+  "SVC_ADMINISTRATION_LIST_FACILITY_LISTS": {
+    "NAME": "svc-administration-list.facility-lists",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_LOCK_UNLOCK_MANY": "lockUnlockMany",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_COUNT_QTY_USED": "countQtyUsed",
+    "ACTION_COUNT": "count",
+    "ACTION_GET_DOWNLOAD_INFO": "getDownloadInfo",
+    "ACTION_UPLOAD": "upload",
+    "ACTION_GET_UNASSIGNED_TO_ORG": "getListsUnassignedToOrg"
+  },
+
+  "SVC_ADMINISTRATION_LIST_MANAGEMENT_CRITERIA": {
+    "NAME": "svc-administration-list.management-criteria",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_LIST_UNASSIGNED_TO_ORG": "getListsUnassignedToOrg",
+    "ACTION_GET_LIST_BY_PARENT_CODE": "getByParentCode",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_UPDATE_MANY": "updateMany",
+    "ACTION_LOCK_UNLOCK_MANY": "lockUnlockMany",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GENERATE_CODE": "generateCode",
+    "ACTION_INIT": "init",
+    "ACTION_INIT_BASE_UNIT": "initBaseUnit",
+    "ACTION_GET_DATA_DOWNLOAD": "getDataDownload",
+    "ACTION_UPLOAD": "upload",
+    "ACTION_COUNT": "count",
+    "ACTION_GET_AVAILABLE_CATEGORY_LINKED": "getAvailableCategoryLinked",
+    "ACTION_GET_LINKED_CATEGORY_LIST_DETAILS_FIND": "getLinkedCategoryListDetailsFind",
+    "ACTION_GET_LINKED_CATEGORY_ITEM": "getLinkedCategoryItem",
+    "ACTION_GET_DATA_FOR_DOWNLOAD": "getDataForDownload",
+    "ACTION_GET_LINKED_CATEGORY_LIST": "getLinkedCategoryList"
+  },
+
+  "SVC_ADMINISTRATION_LIST_ADMINISTRATION_LISTS": {
+    "NAME": "svc-administration-list.administration_lists",
+    "ACTION_INIT": "init",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_UPDATE_MANY": "updateMany",
+    "ACTION_LOCK": "lock",
+    "ACTION_DELETE": "delete"
+  },
+
+  "SVC_ADMINISTRATION_LIST_ADMINISTRATION_ITEMS": {
+    "NAME": "svc-administration-list.administration_items",
+    "ACTION_CREATE": "create",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_UNASSIGNED_TO_ORG": "getUnAssignedToOrg",
+    "ACTION_GET_BY_IDS": "getByIds",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "update",
+    "ACTION_UPLOAD": "upload",
+    "ACTION_DELETE": "delete"
+  },
+
+  "SVC_ADMINISTRATION_LIST_METHOD_LIST": {
+    "NAME": "svc-administration-list.method-lists",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_LIST_UNASSIGNED_TO_ORG": "getListUnassignedToOrg",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_UPDATE_MANY": "updateMany",
+    "ACTION_LOCK": "lock",
+    "ACTION_DELETE": "delete",
+    "ACTION_COUNT": "count",
+    "ACTION_BATCH_UPDATE": "batchUpdate",
+    "ACTION_UPLOAD": "upload",
+    "ACTION_DOWNLOAD": "download",
+    "ACTION_INIT_METHOD_LIST": "initMethodList",
+    "ACTION_INIT_BASE_UNIT": "initBaseUnit",
+    "ACTION_CREATE_SELLING_METHOD": "createSellingMethod"
+  },
+
+  "SVC_ADMINISTRATION_LIST_METHOD_ITEM": {
+    "NAME": "svc-administration-list.method-items",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_BATCH_UPDATE": "batchUpdate"
+  },
+
+  "SVC_ADMINISTRATION_LIST_PARTNER_GROUP": {
+    "NAME": "svc-administration-list.partner-groups",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_BATCH_UPDATE": "batchUpdate"
+  },
+
+  "SVC_ADMINISTRATION_LIST_PARTNER_HISTORY": {
+    "NAME": "svc-administration-list.partner-histories",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "SVC_ADMINISTRATION_LIST_PARTNER_LIST": {
+    "NAME": "svc-administration-list.partner-lists",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_TAX_CODE": "getTaxCode",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_LOCK_UNLOCK": "lockUnlock",
+    "ACTION_UPLOAD": "upload"
+  },
+
+  "SVC_ADMINISTRATION_LIST_PARTNER_TRADER": {
+    "NAME": "svc-administration-list.partner-traders",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+
+  "SVC_ADMINISTRATION_LIST_CHANNEL_LISTS": {
+    "NAME": "svc-administration-list.channel_lists",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_UNASSIGNED_TO_ORG": "getUnAssignedToOrg",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_COUNT": "count",
+    "ACTION_COUNT_QTY_USED": "countQtyUsed",
+    "ACTION_LOCK": "lock",
+    "ACTION_UPLOAD": "upload"
+  },
+
+  "SVC_ADMINISTRATION_LIST_CURRENCY_LISTS": {
+    "NAME": "svc-administration-list.currency_lists",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_UNASSIGNED_TO_ORG": "getUnAssignedToOrg",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_INIT": "init",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_COUNT": "count",
+    "ACTION_COUNT_QTY_USED": "countQtyUsed",
+    "ACTION_LOCK": "lock",
+    "ACTION_UPLOAD": "upload"
+  },
+
+  "SVC_ADMINISTRATION_LIST_CONTRACT_LISTS": {
+    "NAME": "svc-administration-list.contract_lists",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GENERATE_CODE": "generateCode",
+    "ACTION_GET_CONTRACT_TYPE": "getContractType",
+    "ACTION_GET_CONTRACT_TYPE_DETAIL": "getContractTypeDetail",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_COUNT": "count",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_IMPORT": "import",
+    "ACTION_LOCK_UNLOCK": "lockUnlock"
+  },
+
+  "SVC_ADMINISTRATION_LIST_CONTRACT_LIBRARIES": {
+    "NAME": "svc-administration-list.contract_libraries",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "SVC_ADMINISTRATION_LIST_CONTRACT_KEYS": {
+    "NAME": "svc-administration-list.contract_keys",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "SVC_ADMINISTRATION_LIST_MENU_APPLICATIONS": {
+    "NAME": "svc-administration-list.menu-applications",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "updateMenus"
+  },
+
+  "SVC_ADMINISTRATION_LIST_UNIT_LISTS": {
+    "NAME": "svc-administration-list.unit_lists",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_UNASSIGNED_TO_ORG": "getUnAssignedToOrg",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_INIT": "init",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_COUNT": "count",
+    "ACTION_LOCK": "lock",
+    "ACTION_UPLOAD": "upload"
+  },
+
+  "SVC_ADMINISTRATION_LIST_SELLING_METHODS": {
+    "NAME": "svc-administration-list.selling-methods",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_MODIFY_MANY": "modifyMany",
+    "ACTION_COUNT": "count",
+    "ACTION_INITIAL": "initialMasterData"
+  },
+
+  "SVC_ADMINISTRATION_LIST_WAREHOUSE_TYPES": {
+    "NAME": "svc-administration-list.warehouse-types",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_BATCH_UPDATE": "batchUpdate",
+    "ACTION_INITIAL": "initialMasterData"
+  },
+
+  "SVC_ADMINISTRATION_LIST_WAREHOUSE_LISTS": {
+    "NAME": "svc-administration-list.warehouse-lists",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_GET_UNASSIGNED_TO_ORG": "getUnAssignedToOrg",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_LOCK_UNLOCK": "lockUnlock",
+    "ACTION_COUNT": "count",
+    "ACTION_GET_DEFAULT": "getDefault",
+    "ACTION_CREATE_DEFAULT": "createDefault"
+  },
+
+  "SVC_SALE_PLAN_FM01_CLASSIFICATION_MAPPING": {
+    "NAME": "svc-sales-plan.fm01-classification-mapping"
+  },
+
+  "ACTIVITY_LOGS": {
+    "NAME": "activityLog",
+
+    "ACTION_GET_ACTIVITIES": "getActivities",
+    "ACTION_CREATE_ACTIVITIES": "createActivities"
+  },
+
+  "SETTING_COMMON": {
+    "NAME": "settingCommon",
+
+    "ACTION_GET": "get",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "SETTING_ACCESS_TOKEN": {
+    "NAME": "settingAccessToken",
+
+    "ACTION_GET": "get",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "SETTING_FINANCIAL_YEAR": {
+    "NAME": "settingFinancialYear",
+
+    "ACTION_GET": "get",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_GET_SYNC_METHOD_WITH_COUNT_DATA": "getSyncMethodWithCountData"
+  },
+
+  "SETTING_ECOMMERCE_PLATFORM": {
+    "NAME": "settingEcommercePlatform",
+
+    "ACTION_GET": "get",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "COMMON_METHODS": {
+    "FIND": "_find",
+    "CREATE": "_create",
+    "FIND_ONE": "_findOne",
+    "FIND_ALL": "_findAll",
+    "POPULATE": "_populate",
+    "UPDATE_ONE": "_updateOne",
+    "AGGREGATE": "_aggregate",
+    "INSERT_MANY": "_insertMany",
+    "DELETE_MANY": "_deleteMany",
+    "UPDATE_MANY": "_updateMany",
+    "UPDATE_BY_ID": "_updateById",
+    "DELETE_BY_ID": "_deleteById",
+    "COUNT_DOCUMENTS": "_countDocuments",
+    "FIND_AND_POPULATE": "_findAndPopulate",
+    "FIND_ONE_AND_UPDATE": "_findOneAndUpdate"
+  }
+}
