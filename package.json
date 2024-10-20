@@ -1,6 +1,6 @@
 {
   "name": "@hiennc24/constant",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,7 +10,9 @@
     "prepublishOnly": "npm run build"
   },
   "files": [
-    "dist"
+    "lib",
+    "LICENSE",
+    "README.md"
   ],
   "keywords": [
     "action-constant-project",
@@ -28,8 +30,8 @@
   },
   "homepage": "https://github.com/hiennc24/moleculer-action-constants.git#readme",
   "devDependencies": {
-    "rimraf": "^6.0.1",
-    "ts-node": "^10.9.2",
+    "rimraf": "5.0.6",
+    "ts-node": "10.9.2",
     "typescript": "^5.5.4"
   },
   "publishConfig": {
