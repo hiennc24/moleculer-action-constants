@@ -1,11 +1,11 @@
 {
   "name": "@hiennc24/constant",
-  "version": "1.0.3",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "1.0.4",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "clean": "rimraf dist",
+    "clean": "rimraf lib",
     "prepare": "npm run clean && npm run build",
     "prepublishOnly": "npm run build"
   },
