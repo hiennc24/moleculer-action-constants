@@ -5,6 +5,11 @@
     "ACTION_MIGRATION_MASTER": "migrationsMaster"
   },
 
+  "BANKS": {
+    "NAME": "svc-banks",
+    "ACTION_GET_LIST": "getList"
+  },
+
   "SVC_ADMINISTRATION_LIST_CUSTOMER": {
     "NAME": "svc-administration-list.customers",
     "ACTION_GET_PAGE": "getPage",
