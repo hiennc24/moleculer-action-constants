@@ -688,6 +688,14 @@
     "NAME": "api-hcm.settings"
   },
 
+	"API_HCM_SETTING_HOLIDAYS": {
+		"NAME": "api-hcm.setting-holidays"
+	},
+
+	"API_HCM_SETTING_WORKING_DAYS": {
+		"NAME": "api-hcm.setting-working-days"
+	},
+
   "API_HCM_LEAVES": {
     "NAME": "api-hcm.leaves",
     "ACTION_CREATE": "create",
