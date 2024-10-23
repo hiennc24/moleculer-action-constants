@@ -848,6 +848,7 @@
     "NAME": "svc-organization.employees",
     "ACTION_GET_PAGE": "getPage",
     "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_DETAIL_BY_PASS_AUTH": "getDetailByPassAuth",
     "ACTION_GENERATE_CODE": "generateCode",
     "ACTION_LOCK_UNLOCK": "lockOrUnlock",
     "ACTION_COUNT": "count",
