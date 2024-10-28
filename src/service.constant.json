@@ -1657,7 +1657,8 @@
     "DELETE_BY_ID": "_deleteById",
     "COUNT_DOCUMENTS": "_countDocuments",
     "FIND_AND_POPULATE": "_findAndPopulate",
-    "FIND_ONE_AND_UPDATE": "_findOneAndUpdate"
+    "FIND_ONE_AND_UPDATE": "_findOneAndUpdate",
+    "BULK_WRITE": "_bulkWrite"
   },
   "SVC_TENANTS_INFORMATION": {
     "NAME": "api-admin.tenants.information",
