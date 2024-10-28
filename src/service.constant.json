@@ -611,6 +611,10 @@
     "NAME": "api-hcm.salaryRanges"
   },
 
+  "API_HCM_SALARY_HISTORIES": {
+    "NAME": "api-hcm.salaryHistories"
+  },
+
   "API_HCM_SALARY_COMPOSITIONS": {
     "NAME": "api-hcm.salaryCompositions",
     "ACTION_GET_LIST": "getList"
@@ -688,13 +692,13 @@
     "NAME": "api-hcm.settings"
   },
 
-	"API_HCM_SETTING_HOLIDAYS": {
-		"NAME": "api-hcm.setting-holidays"
-	},
+  "API_HCM_SETTING_HOLIDAYS": {
+    "NAME": "api-hcm.setting-holidays"
+  },
 
-	"API_HCM_SETTING_WORKING_DAYS": {
-		"NAME": "api-hcm.setting-working-days"
-	},
+  "API_HCM_SETTING_WORKING_DAYS": {
+    "NAME": "api-hcm.setting-working-days"
+  },
 
   "API_HCM_LEAVES": {
     "NAME": "api-hcm.leaves",
@@ -1656,26 +1660,26 @@
     "FIND_ONE_AND_UPDATE": "_findOneAndUpdate"
   },
   "SVC_TENANTS_INFORMATION": {
-		"NAME": "api-admin.tenants.information",
-		"ACTION_DASHBOARD": "dashboard",
-		"ACTION_CHECK_TAX_CODE": "checkTaxCode",
-		"ACTION_GET_PAGE": "getPage",
-		"ACTION_GET_DETAIL": "getDetail",
-		"ACTION_CREATE": "create",
-		"ACTION_UPDATE": "update",
-		"ACTION_RESTORE": "restore",
-		"ACTION_APPROVAL": "approval",
-		"ACTION_DELETE": "delete",
-		"ACTION_DELETE_MANY": "deleteMany",
-		"ACTION_RESEND_MAIL": "resendMail",
+    "NAME": "api-admin.tenants.information",
+    "ACTION_DASHBOARD": "dashboard",
+    "ACTION_CHECK_TAX_CODE": "checkTaxCode",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_RESTORE": "restore",
+    "ACTION_APPROVAL": "approval",
+    "ACTION_DELETE": "delete",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_RESEND_MAIL": "resendMail",
 
-		"ACTION_SEND_TENANT_REGISTRATION_EMAIL": "sendTenantRegistrationEmail",
-		"ACTION_GET_CONNECTION_STRING": "getConnectionString",
-		"ACTION_GET_DOMAIN_BY_TAX_CODE": "getDomainByTaxCode",
-		"ACTION_GET_TENANT_INFO_BY_DOMAIN": "getTenantInfoByDomain",
-		"ACTION_GET_SERVICE_CONFIG_OF_TENANT_BY_DOMAIN": "getServiceConfigOfTenantByDomain",
-		"ACTION_GET_INIT_DATA_OF_TENANT_BY_DOMAIN": "getInitDataOfTenantByDomain",
-		"ACTION_GET_LIST_DOMAINS_TENANTS_ACCEPTED": "getListDomainsTenantsAccepted",
-		"ACTION_TENANT_CHANGE_PASSWORD": "tenantChangePassword"
-	}
+    "ACTION_SEND_TENANT_REGISTRATION_EMAIL": "sendTenantRegistrationEmail",
+    "ACTION_GET_CONNECTION_STRING": "getConnectionString",
+    "ACTION_GET_DOMAIN_BY_TAX_CODE": "getDomainByTaxCode",
+    "ACTION_GET_TENANT_INFO_BY_DOMAIN": "getTenantInfoByDomain",
+    "ACTION_GET_SERVICE_CONFIG_OF_TENANT_BY_DOMAIN": "getServiceConfigOfTenantByDomain",
+    "ACTION_GET_INIT_DATA_OF_TENANT_BY_DOMAIN": "getInitDataOfTenantByDomain",
+    "ACTION_GET_LIST_DOMAINS_TENANTS_ACCEPTED": "getListDomainsTenantsAccepted",
+    "ACTION_TENANT_CHANGE_PASSWORD": "tenantChangePassword"
+  }
 }
