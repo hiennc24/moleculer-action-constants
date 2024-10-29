@@ -863,7 +863,8 @@
     "ACTION_IMPORT": "import",
     "ACTION_EXPORT": "export",
     "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update"
+    "ACTION_UPDATE": "update",
+		"ACTION_GET_PAGE_BY_WORKING_STATUS": "getPageByWorkingStatus"
   },
 
   "SVC_ORGANIZATION_EMPLOYEE_SALARY_HISTORIES": {
