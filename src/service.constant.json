@@ -34,6 +34,18 @@
     "ACTION_DELETE": "deleteSettings"
   },
 
+  "SVC_ADMINISTRATION_LIST_TRANSACTION_LISTS": {
+    "NAME": "svc-administration-list.transaction_lists",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_COUNT": "count",
+    "ACTION_LOCK": "lock",
+    "ACTION_UPLOAD": "upload"
+  },
+
   "API_WAREHOUSE_VOUCHERS": {
     "NAME": "api-warehouse.vouchers",
     "ACTION_GET_LIST": "getList",
