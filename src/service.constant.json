@@ -368,6 +368,7 @@
     "NAME": "api-purchase.purchaseOrder",
     "ACTION_GET_DETAIL_PURCHASE_ORDER": "getDetailPurchaseOrder",
     "ACTION_UPDATE_PURCHASE_ORDER": "updatePurchaseOrder",
+    "ACTION_UPDATE_STATUS_PURCHASE_ORDER": "updateStatusPurchaseOrder",
     "ACTION_CREATE_ADDITIONAL_PURCHASE_ORDER": "createAdditionalPurchaseOrder",
     "ACTION_GET_PAGE_PURCHASE_ORDER": "getPagePurchaseOrder"
   },
