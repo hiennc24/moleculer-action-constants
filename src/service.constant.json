@@ -1,4 +1,14 @@
 {
+  "SVC_SHARED_PROVINCES": {
+    "NAME": "svc-shared.provinces",
+    "ACTION_GET": "getList"
+  },
+
+  "SVC_SHARED_DISTRICTS": {
+    "NAME": "svc-shared.districts",
+    "ACTION_GET": "getList"
+  },
+
   "MIGRATIONS": {
     "NAME": "svc-migrations",
     "ACTION_INIT_MASTER_DATA": "initMasterData",
