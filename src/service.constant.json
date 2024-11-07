@@ -1,4 +1,42 @@
 {
+  "SCHEDULE": {
+    "NAME": "schedule",
+    "ACTION_CREATE_SCHEDULE": "createSchedule",
+    "ACTION_UPDATE_SCHEDULE": "updateSchedule",
+    "ACTION_DELETE_SCHEDULE": "deleteSchedule"
+  },
+
+  "SVC_SYNC_PRODUCT_ITEM": {
+    "NAME": "svc-sync-product-item"
+  },
+
+  "SVC_SYNC_PRODUCT_VARIANT": {
+    "NAME": "svc-sync-product-variant"
+  },
+
+  "SVC_SYNC_PRODUCT_GROUP_LABEL": {
+    "NAME": "svc-sync-product-group-label"
+  },
+
+  "SVC_PRODUCT_WAREHOUSE_SETTINGS": {
+    "NAME": "svc-product.warehouseSettings"
+  },
+
+  "SVC_PRODUCT_WAREHOUSE_PRODUCTS": {
+    "NAME": "svc-product.warehouseProducts"
+  },
+
+  "SVC_PRODUCT_ORDER_PRODUCT_ITEMS": {
+    "NAME": "svc-product.orderProductItems",
+    "ACTION_FIND_ALL_BY_AGGREGATE": "findAllByAggregations"
+  },
+
+  "SVC_TENANTS_ORGANIZATIONS": {
+    "NAME": "api-admin.tenants.organizations",
+    "ACTION_GET_ALL": "getAll",
+    "ACTION_RESTORE": "restore"
+  },
+
   "SVC_SHARED_PROVINCES": {
     "NAME": "svc-shared.provinces",
     "ACTION_GET": "getList"
@@ -1051,6 +1089,10 @@
     "NAME": "svc-product.productDetail"
   },
 
+  "SVC_PRODUCT_COMBO": {
+    "NAME": "svc-product.productCombo"
+  },
+
   "API_BIZCORE_BSC_VERSION": {
     "NAME": "api-bizcore.bsc-version"
   },
@@ -1461,46 +1503,6 @@
     "NAME": "svc-administration-list.method-items",
     "ACTION_GET_LIST": "getList",
     "ACTION_BATCH_UPDATE": "batchUpdate"
-  },
-
-  "SVC_ADMINISTRATION_LIST_PARTNER_GROUP": {
-    "NAME": "svc-administration-list.partner-groups",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_BATCH_UPDATE": "batchUpdate"
-  },
-
-  "SVC_ADMINISTRATION_LIST_PARTNER_HISTORY": {
-    "NAME": "svc-administration-list.partner-histories",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete"
-  },
-
-  "SVC_ADMINISTRATION_LIST_PARTNER_LIST": {
-    "NAME": "svc-administration-list.partner-lists",
-    "ACTION_GET_PAGE": "getPage",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_GET_TAX_CODE": "getTaxCode",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_LOCK_UNLOCK": "lockUnlock",
-    "ACTION_UPLOAD": "upload"
-  },
-
-  "SVC_ADMINISTRATION_LIST_PARTNER_TRADER": {
-    "NAME": "svc-administration-list.partner-traders",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_DELETE_MANY": "deleteMany"
   },
 
   "SVC_ADMINISTRATION_LIST_CHANNEL_LISTS": {
