@@ -1709,10 +1709,5 @@
     "ACTION_GET_INIT_DATA_OF_TENANT_BY_DOMAIN": "getInitDataOfTenantByDomain",
     "ACTION_GET_LIST_DOMAINS_TENANTS_ACCEPTED": "getListDomainsTenantsAccepted",
     "ACTION_TENANT_CHANGE_PASSWORD": "tenantChangePassword"
-  },
-	"SVC_TENANTS_ORGANIZATIONS": {
-		"NAME": "api-admin.tenants.organizations",
-		"ACTION_GET_ALL": "getAll",
-		"ACTION_RESTORE": "restore"
-	}
+  }
 }
