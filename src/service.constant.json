@@ -381,6 +381,13 @@
     "NAME": "api-sales.delivery-modify-history"
   },
 
+  "API_SALES_SALES_PROMOTION_DETAIL": {
+		"NAME": "api-sales.promotionDetail",
+
+		"ACTION_ADD_OR_UPDATE_PROMOTION_DETAILS": "addOrUpdatePromotionDetails",
+		"ACTION_DELETE_BY_PROMOTION_IDS": "delteByPromotionIds"
+	},
+
   "API_PURCHASE_SETTING": {
     "NAME": "api-purchase.settings",
     "ACTIONS_GET_PURCHASE_SETTING": "getSetting",
