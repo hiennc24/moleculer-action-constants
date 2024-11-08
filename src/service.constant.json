@@ -1812,6 +1812,7 @@
     "ACTION_GET_SERVICE_CONFIG_OF_TENANT_BY_DOMAIN": "getServiceConfigOfTenantByDomain",
     "ACTION_GET_LIST_DOMAINS_TENANTS_ACCEPTED": "getListDomainsTenantsAccepted",
     "ACTION_GET_INIT_DATA_OF_TENANT_BY_DOMAIN": "getInitDataOfTenantByDomain",
+    "ACTION_INIT_CHANGE_STREAMS_FOR_TENANTS": "initChangeStreamsForTenants",
     "ACTION_SEND_TENANT_REGISTRATION_EMAIL": "sendTenantRegistrationEmail",
     "ACTION_GET_TENANT_INFO_BY_DOMAIN": "getTenantInfoByDomain",
     "ACTION_TENANT_CHANGE_PASSWORD": "tenantChangePassword",
