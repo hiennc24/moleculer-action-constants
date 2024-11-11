@@ -107,10 +107,6 @@ export const ORG_SETTING_REPOSITORY_NAME = 'orgSetting';
 export const ORG_SETTING_COLLECTION_NAME = 'org_settings';
 
 // AUTH SERVICE
-// Menu
-export const MENU_BIZCORE_REPOSITORY_NAME = 'bizcoreMenu';
-export const MENU_BIZCORE_COLLECTION_NAME = 'bizcore_menus';
-
 // User
 export const TENANT_USER_REPOSITORY_NAME = 'tenantUser';
 export const TENANT_USER_COLLECTION_NAME = 'tenant_users';
