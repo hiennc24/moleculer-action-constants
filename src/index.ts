@@ -1,5 +1,5 @@
 import SERVICE_BROKER from "./service.constant.json";
-import * as COLLECTIONS from "./collections.constant"
+import COLLECTIONS from "./collections.constant"
 
 export { SERVICE_BROKER, COLLECTIONS };
 
