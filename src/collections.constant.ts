@@ -1,3 +1,5 @@
+export type CollectionsConstantType = { [key: string]: string };
+
 const COLLECTIONS = {
   // Menu
   MENU_REPOSITORY_NAME: 'menu',
@@ -842,5 +844,3 @@ const COLLECTIONS = {
 }
 
 export default COLLECTIONS
-
-
