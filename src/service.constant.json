@@ -151,6 +151,12 @@
     "NAME": "api-warehouse.voucherProduct"
   },
 
+  "API_SALES_SALES_PROMOTION_DETAIL": {
+		"NAME": "api-sales.promotionDetail",
+		"ACTION_ADD_OR_UPDATE_PROMOTION_DETAILS": "addOrUpdatePromotionDetails",
+		"ACTION_DELETE_BY_PROMOTION_IDS": "delteByPromotionIds"
+	},
+
   "API_SALES_CAMPAIGN_PRICE": {
     "NAME": "api-sales.campaign-price"
   },
@@ -2042,5 +2048,11 @@
     "NAME": "svc-migrations",
     "ACTION_INIT_MASTER_DATA": "initMasterData",
     "ACTION_MIGRATION_DATA": "migrationData"
+  },
+
+  "SVC_INVENTORY_TRANSACTIONS": {
+    "NAME": "svc-inventory-transactions",
+    "ACTION_CREATE_INVENTORY_TRANSACTION": "createInventoryTransaction",
+    "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport"
   }
 }
