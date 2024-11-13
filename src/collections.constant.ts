@@ -4,7 +4,7 @@ const COLLECTIONS = {
   // Menu
   MENU_REPOSITORY_NAME: 'menu',
   MENU_COLLECTION_NAME: 'menus',
-  
+
   // Menu Application
   MENU_APPLICATION_REPOSITORY_NAME: 'menuApplication',
   MENU_APPLICATION_COLLECTION_NAME: 'menu_applications',
@@ -741,22 +741,16 @@ const COLLECTIONS = {
   // Sale costs
   SALE_COSTS_REPOSITORY_NAME: 'saleCosts',
   SALE_COSTS_COLLECTION_NAME: 'sale_costs',
-  SALE_COSTS_CONFIGURATION_REPOSITORY_NAME:
-    'saleCostsConfiguration',
-  SALE_COSTS_CONFIGURATION_COLLECTION_NAME:
-    'sale_costs_configurations',
+  SALE_COSTS_CONFIGURATION_REPOSITORY_NAME: 'saleCostsConfiguration',
+  SALE_COSTS_CONFIGURATION_COLLECTION_NAME: 'sale_costs_configurations',
 
   // ProductAccountingValue
-  PRODUCT_ACCOUNTING_VALUES_REPOSITORY_NAME:
-    'productAccountingValues',
-  PRODUCT_ACCOUNTING_VALUES_COLLECTION_NAME:
-    'product_accounting_values',
+  PRODUCT_ACCOUNTING_VALUES_REPOSITORY_NAME: 'productAccountingValues',
+  PRODUCT_ACCOUNTING_VALUES_COLLECTION_NAME: 'product_accounting_values',
 
   // GroupLabelAccountingValue
-  GROUP_LABEL_ACCOUNTING_VALUES_REPOSITORY_NAME:
-    'groupLabelAccountingValues',
-  GROUP_LABEL_ACCOUNTING_VALUES_COLLECTION_NAME:
-    'group_label_accounting_values',
+  GROUP_LABEL_ACCOUNTING_VALUES_REPOSITORY_NAME: 'groupLabelAccountingValues',
+  GROUP_LABEL_ACCOUNTING_VALUES_COLLECTION_NAME: 'group_label_accounting_values',
 
   // Debt
   DEBTS_REPOSITORY_NAME: 'debts',
@@ -784,10 +778,8 @@ const COLLECTIONS = {
   WAREHOUSE_VOUCHER_COLLECTION_NAME: 'warehouse_vouchers',
 
   // warehouse voucher product
-  WAREHOUSE_VOUCHER_PRODUCT_REPOSITORY_NAME:
-    'warehouseVoucherProduct',
-  WAREHOUSE_VOUCHER_PRODUCT_COLLECTION_NAME:
-    'warehouse_voucher_products',
+  WAREHOUSE_VOUCHER_PRODUCT_REPOSITORY_NAME: 'warehouseVoucherProduct',
+  WAREHOUSE_VOUCHER_PRODUCT_COLLECTION_NAME: 'warehouse_voucher_products',
 
   // Warehouse Inventories
   WAREHOUSE_INVENTORY_REPOSITORY_NAME: 'warehouseInventory',
@@ -834,13 +826,94 @@ const COLLECTIONS = {
   INVOICE_PAYMENT_TYPE_REPOSITORY_NAME: 'invoicePaymentType',
   INVOICE_PAYMENT_TYPE_COLLECTION_NAME: 'invoice_payment_types',
 
+  // Detail Payment Invoices
+  DEBT_ITEMS_REPOSITORY_NAME: 'debtItems',
+  DEBT_ITEMS_COLLECTION_NAME: 'debt_items',
+
+  // User
+  USER_REPOSITORY_NAME: 'user',
+  USER_COLLECTION_NAME: 'users',
+
+  // User Account
+  ACCOUNTS_REPOSITORY_NAME: 'account',
+  ACCOUNTS_COLLECTION_NAME: 'accounts',
+
+
+  // Role
+  ROLE_REPOSITORY_NAME: 'role',
+  ROLE_COLLECTION_NAME: 'roles',
+
+  // Git Projects
+  GIT_PROJECTS_REPOSITORY_NAME: 'gitProject',
+  GIT_PROJECTS_COLLECTION_NAME: 'git_projects',
+
+  // Email Template
+  EMAIL_KEYWORD_REPOSITORY_NAME: 'emailKeywords',
+  EMAIL_KEYWORD_COLLECTION_NAME: 'email_keywords',
+  EMAIL_TEMPLATE_REPOSITORY_NAME: 'emailTemplates',
+  EMAIL_TEMPLATE_COLLECTION_NAME: 'email_templates',
+
+  // Email Marketing
+  EMAIL_SEND_REPOSITORY_NAME: 'emailSend',
+  EMAIL_SEND_COLLECTION_NAME: 'email_sends',
+  EMAIL_LIBRARY_REPOSITORY_NAME: 'emailLibrary',
+  EMAIL_LIBRARY_COLLECTION_NAME: 'email_libraries',
+  EMAIL_CAMPAIGN_REPOSITORY_NAME: 'emailCampaign',
+  EMAIL_CAMPAIGN_COLLECTION_NAME: 'email_campaigns',
+  EMAIL_CUSTOMER_REPOSITORY_NAME: 'emailCustomer',
+  EMAIL_CUSTOMER_COLLECTION_NAME: 'email_customers',
+  EMAIL_REPOSITORY_NAME: 'email',
+  EMAIL_COLLECTION_NAME: 'emails',
+
+  // Tenant
+  APPLICATION_REPOSITORY_NAME: 'application',
+  APPLICATION_COLLECTION_NAME: 'applications',
+  TENANT_SETTING_REPOSITORY_NAME: 'tenantSetting',
+  TENANT_SETTING_COLLECTION_NAME: 'tenant_settings',
+  TENANT_PAYMENT_REPOSITORY_NAME: 'tenantPayment',
+  TENANT_PAYMENT_COLLECTION_NAME: 'tenant_payments',
+  POTENTIAL_TENANT_REPOSITORY_NAME: 'potentialTenant',
+  POTENTIAL_TENANT_COLLECTION_NAME: 'potential_tenants',
+  BUSINESS_CATEGORY_REPOSITORY_NAME: 'businessCategory',
+  BUSINESS_CATEGORY_COLLECTION_NAME: 'business_categories',
+  TENANT_INFORMATION_REPOSITORY_NAME: 'tenantInformation',
+  TENANT_INFORMATION_COLLECTION_NAME: 'tenant_informations',
+  TENANT_ORGANIZATION_REPOSITORY_NAME: 'tenantOrganization',
+  TENANT_ORGANIZATION_COLLECTION_NAME: 'tenant_organizations',
+
+  // Tenant
+  TENANT_ADMIN_SETTING_REPOSITORY_NAME: 'tenantAdminSetting',
+  TENANT_ADMIN_SETTING_COLLECTION_NAME: 'tenant_admin_settings',
+
+  // Server
+  SERVER_REPOSITORY_NAME: 'server',
+  SERVER_COLLECTION_NAME: 'servers',
+  SERVICE_REPOSITORY_NAME: 'service',
+  SERVICE_COLLECTION_NAME: 'services',
+  RELEASE_REPOSITORY_NAME: 'release',
+  RELEASE_COLLECTION_NAME: 'releases',
+  WEB_APPLICATION_REPOSITORY_NAME: 'webApplication',
+  WEB_APPLICATION_COLLECTION_NAME: 'web_applications',
+  APIS_SERVICES_REPOSITORY_NAME: 'apisServiceManagement',
+  APIS_SERVICES_COLLECTION_NAME: 'apis_services_managements',
+  APIS_SERVICES_INFORMATION_REPOSITORY_NAME: 'apisServicesInformation',
+  APIS_SERVICES_INFORMATION_COLLECTION_NAME: 'apis_services_informations',
+
   // Setting
   PURCHASE_SETTING_REPOSITORY_NAME: 'purchaseSetting',
   PURCHASE_SETTING_COLLECTION_NAME: 'purchase_settings',
 
-  // Detail Payment Invoices
-  DEBT_ITEMS_REPOSITORY_NAME: 'debtItems',
-  DEBT_ITEMS_COLLECTION_NAME: 'debt_items',
+  // Partner List
+  PARTNER_LIST_REPOSITORY_NAME: 'partnerList',
+  PARTNER_LIST_COLLECTION_NAME: 'partner_lists',
+
+  // Partner Trader
+  PARTNER_TRADER_REPOSITORY_NAME: 'partnerTrader',
+  PARTNER_TRADER_COLLECTION_NAME: 'partner_traders',
+
+  // Contract List
+  CONTRACT_LIST_REPOSITORY_NAME: 'contractList',
+  CONTRACT_LIST_COLLECTION_NAME: 'contract_lists',
 }
 
 export default COLLECTIONS
