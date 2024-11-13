@@ -903,14 +903,6 @@ const COLLECTIONS = {
   PURCHASE_SETTING_REPOSITORY_NAME: 'purchaseSetting',
   PURCHASE_SETTING_COLLECTION_NAME: 'purchase_settings',
 
-  // Partner List
-  PARTNER_LIST_REPOSITORY_NAME: 'partnerList',
-  PARTNER_LIST_COLLECTION_NAME: 'partner_lists',
-
-  // Partner Trader
-  PARTNER_TRADER_REPOSITORY_NAME: 'partnerTrader',
-  PARTNER_TRADER_COLLECTION_NAME: 'partner_traders',
-
   // Contract List
   CONTRACT_LIST_REPOSITORY_NAME: 'contractList',
   CONTRACT_LIST_COLLECTION_NAME: 'contract_lists',
