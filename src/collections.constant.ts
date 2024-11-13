@@ -914,6 +914,33 @@ const COLLECTIONS = {
   // Contract List
   CONTRACT_LIST_REPOSITORY_NAME: 'contractList',
   CONTRACT_LIST_COLLECTION_NAME: 'contract_lists',
+
+  // Menu
+  MENU_BIZCORE_REPOSITORY_NAME: 'bizcoreMenu',
+  MENU_BIZCORE_COLLECTION_NAME: 'bizcore_menus',
+
+  VALUE_CHAIN_TODO_LIST_REPOSITORY_NAME: 'valueChainTodoList',
+  VALUE_CHAIN_TODO_LIST_COLLECTION_NAME: 'value_chain_todo_lists',
+  VALUE_CHAIN_SEGMENT_LIST_REPOSITORY_NAME: 'valueChainSegmentList',
+  VALUE_CHAIN_SEGMENT_LIST_COLLECTION_NAME: 'value_chain_segment_lists',
+  VALUE_CHAIN_PROCESS_LIST_REPOSITORY_NAME: 'valueChainProcessList',
+  VALUE_CHAIN_PROCESS_LIST_COLLECTION_NAME: 'value_chain_process_lists',
+
+  // Contract Content
+  CONTRACT_CONTENT_REPOSITORY_NAME: 'contractContent',
+  CONTRACT_CONTENT_COLLECTION_NAME: 'contract_contents',
+
+  // Contract History
+  CONTRACT_HISTORY_REPOSITORY_NAME: 'contractHistory',
+  CONTRACT_HISTORY_COLLECTION_NAME: 'contract_histories',
+
+  // Contract Mission
+  CONTRACT_MISSION_REPOSITORY_NAME: 'contractMission',
+  CONTRACT_MISSION_COLLECTION_NAME: 'contract_missions',
+
+  // FM02
+  NET_REVENUE_CONFIGURATION_REPOSITORY_NAME: 'netRevenueConfiguration',
+  NET_REVENUE_CONFIGURATION_COLLECTION_NAME: 'net_revenue_configurations'
 }
 
 export default COLLECTIONS
