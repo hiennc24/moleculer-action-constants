@@ -152,10 +152,10 @@
   },
 
   "API_SALES_SALES_PROMOTION_DETAIL": {
-		"NAME": "api-sales.promotionDetail",
-		"ACTION_ADD_OR_UPDATE_PROMOTION_DETAILS": "addOrUpdatePromotionDetails",
-		"ACTION_DELETE_BY_PROMOTION_IDS": "delteByPromotionIds"
-	},
+    "NAME": "api-sales.promotionDetail",
+    "ACTION_ADD_OR_UPDATE_PROMOTION_DETAILS": "addOrUpdatePromotionDetails",
+    "ACTION_DELETE_BY_PROMOTION_IDS": "delteByPromotionIds"
+  },
 
   "API_SALES_CAMPAIGN_PRICE": {
     "NAME": "api-sales.campaign-price"
@@ -1755,30 +1755,30 @@
     "NAME": "svc-sales-plan.fm01-classification-mapping"
   },
 
-  "ACTIVITY_LOGS": {
-    "NAME": "activityLog",
+  "SVC_SHARED_ACTIVITY_LOGS": {
+    "NAME": "svc-shared.activityLog",
     "ACTION_CREATE_ACTIVITIES": "createActivities",
     "ACTION_GET_ACTIVITIES": "getActivities"
   },
 
-  "SETTING_COMMON": {
-    "NAME": "settingCommon",
+  "SVC_SHARED_SETTING_COMMON": {
+    "NAME": "svc-shared.settingCommon",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete",
     "ACTION_GET": "get"
   },
 
-  "SETTING_ACCESS_TOKEN": {
-    "NAME": "settingAccessToken",
+  "SVC_SHARED_SETTING_ACCESS_TOKEN": {
+    "NAME": "svc-shared.settingAccessToken",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete",
     "ACTION_GET": "get"
   },
 
-  "SETTING_FINANCIAL_YEAR": {
-    "NAME": "settingFinancialYear",
+  "SVC_SHARED_SETTING_FINANCIAL_YEAR": {
+    "NAME": "svc-shared.settingFinancialYear",
     "ACTION_GET": "get",
     "ACTION_GET_SYNC_METHOD_WITH_COUNT_DATA": "getSyncMethodWithCountData",
     "ACTION_CREATE": "create",
@@ -1786,8 +1786,8 @@
     "ACTION_DELETE": "delete"
   },
 
-  "SETTING_ECOMMERCE_PLATFORM": {
-    "NAME": "settingEcommercePlatform",
+  "SVC_SHARED_SETTING_ECOMMERCE_PLATFORM": {
+    "NAME": "svc-shared.settingEcommercePlatform",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete",
