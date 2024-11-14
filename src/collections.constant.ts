@@ -31,8 +31,7 @@ const COLLECTIONS = {
   CONTRACT_HISTORIES_REPOSITORY_NAME: 'contractHistory',
   CONTRACT_HISTORIES_COLLECTION_NAME: 'contract_histories',
   CONTRACT_MISSION_COLUMNS_REPOSITORY_NAME: 'contractMissionColumn',
-  CONTRACT_MISSION_COLUMNS_COLLECTION_NAME:
-    'contract_mission_columns',
+  CONTRACT_MISSION_COLUMNS_COLLECTION_NAME: 'contract_mission_columns',
   CONTRACT_LIBRARIES_REPOSITORY_NAME: 'contractLibrary',
   CONTRACT_LIBRARIES_COLLECTION_NAME: 'contract_libraries',
   CONTRACT_KEYS_REPOSITORY_NAME: 'contractKey',
@@ -89,8 +88,7 @@ const COLLECTIONS = {
   EMPLOYEE_SALARY_REPOSITORY_NAME: 'employeeSalary',
   EMPLOYEE_SALARY_COLLECTION_NAME: 'employee_salaries',
   EMPLOYEE_SALARY_HISTORY_REPOSITORY_NAME: 'employeeSalaryHistory',
-  EMPLOYEE_SALARY_HISTORY_COLLECTION_NAME:
-    'employee_salary_histories',
+  EMPLOYEE_SALARY_HISTORY_COLLECTION_NAME: 'employee_salary_histories',
 
   // Organization
   ORGANIZATION_REPOSITORY_NAME: 'organization',
@@ -162,10 +160,8 @@ const COLLECTIONS = {
   SALES_PLAN_SETTING_COLLECTION_NAME: 'sales_plan_settings',
   SALES_PLAN_PRODUCT_REPOSITORY_NAME: 'salesPlanProduct',
   SALES_PLAN_PRODUCT_COLLECTION_NAME: 'sales_plan_products',
-  SALES_PLAN_CONFIGURATION_REPOSITORY_NAME:
-    'salesPlanConfiguration',
-  SALES_PLAN_CONFIGURATION_COLLECTION_NAME:
-    'sales_plan_configurations',
+  SALES_PLAN_CONFIGURATION_REPOSITORY_NAME: 'salesPlanConfiguration',
+  SALES_PLAN_CONFIGURATION_COLLECTION_NAME: 'sales_plan_configurations',
   SALES_PLAN_REVENUE_CONFIGURATION_REPOSITORY_NAME:
     'salesPlanRevenueConfiguration',
   SALES_PLAN_REVENUE_CONFIGURATION_COLLECTION_NAME:
@@ -180,8 +176,7 @@ const COLLECTIONS = {
   SALES_PLAN_ALLOCATION_COLLECTION_NAME: 'sales_plan_allocations',
   SALES_PLAN_SUBDIVISION_REPOSITORY_NAME: 'salesPlanSubdivision',
   SALES_PLAN_SUBDIVISION_COLLECTION_NAME: 'sales_plan_subdivisions',
-  SALES_PLAN_SUBDIVISION_CONFIG_REPOSITORY_NAME:
-    'salesPlanSubdivisionConfig',
+  SALES_PLAN_SUBDIVISION_CONFIG_REPOSITORY_NAME: 'salesPlanSubdivisionConfig',
 
   // Sales Plan - collections view
   SALES_PLAN_DATA_STATISTICS_VIEWS_REPOSITORY_NAME:
@@ -200,18 +195,13 @@ const COLLECTIONS = {
   PURCHASE_PLAN_GROUP_COLLECTION_NAME: 'purchase_plan_groups',
 
   // HumanResourcePlanning  - SalaryAndBenefit
-  SALARY_BENEFIT_DEPARTMENT_REPOSITORY_NAME:
-    'salaryBenefitDepartment',
-  SALARY_BENEFIT_DEPARTMENT_COLLECTION_NAME:
-    'salary_benefit_departments',
+  SALARY_BENEFIT_DEPARTMENT_REPOSITORY_NAME: 'salaryBenefitDepartment',
+  SALARY_BENEFIT_DEPARTMENT_COLLECTION_NAME: 'salary_benefit_departments',
   SALARY_BENEFIT_PLAN_REPOSITORY_NAME: 'salaryBenefitPlan',
   SALARY_BENEFIT_PLAN_COLLECTION_NAME: 'salary_benefit_plans',
-  SALARY_BENEFIT_PLAN_MONTH_REPOSITORY_NAME:
-    'salaryBenefitPlanMonth',
-  SALARY_BENEFIT_PLAN_MONTH_COLLECTION_NAME:
-    'salary_benefit_plan_months',
-  SALARY_BENEFIT_SPECIAL_COLUMN_REPOSITORY_NAME:
-    'salaryBenefitSpecialColumn',
+  SALARY_BENEFIT_PLAN_MONTH_REPOSITORY_NAME: 'salaryBenefitPlanMonth',
+  SALARY_BENEFIT_PLAN_MONTH_COLLECTION_NAME: 'salary_benefit_plan_months',
+  SALARY_BENEFIT_SPECIAL_COLUMN_REPOSITORY_NAME: 'salaryBenefitSpecialColumn',
   SALARY_BENEFIT_SPECIAL_COLUMN_COLLECTION_NAME:
     'salary_benefit_special_columns',
 
@@ -256,10 +246,8 @@ const COLLECTIONS = {
   SETTING_ACCESS_TOKEN_COLLECTION_NAME: 'setting_access_tokens',
 
   // Setting Ecommerce Platform
-  SETTING_ECOMMERCE_PLATFORM_REPOSITORY_NAME:
-    'settingEcommercePlatform',
-  SETTING_ECOMMERCE_PLATFORM_COLLECTION_NAME:
-    'setting_ecommerce_platforms',
+  SETTING_ECOMMERCE_PLATFORM_REPOSITORY_NAME: 'settingEcommercePlatform',
+  SETTING_ECOMMERCE_PLATFORM_COLLECTION_NAME: 'setting_ecommerce_platforms',
 
   // Province
   PROVINCE_REPOSITORY_NAME: 'province',
@@ -335,10 +323,8 @@ const COLLECTIONS = {
   VOUCHER_PARAMETER_COLLECTION_NAME: 'voucher_parameters',
 
   // Product History
-  PRODUCT_IMPORT_HISTORIES_REPOSITORY_NAME:
-    'productImportHistories',
-  PRODUCT_IMPORT_HISTORIES_COLLECTION_NAME:
-    'product_import_histories',
+  PRODUCT_IMPORT_HISTORIES_REPOSITORY_NAME: 'productImportHistories',
+  PRODUCT_IMPORT_HISTORIES_COLLECTION_NAME: 'product_import_histories',
 
   // Product Setting
   PRODUCT_SETTING_REPOSITORY_NAME: 'productSetting',
@@ -358,10 +344,8 @@ const COLLECTIONS = {
   FINANCE_MODAL_LIST_COLLECTION_NAME: 'financial_model_lists',
   FINANCE_MODAL_TARGET_REPOSITORY_NAME: 'financialModelTarget',
   FINANCE_MODAL_TARGET_COLLECTION_NAME: 'financial_model_targets',
-  FINANCE_MODAL_CONFIGURATION_REPOSITORY_NAME:
-    'financialModelConfiguration',
-  FINANCE_MODAL_CONFIGURATION_COLLECTION_NAME:
-    'financial_model_configurations',
+  FINANCE_MODAL_CONFIGURATION_REPOSITORY_NAME: 'financialModelConfiguration',
+  FINANCE_MODAL_CONFIGURATION_COLLECTION_NAME: 'financial_model_configurations',
   FINANCE_MODAL_TARGET_CONFIGURATION_REPOSITORY_NAME:
     'financialModelTargetConfiguration',
   FINANCE_MODAL_TARGET_CONFIGURATION_COLLECTION_NAME:
@@ -404,27 +388,21 @@ const COLLECTIONS = {
   DEPARTMENT_CHECKLIST_COLLECTION_NAME: 'department_checklists',
   DEPARTMENT_REGULATION_REPOSITORY_NAME: 'departmentRegulation',
   DEPARTMENT_REGULATION_COLLECTION_NAME: 'department_regulations',
-  DEPARTMENT_REGULATION_ITEM_REPOSITORY_NAME:
-    'departmentRegulationItem',
-  DEPARTMENT_REGULATION_ITEM_COLLECTION_NAME:
-    'department_regulation_items',
+  DEPARTMENT_REGULATION_ITEM_REPOSITORY_NAME: 'departmentRegulationItem',
+  DEPARTMENT_REGULATION_ITEM_COLLECTION_NAME: 'department_regulation_items',
 
   // Balance Score Cards
   BALANCE_SCORE_CARD_REPOSITORY_NAME: 'balanceScoreCard',
   BALANCE_SCORE_CARD_COLLECTION_NAME: 'balance_score_cards',
   BALANCE_SCORE_CARD_LIST_REPOSITORY_NAME: 'balancedScoreCardList',
-  BALANCE_SCORE_CARD_LIST_COLLECTION_NAME:
-    'balanced_score_card_lists',
+  BALANCE_SCORE_CARD_LIST_COLLECTION_NAME: 'balanced_score_card_lists',
   BALANCE_SCORE_CARD_ITEM_REPOSITORY_NAME: 'balancedScorecardItem',
-  BALANCE_SCORE_CARD_ITEM_COLLECTION_NAME:
-    'balanced_score_card_items',
-  BALANCE_SCORE_CARD_ITEM_FIELD_REPOSITORY_NAME:
-    'balancedScoreCardItemField',
+  BALANCE_SCORE_CARD_ITEM_COLLECTION_NAME: 'balanced_score_card_items',
+  BALANCE_SCORE_CARD_ITEM_FIELD_REPOSITORY_NAME: 'balancedScoreCardItemField',
   BALANCE_SCORE_CARD_ITEM_FIELD_COLLECTION_NAME:
     'balanced_score_card_item_fields',
   BALANCE_SCORE_VERSION_REPOSITORY_NAME: 'balancedScoreCardVersion',
-  BALANCE_SCORE_VERSION_COLLECTION_NAME:
-    'balanced_score_card_versions',
+  BALANCE_SCORE_VERSION_COLLECTION_NAME: 'balanced_score_card_versions',
 
   // Cash flow
   CASH_FLOW_LIST_REPOSITORY_NAME: 'cashFlowList',
@@ -446,11 +424,9 @@ const COLLECTIONS = {
   FM_STYLE_2_CONFIGURATION_ALLOCATION_COLLECTION_NAME:
     'financial_model_style_2_allocations',
   FM_STYLE_2_TARGET_REPOSITORY_NAME: 'financialModelStyle2Target',
-  FM_STYLE_2_TARGET_COLLECTION_NAME:
-    'financial_model_style_2_target',
+  FM_STYLE_2_TARGET_COLLECTION_NAME: 'financial_model_style_2_target',
   FM_STYLE_2_VERSION_REPOSITORY_NAME: 'financialModelStyle2Version',
-  FM_STYLE_2_VERSION_COLLECTION_NAME:
-    'financial_model_style_2_versions',
+  FM_STYLE_2_VERSION_COLLECTION_NAME: 'financial_model_style_2_versions',
 
   // Setting
   CORE_SETTING_REPOSITORY_NAME: 'coreSetting',
@@ -458,10 +434,8 @@ const COLLECTIONS = {
 
   // Income and Revenue
   INCOME_AND_REVENUE_LIST_REPOSITORY_NAME: 'incomeAndRevenueList',
-  INCOME_AND_REVENUE_LIST_COLLECTION_NAME:
-    'income_and_revenue_lists',
-  ACTUAL_INCOME_AND_REVENUE_LIST_REPOSITORY_NAME:
-    'actualIncomeAndRevenueList',
+  INCOME_AND_REVENUE_LIST_COLLECTION_NAME: 'income_and_revenue_lists',
+  ACTUAL_INCOME_AND_REVENUE_LIST_REPOSITORY_NAME: 'actualIncomeAndRevenueList',
   ACTUAL_INCOME_AND_REVENUE_LIST_COLLECTION_NAME:
     'actual_income_and_revenue_lists',
 
@@ -494,10 +468,8 @@ const COLLECTIONS = {
   VERSION_COLLECTION_NAME: 'versions',
 
   // FinancialPlanAndReport
-  FINANCIAL_PLAN_AND_REPORT_REPOSITORY_NAME:
-    'financialPlanAndReport',
-  FINANCIAL_PLAN_AND_REPORT_COLLECTION_NAME:
-    'financial_plan_and_reports',
+  FINANCIAL_PLAN_AND_REPORT_REPOSITORY_NAME: 'financialPlanAndReport',
+  FINANCIAL_PLAN_AND_REPORT_COLLECTION_NAME: 'financial_plan_and_reports',
 
   // FinancialPlanAndReportItem
   FINANCIAL_PLAN_AND_REPORT_FM01_ITEM_REPOSITORY_NAME:
@@ -507,11 +479,9 @@ const COLLECTIONS = {
 
   // FM03
   FM_STYLE_3_VERSION_REPOSITORY_NAME: 'financialModelStyle3Version',
-  FM_STYLE_3_VERSION_COLLECTION_NAME:
-    'financial_model_style_3_versions',
+  FM_STYLE_3_VERSION_COLLECTION_NAME: 'financial_model_style_3_versions',
   FM_STYLE_3_CONFIG_REPOSITORY_NAME: 'financialModelStyle3Config',
-  FM_STYLE_3_CONFIG_COLLECTION_NAME:
-    'financial_model_style_3_configs',
+  FM_STYLE_3_CONFIG_COLLECTION_NAME: 'financial_model_style_3_configs',
 
   // HCM - API
   // Dashboard
@@ -527,14 +497,10 @@ const COLLECTIONS = {
   SALARY_HISTORY_COLLECTION_NAME: 'salary_histories',
 
   // Payroll Template
-  PAYROLL_TEMPLATE_SETTING_REPOSITORY_NAME:
-    'payrollTemplateSetting',
-  PAYROLL_TEMPLATE_SETTING_COLLECTION_NAME:
-    'payroll_template_settings',
-  PAYROLL_TEMPLATE_EMPLOYEE_REPOSITORY_NAME:
-    'payrollTemplateEmployee',
-  PAYROLL_TEMPLATE_EMPLOYEE_COLLECTION_NAME:
-    'payroll_template_employees',
+  PAYROLL_TEMPLATE_SETTING_REPOSITORY_NAME: 'payrollTemplateSetting',
+  PAYROLL_TEMPLATE_SETTING_COLLECTION_NAME: 'payroll_template_settings',
+  PAYROLL_TEMPLATE_EMPLOYEE_REPOSITORY_NAME: 'payrollTemplateEmployee',
+  PAYROLL_TEMPLATE_EMPLOYEE_COLLECTION_NAME: 'payroll_template_employees',
 
   // Paycheck
   PAYCHECK_SETTING_REPOSITORY_NAME: 'paycheckSetting',
@@ -573,14 +539,10 @@ const COLLECTIONS = {
   BONUS_RANGE_EMPLOYEE_COLLECTION_NAME: 'bonus_range_employees',
   BONUS_CALCULATE_BASIS_REPOSITORY_NAME: 'bonusCalculateBasis',
   BONUS_CALCULATE_BASIS_COLLECTION_NAME: 'bonus_calculate_basis',
-  BONUS_CALCULATE_SCHEDULE_REPOSITORY_NAME:
-    'bonusCalculateSchedule',
-  BONUS_CALCULATE_SCHEDULE_COLLECTION_NAME:
-    'bonus_calculate_schedules',
-  BONUS_CALCULATE_BASIS_CONFIG_REPOSITORY_NAME:
-    'bonusCalculateBasisConfig',
-  BONUS_CALCULATE_BASIS_CONFIG_COLLECTION_NAME:
-    'bonus_calculate_basis_configs',
+  BONUS_CALCULATE_SCHEDULE_REPOSITORY_NAME: 'bonusCalculateSchedule',
+  BONUS_CALCULATE_SCHEDULE_COLLECTION_NAME: 'bonus_calculate_schedules',
+  BONUS_CALCULATE_BASIS_CONFIG_REPOSITORY_NAME: 'bonusCalculateBasisConfig',
+  BONUS_CALCULATE_BASIS_CONFIG_COLLECTION_NAME: 'bonus_calculate_basis_configs',
 
   // Leave Management
   LEAVE_REPOSITORY_NAME: 'leave',
@@ -597,10 +559,8 @@ const COLLECTIONS = {
   TIMEKEEPING_SETTING_COLLECTION_NAME: 'timekeeping_settings',
   TIMEKEEPING_TIMEKEEPER_REPOSITORY_NAME: 'timekeepingTimekeeper',
   TIMEKEEPING_TIMEKEEPER_COLLECTION_NAME: 'timekeeping_timekeepers',
-  TIMEKEEPING_EMPLOYEE_CONFIG_REPOSITORY_NAME:
-    'timekeepingEmployeeConfig',
-  TIMEKEEPING_EMPLOYEE_CONFIG_COLLECTION_NAME:
-    'timekeeping_employee_configs',
+  TIMEKEEPING_EMPLOYEE_CONFIG_REPOSITORY_NAME: 'timekeepingEmployeeConfig',
+  TIMEKEEPING_EMPLOYEE_CONFIG_COLLECTION_NAME: 'timekeeping_employee_configs',
   TIMEKEEPING_SUMMARY_REPOSITORY_NAME: 'timekeepingSummary',
   TIMEKEEPING_SUMMARY_COLLECTION_NAME: 'timekeeping_summaries',
   TIMEKEEPING_DETAIL_REPOSITORY_NAME: 'timekeepingDetail',
@@ -643,8 +603,7 @@ const COLLECTIONS = {
   ORDER_DASHBOARDS_REPOSITORY_NAME: 'salesOrderDashboard',
   ORDER_DASHBOARDS_COLLECTION_NAME: 'sales_order_dashboards',
   DASHBOARD_PROCESS_ITEMS_REPOSITORY_NAME: 'dashboardProcessItem',
-  DASHBOARD_PROCESS_ITEMS_COLLECTION_NAME:
-    'dashboard_process_items',
+  DASHBOARD_PROCESS_ITEMS_COLLECTION_NAME: 'dashboard_process_items',
 
   // Lead
   LEAD_ITEM_REPOSITORY_NAME: 'leadItem',
@@ -682,12 +641,10 @@ const COLLECTIONS = {
   CAMPAIGN_PRODUCT_PRICE_COLLECTION_NAME: 'campaign_product_prices',
 
   CAMPAIGN_PRICE_HISTORY_REPOSITORY_NAME: 'campaignPriceHistory',
-  CAMPAIGN_PRICE_HISTORY_COLLECTION_NAME:
-    'campaign_price_histories',
+  CAMPAIGN_PRICE_HISTORY_COLLECTION_NAME: 'campaign_price_histories',
 
   // Sales Plan
-  SALES_PLAN_CLASSIFICATION_LIST_REPOSITORY_NAME:
-    'salesPlanClassificationList',
+  SALES_PLAN_CLASSIFICATION_LIST_REPOSITORY_NAME: 'salesPlanClassificationList',
   SALES_PLAN_CLASSIFICATION_LIST_COLLECTION_NAME:
     'sales_plan_classification_lists',
 
@@ -750,7 +707,8 @@ const COLLECTIONS = {
 
   // GroupLabelAccountingValue
   GROUP_LABEL_ACCOUNTING_VALUES_REPOSITORY_NAME: 'groupLabelAccountingValues',
-  GROUP_LABEL_ACCOUNTING_VALUES_COLLECTION_NAME: 'group_label_accounting_values',
+  GROUP_LABEL_ACCOUNTING_VALUES_COLLECTION_NAME:
+    'group_label_accounting_values',
 
   // Debt
   DEBTS_REPOSITORY_NAME: 'debts',
@@ -815,8 +773,7 @@ const COLLECTIONS = {
 
   // Delivery
   DELIVERY_MODIFY_HISTORY_REPOSITORY_NAME: 'deliveryModifyHistory',
-  DELIVERY_MODIFY_HISTORY_COLLECTION_NAME:
-    'delivery_modify_histories',
+  DELIVERY_MODIFY_HISTORY_COLLECTION_NAME: 'delivery_modify_histories',
 
   // Invoice
   INVOICE_REPOSITORY_NAME: 'invoice',
@@ -837,7 +794,6 @@ const COLLECTIONS = {
   // User Account
   ACCOUNTS_REPOSITORY_NAME: 'account',
   ACCOUNTS_COLLECTION_NAME: 'accounts',
-
 
   // Role
   ROLE_REPOSITORY_NAME: 'role',
@@ -940,7 +896,19 @@ const COLLECTIONS = {
 
   // FM02
   NET_REVENUE_CONFIGURATION_REPOSITORY_NAME: 'netRevenueConfiguration',
-  NET_REVENUE_CONFIGURATION_COLLECTION_NAME: 'net_revenue_configurations'
-}
+  NET_REVENUE_CONFIGURATION_COLLECTION_NAME: 'net_revenue_configurations',
 
-export default COLLECTIONS
+  USER_LOGIN_REPOSITORY_NAME: 'userLogin',
+  USER_LOGIN_COLLECTION_NAME: 'user_login',
+
+  USER_NOTIFICATION_REPOSITORY_NAME: 'userNotification',
+  USER_NOTIFICATION_COLLECTION_NAME: 'user_notifications',
+
+  NOTIFICATION_REPOSITORY_NAME: 'notification',
+  NOTIFICATION_COLLECTION_NAME: 'notifications',
+
+  USER_MODULE_NOTIFICATION_REPOSITORY_NAME: 'userModuleNotification',
+  USER_MODULE_NOTIFICATION_COLLECTION_NAME: 'user_module_notifications'
+};
+
+export default COLLECTIONS;
