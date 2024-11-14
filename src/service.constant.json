@@ -1793,7 +1793,51 @@
     "ACTION_DELETE": "delete",
     "ACTION_GET": "get"
   },
-
+    "SCV_SHARED_USER_NOTIFICATION": {
+    "NAME": "userNotification",
+    "ACTION_GET": "get",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_POST_MASK_AS_READ": "markAsRead"
+  },
+  "SCV_SHARED_USER_MODULE_NOTIFICATION": {
+    "NAME": "userModuleNotification",
+    "ACTION_GET": "get",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_PUT_SETTING": "setting"
+  },
+  "SCV_SHARED_USER_LOGIN": {
+    "NAME": "userLogin",
+    "ACTION_CREATE_TOKEN": "createToken",
+    "ACTION_REMOVE_TOKEN": "removeToken",
+    "ACTION_REMOVE_SOCKET": "removeSocket"
+  },
+  "SCV_SHARED_NOTIFICATION": {
+    "NAME": "notification",
+    "ACTION_GET": "get",
+    "ACTION_CREATE": "create",
+    "ACTION_CREATE_MULTI": "createMulti",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_DELETE_ALL": "deleteAll",
+    "ACTION_POST_MASK_AS_READ": "markAsRead",
+    "ACTION_COUNT_UNREAD": "countUnread",
+    "ACTION_MASK_AS_READ_ALL": "markAsReadAll"
+  },
+  "SVC_SHARED_SOCKET": {
+    "NAME": "socket",
+    "ACTION_EMIT_TO_USER": "emitToUser",
+    "ACTION_SEND_USER": "sendUser"
+  },
+  "SVC_SHARED_QUEUE": {
+    "NAME": "queue",
+    "ACTION_ADD_TO_QUEUE_NOTIFICATION": "addToQueueNotification",
+    "ACTION_ADD_TO_QUEUE_EMAIL": "addToQueueEmail"
+  },
   "COMMON_METHODS": {
     "FIND_ONE_AND_UPDATE": "_findOneAndUpdate",
     "COUNT_DOCUMENTS": "_countDocuments",
