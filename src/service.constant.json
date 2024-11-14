@@ -2052,7 +2052,8 @@
 
   "SVC_INVENTORY_TRANSACTIONS": {
     "NAME": "svc-inventory-transactions",
+    "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport",
     "ACTION_CREATE_INVENTORY_TRANSACTION": "createInventoryTransaction",
-    "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport"
+    "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_VARIANT_ID": "getWarehouseAvailable"
   }
 }
