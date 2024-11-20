@@ -292,6 +292,7 @@
     "ACTION_UPDATE_STATUS_SALE_ORDER": "updateStatusSaleOrder",
     "ACTION_GET_SO_DETAIL_FOR_EXPORT": "getSODetailForExport",
     "ACTION_DELETE_MANY_SALE_ORDERS": "deleteManySaleOrders",
+    "ACTION_CRUD_ORDER_TIKTOKSHOP": "crudOrderTiktokShop",
     "ACTION_CREATE_ORDER_VOUCHERS": "createOrderVouchers",
     "ACTION_GET_DETAIL_SALE_ORDER": "getDetailSaleOrder",
     "ACTION_GET_CREATE_SALE_ORDER": "createSaleOrder",
@@ -906,18 +907,7 @@
     "ACTION_GET_LIST": "getList",
     "ACTION_UPDATE": "update"
   },
-
-  "SVC_PLATFORM_INTEGRATION": {
-    "NAME": "svc-platform-integration"
-  },
-
-  "SVC_PLATFORM_VERIFY": {
-    "NAME": "svc-platform-integration.authorize",
-
-    "ACTION_CREATE_TOKEN_REDIRECT": "createTokenRedirect",
-    "ACTION_GET_TOKEN": "getToken"
-  },
-
+  
   "SVC_AUTH_AUTHENTICATIONS": {
     "NAME": "svc-auth.authentications",
     "ACTION_VERIFY_JWT_TOKEN": "verifyJWTToken",
@@ -2101,5 +2091,22 @@
     "NAME": "svc-shared.queue",
     "ACTION_ADD_TO_QUEUE_NOTIFICATION": "addToQueueNotification",
     "ACTION_ADD_TO_QUEUE_EMAIL": "addToQueueEmail"
+  },
+  "SVC_PLATFORM_INTEGRATION": {
+    "NAME": "svc-platform-integration"
+  },
+  "SVC_PLATFORM_VERIFY": {
+    "NAME": "svc-platform-integration.authorize",
+    "ACTION_GET_TOKEN": "getToken",
+    "ACTION_CREATE_TOKEN_REDIRECT": "createTokenRedirect"
+  },
+  "SVC_WEBHOOKS": {
+    "NAME": "svc-webhooks",
+    "ACTION_EVENT_HOOKS": "eventHooks",
+    "TIKTOKSHOP": {
+      "ACTION_GET_AUTH_SHOP": "getShopAuthorized",
+      "ACTION_SEARCH_ORDER_LIST": "searchOrderList",
+      "ACTION_GET_ORDER_DETAILS": "getOrderDetails"
+    }
   }
 }
