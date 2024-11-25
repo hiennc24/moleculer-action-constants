@@ -396,11 +396,11 @@
     "ACTION_DELETE_SETTING": "deleteSetting"
   },
 
-  "API_PURCHASE_DEBT_ITEMS": {
-    "NAME": "api-purchase.debt-items",
-    "ACTION_GET_DETAIL_DEBT_ITEMS": "getDetailDebtItems",
-    "ACTION_CREATE_DEBT_ITEMS": "createDebtItems",
-    "ACTION_UPDATE_DEBT_ITEMS": "updateDebtItems",
+  "API_PURCHASE_DEBT_DETAILS": {
+    "NAME": "api-purchase.debt-details",
+    "ACTION_GET_DETAIL_DEBT_DETAILS": "getDetailDebtDetails",
+    "ACTION_CREATE_DEBT_DETAILS": "createDebtDetails",
+    "ACTION_UPDATE_DEBT_DETAILS": "updateDebtDetails",
     "ACTION_GENERATE_CODE": "generatecode",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GET_LIST": "getlist"
@@ -409,8 +409,8 @@
   "API_PURCHASE_DEBT": {
     "NAME": "api-purchase.debt",
     "ACTION_GET_DETAIL_DEBT": "getDetailDebts",
-    "ACTION_CREATE_DEBT_ITEMS": "createDebts",
-    "ACTION_UPDATE_DEBT_ITEMS": "updateDebts",
+    "ACTION_CREATE_PURCHASE_DEBT": "createDebts",
+    "ACTION_UPDATE_PURCHASE_DEBT": "updateDebts",
     "ACTION_GENERATE_CODE": "generatecode",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GET_LIST": "getlist"
@@ -907,7 +907,7 @@
     "ACTION_GET_LIST": "getList",
     "ACTION_UPDATE": "update"
   },
-  
+
   "SVC_AUTH_AUTHENTICATIONS": {
     "NAME": "svc-auth.authentications",
     "ACTION_VERIFY_JWT_TOKEN": "verifyJWTToken",
@@ -2108,5 +2108,12 @@
       "ACTION_SEARCH_ORDER_LIST": "searchOrderList",
       "ACTION_GET_ORDER_DETAILS": "getOrderDetails"
     }
+  },
+  "API_PURCHASE_DEBT_HISTORIES": {
+    "NAME": "api-purchase.debt-histories",
+    "ACTION_CREATE_HISTORY": "createHistory"
+  },
+  "API_PURCHASE_PURCHASE_ORDER_DETAIL": {
+    "NAME": "api-purchase.purchaseOrderDetail"
   }
 }
