@@ -72,3 +72,5 @@ typings/
 # Don't track transpiled files
 dist/
 docker-compose.yml
+
+.npmrc

@@ -2092,8 +2092,17 @@
     "ACTION_ADD_TO_QUEUE_NOTIFICATION": "addToQueueNotification",
     "ACTION_ADD_TO_QUEUE_EMAIL": "addToQueueEmail"
   },
+	"SVC_PLATFORM_MANAGEMENTS": {
+		"NAME": "svc-platform-managements",
+		"ACTION_CREATE": "create",
+		"ACTION_GET": "get"
+	},
   "SVC_PLATFORM_INTEGRATION": {
-    "NAME": "svc-platform-integration"
+      "NAME": "svc-platform-integration",
+      "ACTION_CREATE": "createPlatform",
+      "ACTION_GET_LIST": "getListPlatform",
+      "ACTION_GET_DETAIL": "getDetailPlatform",
+      "ACTION_UPDATE": "updatePlatform"
   },
   "SVC_PLATFORM_VERIFY": {
     "NAME": "svc-platform-integration.authorize",
