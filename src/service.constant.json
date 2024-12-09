@@ -2107,7 +2107,8 @@
   "SVC_PLATFORM_VERIFY": {
     "NAME": "svc-platform-integration.authorize",
     "ACTION_GET_TOKEN": "getToken",
-    "ACTION_CREATE_TOKEN_REDIRECT": "createTokenRedirect"
+    "ACTION_CREATE_TOKEN_REDIRECT": "createTokenRedirect",
+    "LOGIN": "getAuthPlatform"
   },
   "SVC_WEBHOOKS": {
     "NAME": "svc-webhooks",
