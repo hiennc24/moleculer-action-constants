@@ -822,11 +822,21 @@
   "API_HCM_BONUS_ITEMS": {
     "NAME": "api-hcm.bonusItems",
     "ACTION_GET_PAGE_SPREADSHEET_VIEW": "getPageSpreadsheetView",
-    "ACTION_GET_PAGE_APPROVED": "getPageApproved"
+    "ACTION_GET_PAGE_APPROVED": "getPageApproved",
+    "ACTION_CALC_SCHEDULE": "calcSchedule"
   },
 
   "API_HCM_BONUS_RANGE_EMPLOYEES": {
-    "NAME": "api-hcm.bonusRangeEmployees"
+    "NAME": "api-hcm.bonusRangeEmployees",
+    "ACTION_UPSERT": "upsert"
+  },
+
+  "API_HCM_BONUS_CALC_SCHEDULES": {
+    "NAME": "api-hcm.bonusCalculateSchedules"
+  },
+
+  "API_HCM_BONUS_EMPLOYEES": {
+    "NAME": "api-hcm.bonusEmployees"
   },
 
   "API_HCM_LEAVES": {
@@ -2092,17 +2102,17 @@
     "ACTION_ADD_TO_QUEUE_NOTIFICATION": "addToQueueNotification",
     "ACTION_ADD_TO_QUEUE_EMAIL": "addToQueueEmail"
   },
-	"SVC_PLATFORM_MANAGEMENTS": {
-		"NAME": "svc-platform-managements",
-		"ACTION_CREATE": "create",
-		"ACTION_GET": "get"
-	},
+  "SVC_PLATFORM_MANAGEMENTS": {
+    "NAME": "svc-platform-managements",
+    "ACTION_CREATE": "create",
+    "ACTION_GET": "get"
+  },
   "SVC_PLATFORM_INTEGRATION": {
-      "NAME": "svc-platform-integration",
-      "ACTION_CREATE": "createPlatform",
-      "ACTION_GET_LIST": "getListPlatform",
-      "ACTION_GET_DETAIL": "getDetailPlatform",
-      "ACTION_UPDATE": "updatePlatform"
+    "NAME": "svc-platform-integration",
+    "ACTION_CREATE": "createPlatform",
+    "ACTION_GET_LIST": "getListPlatform",
+    "ACTION_GET_DETAIL": "getDetailPlatform",
+    "ACTION_UPDATE": "updatePlatform"
   },
   "SVC_PLATFORM_VERIFY": {
     "NAME": "svc-platform-integration.authorize",
@@ -2116,7 +2126,9 @@
     "TIKTOKSHOP": {
       "ACTION_GET_AUTH_SHOP": "getShopAuthorized",
       "ACTION_SEARCH_ORDER_LIST": "searchOrderList",
-      "ACTION_GET_ORDER_DETAILS": "getOrderDetails"
+      "ACTION_GET_ORDER_DETAILS": "getOrderDetails",
+      "ACTION_SEARCH_PRODUCT_LIST": "searchProductList",
+      "ACTION_GET_PRODUCT_DETAILS": "getProductDetails"
     }
   },
   "API_PURCHASE_DEBT_HISTORIES": {
