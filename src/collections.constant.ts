@@ -136,6 +136,9 @@ const COLLECTIONS = {
   // platform
   PLATFORM_REPOSITORY_NAME: 'platformIntegration',
   PLATFORM_COLLECTION_NAME: 'platform_integrations',
+  // managements
+	PLATFORM_MANAGEMENT_REPOSITORY_NAME: 'platformManagement',
+	PLATFORM_MANAGEMENT_COLLECTION_NAME: 'platform_managements',
 
   // Verify Email Token
   VERIFY_PLATFORM_TOKEN_REPOSITORY_NAME: 'verifyPlatformToken',
@@ -144,6 +147,10 @@ const COLLECTIONS = {
   // Lock Login
   LOCK_LOGIN_REPOSITORY_NAME: 'lockLogIn',
   LOCK_LOGIN_COLLECTION_NAME: 'lock_log_in',
+
+  // Webhooks
+	WEBHOOKS_COLLECTION_NAME: 'webHooks',
+	WEBHOOKS_REPOSITORY_NAME: 'web_hooks',
 
   // SALES PLAN
   // Sales Plan

@@ -2116,9 +2116,12 @@
   },
   "SVC_PLATFORM_VERIFY": {
     "NAME": "svc-platform-integration.authorize",
+    "LOGIN": "getAuthPlatform",
     "ACTION_GET_TOKEN": "getToken",
+    "ACTION_HANDLE_REDIRECT": "handleRedirect",
     "ACTION_CREATE_TOKEN_REDIRECT": "createTokenRedirect",
-    "LOGIN": "getAuthPlatform"
+    "ACTION_HANDLE_REDIRECT_NO_DOMAIN": "handleRedirectNoDomain",
+    "ACTION_CREATE_TOKEN_REDIRECT_NO_DOMAIN": "createTokenNoDomain"
   },
   "SVC_WEBHOOKS": {
     "NAME": "svc-webhooks",
