@@ -918,6 +918,9 @@ const COLLECTIONS = {
 
   USER_MODULE_NOTIFICATION_REPOSITORY_NAME: "userModuleNotification",
   USER_MODULE_NOTIFICATION_COLLECTION_NAME: "user_module_notifications",
+
+  REPORT_PRODUCT_REPOSITORY_NAME: 'reportProduct',
+	REPORT_PRODUCT_COLLECTION_NAME: 'report_products'
 };
 
 export default COLLECTIONS;
