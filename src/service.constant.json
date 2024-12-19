@@ -315,10 +315,6 @@
     "NAME": "api-sales.promotionsReportViews"
   },
 
-  "SVC_SALES_ORDER_PRODUCTS": {
-    "NAME": "api-sales-order-products"
-  },
-
   "API_SALES_PRODUCT_ACCOUNTING_VALUES": {
     "NAME": "api-sales.productAccountingValues",
     "ACTION_CANCEL_SO_ACKNOWLEDGE_VALUE": "cancelSOAcknowledgeValue",
@@ -360,9 +356,9 @@
     "ACTION_GET_LIST": "getListOrderVouchers"
   },
 
-  "API_SALES_ORDER_PRODUCT": {
-    "NAME": "api-sales.orderProducts",
-    "ACTION_UPDATE_ORDER_VOUCER_4_PRODUCT": "updateOrderVoucherId4Product",
+  "SVC_SALES_ORDER_PRODUCTS": {
+    "NAME": "api-sales-order-products",
+    "ACTION_UPDATE_ORDER_VOUCHER_4_PRODUCT": "updateOrderVoucherId4Product",
     "ACTION_APPROVE_ADDITION_PRODUCTS": "approveAdditionProducts",
     "ACTION_CREATE_ADDITION_PRODUCTS": "createAdditionProducts",
     "ACTION_UPDATE_ADDITION_PRODUCTS": "updateAdditionProducts",
