@@ -284,8 +284,8 @@
     "NAME": "api-sales.promotionsReport"
   },
 
-  "API_SALES_SALES_ORDER": {
-    "NAME": "api-sales.salesOrder",
+  "SVC_SALES_ORDERS": {
+    "NAME": "svc-sales-orders",
     "ACTION_UPDATE_PROCESS_STATUS": "updateProcessStatusSalesOrder",
     "ACTION_GET_SO_FOR_DELIVERY_ORDERS": "getSOForDeliveryOrders",
     "ACTION_CANCEL_ACKNOWLEDGE_VALUE": "cancelAcknowledgeValue",
@@ -307,16 +307,16 @@
     "ACTION_AMEND": "amend"
   },
 
-  "API_SALES_SALES_ORDER_DETAIL": {
-    "NAME": "api-sales.salesOrderDetail"
+  "SVC_SALES_ORDER_DETAILS": {
+    "NAME": "svc-sales-order-details"
   },
 
   "API_SALES_PROMOTIONS_REPORT_VIEWS": {
     "NAME": "api-sales.promotionsReportViews"
   },
 
-  "API_SALES_ORDER_PRODUCT_SERVICE": {
-    "NAME": "api-sales.orderProduct"
+  "SVC_SALES_ORDER_PRODUCTS": {
+    "NAME": "api-sales-order-products"
   },
 
   "API_SALES_PRODUCT_ACCOUNTING_VALUES": {
@@ -375,8 +375,8 @@
     "ACTION_CRUD_ORDER_ADDRESS": "crudOrderAddress"
   },
 
-  "API_SALES_SALES_ORDER_HISTORY": {
-    "NAME": "api-sales.salesOrderHistory"
+  "SVC_SALES_ORDER_HISTORIES": {
+    "NAME": "api-sales-order-histories"
   },
 
   "API_SALES_DEBT_HISTORIES": {
@@ -2140,5 +2140,37 @@
   },
   "API_PURCHASE_PURCHASE_ORDER_DETAIL": {
     "NAME": "api-purchase.purchaseOrderDetail"
+  },
+  "SVC_ACCOUNTING_SETTINGS": {
+    "NAME": "accounting-settings",
+    "ACTION_GET": "get",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_POST_CREATE": "create",
+    "ACTION_PUT_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "SVC_ACCOUNTING_CHART_ACCOUNT_SETTING": {
+    "NAME": "chart-account-settings",
+    "ACTION_GET": "get",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_POST_CREATE": "create",
+    "ACTION_PUT_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "SVC_ACCOUNTING_BANK_ACCOUNT_SETTINGS": {
+    "NAME": "bank-account-settings",
+    "ACTION_GET": "get",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_POST_CREATE": "create",
+    "ACTION_PUT_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "SVC_ACCOUNTING_BANK_SETTINGS": {
+    "NAME": "bank-settings",
+    "ACTION_GET": "get",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_POST_CREATE": "create",
+    "ACTION_PUT_UPDATE": "update",
+    "ACTION_DELETE": "delete"
   }
 }
