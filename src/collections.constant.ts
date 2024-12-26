@@ -141,6 +141,13 @@ const COLLECTIONS = {
   // managements
   PLATFORM_MANAGEMENT_REPOSITORY_NAME: "platformManagement",
   PLATFORM_MANAGEMENT_COLLECTION_NAME: "platform_managements",
+  // ecomerce
+	EC_PRODUCTS_REPOSITORY_NAME: 'ecProduct',
+	EC_PRODUCTS_COLLECTION_NAME: 'ec_products',
+	EC_ORDERS_REPOSITORY_NAME: 'ecOrder',
+	EC_ORDERS_COLLECTION_NAME: 'ec_orders',
+	EC_ORDER_PRODUCTS_REPOSITORY_NAME: 'ecOrderProduct',
+	EC_ORDER_PRODUCTS_COLLECTION_NAME: 'ec_order_products',
 
   // Verify Email Token
   VERIFY_PLATFORM_TOKEN_REPOSITORY_NAME: "verifyPlatformToken",

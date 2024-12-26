@@ -2122,6 +2122,7 @@
   "SVC_WEBHOOKS": {
     "NAME": "svc-webhooks",
     "ACTION_EVENT_HOOKS": "eventHooks",
+    "ACTION_ENABLE": "enable",
     "TIKTOKSHOP": {
       "ACTION_GET_AUTH_SHOP": "getShopAuthorized",
       "ACTION_SEARCH_ORDER_LIST": "searchOrderList",
@@ -2130,6 +2131,20 @@
       "ACTION_GET_PRODUCT_DETAILS": "getProductDetails"
     }
   },
+	"SVC_ECOMMERCE_ORDERS": {
+		"NAME": "svc-ecommerce-orders",
+		"ACTION_STORE": "store",
+		"ACTION_SYNC": "syncOrders",
+		"ACTION_GET_LIST": "getList",
+		"ACTION_GET_DETAIL": "getDetail"
+	},
+	"SVC_ECOMMERCE_PRODUCTS": {
+		"NAME": "svc-ecommerce-products",
+		"ACTION_STORE": "store",
+		"ACTION_SYNC": "syncOrders",
+		"ACTION_GET_LIST": "getList",
+		"ACTION_GET_DETAIL": "getDetail"
+	},
   "API_PURCHASE_DEBT_HISTORIES": {
     "NAME": "api-purchase.debt-histories",
     "ACTION_CREATE_HISTORY": "createHistory"
