@@ -2136,14 +2136,20 @@
 		"ACTION_STORE": "store",
 		"ACTION_SYNC": "syncOrders",
 		"ACTION_GET_LIST": "getList",
-		"ACTION_GET_DETAIL": "getDetail"
+		"ACTION_GET_DETAIL": "getDetail",
+    "TIKTOKSHOP": {
+      "ACTION_SYNC_FROM_HOOKS": "syncFromHooks"
+    }
 	},
 	"SVC_ECOMMERCE_PRODUCTS": {
 		"NAME": "svc-ecommerce-products",
 		"ACTION_STORE": "store",
 		"ACTION_SYNC": "syncOrders",
 		"ACTION_GET_LIST": "getList",
-		"ACTION_GET_DETAIL": "getDetail"
+		"ACTION_GET_DETAIL": "getDetail",
+    "TIKTOKSHOP": {
+      "ACTION_SYNC_FROM_HOOKS": "syncFromHooks"
+    }
 	},
   "API_PURCHASE_DEBT_HISTORIES": {
     "NAME": "api-purchase.debt-histories",
