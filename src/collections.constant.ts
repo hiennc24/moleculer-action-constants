@@ -142,12 +142,12 @@ const COLLECTIONS = {
   PLATFORM_MANAGEMENT_REPOSITORY_NAME: "platformManagement",
   PLATFORM_MANAGEMENT_COLLECTION_NAME: "platform_managements",
   // ecomerce
-	EC_PRODUCTS_REPOSITORY_NAME: 'ecProduct',
-	EC_PRODUCTS_COLLECTION_NAME: 'ec_products',
-	EC_ORDERS_REPOSITORY_NAME: 'ecOrder',
-	EC_ORDERS_COLLECTION_NAME: 'ec_orders',
-	EC_ORDER_PRODUCTS_REPOSITORY_NAME: 'ecOrderProduct',
-	EC_ORDER_PRODUCTS_COLLECTION_NAME: 'ec_order_products',
+  EC_PRODUCTS_REPOSITORY_NAME: "ecProduct",
+  EC_PRODUCTS_COLLECTION_NAME: "ec_products",
+  EC_ORDERS_REPOSITORY_NAME: "ecOrder",
+  EC_ORDERS_COLLECTION_NAME: "ec_orders",
+  EC_ORDER_PRODUCTS_REPOSITORY_NAME: "ecOrderProduct",
+  EC_ORDER_PRODUCTS_COLLECTION_NAME: "ec_order_products",
 
   // Verify Email Token
   VERIFY_PLATFORM_TOKEN_REPOSITORY_NAME: "verifyPlatformToken",
@@ -325,14 +325,6 @@ const COLLECTIONS = {
   // Order products
   WAREHOUSE_REPOSITORY_NAME: "warehouse",
   WAREHOUSE_COLLECTION_NAME: "warehouses",
-
-  // Accounting Settings
-  ACCOUNTING_SETTING_REPOSITORY_NAME: "accountingSetting",
-  ACCOUNTING_SETTING_COLLECTION_NAME: "accounting_settings",
-
-  // Accounting Category
-  ACCOUNTING_CATEGORY_REPOSITORY_NAME: "accountingCategory",
-  ACCOUNTING_CATEGORY_COLLECTION_NAME: "accounting_categories",
 
   // Voucher Parameter
   VOUCHER_PARAMETER_REPOSITORY_NAME: "voucherParameter",
@@ -926,8 +918,65 @@ const COLLECTIONS = {
   USER_MODULE_NOTIFICATION_REPOSITORY_NAME: "userModuleNotification",
   USER_MODULE_NOTIFICATION_COLLECTION_NAME: "user_module_notifications",
 
-  REPORT_PRODUCT_REPOSITORY_NAME: 'reportProduct',
-	REPORT_PRODUCT_COLLECTION_NAME: 'report_products'
+  REPORT_PRODUCT_REPOSITORY_NAME: "reportProduct",
+  REPORT_PRODUCT_COLLECTION_NAME: "report_products",
+
+  // Accounting Settings
+  ACCOUNTING_SETTING_REPOSITORY_NAME: "accountingSetting",
+  ACCOUNTING_SETTING_COLLECTION_NAME: "accounting_settings",
+
+  // Accounting Category
+  ACCOUNTING_CATEGORY_REPOSITORY_NAME: "accountingCategory",
+  ACCOUNTING_CATEGORY_COLLECTION_NAME: "accounting_categories",
+
+  // Setting accounting
+  SETTING_ACCOUNTING_REPOSITORY_NAME: "settingAccounting",
+  SETTING_ACCOUNTING_COLLECTION_NAME: "setting_accounting",
+
+  // Setting chart accounts
+  SETTING_CHART_ACCOUNT_REPOSITORY_NAME: "settingChartAccount",
+  SETTING_CHART_ACCOUNT_COLLECTION_NAME: "setting_chart_accounts",
+
+  // Setting bank accounts
+  SETTING_BANK_ACCOUNT_REPOSITORY_NAME: "settingBankAccount",
+  SETTING_BANK_ACCOUNT_COLLECTION_NAME: "setting_bank_accounts",
+
+  // Setting banks
+  SETTING_BANK_REPOSITORY_NAME: "settingBank",
+  SETTING_BANK_COLLECTION_NAME: "setting_banks",
+
+  VOUCHER_SALES_ORDER_REPOSITORY_NAME: "voucherSalesOrder",
+  VOUCHER_SALES_ORDER_COLLECTION_NAME: "voucher_sales_orders",
+
+  VOUCHER_SALES_ORDER_PRODUCT_REPOSITORY_NAME: "voucherSalesOrderProduct",
+  VOUCHER_SALES_ORDER_PRODUCT_COLLECTION_NAME: "voucher_sales_order_products",
+
+  //warehouse_zones
+  WAREHOUSE_ZONE_REPOSITORY_NAME: "warehouseZone",
+  WAREHOUSE_ZONE_COLLECTION_NAME: "warehouse_zones",
+
+  //warehouse_racks
+  WAREHOUSE_RACK_REPOSITORY_NAME: "warehouseRack",
+  WAREHOUSE_RACK_COLLECTION_NAME: "warehouse_racks",
+
+  //warehouse_levels
+  WAREHOUSE_LEVEL_REPOSITORY_NAME: "warehouseLevel",
+  WAREHOUSE_LEVEL_COLLECTION_NAME: "warehouse_levels",
+
+  //warehouse_pallets
+  WAREHOUSE_PALLET_REPOSITORY_NAME: "warehousePallet",
+  WAREHOUSE_PALLET_COLLECTION_NAME: "warehouse_pallets",
+
+  //warehouse_baskets
+  WAREHOUSE_BASKET_REPOSITORY_NAME: "warehouseBasket",
+  WAREHOUSE_BASKET_COLLECTION_NAME: "warehouse_baskets",
+
+  WAREHOUSE_STOCKTAKING_REPOSITORY_NAME: "warehouseStocktaking",
+  WAREHOUSE_STOCKTAKING_COLLECTION_NAME: "warehouse_stocktaking",
+
+  WAREHOUSE_STOCKTAKING_PRODUCT_REPOSITORY_NAME: "warehouseStocktakingProduct",
+  WAREHOUSE_STOCKTAKING_PRODUCT_COLLECTION_NAME:
+    "warehouse_stocktaking_products",
 };
 
 export default COLLECTIONS;
