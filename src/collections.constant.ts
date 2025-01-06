@@ -265,6 +265,9 @@ const COLLECTIONS = {
   SETTING_ECOMMERCE_PLATFORM_REPOSITORY_NAME: "settingEcommercePlatform",
   SETTING_ECOMMERCE_PLATFORM_COLLECTION_NAME: "setting_ecommerce_platforms",
 
+  // setting invoices
+	SETTING_INVOICE_REPOSITORY_NAME: 'settingInvoice',
+	SETTING_INVOICE_COLLECTION_NAME: 'setting_invoices',
   // Province
   PROVINCE_REPOSITORY_NAME: "province",
   PROVINCE_COLLECTION_NAME: "provinces",

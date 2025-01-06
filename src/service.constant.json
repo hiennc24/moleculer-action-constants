@@ -1,4 +1,21 @@
 {
+
+	"SVC_SHARED_SETTING_INVOICE": {
+    "NAME": "svc-shared.settingInvoice",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_GET": "get"
+},
+  "SVC_SHARED_INVOICE": {
+    "NAME": "svc-shared.invoice", 
+    "ACTION_CREATE_INVOICE": "createInvoice",
+    "ACTION_GET_LIST_INVOICES": "getListInvoices",
+    "ACTION_GET_DETAIL_INVOICE": "getDetailInvoice",
+    "ACTION_UPDATE_INVOICE": "updateInvoice",
+    "ACTION_DELETE_INVOICE": "deleteInvoice",
+    "ACTION_EXEC_COMMAND": "execCommand"
+},
   "SCHEDULE": {
     "NAME": "schedule",
     "ACTION_CREATE_SCHEDULE": "createSchedule",
