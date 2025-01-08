@@ -154,11 +154,25 @@
   "API_SALES_SALES_PROMOTION_DETAIL": {
     "NAME": "api-sales.promotionDetail",
     "ACTION_ADD_OR_UPDATE_PROMOTION_DETAILS": "addOrUpdatePromotionDetails",
-    "ACTION_DELETE_BY_PROMOTION_IDS": "delteByPromotionIds"
+    "ACTION_DELETE_BY_PROMOTION_IDS": "deleteByPromotionIds"
+  },
+
+  "API_SALES_DASHBOARD": {
+    "NAME": "api-sales.promotionDetail",
+    "ACTION_ADD_OR_UPDATE_PROMOTION_DETAILS": "addOrUpdatePromotionDetails",
+    "ACTION_DELETE_BY_PROMOTION_IDS": "deleteByPromotionIds"
   },
 
   "API_SALES_CAMPAIGN_PRICE": {
-    "NAME": "api-sales.campaign-price"
+    "NAME": "api-sales.campaign-price",
+    "ACTION_GET_LIST": "get-lists",
+    "ACTION_GET_DETAIL": "get-details",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_DELETE_MANY": "delete-many",
+    "ACTION_GET_LIST_BY_SO": "get-lists-by-so",
+    "ACTION_GET_HISTORIES": "get-histories"
   },
 
   "API_SALES_CAMPAIGN_PRODUCT_PRICE": {
@@ -193,13 +207,24 @@
 
   "API_SALES_DEBT_DETAILS": {
     "NAME": "api-sales.debt-details",
-    "ACTION_GENERATE_CODE": "generateCode",
-    "ACTION_GET_LIST": "getList"
+    "ACTION_GET_LIST": "lists",
+    "ACTION_GET_DETAIL": "detail",
+    "ACTION_CREATE": "create",
+    "ACTION_CREATE_MANY": "create-many",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_GENERATE_CODE": "generate-code"
   },
 
   "API_SALES_DEBTS": {
     "NAME": "api-sales.debts",
-    "ACTION_CREATE_SALE_DEBTS": "createSaleDebts"
+    "ACTION_GET_LIST": "lists",
+    "ACTION_GET_DETAIL": "detail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_GET_LIST_BY_CUSTOMER": "get-list-by-customer",
+    "ACTION_GENERATE_CODE": "generate-code"
   },
 
   "API_SALES_DELIVERY_HISTORY": {
@@ -2131,26 +2156,26 @@
       "ACTION_GET_PRODUCT_DETAILS": "getProductDetails"
     }
   },
-	"SVC_ECOMMERCE_ORDERS": {
-		"NAME": "svc-ecommerce-orders",
-		"ACTION_STORE": "store",
-		"ACTION_SYNC": "syncOrders",
-		"ACTION_GET_LIST": "getList",
-		"ACTION_GET_DETAIL": "getDetail",
+  "SVC_ECOMMERCE_ORDERS": {
+    "NAME": "svc-ecommerce-orders",
+    "ACTION_STORE": "store",
+    "ACTION_SYNC": "syncOrders",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
     "TIKTOKSHOP": {
       "ACTION_SYNC_FROM_HOOKS": "syncFromHooks"
     }
-	},
-	"SVC_ECOMMERCE_PRODUCTS": {
-		"NAME": "svc-ecommerce-products",
-		"ACTION_STORE": "store",
-		"ACTION_SYNC": "syncOrders",
-		"ACTION_GET_LIST": "getList",
-		"ACTION_GET_DETAIL": "getDetail",
+  },
+  "SVC_ECOMMERCE_PRODUCTS": {
+    "NAME": "svc-ecommerce-products",
+    "ACTION_STORE": "store",
+    "ACTION_SYNC": "syncOrders",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
     "TIKTOKSHOP": {
       "ACTION_SYNC_FROM_HOOKS": "syncFromHooks"
     }
-	},
+  },
   "API_PURCHASE_DEBT_HISTORIES": {
     "NAME": "api-purchase.debt-histories",
     "ACTION_CREATE_HISTORY": "createHistory"
