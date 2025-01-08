@@ -269,7 +269,15 @@
 
   "API_SALES_PROMOTIONS": {
     "NAME": "api-sales.promotions",
-    "ACTION_GET_DETAIL_PROMOTIONS": "getDetailPromotions"
+
+		"ACTION_GET": "get",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE_MANY": "deleteMany",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_GEN_CODE": "gen-code",
+		"ACTION_CHANGE_STATUS": "change-status",
+		"ACTION_UPDATE_MANY_STATUS": "update-many-status"
   },
 
   "API_SALES_LEAD": {
@@ -309,8 +317,11 @@
 
   "API_SALES_SETTING": {
     "NAME": "api-sales.settings",
-    "ACTIONS_GET_SETTING_ALLOW_OUT_OF_STOCK": "getSettingAllowOutOfStock",
-    "ACTIONS_GET_SALES_SETTING": "getSalesSetting"
+
+    "ACTION_GET": "get",
+		"ACTION_UPDATE": "update",
+    "ACTION_UPDATE_ALLOW_OUT_OF_STOCK": "updateAllowOutOfStock",
+	  "ACTIONS_GET_SETTING_ALLOW_OUT_OF_STOCK": "getSettingAllowOutOfStock"
   },
 
   "API_SALES_PROMOTIONS_PRODUCT": {
