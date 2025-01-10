@@ -473,7 +473,7 @@
     "ACTION_AMEND": "amend",
     "ACTION_UPDATE_ADDITION": "updateAddition",
     "ACTION_APPROVE_ADDITION": "approveAddition",
-    "ACTION_DELETE_MANY_SALE_ORDERS" : "deleteManySO",
+    "ACTION_DELETE_MANY_SALE_ORDERS": "deleteManySO",
     "ACTION_DELETE_SALE_ORDER": "deleteSO",
     "ACTION_CREATE_ORDER_VOUCHERS": "createOrderVouchers"
   },
@@ -2325,5 +2325,82 @@
     "ACTION_POST_CREATE": "create",
     "ACTION_PUT_UPDATE": "update",
     "ACTION_DELETE": "delete"
+  },
+  "API_WAREHOUSE_STOCKTAKING": {
+    "NAME": "api-warehouse.warehouseStocking",
+    "ACTION_GET_LIST_WAREHOUSE_STOCKTAKING": "getListWarehouseStocking",
+    "ACTION_GET_DETAIL_WAREHOUSE_STOCKTAKING": "getDetailWarehouseStocking",
+    "ACTION_CREATE_WAREHOUSE_STOCKTAKING": "createDetailWarehouseStocking",
+    "ACTION_UPDATE_WAREHOUSE_STOCKTAKING": "updateDetailWarehouseStocking",
+    "ACTION_CHANGE_STATUS_WAREHOUSE_STOCKTAKING": "changeStatusDetailWarehouseStocking",
+    "ACTION_DELETE_MANY_WAREHOUSE_STOCKTAKING": "deleteManyWarehouseStocking"
+  },
+
+  "API_WAREHOUSE_STOCKTAKING_PRODUCT": {
+    "NAME": "api-warehouse.warehouseStockingProduct"
+  },
+  "SVC_WAREHOUSE_LIST": {
+    "NAME": "warehouse-lists",
+    "ACTION_GET": "get",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "SVC_WAREHOUSE_ZONE": {
+    "NAME": "warehouse-zones",
+    "ACTION_GET": "get",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "SVC_WAREHOUSE_RACK": {
+    "NAME": "warehouse-racks",
+    "ACTION_GET": "get",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "SVC_WAREHOUSE_LEVEL": {
+    "NAME": "warehouse-levels",
+    "ACTION_GET": "get",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "SVC_WAREHOUSE_PALLET": {
+    "NAME": "warehouse-pallets",
+    "ACTION_GET": "get",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "SVC_WAREHOUSE_BASKET": {
+    "NAME": "warehouse-baskets",
+    "ACTION_GET": "get",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "SVC_ACCOUNTING_VOUCHER": {
+    "NAME": "svc-orders.accounting-voucher",
+
+    "ACTION_GET_LIST_VOUCHER_SALE_ORDER": "getLists",
+    "ACTION_GET_DETAIL_VOUCHER_SALE_ORDER": "getDetail",
+    "ACTION_CREATE_VOUCHER_SALE_ORDER": "create",
+    "ACTION_UPDATE_VOUCHER_SALE_ORDER": "update",
+    "ACTION_DELETE_VOUCHER_SALE_ORDER": "delete"
+  },
+  "SVC_ACCOUNTING_PRODUCT_VOUCHER": {
+    "NAME": "svc-orders.accounting-product-voucher",
+
+    "ACTION_CREATE_SALE_ORDER_PRODUCT_VOUCHER": "createProducts",
+    "ACTION_UPDATE_SALE_ORDER_PRODUCT_VOUCHER": "updateProducts",
+    "ACTION_DELETE_SALE_ORDER_PRODUCT_VOUCHER": "delete"
   }
 }
