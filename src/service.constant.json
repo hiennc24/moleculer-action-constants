@@ -321,12 +321,12 @@
   "API_SALES_SETTING": {
     "NAME": "api-sales.settings",
 
-    "ACTION_GET": "get",
-    "ACTION_GET_TRANSACTIONS": "get-transactions",
-    "ACTION_GET_DOCUMENTS": "get-documents",
-    "ACTION_UPDATE": "update",
-    "ACTION_UPDATE_ALLOW_OUT_OF_STOCK": "updateAllowOutOfStock",
-    "ACTIONS_GET_SETTING_ALLOW_OUT_OF_STOCK": "getSettingAllowOutOfStock"
+    "ACTION_GET": "getSetting",
+    "ACTION_GET_TRANSACTIONS": "getSettingTransactions",
+    "ACTION_GET_DOCUMENTS": "getSettingDocuments",
+    "ACTION_UPDATE": "updateSetting",
+    "ACTION_UPDATE_ALLOW_OUT_OF_STOCK": "getSettingAllowOutOfStock",
+    "ACTIONS_GET_SETTING_ALLOW_OUT_OF_STOCK": "updateAllowOutOfStock"
   },
 
   "API_SALES_PROMOTIONS_PRODUCT": {
