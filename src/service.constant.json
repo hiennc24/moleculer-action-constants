@@ -376,7 +376,9 @@
     "NAME": "api-sales.productAccountingValues",
     "ACTION_CANCEL_SO_ACKNOWLEDGE_VALUE": "cancelSOAcknowledgeValue",
     "ACTION_CREATE_MANY_FROM_RAW": "createManyFromRaw",
-    "ACTION_GET_TOP_GROUPS": "getTopGroups"
+    "ACTION_GET_TOP_GROUPS": "getTopGroups",
+    "ACTION_DOWNLOAD_EXCEL_TEMPLATE": "downloadExcelTemplate",
+    "ACTION_GET_LIST": "getList"
   },
 
   "API_SALES_GROUP_LABEL_ACCOUNTING_VALUES": {
@@ -388,7 +390,10 @@
     "ACTION_GET_LIST_USED": "getListSalesCostUsed",
     "ACTION_GET_LIST": "getListSalesCost",
     "ACTION_UPDATE": "updateSalesCost",
-    "ACTION_RESET_DATA": "resetData"
+    "ACTION_RESET_DATA": "resetData",
+    "ACTION_ADD_SALE_COSTS": "addSaleCosts",
+    "ACTION_GET_LIST_EXPENSE": "getExpenseList",
+    "ACTION_DELETE_SALE_COSTS": "deleteSaleCosts"
   },
 
   "API_SALES_SALES_COST_CONFIGURATION": {
