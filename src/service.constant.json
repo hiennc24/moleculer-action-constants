@@ -403,19 +403,87 @@
     "ACTION_GET_CONFIG": "getConfig"
   },
 
-  "API_SALES_SALETYPE": {
-    "NAME": "api-sales.salesType"
+  "API_SALES_SALE_TYPE": {
+    "NAME": "api-sales.salesType",
+    "ACTION_GET_LIST": "getListSaleType",
+    "ACTION_GET_DETAIL": "getDetailSaleType",
+    "ACTION_CREATE": "createSaleType",
+    "ACTION_UPDATE": "updateSaleType",
+    "ACTION_DELETE": "deleteSaleType",
+    "ACTION_UPDATE_MANY": "updateManySaleType",
+    "ACTION_DELETE_MANY": "deleteManySaleType"
   },
 
   "API_SALES_ORDER_DASHBOARD": {
     "NAME": "api-sales.orderDashboard",
-    "ACTION_GET_LIST": "getListOrderDashboard"
+    "ACTION_GET_LIST": "getListOrderDashboard",
+    "ACTION_UPDATE": "updateOrderDashboard",
+    "ACTION_DELETE": "deleteOrderDashboard"
   },
 
   "API_SALES_ORDER_VOUCHER": {
     "NAME": "api-sales.orderVouchers",
     "ACTION_CREATE_ORDER_VOUCHERS": "createOrderVouchers",
     "ACTION_GET_LIST": "getListOrderVouchers"
+  },
+
+  "API_SALES_ORDER_PRODUCT": {
+    "NAME": "api-sales.orderProducts",
+    "ACTION_GET_LIST": "getListOrderProduct",
+    "ACTION_GET_DETAIL": "getDetailOrderProduct",
+    "ACTION_UPDATE": "updateOrderProduct",
+    "ACTION_DELETE": "deleteOrderProduct",
+    "ACTION_CREATE": "createOrderProduct"
+  },
+
+  "API_SALES_VENDOR_CONFIRM": {
+    "NAME": "api-sales.vendorConfirms",
+    "ACTION_GET_LIST": "getListVendorConfirm",
+    "ACTION_GET_DETAIL": "getDetailVendorConfirm",
+    "ACTION_UPDATE": "updateVendorConfirm",
+    "ACTION_DELETE": "deleteVendorConfirm",
+    "ACTION_CREATE": "createVendorConfirm"
+  },
+
+  "API_SALES_INVOICE": {
+    "NAME": "api-sales.invoices",
+    "ACTION_GET_LIST": "getListInvoice",
+    "ACTION_GET_DETAIL": "getDetailInvoice",
+    "ACTION_UPDATE": "updateInvoice",
+    "ACTION_DELETE": "deleteInvoice",
+    "ACTION_CREATE": "createInvoice"
+  },
+
+  "API_SALES_SALES_ORDER": {
+    "NAME": "api-sales.salesOrders",
+    "ACTION_GET_LIST": "getListSalesOrder",
+    "ACTION_GET_DETAIL_SALE_ORDER": "getDetail",
+    "ACTION_GET_LIST_PRODUCT_BY_SALE_ORDER": "getListProductBySaleOrder",
+    "ACTION_GET_GENERATE_CODE": "getGenerateCode",
+    "ACTION_GET_CREATE_SALE_ORDER": "createSaleOrder",
+    "ACTION_GET_SALE_ORDER_FOR_DELIVERY_ORDERS": "getSOForDeliveryOrders",
+    "ACTION_UPDATE_SALE_ORDER": "updateSaleOrder",
+    "ACTION_GET_COUNT": "getCount",
+    "ACTION_ACKNOWLEDGE_VALUE": "acknowledgeValue",
+    "ACTION_CANCEL_ACKNOWLEDGE_VALUE": "cancelAcknowledgeValue",
+    "ACTION_UPDATE_STATUS_SALE_ORDER": "updateSaleOrderStatus",
+    "ACTION_RESCIND": "rescind",
+    "ACTION_GET_SO_DETAIL_FOR_EXPORT": "getSODetailForExport",
+    "ACTION_AMEND": "amend",
+    "ACTION_UPDATE_ADDITION": "updateAddition",
+    "ACTION_APPROVE_ADDITION": "approveAddition",
+    "ACTION_DELETE_MANY_SALE_ORDERS" : "deleteManySO",
+    "ACTION_DELETE_SALE_ORDER": "deleteSO",
+    "ACTION_CREATE_ORDER_VOUCHERS": "createOrderVouchers"
+  },
+
+  "API_SALES_DASHBOARD_PROCESS_ITEM": {
+    "NAME": "api-sales.dashboardProcessItem",
+    "ACTION_GET_LIST": "getListDashboardProcessItem",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "createDashboardProcessItem",
+    "ACTION_UPDATE": "updateDashboardProcessItem",
+    "ACTION_DELETE": "deleteDashboardProcessItem"
   },
 
   "SVC_SALES_ORDER_PRODUCTS": {
