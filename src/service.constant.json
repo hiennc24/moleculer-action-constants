@@ -424,7 +424,8 @@
   "API_SALES_ORDER_VOUCHER": {
     "NAME": "api-sales.orderVouchers",
     "ACTION_CREATE_ORDER_VOUCHERS": "createOrderVouchers",
-    "ACTION_GET_LIST": "getListOrderVouchers"
+    "ACTION_GET_LIST": "getListOrderVouchers",
+    "ACTION_GET_DETAIL": "getDetailOrderVouchers"
   },
 
   "API_SALES_ORDER_PRODUCT": {
@@ -475,6 +476,11 @@
     "ACTION_DELETE_MANY_SALE_ORDERS" : "deleteManySO",
     "ACTION_DELETE_SALE_ORDER": "deleteSO",
     "ACTION_CREATE_ORDER_VOUCHERS": "createOrderVouchers"
+  },
+
+  "API_SALES_SALES_ORDER_HISTORY": {
+    "NAME": "api-sales.salesOrderHistories",
+    "ACTION_GET_LIST": "getListSaleOrderHistory"
   },
 
   "API_SALES_DASHBOARD_PROCESS_ITEM": {
