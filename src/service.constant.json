@@ -480,7 +480,7 @@
 
   "API_SALES_SALES_ORDER_HISTORY": {
     "NAME": "api-sales.salesOrderHistories",
-    "ACTION_GET_LIST": "getListSalesOrderHistory"
+    "ACTION_GET_LIST": "getListSaleOrderHistory"
   },
 
   "API_SALES_DASHBOARD_PROCESS_ITEM": {
