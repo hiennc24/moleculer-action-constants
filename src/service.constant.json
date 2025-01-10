@@ -254,7 +254,10 @@
     "ACTION_CREATE_DELIVERY_ORDER_FROM_SO": "create-delivery-order-from-so",
     "ACTION_CANCEL_DELIVERY_ORDER_FROM_SO": "cancel-delivery-order-from-so",
     "ACTION_UPDATE_DELIVERY_ORDER": "update-delivery-order",
-    "ACTION_GET_LIST": "get-list-delivery"
+    "ACTION_GET_LIST": "get-list-delivery",
+    "ACTION_GET_DETAIL": "detail",
+    "ACTION_GENERATE_CODE": "generate-code",
+    "ACTION_GET_HISTORIES": "histories"
   },
 
   "API_SALES_PROMOTIONS_TYPES": {
@@ -270,14 +273,14 @@
   "API_SALES_PROMOTIONS": {
     "NAME": "api-sales.promotions",
 
-		"ACTION_GET": "get",
-		"ACTION_CREATE": "create",
-		"ACTION_UPDATE": "update",
-		"ACTION_DELETE_MANY": "deleteMany",
-		"ACTION_GET_DETAIL": "getDetail",
-		"ACTION_GEN_CODE": "gen-code",
-		"ACTION_CHANGE_STATUS": "change-status",
-		"ACTION_UPDATE_MANY_STATUS": "update-many-status"
+    "ACTION_GET": "get",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GEN_CODE": "gen-code",
+    "ACTION_CHANGE_STATUS": "change-status",
+    "ACTION_UPDATE_MANY_STATUS": "update-many-status"
   },
 
   "API_SALES_LEAD": {
@@ -319,9 +322,11 @@
     "NAME": "api-sales.settings",
 
     "ACTION_GET": "get",
-		"ACTION_UPDATE": "update",
+    "ACTION_GET_TRANSACTIONS": "get-transactions",
+    "ACTION_GET_DOCUMENTS": "get-documents",
+    "ACTION_UPDATE": "update",
     "ACTION_UPDATE_ALLOW_OUT_OF_STOCK": "updateAllowOutOfStock",
-	  "ACTIONS_GET_SETTING_ALLOW_OUT_OF_STOCK": "getSettingAllowOutOfStock"
+    "ACTIONS_GET_SETTING_ALLOW_OUT_OF_STOCK": "getSettingAllowOutOfStock"
   },
 
   "API_SALES_PROMOTIONS_PRODUCT": {
