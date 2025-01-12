@@ -2385,7 +2385,8 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete"
+    "ACTION_DELETE": "delete",
+		"ACTION_PATCH_PRODUCTS": "products"
   },
   "SVC_ACCOUNTING_VOUCHER": {
     "NAME": "svc-orders.accounting-voucher",
