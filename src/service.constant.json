@@ -173,6 +173,11 @@
     "ACTION_DELETE_BY_PROMOTION_IDS": "deleteByPromotionIds"
   },
 
+  "API_SALES_PERMISSION": {
+    "NAME": "api-sales.permission-actions",
+    "ACTION_GET_PERMISSION_ACTIONS": "get-list"
+  },
+
   "API_SALES_DASHBOARD": {
     "NAME": "api-sales.promotionDetail",
     "ACTION_ADD_OR_UPDATE_PROMOTION_DETAILS": "addOrUpdatePromotionDetails",
@@ -870,6 +875,11 @@
     "NAME": "svc-sales-plan.fm01-classification-mapping"
   },
 
+  "API_HCM_PERMISSION": {
+    "NAME": "api-hcm.permission-actions",
+    "ACTION_GET_PERMISSION_ACTIONS": "get-list"
+  },
+
   "API_HCM_PROVINCE": {
     "NAME": "api-hcm.province",
     "ACTION_GET_LIST_PROVINCE": "getListProvince"
@@ -1296,6 +1306,11 @@
 
   "API_BIZCORE_BSC_VERSION": {
     "NAME": "api-bizcore.bsc-version"
+  },
+
+  "API_BIZCORE_PERMISSION": {
+    "NAME": "api-bizcore.permission-actions",
+    "ACTION_GET_PERMISSION_ACTIONS": "get-list"
   },
 
   "API_BIZCORE_BSC_ITEM_FIELD": {
