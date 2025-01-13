@@ -266,8 +266,8 @@ const COLLECTIONS = {
   SETTING_ECOMMERCE_PLATFORM_COLLECTION_NAME: "setting_ecommerce_platforms",
 
   // setting invoices
-	SETTING_INVOICE_REPOSITORY_NAME: 'settingInvoice',
-	SETTING_INVOICE_COLLECTION_NAME: 'setting_invoices',
+  SETTING_INVOICE_REPOSITORY_NAME: "settingInvoice",
+  SETTING_INVOICE_COLLECTION_NAME: "setting_invoices",
   // Province
   PROVINCE_REPOSITORY_NAME: "province",
   PROVINCE_COLLECTION_NAME: "provinces",
@@ -980,6 +980,17 @@ const COLLECTIONS = {
   WAREHOUSE_STOCKTAKING_PRODUCT_REPOSITORY_NAME: "warehouseStocktakingProduct",
   WAREHOUSE_STOCKTAKING_PRODUCT_COLLECTION_NAME:
     "warehouse_stocktaking_products",
+
+  BONUS_EMPLOYEE_COLLECTION_NAME: "bonus_employees",
+  BONUS_EMPLOYEE_REPOSITORY_NAME: "bonusEmployee",
+  WORK_SHIFT_REGISTRATION_COLLECTION_NAME: "work_shift_registrations",
+  WORK_SHIFT_REGISTRATION_REPOSITORY_NAME: "workShiftRegistration",
+  WORK_SHIFT_REGISTRATION_DETAIL_COLLECTION_NAME:
+    "work_shift_registration_details",
+  WORK_SHIFT_REGISTRATION_DETAIL_REPOSITORY_NAME: "workShiftRegistrationDetail",
+
+  REQUEST_MANAGEMENT_COLLECTION_NAME: "request_managements",
+  REQUEST_MANAGEMENT_REPOSITORY_NAME: "requestManagement",
 };
 
 export default COLLECTIONS;
