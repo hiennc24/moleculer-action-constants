@@ -483,6 +483,10 @@
     "ACTION_GET_LIST": "getListSaleOrderHistory"
   },
 
+  "API_SALES_SALES_ORDER_DETAIL": {
+    "NAME": "api-sales.salesOrderDetail"
+  },
+
   "API_SALES_DASHBOARD_PROCESS_ITEM": {
     "NAME": "api-sales.dashboardProcessItem",
     "ACTION_GET_LIST": "getListDashboardProcessItem",
