@@ -149,9 +149,9 @@
     "ACTION_GET_LIST": "getList"
   },
 
-  "API_WAREHOUSE_PERMISSIONS": {
-    "NAME": "api-warehouse.permissions",
-    "ACTION_GET_PERMISSIONS": "getPermission"
+  "API_WAREHOUSE_PERMISSION": {
+    "NAME": "api-warehouse.permission-actions",
+    "ACTION_GET_PERMISSION_ACTIONS": "get-list"
   },
   "API_WAREHOUSE_MANAGEMENT": {
     "NAME": "api-warehouse.warehouseManagement",
@@ -528,7 +528,10 @@
   "API_SALES_DELIVERY_MODIFY_HISTORY": {
     "NAME": "api-sales.delivery-modify-history"
   },
-
+  "API_PURCHASE_PERMISSION": {
+    "NAME": "api-purchase.permission-actions",
+    "ACTION_GET_PERMISSION_ACTIONS": "get-list"
+  },
   "API_PURCHASE_SETTING": {
     "NAME": "api-purchase.settings",
     "ACTIONS_GET_PURCHASE_SETTING": "getSetting",
@@ -2313,6 +2316,10 @@
   "API_PURCHASE_PURCHASE_ORDER_DETAIL": {
     "NAME": "api-purchase.purchaseOrderDetail"
   },
+  "SVC_ACCOUNTING_PERMISSION": {
+    "NAME": "api-accounting.permission-actions",
+    "ACTION_GET_PERMISSION_ACTIONS": "get-list"
+  },
   "SVC_ACCOUNTING_SETTINGS": {
     "NAME": "accounting-settings",
     "ACTION_GET": "get",
@@ -2421,5 +2428,9 @@
     "ACTION_CREATE_SALE_ORDER_PRODUCT_VOUCHER": "createProducts",
     "ACTION_UPDATE_SALE_ORDER_PRODUCT_VOUCHER": "updateProducts",
     "ACTION_DELETE_SALE_ORDER_PRODUCT_VOUCHER": "delete"
+  },
+  "SVC_WORKFLOWS_PERMISSION": {
+    "NAME": "api-workflows.permission-actions",
+    "ACTION_GET_PERMISSION_ACTIONS": "get-list"
   }
 }
