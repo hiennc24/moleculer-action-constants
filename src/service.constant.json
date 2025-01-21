@@ -2438,5 +2438,38 @@
 
 		"ACTION_GET": "getSettingApprove",
 		"ACTION_UPDATE": "updateSettingApprove"
-	}
+	},
+  "SVC_ACCOUNTING_VOUCHER_SALE_ORDER": {
+        "NAME": "svc-orders.accounting-voucher-sale-order",
+
+        "ACTION_GET_LIST_VOUCHER_SALE_ORDER": "getLists",
+        "ACTION_GET_DETAIL_VOUCHER_SALE_ORDER": "getDetail",
+        "ACTION_CREATE_VOUCHER_SALE_ORDER": "create",
+        "ACTION_UPDATE_VOUCHER_SALE_ORDER": "update",
+        "ACTION_DELETE_VOUCHER_SALE_ORDER": "delete"
+    },
+    "SVC_ACCOUNTING_VOUCHER_PURCHASE_ORDER": {
+        "NAME": "svc-orders.accounting-voucher-purchase-order",
+
+        "ACTION_GET_LIST_VOUCHER_PURCHASE_ORDER": "getLists",
+        "ACTION_GET_DETAIL_VOUCHER_PURCHASE_ORDER": "getDetail",
+        "ACTION_CREATE_VOUCHER_PURCHASE_ORDER": "create",
+        "ACTION_UPDATE_VOUCHER_PURCHASE_ORDER": "update",
+        "ACTION_DELETE_VOUCHER_PURCHASE_ORDER": "delete"
+    },
+
+    "SVC_ACCOUNTING_PRODUCT_VOUCHER_SALE_ORDER": {
+        "NAME": "svc-orders.accounting-product-voucher-sale-order",
+
+        "ACTION_CREATE_SALE_ORDER_PRODUCT_VOUCHER": "create",
+        "ACTION_UPDATE_SALE_ORDER_PRODUCT_VOUCHER": "update",
+        "ACTION_DELETE_SALE_ORDER_PRODUCT_VOUCHER": "delete"
+    },
+    "SVC_ACCOUNTING_PRODUCT_VOUCHER_PURCHASE_ORDER": {
+        "NAME": "svc-orders.accounting-product-voucher-purchase-order",
+
+        "ACTION_CREATE_PURCHASE_ORDER_PRODUCT_VOUCHER": "create",
+        "ACTION_UPDATE_PURCHASE_ORDER_PRODUCT_VOUCHER": "update",
+        "ACTION_DELETE_PURCHASE_ORDER_PRODUCT_VOUCHER": "delete"
+    }
 }
