@@ -2432,5 +2432,11 @@
   "SVC_WORKFLOWS_PERMISSION": {
     "NAME": "api-workflows.permission-actions",
     "ACTION_GET_PERMISSION_ACTIONS": "get-list"
-  }
+  },
+	"API_HCM_SETTING_APPROVES": {
+		"NAME": "api-hcm.setting-approves",
+
+		"ACTION_GET": "getSettingApprove",
+		"ACTION_UPDATE": "updateSettingApprove"
+	}
 }

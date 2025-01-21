@@ -991,6 +991,9 @@ const COLLECTIONS = {
 
   REQUEST_MANAGEMENT_COLLECTION_NAME: "request_managements",
   REQUEST_MANAGEMENT_REPOSITORY_NAME: "requestManagement",
+
+  SETTING_APPROVE_COLLECTION_NAME: "setting_approves",
+  SETTING_APPROVE_REPOSITORY_NAME: "settingApprove",
 };
 
 export default COLLECTIONS;
