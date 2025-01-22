@@ -308,19 +308,30 @@
   },
 
   "API_SALES_LEAD_STATUS": {
-    "NAME": "api-sales.lead-status"
+    "NAME": "api-sales.lead-status",
+    "ACTION_GET_LIST": "getListLeadStatus",
+    "ACTION_UPDATE_MANY": "updateManyLeadStatus"
   },
 
   "API_SALES_LEAD_HISTORY": {
-    "NAME": "api-sales.lead-history"
+    "NAME": "api-sales.lead-history",
+    "ACTION_GET_LIST": "getListLeadHistory"
   },
 
   "API_SALES_LEAD_SCHEDULE": {
-    "NAME": "api-sales.lead-schedule"
+    "NAME": "api-sales.lead-schedule",
+    "ACTION_GET_LIST": "getListLeadSchedule",
+    "ACTION_CREATE": "createLeadSchedule",
+    "ACTION_UPDATE": "updateLeadSchedule",
+    "ACTION_DELETE": "deleteLeadSchedule"
   },
 
   "API_SALES_LEAD_COMMENT": {
-    "NAME": "api-sales.lead-comment"
+    "NAME": "api-sales.lead-comment",
+    "ACTION_GET_LIST": "getListLeadComment",
+    "ACTION_CREATE": "createLeadComment",
+    "ACTION_UPDATE": "updateLeadComment",
+    "ACTION_DELETE": "deleteLeadComment"
   },
 
   "API_SALES_SETTING": {
