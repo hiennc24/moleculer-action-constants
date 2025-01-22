@@ -994,6 +994,13 @@ const COLLECTIONS = {
 
   SETTING_APPROVE_COLLECTION_NAME: "setting_approves",
   SETTING_APPROVE_REPOSITORY_NAME: "settingApprove",
+
+  VOUCHER_PURCHASE_ORDER_REPOSITORY_NAME: "voucherPurchaseOrder",
+  VOUCHER_PURCHASE_ORDER_COLLECTION_NAME: "voucher_purchase_orders",
+
+  VOUCHER_PURCHASE_ORDER_PRODUCT_REPOSITORY_NAME: "voucherPurchaseOrderProduct",
+  VOUCHER_PURCHASE_ORDER_PRODUCT_COLLECTION_NAME:
+    "voucher_purchase_order_products",
 };
 
 export default COLLECTIONS;
