@@ -291,7 +291,14 @@
   "API_SALES_LEAD": {
     "NAME": "api-sales.lead",
     "ACTION_COUNT_LEAD_BY_EMPLOYEE": "countLeadByEmployee",
-    "ACTION_SYNC_DATA": "sync-data"
+    "ACTION_SYNC_DATA": "sync-data",
+    "ACTION_GET_LIST": "getListLead",
+    "ACTION_GET_DETAIL": "getDetailLead",
+    "ACTION_CREATE": "createLead",
+    "ACTION_UPDATE": "updateLead",
+    "ACTION_DELETE": "deleteLead",
+    "API_SALES_LEAD.ACTION_UPDATE_MANY_POSITION": "updateManyPosition",
+    "ACTION_UPDATE_POSITION": "updatePosition"
   },
 
   "API_SALES_LEAD_SETTING": {
