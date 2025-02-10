@@ -378,7 +378,7 @@
     "ACTION_CRUD_ORDER_TIKTOKSHOP": "crudOrderTiktokShop",
     "ACTION_CREATE_ORDER_VOUCHERS": "createOrderVouchers",
     "ACTION_GET_DETAIL_SALE_ORDER": "getDetailSaleOrder",
-    "ACTION_GET_CREATE_SALE_ORDER": "createSaleOrder",
+    "ACTION_CREATE_SALE_ORDER": "createSaleOrder",
     "ACTION_ACKNOWLEDGE_VALUE": "acknowledgeValue",
     "ACTION_UPDATE_SALE_ORDER": "updateSaleOrder",
     "ACTION_DELETE_SALE_ORDER": "deleteSaleOrder",
@@ -479,29 +479,6 @@
     "ACTION_UPDATE": "updateInvoice",
     "ACTION_DELETE": "deleteInvoice",
     "ACTION_CREATE": "createInvoice"
-  },
-
-  "API_SALES_SALES_ORDER": {
-    "NAME": "api-sales.salesOrders",
-    "ACTION_GET_LIST": "getListSalesOrder",
-    "ACTION_GET_DETAIL_SALE_ORDER": "getDetail",
-    "ACTION_GET_LIST_PRODUCT_BY_SALE_ORDER": "getListProductBySaleOrder",
-    "ACTION_GET_GENERATE_CODE": "getGenerateCode",
-    "ACTION_GET_CREATE_SALE_ORDER": "createSaleOrder",
-    "ACTION_GET_SALE_ORDER_FOR_DELIVERY_ORDERS": "getSOForDeliveryOrders",
-    "ACTION_UPDATE_SALE_ORDER": "updateSaleOrder",
-    "ACTION_GET_COUNT": "getCount",
-    "ACTION_ACKNOWLEDGE_VALUE": "acknowledgeValue",
-    "ACTION_CANCEL_ACKNOWLEDGE_VALUE": "cancelAcknowledgeValue",
-    "ACTION_UPDATE_STATUS_SALE_ORDER": "updateSaleOrderStatus",
-    "ACTION_RESCIND": "rescind",
-    "ACTION_GET_SO_DETAIL_FOR_EXPORT": "getSODetailForExport",
-    "ACTION_AMEND": "amend",
-    "ACTION_UPDATE_ADDITION": "updateAddition",
-    "ACTION_APPROVE_ADDITION": "approveAddition",
-    "ACTION_DELETE_MANY_SALE_ORDERS": "deleteManySO",
-    "ACTION_DELETE_SALE_ORDER": "deleteSO",
-    "ACTION_CREATE_ORDER_VOUCHERS": "createOrderVouchers"
   },
 
   "API_SALES_SALES_ORDER_HISTORY": {
