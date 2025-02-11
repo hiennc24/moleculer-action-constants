@@ -2435,7 +2435,8 @@
     "NAME": "api-hcm.setting-approves",
 
     "ACTION_GET": "getSettingApprove",
-    "ACTION_UPDATE": "updateSettingApprove"
+    "ACTION_UPDATE": "updateSettingApprove",
+    "ACTION_GET_MANAGEMENT": "getManagement"
   },
   "SVC_ACCOUNTING_VOUCHER_SALE_ORDER": {
     "NAME": "svc-orders.accounting-voucher-sale-order",
