@@ -241,8 +241,8 @@ const COLLECTIONS = {
     "financial_model_classification_mappings",
 
   // Order products
-  ORDER_PRODUCTS_REPOSITORY_NAME: "orderProduct",
-  ORDER_PRODUCTS_COLLECTION_NAME: "order_products",
+  SALES_ORDER_PRODUCTS_REPOSITORY_NAME: "salesOrderProduct",
+  SALES_ORDER_PRODUCTS_COLLECTION_NAME: "sales_order_products",
 
   // SHARED SERVICE
   // Activity Log
@@ -766,10 +766,10 @@ const COLLECTIONS = {
   DASHBOARD_PROCESS_ITEM_COLLECTION_NAME: "dashboard_process_items",
 
   // Purchase Order
-  ORDER_CONFIRM_REPOSITORY_NAME: "orderConfirm",
-  ORDER_CONFIRM_COLLECTION_NAME: "order_confirms",
-  ORDER_PRODUCT_REPOSITORY_NAME: "orderProduct",
-  ORDER_PRODUCT_COLLECTION_NAME: "order_products",
+  PURCHASE_ORDER_CONFIRM_REPOSITORY_NAME: "purchaseOrderConfirm",
+  PURCHASE_ORDER_CONFIRM_COLLECTION_NAME: "purchase_order_confirms",
+  PURCHASE_ORDER_PRODUCT_REPOSITORY_NAME: "purchaseOrderProduct",
+  PURCHASE_ORDER_PRODUCT_COLLECTION_NAME: "purchase_order_products",
   PURCHASE_TYPE_REPOSITORY_NAME: "purchaseType",
   PURCHASE_TYPE_COLLECTION_NAME: "purchase_types",
   PURCHASE_ORDER_REPOSITORY_NAME: "purchaseOrder",
