@@ -2471,5 +2471,11 @@
     "ACTION_CREATE_PURCHASE_ORDER_PRODUCT_VOUCHER": "create",
     "ACTION_UPDATE_PURCHASE_ORDER_PRODUCT_VOUCHER": "update",
     "ACTION_DELETE_PURCHASE_ORDER_PRODUCT_VOUCHER": "delete"
+  },
+  "SVC_ORDERS_ORDER_VOUCHER": {
+    "NAME": "svc-orders.orderVouchers",
+    "ACTION_CREATE": "create",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail"
   }
 }
