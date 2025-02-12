@@ -369,6 +369,7 @@
 
   "SVC_SALES_ORDERS": {
     "NAME": "svc-sales-orders",
+    "ACTION_GET_ORDER_PRODUCT_LIST": "getListProductBySaleOrderCode",
     "ACTION_UPDATE_PROCESS_STATUS": "updateProcessStatusSalesOrder",
     "ACTION_GET_SO_FOR_DELIVERY_ORDERS": "getSOForDeliveryOrders",
     "ACTION_CANCEL_ACKNOWLEDGE_VALUE": "cancelAcknowledgeValue",
