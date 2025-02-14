@@ -882,6 +882,27 @@
     "ACTION_GET_PERMISSION_ACTIONS": "get-list"
   },
 
+  "API_HCM_BONUS_CALC_BASIS": {
+    "NAME": "api-hcm.bonus-calc-basis",
+    "ACTION_GENERATE_CODE": "generateCode",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+
+  "API_HCM_BONUS_CALC_BASIS_CONFIG": {
+    "NAME": "api-hcm.bonus-calc-basis-config",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_UPDATE_MANY": "updateMany",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GET_PAGE_CHILD_ITEMS": "getPageChildItems"
+  },
+
   "API_HCM_PROVINCE": {
     "NAME": "api-hcm.province",
     "ACTION_GET_LIST_PROVINCE": "getListProvince"
@@ -902,7 +923,20 @@
   },
 
   "API_HCM_SALARY_RANGES": {
-    "NAME": "api-hcm.salaryRanges"
+    "NAME": "api-hcm.salaryRanges",
+    "ACTIONS_GET_LIST": "getList",
+    "ACTIONS_GET_DETAIL": "getDetail",
+    "ACTIONS_CREATE": "create",
+    "ACTIONS_UPDATE": "update",
+    "ACTIONS_SYNC_DATA": "syncData",
+    "ACTIONS_UPDATE_ALL_SALARY_RANGE_WITH_NEW_CHANGE": "updateAllSalaryRangeWithNewChange",
+    "ACTIONS_UPDATE_STAR": "updateStar",
+    "ACTIONS_UPDATE_SALARY_GRADE": "updateSalaryGrade",
+    "ACTIONS_DELETE": "delete",
+    "ACTIONS_DELETE_VERSION": "deleteVersion",
+    "ACTIONS_UPDATE_VERSION": "updateVersion",
+    "ACTIONS_UPDATE_PAYMENT_VERSION": "updatePaymentVersion",
+    "ACTIONS_GENERATE_CODE": "generateCode"
   },
 
   "API_HCM_SALARY_HISTORIES": {
@@ -911,41 +945,92 @@
 
   "API_HCM_SALARY_COMPOSITIONS": {
     "NAME": "api-hcm.salaryCompositions",
-    "ACTION_GET_LIST": "getList"
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_INFO": "getInfo",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_LOCK_UNLOCK": "lockUnlock",
+    "ACTION_BATCH_UPDATE": "batchUpdate"
   },
 
   "API_HCM_PAYROLL_TEMPLATE_SETTINGS": {
     "NAME": "api-hcm.payrollTemplateSettings",
-    "ACTION_GET": "get"
+    "ACTION_GET": "get",
+    "ACTION_UPDATE": "update",
+    "ACTION_GET_DETAIL_VERSION": "getDetailVersion",
+    "ACTION_CREATE_VERSION": "createVersion",
+    "ACTION_UPDATE_VERSION": "updateVersion",
+    "ACTION_DELETE_MANY_VERSIONS": "deleteManyVersions",
+    "ACTION_SYNC_DATA_VERSION": "syncDataVersion"
   },
 
   "API_HCM_PAYROLL_TEMPLATE_EMPLOYEES": {
     "NAME": "api-hcm.payrollTemplateEmployees",
-    "ACTION_CREATE": "create"
+    "ACTION_CREATE": "create",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_SORT": "sort",
+    "ACTION_DELETE_DEPARTMENT": "deleteByDepartment"
   },
 
   "API_HCM_PAYROLL": {
-    "NAME": "api-hcm.payrolls"
+    "NAME": "api-hcm.payrolls",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_LOCK_UNLOCK": "lockUnlock",
+    "ACTION_SYNC_DATA": "syncData",
+    "ACTION_GET_GENERATED_MONTHS": "getGeneratedMonths"
   },
 
   "API_HCM_PAYROLL_SETTINGS": {
     "NAME": "api-hcm.payrollSettings",
-    "ACTION_GET": "get"
+    "ACTION_GET": "get",
+    "ACTION_UPDATE": "update"
   },
 
   "API_HCM_PAYROLL_EMPLOYEES": {
     "NAME": "api-hcm.payrollEmployees",
-    "ACTION_CREATE": "create"
+    "ACTION_CREATE": "create",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_SORT": "sort",
+    "ACTION_DELETE_BY_DEPARTMENT": "deleteByDepartment",
+    "ACTION_SEND_PAYROLL": "sendPayroll",
+    "ACTION_DOWNLOAD": "download",
+    "ACTION_CONFIRM_PAYROLL": "confirmPayroll",
+    "ACTION_GET_PAYROLL_CONFIRM": "getPayrollConfirm",
+    "ACTION_CONFIRM_PAYROLL_WORKSPACE": "confirmPayrollWorkspace",
+    "ACTION_STATISTICS": "statistics"
   },
 
   "API_HCM_PAYCHECK_EMPLOYEES": {
     "NAME": "api-hcm.paycheckEmployees",
-    "ACTION_GET_DETAIL": "getDetail"
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GENERATE": "generate",
+    "ACTION_APPROVE": "approve",
+    "ACTION_SEND_OLE": "sendOle",
+    "ACTION_GET_PAYCHECK_CONFIRM": "getPaycheckConfirm",
+    "ACTION_CONFIRM_PAYCHECK": "confirmPaycheck",
+    "ACTION_CONFIRM_PAYCHECK_WORKSPACE": "confirmPaycheckWorkspace",
+    "ACTION_STATISTICS": "statistics",
+    "ACTION_DOWNLOAD": "download"
   },
 
   "API_HCM_PAYCHECK_SETTINGS": {
     "NAME": "api-hcm.paycheckSettings",
-    "ACTION_GET": "get"
+    "ACTION_GET": "get",
+    "ACTION_UPDATE": "update"
   },
 
   "API_HCM_SETTINGS": {
@@ -971,7 +1056,23 @@
     "NAME": "api-hcm.bonusItems",
     "ACTION_GET_PAGE_SPREADSHEET_VIEW": "getPageSpreadsheetView",
     "ACTION_GET_PAGE_APPROVED": "getPageApproved",
-    "ACTION_CALC_SCHEDULE": "calcSchedule"
+    "ACTION_CALC_SCHEDULE": "calcSchedule",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GENERATE_CODE": "generateCode"
+  },
+
+  "API_HCM_BONUS_RANGES": {
+    "NAME": "api-hcm.bonusRanges",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GENERATE_CODE": "generateCode"
   },
 
   "API_HCM_BONUS_RANGE_EMPLOYEES": {
@@ -980,7 +1081,8 @@
   },
 
   "API_HCM_BONUS_CALC_SCHEDULES": {
-    "NAME": "api-hcm.bonusCalculateSchedules"
+    "NAME": "api-hcm.bonusCalculateSchedules",
+    "ACTION_UPSERT": "upsert"
   },
 
   "API_HCM_BONUS_EMPLOYEES": {
