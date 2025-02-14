@@ -1034,7 +1034,10 @@
   },
 
   "API_HCM_SETTINGS": {
-    "NAME": "api-hcm.settings"
+    "NAME": "api-hcm.settings",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_UPDATE": "update",
+    "ACTION_GET_PARAMS": "getParams"
   },
 
   "API_HCM_SETTING_HOLIDAYS": {
