@@ -1033,6 +1033,16 @@
     "ACTION_UPDATE": "update"
   },
 
+  "API_HCM_BONUS_CATEGORIES" : {
+    "NAME": "api-hcm.bonusCategories",
+    "ACTION_GENERATE_CODE": "generateCode",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
   "API_HCM_SETTINGS": {
     "NAME": "api-hcm.settings",
     "ACTION_GET_PAGE": "getPage",
