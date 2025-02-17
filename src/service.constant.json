@@ -39,7 +39,8 @@
   },
 
   "SVC_PRODUCT_WAREHOUSE_PRODUCTS": {
-    "NAME": "svc-product.warehouseProducts"
+    "NAME": "svc-product.warehouse-products",
+    "ACTION_UPLOAD_PRODUCT_ITEM": "upload"
   },
 
   "SVC_PRODUCT_ORDER_PRODUCT_ITEMS": {
@@ -1033,7 +1034,7 @@
     "ACTION_UPDATE": "update"
   },
 
-  "API_HCM_BONUS_CATEGORIES" : {
+  "API_HCM_BONUS_CATEGORIES": {
     "NAME": "api-hcm.bonusCategories",
     "ACTION_GENERATE_CODE": "generateCode",
     "ACTION_GET_PAGE": "getPage",
@@ -2319,7 +2320,7 @@
   },
 
   "SVC_INVENTORY_TRANSACTIONS": {
-    "NAME": "svc-inventory-transactions",
+    "NAME": "svc-product.svc-inventory-transactions",
     "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport",
     "ACTION_CREATE_INVENTORY_TRANSACTION": "createInventoryTransaction",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_VARIANT_ID": "getWarehouseAvailable"
