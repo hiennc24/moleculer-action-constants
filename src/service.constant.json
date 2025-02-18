@@ -914,7 +914,7 @@
   },
 
   "API_HCM_MOBILE_SETTING": {
-    "NAME": "api-hcm.mobileSettings",
+    "NAME": "api-hcm.mobile-settings",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
