@@ -914,7 +914,19 @@
   },
 
   "API_HCM_MOBILE_SETTING": {
-    "NAME": "api-hcm.mobileSettings"
+    "NAME": "api-hcm.mobileSettings",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+
+  "SVC_REQUEST_MANAGEMENT": {
+    "NAME": "api-hcm.svc-request-management",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update"
   },
 
   "API_HCM_SALARY_SETTINGS": {
@@ -1052,7 +1064,12 @@
   },
 
   "API_HCM_SETTING_HOLIDAYS": {
-    "NAME": "api-hcm.setting-holidays"
+    "NAME": "api-hcm.setting-holidays",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
   },
 
   "API_HCM_BONUS_COLUMNS": {
@@ -1063,7 +1080,13 @@
   },
 
   "API_HCM_SETTING_WORKING_DAYS": {
-    "NAME": "api-hcm.setting-working-days"
+    "NAME": "api-hcm.setting-working-days",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE_MANY": "createMany",
+    "ACTION_UPDATE_MANY": "updateMany",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_SYNC_EMPLOYEE": "syncEmployee"
   },
 
   "API_HCM_BONUS_ITEMS": {
@@ -1107,19 +1130,35 @@
     "NAME": "api-hcm.leaves",
     "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployeeId",
     "ACTION_GET_LIST": "getList",
-    "ACTION_CREATE": "create"
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GET_DETAIL": "detail",
+    "ACTION_APPROVE": "approve",
+    "ACTION_REJECT": "reject",
+    "ACTION_RETURN": "return",
+    "ACTION_CANCEL": "cancel"
   },
 
   "API_HCM_LEAVE_EMPLOYEES": {
     "NAME": "api-hcm.leave-employees",
     "ACTION_CREATE_MANY": "createMany",
-    "ACTION_GET_LIST": "getList"
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_STATISTIC": "getStatistic",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_EMPLOYEE_WITHOUT_LEAVE": "getEmployeeWithoutLeave",
+    "ACTION_LOAD_MORE": "loadMore",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
   },
 
   "API_HCM_LEAVE_CONFIGS": {
     "NAME": "api-hcm.leave-configs",
     "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployee",
-    "ACTION_GET_LIST": "getList"
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
   },
 
   "API_HCM_LEAVE_DEPARTMENTS": {
@@ -1132,48 +1171,129 @@
 
   "API_HCM_TIMEKEEPING_SETTINGS": {
     "NAME": "api-hcm.timekeeping-settings",
-    "ACTION_GET_SETTING": "getSetting"
+    "ACTION_GET_SETTING": "getSetting",
+    "ACTION_UPDATE_SETTING": "updateSetting"
   },
 
   "API_HCM_TIMEKEEPING_EMPLOYEES": {
-    "NAME": "api-hcm.timekeeping-employees"
+    "NAME": "api-hcm.timekeeping-employees",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GET_LIST_BY_MANAGERS": "getListByManagers",
+    "ACTION_GET_PERSONAL_DATA": "getPersonalData",
+    "ACTION_IN_SHIFT": "inShift",
+    "ACTION_OUT_SHIFT": "outShift"
   },
 
   "API_HCM_TIMEKEEPING_COMPONENTS": {
     "NAME": "api-hcm.timekeeping-components",
-    "ACTION_GET_LIST": "getList"
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_PARENT_COMPONENT": "getParentComponent",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
   },
 
   "API_HCM_TIMEKEEPING_REQUESTS": {
-    "NAME": "api-hcm.timekeeping-requests"
+    "NAME": "api-hcm.timekeeping-requests",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_APPROVE": "approve",
+    "ACTION_REJECT": "reject"
   },
 
   "API_HCM_TIMEKEEPING_EMPLOYEE_CONFIGS": {
-    "NAME": "api-hcm.timekeeping-configs"
+    "NAME": "api-hcm.timekeeping-configs",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE_MANY": "createMany",
+    "ACTION_UPDATE_MANY": "updateMany",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GET_DATA_TIMEKEEPING_BY_EMPLOYEE": "getDataTimekeepingByEmployee",
+    "ACTION_GET_PAGE_EMPLOYEE_WITHOUT_CONFIG": "getPageEmployeeWithoutConfig"
   },
 
   "API_HCM_TIMEKEEPING_DETAILS": {
-    "NAME": "api-hcm.timekeeping-details"
+    "NAME": "api-hcm.timekeeping-details",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_PREVIEW_BY_IDS": "previewByIds",
+    "ACTION_PREVIEW_BY_ENTITY": "previewByEntity"
   },
 
   "API_HCM_TIMEKEEPING_SUMMARIES": {
-    "NAME": "api-hcm.timekeeping-summaries"
+    "NAME": "api-hcm.timekeeping-summaries",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GET_STATISTIC": "getStatistic"
   },
 
   "API_HCM_TIMEKEEPING_TIMEKEEPERS": {
-    "NAME": "api-hcm.timekeeping-timekeepers"
+    "NAME": "api-hcm.timekeeping-timekeepers",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GET_MANAGERS_BY_EMPLOYEE": "getManagersByEmployee",
+    "ACTION_GET_APPLIED_GPS": "getAppliedGPS",
+    "ACTION_GET_APPLIED_WIFI": "getAppliedWIFI"
   },
 
   "API_HCM_WORKSHIFT_EMPLOYEES": {
-    "NAME": "api-hcm.workshift-employees"
+    "NAME": "api-hcm.workshift-employees",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_GET_MONTH": "getMonth"
   },
 
   "API_HCM_WORKSHIFT_ITEMS": {
-    "NAME": "api-hcm.workshift-items"
+    "NAME": "api-hcm.workshift-items",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+
+  "API_HCM_WORKSHIFT_REGISTRATIONS": {
+    "NAME": "api-hcm.workshift-registrations",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+
+  "API_HCM_WORKSHIFT_REGISTRATION_DETAILS": {
+    "NAME": "api-hcm.workshift-registration-details",
+    "ACTION_CREATE": "create",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_APPROVE_OR_CANCEL_MANY": "approveOrCancelMany"
   },
 
   "API_HCM_WORKSHIFTS": {
-    "NAME": "api-hcm.workshifts"
+    "NAME": "api-hcm.workshifts",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
   },
 
   "API_HCM_DASHBOARD": {
