@@ -953,7 +953,8 @@
   },
 
   "API_HCM_SALARY_HISTORIES": {
-    "NAME": "api-hcm.salaryHistories"
+    "NAME": "api-hcm.salaryHistories",
+    "ACTION_CREATE": "create"
   },
 
   "API_HCM_SALARY_COMPOSITIONS": {
