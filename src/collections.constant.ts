@@ -1001,6 +1001,120 @@ const COLLECTIONS = {
   VOUCHER_PURCHASE_ORDER_PRODUCT_REPOSITORY_NAME: "voucherPurchaseOrderProduct",
   VOUCHER_PURCHASE_ORDER_PRODUCT_COLLECTION_NAME:
     "voucher_purchase_order_products",
+
+  RESULT_TYPE_REPOSITORY_NAME: "resultType",
+  RESULT_TYPE_COLLECTION_NAME: "result_types",
+
+  CRITERIA_REPOSITORY_NAME: "criteria",
+  CRITERIA_COLLECTION_NAME: "criterias",
+
+  // Menu
+  ACTIVITY_REPOSITORY_NAME: "activity",
+  ACTIVITY_COLLECTION_NAME: "activities",
+  //field
+  FIELD_REPOSITORY_NAME: "field",
+  FIELD_COLLECTION_NAME: "fields",
+  //folder
+  FOLDER_REPOSITORY_NAME: "folder",
+  FOLDER_COLLECTION_NAME: "folders",
+  //project
+  PROJECT_REPOSITORY_NAME: "project",
+  PROJECT_COLLECTION_NAME: "projects",
+  // role project
+  ROLE_PROJECT_REPOSITORY_NAME: "roleProjects",
+  ROLE_PROJECT_COLLECTION_NAME: "role_projects",
+
+  // setting
+  SETTING_PROJECT_REPOSITORY_NAME: "settingProjects",
+  SETTING_PROJECT_COLLECTION_NAME: "setting_projects",
+
+  // Employee
+  GROUP_MEMBER_PROJECT_REPOSITORY_NAME: "groupMemberProjects",
+  GROUP_MEMBER_PROJECT_COLLECTION_NAME: "group_member_projects",
+  //phases
+  PHASE_REPOSITORY_NAME: "phase",
+  PHASE_COLLECTION_NAME: "phases",
+  //task
+  TASK_REPOSITORY_NAME: "task",
+  TASK_COLLECTION_NAME: "tasks",
+  //task history
+  TASK_HISTORIES_REPOSITORY_NAME: "taskHistory",
+  TASK_HISTORIES_COLLECTION_NAME: "task_histories",
+  //post task
+  POST_TASK_REPOSITORY_NAME: "postTask",
+  POST_TASK_COLLECTION_NAME: "post_tasks",
+  //post comment
+  COMMENT_POST_REPOSITORY_NAME: "commentPost",
+  COMMENT_POST_COLLECTION_NAME: "comment_posts",
+
+  //project comments
+  COMMENT_PROJECT_REPOSITORY_NAME: "commentProject",
+  COMMENT_PROJECT_COLLECTION_NAME: "comment_projects",
+
+  //project history
+  PROJECT_HISTORIES_REPOSITORY_NAME: "projectHistory",
+  PROJECT_HISTORIES_COLLECTION_NAME: "project_histories",
+
+  // Position Field
+  POSITION_FIELD_REPOSITORY_NAME: "positionField",
+  POSITION_FIELD_COLLECTION_NAME: "position_fields",
+
+  // Templates
+  TEMPLATE_REPOSITORY_NAME: "template",
+  TEMPLATE_COLLECTION_NAME: "templates",
+
+  FOLDER_TEMPLATE_REPOSITORY_NAME: "folderTemplate",
+  FOLDER_TEMPLATE_COLLECTION_NAME: "folder_templates",
+
+  PROJECT_TEMPLATE_REPOSITORY_NAME: "projectTemplate",
+  PROJECT_TEMPLATE_COLLECTION_NAME: "project_templates",
+
+  PHASE_TEMPLATE_REPOSITORY_NAME: "phaseTemplate",
+  PHASE_TEMPLATE_COLLECTION_NAME: "phase_templates",
+
+  TASK_TEMPLATE_REPOSITORY_NAME: "taskTemplate",
+  TASK_TEMPLATE_COLLECTION_NAME: "task_templates",
+
+  COMMENT_TEMPLATE_REPOSITORY_NAME: "commentTemplate",
+  COMMENT_TEMPLATE_COLLECTION_NAME: "comment_templates",
+
+  GROUP_PROJECT_TEMPLATE_REPOSITORY_NAME: "groupProjectTemplate",
+  GROUP_PROJECT_TEMPLATE_COLLECTION_NAME: "group_project_templates",
+
+  ROLE_PROJECT_TEMPLATE_REPOSITORY_NAME: "roleProjectTemplate",
+  ROLE_PROJECT_TEMPLATE_COLLECTION_NAME: "role_project_templates",
+
+  REQUEST_TYPE_REPOSITORY_NAME: "requestType",
+  REQUEST_TYPE_COLLECTION_NAME: "request_types",
+
+  FIELD_APPROVAL_REPOSITORY_NAME: "fieldApproval",
+  FIELD_APPROVAL_COLLECTION_NAME: "field_approvals",
+
+  APPROVAL_REPOSITORY_NAME: "approval",
+  APPROVAL_COLLECTION_NAME: "approvals",
+
+  APPROVER_REPOSITORY_NAME: "approver",
+  APPROVER_COLLECTION_NAME: "approvers",
+
+  EXECUTOR_REPOSITORY_NAME: "executor",
+  EXECUTOR_COLLECTION_NAME: "executors",
+
+  COMMENT_APPROVAL_REPOSITORY_NAME: "commentApproval",
+  COMMENT_APPROVAL_COLLECTION_NAME: "comment_approvals",
+
+  NOTIFICATION_APPROVAL_REPOSITORY_NAME: "notificationApproval",
+  NOTIFICATION_APPROVAL_COLLECTION_NAME: "notification_approvals",
+
+  AUTOMATION_TASK_REPOSITORY_NAME: "automationTask",
+  AUTOMATION_TASK_COLLECTION_NAME: "automation_tasks",
+
+  // Partner History
+  PARTNER_HISTORY_REPOSITORY_NAME: "partnerHistory",
+  PARTNER_HISTORY_COLLECTION_NAME: "partner_histories",
+
+  // Partner Group
+  PARTNER_GROUP_REPOSITORY_NAME: "partnerGroup",
+  PARTNER_GROUP_COLLECTION_NAME: "partner_groups",
 };
 
 export default COLLECTIONS;
