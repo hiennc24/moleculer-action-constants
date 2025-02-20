@@ -2718,7 +2718,7 @@
   },
   
   "SVC_WORKFLOW_CRITERIA" : {
-		"NAME": "svc-criteria",
+		"NAME": "svc-workflows.criteria",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetailCriteria",
@@ -2727,7 +2727,7 @@
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_WORKFLOW_RESULT_TYPE": {
-		"NAME": "resultType",
+		"NAME": "svc-workflows.result-type",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2736,7 +2736,7 @@
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_WORKFLOW_PROJECT": {
-		"NAME": "projects",
+		"NAME": "svc-workflows.projects",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2774,7 +2774,7 @@
 		"ACTION_PUT_PROJECT_MEMBERS": "updateMember"
 	},
 	"SVC_WORKFLOW_PROJECT_HISTORY": {
-		"NAME": "projectHistories",
+		"NAME": "svc-workflows.project-histories",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2783,19 +2783,19 @@
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_WORKFLOW_PROJECT_SUMMARY": {
-		"NAME": "projectSummary",
+		"NAME": "svc-workflows.project-summaries",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_REPORT_TASK": "getReportTask",
 		"ACTION_GET_REPORT_TASK_BY_MEMBER": "getReportTaskByMember"
 	},
 	"SVC_WORKFLOW_PROJECT_SETTING": {
-		"NAME": "projectSettings",
+		"NAME": "svc-workflows.project-settings",
 
 		"ACTION_PUT_UPDATE": "update"
 	},
 	"SVC_WORKFLOW_PHASES": {
-		"NAME": "phases",
+		"NAME": "svc-workflows.phases",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2808,7 +2808,7 @@
 		"ACTION_POST_DUPLICATE": "duplicate"
 	},
 	"SVC_WORKFLOW_FOLDER": {
-		"NAME": "folders",
+		"NAME": "svc-workflows.folders",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2818,7 +2818,7 @@
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_WORKFLOW_PROJECT_GROUP_MEMBER": {
-		"NAME": "projectGroupMembers",
+		"NAME": "svc-workflows.project-group-members",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2828,7 +2828,7 @@
 		"ACTION_DELETE_MEMBER": "deleteMember"
 	},
 	"SVC_WORKFLOW_PROJECT_ROLE": {
-		"NAME": "projectRoles",
+		"NAME": "svc-workflows.project-roles",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2840,7 +2840,7 @@
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_WORKFLOW_PROJECT_COMMENTS": {
-		"NAME": "projectComments",
+		"NAME": "svc-workflows.project-comments",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2851,7 +2851,7 @@
 		"ACTION_PATCH_UN_LIKE": "unLike"
 	},
 	"SVC_WORKFLOW_TASK": {
-		"NAME": "tasks",
+		"NAME": "svc-workflows.tasks",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DASHBOARD": "dashboard",
@@ -2882,7 +2882,7 @@
 		"ACTION_GET_ALL_DASHBOARD_WORKSPACE": "getListTaskDashboardWorkspace"
 	},
 	"SVC_WORKFLOW_POST_TASK": {
-		"NAME": "postTasks",
+		"NAME": "svc-workflows.post-tasks",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2895,7 +2895,7 @@
 		"ACTION_PATCH_UNAPPROVED": "unApproved"
 	},
 	"SVC_WORKFLOW_COMMENT_POST": {
-		"NAME": "commentPosts",
+		"NAME": "svc-workflows.comment-posts",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2907,13 +2907,13 @@
 		"ACTION_PATCH_UN_LIKE": "unLike"
 	},
 	"SVC_WORKFLOW_TASK_HISTORY": {
-		"NAME": "taskHistories",
+		"NAME": "svc-workflows.task-histories",
 
 		"ACTION_GET": "get",
 		"ACTION_CREATE": "create"
 	},
 	"SVC_WORKFLOW_AUTOMATION_TASK": {
-		"NAME": "automationTasks",
+		"NAME": "svc-workflows.automation-tasks",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2923,18 +2923,18 @@
 		"ACTION_DELETE_MULTI": "deleteMulti"
 	},
 	"SVC_WORKFLOW_FILE_TASK": {
-		"NAME": "fileTasks",
+		"NAME": "svc-workflows.file-tasks",
 
 		"ACTION_GET": "get"
 	},
 	"SVC_WORKFLOW_REPORT_TASK": {
-		"NAME": "reportTasks",
+		"NAME": "svc-workflows.report-tasks",
 
 		"ACTION_GET_CHART": "getChartTaskReports",
 		"ACTION_GET_MODULE_BY_TASK": "getModuleByTask"
 	},
 	"SVC_WORKFLOW_TEMPLATE": {
-		"NAME": "templates",
+		"NAME": "svc-workflows.templates",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2947,7 +2947,7 @@
 		"ACTION_PATCH_UN_FAVORITE": "unFavorite"
 	},
 	"SVC_WORKFLOW_FOLDER_TEMPLATE": {
-		"NAME": "folderTemplates",
+		"NAME": "svc-workflows.folder-templates",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2956,7 +2956,7 @@
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_WORKFLOW_COMMENT_TEMPLATE": {
-		"NAME": "commentTemplates",
+		"NAME": "svc-workflows.comment-templates",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2967,7 +2967,7 @@
 		"ACTION_PATCH_UN_LIKE": "unLike"
 	},
 	"SVC_WORKFLOW_ROLE_PROJECT_TEMPLATE": {
-		"NAME": "roleProjectTemplates",
+		"NAME": "svc-workflows.roleProject-templates",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2976,7 +2976,7 @@
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_WORKFLOW_GROUP_PROJECT_TEMPLATE": {
-		"NAME": "groupProjectTemplates",
+		"NAME": "svc-workflows.groupProject-templates",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -2985,12 +2985,12 @@
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_WORKFLOW_PERMISSION": {
-		"NAME": "permissions",
+		"NAME": "svc-workflows.permissions",
 
 		"ACTION_GET": "get"
 	},
 	"SVC_WORKFLOW_PARTNER_TRADER": {
-		"NAME": "partnerTrader",
+		"NAME": "svc-workflows.partner-trader",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -3000,7 +3000,7 @@
 		"ACTION_DELETE_LIST": "deleteList"
 	},
 	"SVC_WORKFLOW_PARTNER_HISTORY": {
-		"NAME": "partnerHistory",
+		"NAME": "svc-workflows.partner-histories",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -3009,7 +3009,7 @@
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_WORKFLOW_PARTNER_LIST": {
-		"NAME": "partnerList",
+		"NAME": "svc-workflows.partner-list",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_PAGING": "getPaging",
@@ -3021,18 +3021,18 @@
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_WORKFLOW_PARTNER_GROUP": {
-		"NAME": "partnerGroup",
+		"NAME": "svc-workflows.partner-group",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_FOR": "getFor",
 		"ACTION_GET_DETAIL": "getDetail"
 	},
 	"SVC_WORKFLOW_USER": {
-		"NAME": "users",
+		"NAME": "svc-workflows.users",
 		"ACTION_GET": "get"
 	},
 	"SVC_WORKFLOW_EMPLOYEE": {
-		"NAME": "employees",
+		"NAME": "svc-workflows.employees",
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
 		"ACTION_POST_CREATE": "create",
@@ -3040,11 +3040,11 @@
 		"ACTION_DELETE": "delete"
 	},
 	"SVC_WORKFLOW_EXPENSE_LIST": {
-		"NAME": "expenseList",
+		"NAME": "svc-workflows.expense-list",
 		"ACTION_GET": "get"
 	},
 	"SVC_WORKFLOW_REQUEST_TYPE": {
-		"NAME": "requestType",
+		"NAME": "svc-workflows.request-types",
 
 		"ACTION_GET": "get",
 		"ACTION_GET_DETAIL": "getDetail",
@@ -3055,7 +3055,7 @@
 		"ACTION_POST_HANDLE_OPTION_FIELD": "handleOptionField"
 	},
 	"SVC_WORKFLOW_COMMENT_APPROVAL": {
-		"NAME": "commentApproval",
+		"NAME": "svc-workflows.comment-approvals",
 
 		"ACTION_GET": "get",
 		"ACTION_POST_CREATE": "create",
@@ -3065,7 +3065,7 @@
 		"ACTION_UN_LIKE": "unLike"
 	},
 	"SVC_WORKFLOW_APPROVAL": {
-		"NAME": "approval",
+		"NAME": "svc-workflows.approvals",
 
 		"ACTION_GET_DETAIL": "getDetail",
 		"ACTION_POST_CREATE": "create",
@@ -3084,13 +3084,13 @@
 		"ACTION_POST_COMPLETE": "complete"
 	},
 	"SVC_WORKFLOW_APPROVER": {
-		"NAME": "approvers",
+		"NAME": "svc-workflows.approvers",
 
 		"ACTION_POST_APPROVE": "approve",
 		"ACTION_POST_APPROVE_MULTI": "approveMulti"
 	},
 	"SVC_WORKFLOW_APPROVAL_NOTIFICATION": {
-		"NAME": "approvalNotification",
+		"NAME": "svc-workflows.approval-notifications",
 
 		"ACTION_GET": "get",
 		"ACTION_POST_SEND_NOTIFICATION": "sendNotification",
