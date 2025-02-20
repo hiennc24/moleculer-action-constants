@@ -2715,5 +2715,385 @@
     "ACTION_CREATE": "create",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail"
-  }
+  },
+  
+  "SVC_WORKFLOW_CRITERIA" : {
+		"NAME": "svc-criteria",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetailCriteria",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_WORKFLOW_RESULT_TYPE": {
+		"NAME": "resultType",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_WORKFLOW_PROJECT": {
+		"NAME": "projects",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_POST_COPY": "copy",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_PUT_UPDATE_MEMBER": "updateMember",
+		"ACTION_DELETE": "delete",
+		"ACTION_PATCH_COMPLETE": "complete",
+		"ACTION_GET_DASHBOARD": "dashboard",
+		"ACTION_GET_REMIND": "remind",
+		"ACTION_PATCH_FAVORITE": "favorite",
+		"ACTION_PATCH_UN_FAVORITE": "unFavorite",
+		"ACTION_PATCH_PIN": "pin",
+		"ACTION_PATCH_UN_PIN": "unPin",
+		"ACTION_GET_LIST_MEMBER": "getListMembers",
+		"ACTION_GET_LIST_PROJECT_HISTORY": "getListProjectsHistory",
+		"ACTION_GET_ROLE_GROUP_PROJECT": "getRoleGroupProjects",
+		"ACTION_GET_ROLE_PERMISSION_PROJECT": "getRolePermissionProjects",
+		"ACTION_DELETE_MEMBER": "deleteMember",
+		"ACTION_PATCH_ADD_FIELD": "addFieldsProject",
+		"ACTION_DELETE_FIELD": "deleteFieldsProject",
+		"ACTION_PATCH_UPDATE_FIELD": "updateFieldsProject",
+		"ACTION_POST_ADD_OPTION_FIELD": "addOptionFieldsProject",
+		"ACTION_DELETE_OPTION_FIELD": "deleteOptionFieldsProject",
+		"ACTION_PATCH_UPDATE_OPTION_FIELD": "updateOptionFieldsProject",
+		"ACTION_PUT_UPDATE_MULTI_OPTION_FIELD": "updateMultiOptionFieldsProject",
+		"ACTION_PATCH_UPDATE_VALUE_FIELD_DEFAULT": "updateValueFieldsDefault",
+		"ACTION_PATCH_UPDATE_PRIORITY_FIELD": "updatePriorityFields",
+		"ACTION_PATCH_CONFIG_CUSTOM_FIELD": "configCustomFields",
+		"ACTION_PATCH_CONFIG_MULTI_CUSTOM_FIELD": "configMultiCustomFields",
+		"ACTION_GET_PROJECT_MEMBERS": "getListMember",
+		"ACTION_GET_PROJECT_ROLE_BY_MEMBER": "getRoleGroupForUser",
+		"ACTION_DELETE_PROJECT_MEMBERS": "deleteMembers",
+		"ACTION_PUT_PROJECT_MEMBERS": "updateMember"
+	},
+	"SVC_WORKFLOW_PROJECT_HISTORY": {
+		"NAME": "projectHistories",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_CREATE": "create",
+		"ACTION_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_WORKFLOW_PROJECT_SUMMARY": {
+		"NAME": "projectSummary",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_REPORT_TASK": "getReportTask",
+		"ACTION_GET_REPORT_TASK_BY_MEMBER": "getReportTaskByMember"
+	},
+	"SVC_WORKFLOW_PROJECT_SETTING": {
+		"NAME": "projectSettings",
+
+		"ACTION_PUT_UPDATE": "update"
+	},
+	"SVC_WORKFLOW_PHASES": {
+		"NAME": "phases",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_POST_CREATE_MULTI": "createMulti",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_PUT_UPDATE_MULTI": "updateMulti",
+		"ACTION_DELETE": "delete",
+		"ACTION_DELETE_MULTI": "deleteMulti",
+		"ACTION_POST_DUPLICATE": "duplicate"
+	},
+	"SVC_WORKFLOW_FOLDER": {
+		"NAME": "folders",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_POST_DUPLICATE": "duplicate",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_WORKFLOW_PROJECT_GROUP_MEMBER": {
+		"NAME": "projectGroupMembers",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_DELETE_MEMBER": "deleteMember"
+	},
+	"SVC_WORKFLOW_PROJECT_ROLE": {
+		"NAME": "projectRoles",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_GET_ROLE_PERMISSION_FOR_USER": "getRolePermissionForUser",
+		"ACTION_GET_ROLE_PERMISSION_FOR_GROUP": "getRolePermissionForGroup",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_PUT_ASSIGN": "assignToProject",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_WORKFLOW_PROJECT_COMMENTS": {
+		"NAME": "projectComments",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_PATCH_LIKE": "like",
+		"ACTION_PATCH_UN_LIKE": "unLike"
+	},
+	"SVC_WORKFLOW_TASK": {
+		"NAME": "tasks",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DASHBOARD": "dashboard",
+		"ACTION_GET_OVERVIEW": "overview",
+		"ACTION_GET_LIST_OVERDUE": "overdue",
+		"ACTION_GET_OVERVIEW_BUDGET": "overviewBudget",
+		"ACTION_GET_OVERVIEW_VALUES": "overviewValues",
+		"ACTION_GET_OVERVIEW_WORKSPACE": "overviewWorkspace",
+		"ACTION_GET_MEMBER_PERFORMANCE": "memberPerformance",
+		"ACTION_GET_PERFORMANCE": "performance",
+		"ACTION_GET_WORKSPACE": "workspace",
+		"ACTION_GET_WORKSPACE_DASHBOARD": "workspaceDashboard",
+		"ACTION_GET_ALL_PROJECT": "allProject",
+		"ACTION_GET_EVERYDAY": "everyday",
+		"ACTION_GET_TASK_FOLLOWING": "followings",
+		"ACTION_UPDATE_TASK_FOLLOWING": "updateFollowings",
+		"ACTION_GET_SUBTASK": "subTask",
+		"ACTION_GET_SUBTASK_PAGING": "subTaskPaging",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_POST_DUPLICATE": "duplicate",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_DELETE_MULTI": "deleteManyTask",
+		"ACTION_PATCH_UPDATE_FIELD": "updateFieldsTask",
+		"ACTION_PATCH_UPDATE_PRIORITY": "updatePriorityTask",
+		"ACTION_DASHBOARD_WORKSPACE": "getDashboardWorkspace",
+		"ACTION_GET_ALL_DASHBOARD_WORKSPACE": "getListTaskDashboardWorkspace"
+	},
+	"SVC_WORKFLOW_POST_TASK": {
+		"NAME": "postTasks",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_PATCH_LIKE": "like",
+		"ACTION_PATCH_UN_LIKE": "unLike",
+		"ACTION_PATCH_APPROVED": "approved",
+		"ACTION_PATCH_UNAPPROVED": "unApproved"
+	},
+	"SVC_WORKFLOW_COMMENT_POST": {
+		"NAME": "commentPosts",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_DELETE_BY_POST": "deleteByPost",
+		"ACTION_PATCH_LIKE": "like",
+		"ACTION_PATCH_UN_LIKE": "unLike"
+	},
+	"SVC_WORKFLOW_TASK_HISTORY": {
+		"NAME": "taskHistories",
+
+		"ACTION_GET": "get",
+		"ACTION_CREATE": "create"
+	},
+	"SVC_WORKFLOW_AUTOMATION_TASK": {
+		"NAME": "automationTasks",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_DELETE_MULTI": "deleteMulti"
+	},
+	"SVC_WORKFLOW_FILE_TASK": {
+		"NAME": "fileTasks",
+
+		"ACTION_GET": "get"
+	},
+	"SVC_WORKFLOW_REPORT_TASK": {
+		"NAME": "reportTasks",
+
+		"ACTION_GET_CHART": "getChartTaskReports",
+		"ACTION_GET_MODULE_BY_TASK": "getModuleByTask"
+	},
+	"SVC_WORKFLOW_TEMPLATE": {
+		"NAME": "templates",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_POST_USE": "useTemplate",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_PUT_UPDATE_VERSION": "updateVersion",
+		"ACTION_DELETE": "delete",
+		"ACTION_PATCH_FAVORITE": "favorite",
+		"ACTION_PATCH_UN_FAVORITE": "unFavorite"
+	},
+	"SVC_WORKFLOW_FOLDER_TEMPLATE": {
+		"NAME": "folderTemplates",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_WORKFLOW_COMMENT_TEMPLATE": {
+		"NAME": "commentTemplates",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_PATCH_LIKE": "like",
+		"ACTION_PATCH_UN_LIKE": "unLike"
+	},
+	"SVC_WORKFLOW_ROLE_PROJECT_TEMPLATE": {
+		"NAME": "roleProjectTemplates",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_WORKFLOW_GROUP_PROJECT_TEMPLATE": {
+		"NAME": "groupProjectTemplates",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_WORKFLOW_PERMISSION": {
+		"NAME": "permissions",
+
+		"ACTION_GET": "get"
+	},
+	"SVC_WORKFLOW_PARTNER_TRADER": {
+		"NAME": "partnerTrader",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_DELETE_LIST": "deleteList"
+	},
+	"SVC_WORKFLOW_PARTNER_HISTORY": {
+		"NAME": "partnerHistory",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_WORKFLOW_PARTNER_LIST": {
+		"NAME": "partnerList",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_PAGING": "getPaging",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_GET_TAX_CODE": "getTaxCode",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_PUT_LOCK_OR_UNLOCK": "lockOrUnlock",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_WORKFLOW_PARTNER_GROUP": {
+		"NAME": "partnerGroup",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_FOR": "getFor",
+		"ACTION_GET_DETAIL": "getDetail"
+	},
+	"SVC_WORKFLOW_USER": {
+		"NAME": "users",
+		"ACTION_GET": "get"
+	},
+	"SVC_WORKFLOW_EMPLOYEE": {
+		"NAME": "employees",
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete"
+	},
+	"SVC_WORKFLOW_EXPENSE_LIST": {
+		"NAME": "expenseList",
+		"ACTION_GET": "get"
+	},
+	"SVC_WORKFLOW_REQUEST_TYPE": {
+		"NAME": "requestType",
+
+		"ACTION_GET": "get",
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_GET_OPTION_FIELD": "getOptionField",
+		"ACTION_POST_HANDLE_OPTION_FIELD": "handleOptionField"
+	},
+	"SVC_WORKFLOW_COMMENT_APPROVAL": {
+		"NAME": "commentApproval",
+
+		"ACTION_GET": "get",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_LIKE": "like",
+		"ACTION_UN_LIKE": "unLike"
+	},
+	"SVC_WORKFLOW_APPROVAL": {
+		"NAME": "approval",
+
+		"ACTION_GET_DETAIL": "getDetail",
+		"ACTION_POST_CREATE": "create",
+		"ACTION_PUT_UPDATE": "update",
+		"ACTION_DELETE": "delete",
+		"ACTION_DELETE_MANY": "deleteMany",
+		"ACTION_GET_LIST_FOR_ME": "getListForMe",
+		"ACTION_GET_LIST_AWAIT": "getListAwait",
+		"ACTION_GET_LIST_EXECUTION": "getListExecution",
+		"ACTION_GET_LIST_STAT": "getListStat",
+		"ACTION_GET_LIST_REPORT": "getListReport",
+		"ACTION_GET_LIST_USER": "getListUser",
+		"ACTION_PATCH_SEND": "send",
+		"ACTION_POST_APPROVE": "approve",
+		"ACTION_POST_APPROVE_MULTI": "approveMulti",
+		"ACTION_POST_COMPLETE": "complete"
+	},
+	"SVC_WORKFLOW_APPROVER": {
+		"NAME": "approvers",
+
+		"ACTION_POST_APPROVE": "approve",
+		"ACTION_POST_APPROVE_MULTI": "approveMulti"
+	},
+	"SVC_WORKFLOW_APPROVAL_NOTIFICATION": {
+		"NAME": "approvalNotification",
+
+		"ACTION_GET": "get",
+		"ACTION_POST_SEND_NOTIFICATION": "sendNotification",
+		"ACTION_DELETE": "delete"
+	}
 }
