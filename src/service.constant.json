@@ -1639,7 +1639,8 @@
   "API_BIZCORE_ACTUAL_INCOME_AND_REVENUE_LIST": {
     "NAME": "api-bizcore.actual-income-and-revenue-list",
     "ACTION_FORMAT_INPUT_TEMPLATE": "formatInputTemplate",
-    "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData"
+    "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData",
+    "ACTION_UPLOAD": "upload"
   },
 
   "API_BIZCORE_ACTUAL_PROFIT": {
@@ -1843,6 +1844,7 @@
   "API_BIZCORE_EXPENSE_LIST": {
     "NAME": "api-bizcore.expense-list",
     "ACTION_CREATE_DEFAULT_EXPENSE_LIST": "createDefaultExpenseList",
+    "ACTION_GET_EXPENSE_LIST_TEMPLATE": "getExpenseListTemplate",
     "ACTION_DELETE_MANY_EXPENSE_LIST": "deleteManyExpenseList",
     "ACTION_GET_DETAIL_EXPENSE_LIST": "getDetailExpenseList",
     "ACTION_DELETE_EXPENSE_LIST": "deleteExpenseList",
@@ -1860,7 +1862,9 @@
   "API_BIZCORE_ACTUAL_EXPENSE_LIST": {
     "NAME": "api-bizcore.actual-expense-list",
     "ACTION_GET_ACTUAL_EXPENSE_LIST_TEMPLATE": "getActualExpenseListTemplate",
-    "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData"
+    "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData",
+    "ACTION_INSERT_MANY": "insertMany",
+    "ACTION_UPLOAD": "upload"
   },
 
   "API_BIZCORE_REAL_EXPENSE_LIST": {
@@ -1910,7 +1914,7 @@
   },
 
   "API_BIZCORE_PROCESS_DETAIL": {
-    "NAME": "api-bizcore.processDetail",
+    "NAME": "api-bizcore.process-detail",
     "ACTION_GET_PROCESS_DETAIL_REGULATION": "getProcessDetailRegulation",
     "ACTION_GET_TREE_PD_NOT_IN_VALUE_CHAIN": "getTreePDNotInValueChain",
     "ACTION_GET_TREE_PROCESS_DETAIL": "getTreeProcessDetail",
@@ -1919,7 +1923,8 @@
     "ACTION_UPDATE_PROCESS_DETAIL": "updateProcessDetail",
     "ACTION_UPDATE_PD_SEGMENT": "bathcUpdatePdSegment",
     "ACTION_UPDATE_PD_TO_DO": "bathcUpdatePdToDo",
-    "ACTION_GET_PARENT_ID": "getParentId"
+    "ACTION_GET_PARENT_ID": "getParentId",
+    "ACTION_SORT": "sortProcessDetail"
   },
 
   "API_BIZCORE_PROCESS": {
@@ -1932,9 +1937,65 @@
   },
 
   "API_BIZCORE_VALUE_CHAIN": {
-    "NAME": "api-bizcore.valueChain",
+    "NAME": "api-bizcore.value-chain",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_IMPORT": "import",
+    "ACTION_EXPORT": "export"
+  },
+
+  "API_BIZCORE_MARKETING_CAMPAIGN": {
+    "NAME": "api-bizcore.marketing-campaign",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "API_BIZCORE_MARKETING_CHECK_LIST": {
+    "NAME": "api-bizcore.marketing-checklist",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "API_BIZCORE_MARKETING_TASK": {
+    "NAME": "api-bizcore.marketing-task",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "API_BIZCORE_MARKETING_PLAN": {
+    "NAME": "api-bizcore.marketing-plan",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "API_BIZCORE_PURCHASE_PLAN_GROUP": {
+    "NAME": "api-bizcore.purchase-plan-group",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "API_BIZCORE_PURCHASE_PLAN": {
+    "NAME": "api-bizcore.purchase-plan",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
