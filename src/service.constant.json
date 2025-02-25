@@ -2877,6 +2877,7 @@
     "ACTION_POST_CREATE": "create",
     "ACTION_POST_DUPLICATE": "duplicate",
     "ACTION_PUT_UPDATE": "update",
+    "ACTION_PUT_POSITION": "updatePosition",
     "ACTION_DELETE": "delete"
   },
   "SVC_WORKFLOW_PROJECT_GROUP_MEMBER": {
