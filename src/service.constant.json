@@ -1508,6 +1508,7 @@
     "ACTION_GET_MORE_PRODUCT_ITEM_PAGINATION": "getMoreItemPagination",
     "ACTION_GET_DOWNLOAD_INFORMATION_PRODUCT_ITEM": "getDownloadInfo",
     "ACTION_UPDATE_MANY_PRODUCT_ITEM": "updateManyProduct",
+    "ACTION_GET_ALL_PRODUCT_VARIANT": "getProductVariants",
     "ACTION_CREATE_PRODUCT_ITEM": "createProductItem",
     "ACTION_GET_PRODUCT_ITEM_DETAIL": "getDetail",
     "ACTION_UPDATE_PRODUCT_ITEM": "updateProduct",
