@@ -1646,7 +1646,8 @@
   "API_BIZCORE_ACTUAL_PROFIT": {
     "NAME": "api-bizcore.actual-profit",
     "ACTION_FORMAT_INPUT_TEMPLATE": "formatInputTemplate",
-    "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData"
+    "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData",
+    "ACTION_UPLOAD": "upload"
   },
 
   "API_BIZCORE_FM01_ALLOCATION_MAPPING": {
@@ -1832,13 +1833,13 @@
     "ACTION_CALCULATE_FORMULAR_TARGETS": "calculateFormulaTargets",
     "ACTION_GET_ALLOCATION_HAS_CONFIG": "getAllocationHasConfig",
     "ACTION_GET_FINANCIAL_MODEL_LISTS": "getFinancialModelLists",
-    "ACTION_SUM_FINANCIAL_MODEL_LISTS": "sumFinancialModelLists",
     "ACTION_ADD_FINANCIAL_MODEL_LIST": "addFinancialModelLists",
     "ACTION_GET_SALE_PLAN_HAS_CONFIG": "getSalesPlanHasConfig",
     "ACTION_GET_EXPENSE_AND_INCOME": "getExpenseAndIncome",
     "ACTION_GET_SALE_COST_EXPENSE": "getSaleCostsExpense",
     "ACTION_GET_SALE_COST": "getSaleCosts",
-    "ACTION_GET_DETAILS": "getDetails"
+    "ACTION_GET_DETAILS": "getDetails",
+    "ACTION_SUM_FINANCIAL_MODEL_LISTS": "getSumFinancialModelList"
   },
 
   "API_BIZCORE_EXPENSE_LIST": {
