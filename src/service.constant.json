@@ -2851,6 +2851,7 @@
 
     "ACTION_GET": "get",
     "ACTION_GET_REPORT_TASK": "getReportTask",
+    "ACTION_GET_COMMON_SEARCH": "getCommonSearch",
     "ACTION_GET_REPORT_TASK_BY_MEMBER": "getReportTaskByMember"
   },
   "SVC_WORKFLOW_PROJECT_SETTING": {
