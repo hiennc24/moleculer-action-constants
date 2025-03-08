@@ -2511,24 +2511,6 @@
     "ACTION_CREATE_INVENTORY_TRANSACTION": "createInventoryTransaction",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_VARIANT_ID": "getWarehouseAvailable"
   },
-
-  "SVC_SHARED_USER_NOTIFICATION": {
-    "NAME": "svc-shared.userNotification",
-    "ACTION_GET": "get",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_POST_MASK_AS_READ": "markAsRead"
-  },
-  "SVC_SHARED_USER_MODULE_NOTIFICATION": {
-    "NAME": "svc-shared.userModuleNotification",
-    "ACTION_GET": "get",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_PUT_SETTING": "setting"
-  },
   "SVC_SHARED_USER_LOGIN": {
     "NAME": "svc-shared.userLogin",
     "ACTION_CREATE_TOKEN": "createToken",
@@ -2537,33 +2519,19 @@
   },
   "SVC_SHARED_NOTIFICATION": {
     "NAME": "svc-shared.notification",
-    "ACTION_GET": "get",
-    "ACTION_CREATE": "create",
-    "ACTION_CREATE_MULTI": "createMulti",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_DELETE_ALL": "deleteAll",
-    "ACTION_POST_MASK_AS_READ": "markAsRead",
-    "ACTION_COUNT_UNREAD": "countUnread",
-    "ACTION_MASK_AS_READ_ALL": "markAsReadAll"
-  },
-  "SVC_SHARED_SOCKET": {
-    "NAME": "svc-shared.socket",
-    "ACTION_EMIT_TO_USER": "emitToUser",
-    "ACTION_SEND_USER": "sendUser"
-  },
-  "SVC_SHARED_QUEUE": {
-    "NAME": "svc-shared.queue",
-    "ACTION_ADD_TO_QUEUE_NOTIFICATION": "addToQueueNotification",
-    "ACTION_ADD_TO_QUEUE_EMAIL": "addToQueueEmail"
+    "ACTION_IN_APP_TRIGGER": "in-app",
+    "ACTION_EMAIL_TRIGGER": "email",
+    "ACTION_SMS_TRIGGER": "sms",
+    "ACTION_PUSH_TRIGGER": "push",
+    "ACTION_CHAT_TRIGGER": "chat"
   },
   "SVC_PLATFORM_MANAGEMENTS": {
-    "NAME": "svc-platform-managements",
+    "NAME": "svc-shared.platform-managements",
     "ACTION_CREATE": "create",
     "ACTION_GET": "get"
   },
   "SVC_PLATFORM_INTEGRATION": {
-    "NAME": "svc-platform-integration",
+    "NAME": "svc-shared.platform-integration",
     "ACTION_CREATE": "createPlatform",
     "ACTION_GET_LIST": "getListPlatform",
     "ACTION_GET_DETAIL": "getDetailPlatform",
