@@ -1309,7 +1309,9 @@
     "NAME": "svc-auth.authentications",
     "ACTION_VERIFY_JWT_TOKEN": "verifyJWTToken",
     "ACTION_REFRESH_TOKEN": "refreshToken",
-    "ACTION_LOGIN": "login"
+    "ACTION_LOGIN": "login",
+    "ACTION_SAVE_DEVICE_TOKEN": "saveDeviceToken",
+    "ACTION_LOGOUT": "logout"
   },
 
   "SVC_AUTH_VERIFY_EMAIL_TOKENS": {
@@ -2523,7 +2525,9 @@
     "ACTION_EMAIL_TRIGGER": "email",
     "ACTION_SMS_TRIGGER": "sms",
     "ACTION_PUSH_TRIGGER": "push",
-    "ACTION_CHAT_TRIGGER": "chat"
+    "ACTION_CHAT_TRIGGER": "chat",
+    "ACTION_INIT_SUBSCRIPTIONS": "initSubscriptions",
+    "ACTION_UPDATE_SUBSCRIPTION": "updateSubscription"
   },
   "SVC_PLATFORM_MANAGEMENTS": {
     "NAME": "svc-shared.platform-managements",
