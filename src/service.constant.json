@@ -41,6 +41,7 @@
   "SVC_PRODUCT_WAREHOUSE_PRODUCTS": {
     "NAME": "svc-product.warehouse-products",
     "ACTION_UPLOAD_PRODUCT_ITEM": "upload",
+    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_WAREHOUSE_PRODUCT_DETAIL": "getWarehouseProductDetail",
     "ACTION_UPDATE_WAREHOUSE_PRODUCT_DETAIL": "updateWarehouseProductDetail",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_CODE": "getWarehouseAvailable"
