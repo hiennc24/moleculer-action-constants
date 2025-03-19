@@ -929,6 +929,7 @@
   "SVC_REQUEST_MANAGEMENT": {
     "NAME": "api-hcm.svc-request-management",
     "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update"
   },
