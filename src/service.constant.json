@@ -2753,6 +2753,8 @@
   "SVC_ORDERS_ORDER_VOUCHER": {
     "NAME": "svc-orders.order-vouchers",
     "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail"
   },
