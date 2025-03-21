@@ -521,7 +521,8 @@
   },
 
   "SVC_SALES_ORDER_HISTORIES": {
-    "NAME": "api-sales-order-histories"
+    "NAME": "api-sales-order-histories",
+    "ACTION_CREATE_MANY": "createHistory"
   },
 
   "API_SALES_DEBT_HISTORIES": {
