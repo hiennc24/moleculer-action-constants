@@ -1193,7 +1193,7 @@
     "ACTION_GET_PERSONAL_DATA": "getPersonalData",
     "ACTION_IN_SHIFT": "inShift",
     "ACTION_OUT_SHIFT": "outShift",
-    "ACTION_APPROVE": "approve"
+    "ACTION_APPROVE_OR_CANCEL": "approveOrCancel"
   },
 
   "API_HCM_TIMEKEEPING_COMPONENTS": {
