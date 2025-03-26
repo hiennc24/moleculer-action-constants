@@ -1472,22 +1472,6 @@
     "ACTION_GET_LIST": "getList"
   },
 
-  "SVC_PRODUCT_INVENTORIES": {
-    "NAME": "svc-product.inventories",
-    "ACTION_GET_AVAILABLE_PRODUCT_ITEMS": "getAvailableProductItems",
-    "ACTION_GET_PRODUCT_ITEMS_BY_CODE": "getProductItemByCode",
-    "ACTION_GET_AVAILABLE_WAREHOUSE": "getAvailableWarehouse",
-    "ACTION_CALCULATE_COST_PRODUCT": "calculateCostProduct",
-    "ACTION_HANDLE_HOLDING_QTY": "handleHoldingQty",
-    "ACTION_CHECK_EXIST_PRODUCT": "isExistProduct",
-    "ACTION_GET_PRODUCT_ITEMS": "getProductItems",
-    "ACTION_OUT_INVENTORIERS": "outInventories",
-    "ACTION_GET_GROUP_LABELS": "getGroupLabels",
-    "ACTION_IMPORT_PRODUCTS": "importProducts",
-    "ACTION_IN_INVENTORIERS": "inInventories",
-    "ACTION_GET_EXIST_DATA": "getExistData",
-    "ACTION_GET_LIST": "getList"
-  },
   "SVC_PRODUCT_GROUP_LABEL": {
     "NAME": "svc-product.groupLabels",
     "ACTION_GET_PRODUCT_BY_CATEGORY": "getProductItemByProductCategoryCode",
@@ -1510,7 +1494,7 @@
   },
 
   "SVC_PRODUCT_ITEMS": {
-    "NAME": "svc-product.items",
+    "NAME": "svc-product.product-items",
     "ACTION_REMOVE_GROUP_LABEL_OR_PRODUCT_ITEM": "removeGroupLabelOrProductItemIds",
     "ACTION_ASSIGN_INTO_ORD_ID_PRODUCT_ITEM": "assignGroupLabelOrProductIntoOrgId",
     "ACTION_GET_MORE_PRODUCT_ITEM_PAGINATION": "getMoreItemPagination",
@@ -1526,8 +1510,9 @@
     "ACTION_CREATE_PRODUCT": "createProduct",
     "ACTION_UPLOAD_PRODUCT_ITEM": "upload"
   },
+
   "SVC_PRODUCT_SETTING": {
-    "NAME": "svc-product.productSetting",
+    "NAME": "svc-product.product-settings",
     "ACTION_UPDATE_ACTIVE_ATTRIBUTE": "updateActiveAttribute",
     "ACTION_BATCH_UPDATE_OTHER": "batchUpdateOther",
     "ACTION_UPDATE_ATTRIBUTE": "updateAttribute",
@@ -1541,17 +1526,8 @@
     "ACTION_ADD_TAG": "addTag"
   },
 
-  "SVC_PRODUCT_VARIANT": {
-    "NAME": "svc-product.productVariant",
-    "ACTION_GET_VARIANT": "getVariant"
-  },
-
-  "SVC_PRODUCT_DETAIL": {
-    "NAME": "svc-product.productDetail"
-  },
-
   "SVC_PRODUCT_COMBO": {
-    "NAME": "svc-product.productCombo"
+    "NAME": "svc-product.product-combos"
   },
 
   "API_BIZCORE_BSC_VERSION": {
@@ -2513,11 +2489,28 @@
     "ACTION_MIGRATION_DATA": "migrationData"
   },
 
-  "SVC_INVENTORY_TRANSACTIONS": {
+  "SVC_PRODUCT_INVENTORY_TRANSACTIONS": {
     "NAME": "svc-product.svc-inventory-transactions",
+    "ACTION_HANDLE_HOLDING_QTY": "handleHoldingQty",
     "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport",
     "ACTION_CREATE_INVENTORY_TRANSACTION": "createInventoryTransaction",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_VARIANT_ID": "getWarehouseAvailable"
+  },
+  "SVC_PRODUCT_INVENTORIES": {
+    "NAME": "svc-product.inventories",
+    "ACTION_GET_AVAILABLE_PRODUCT_ITEMS": "getAvailableProductItems",
+    "ACTION_GET_PRODUCT_ITEMS_BY_CODE": "getProductItemByCode",
+    "ACTION_GET_AVAILABLE_WAREHOUSE": "getAvailableWarehouse",
+    "ACTION_CALCULATE_COST_PRODUCT": "calculateCostProduct",
+    "ACTION_HANDLE_HOLDING_QTY": "handleHoldingQty",
+    "ACTION_CHECK_EXIST_PRODUCT": "isExistProduct",
+    "ACTION_GET_PRODUCT_ITEMS": "getProductItems",
+    "ACTION_OUT_INVENTORIERS": "outInventories",
+    "ACTION_GET_GROUP_LABELS": "getGroupLabels",
+    "ACTION_IMPORT_PRODUCTS": "importProducts",
+    "ACTION_IN_INVENTORIERS": "inInventories",
+    "ACTION_GET_EXIST_DATA": "getExistData",
+    "ACTION_GET_LIST": "getList"
   },
   "SVC_SHARED_USER_LOGIN": {
     "NAME": "svc-shared.userLogin",
