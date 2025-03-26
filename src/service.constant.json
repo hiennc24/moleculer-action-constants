@@ -1192,7 +1192,8 @@
     "ACTION_GET_LIST_BY_MANAGERS": "getListByManagers",
     "ACTION_GET_PERSONAL_DATA": "getPersonalData",
     "ACTION_IN_SHIFT": "inShift",
-    "ACTION_OUT_SHIFT": "outShift"
+    "ACTION_OUT_SHIFT": "outShift",
+    "ACTION_APPROVE_OR_REJECT": "approveOrReject"
   },
 
   "API_HCM_TIMEKEEPING_COMPONENTS": {
