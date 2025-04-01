@@ -283,7 +283,11 @@ const COLLECTIONS = {
   IN_OUT_PRODUCTS_REPOSITORY_NAME: "inOutProduct",
   IN_OUT_PRODUCTS_COLLECTION_NAME: "in_out_products",
 
-  // Inventories
+  // Inventory
+  INVENTORY_REPOSITORY_NAME: "inventory",
+  INVENTORY_COLLECTION_NAME: "inventories",
+
+  // Inventory transaction
   INVENTORY_TRANSACTION_REPOSITORY_NAME: "inventoryTransaction",
   INVENTORY_TRANSACTION_COLLECTION_NAME: "inventory_transactions",
   INVENTORY_PRODUCTS_REPOSITORY_NAME: "inventoryProduct",
@@ -296,10 +300,6 @@ const COLLECTIONS = {
   // Inventories - Order Product Items
   ORDER_PRODUCT_ITEM_REPOSITORY_NAME: "orderProductItem",
   ORDER_PRODUCT_ITEM_COLLECTION_NAME: "order_product_items",
-
-  // Warehouse Products
-  WAREHOUSE_PRODUCT_REPOSITORY_NAME: "warehouseProduct",
-  WAREHOUSE_PRODUCT_COLLECTION_NAME: "warehouse_products",
 
   // Warehouse Setting
   WAREHOUSE_SETTING_REPOSITORY_NAME: "warehouseSetting",

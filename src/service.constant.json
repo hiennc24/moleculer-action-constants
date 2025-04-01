@@ -38,12 +38,28 @@
     "NAME": "svc-product.warehouseSettings"
   },
 
-  "SVC_PRODUCT_WAREHOUSE_PRODUCTS": {
-    "NAME": "svc-product.warehouse-products",
-    "ACTION_UPLOAD_PRODUCT_ITEM": "upload",
+  "SVC_PRODUCT_INVENTORIES": {
+    "NAME": "svc-product.inventories-bk",
+    "ACTION_GET_AVAILABLE_PRODUCT_ITEMS": "getAvailableProductItems",
+    "ACTION_GET_PRODUCT_ITEMS_BY_CODE": "getProductItemByCode",
+    "ACTION_GET_AVAILABLE_WAREHOUSE": "getAvailableWarehouse",
+    "ACTION_CALCULATE_COST_PRODUCT": "calculateCostProduct",
+    "ACTION_HANDLE_HOLDING_QTY": "handleHoldingQty",
+    "ACTION_CHECK_EXIST_PRODUCT": "isExistProduct",
+    "ACTION_GET_PRODUCT_ITEMS": "getProductItems",
+    "ACTION_OUT_INVENTORIERS": "outInventories",
+    "ACTION_GET_GROUP_LABELS": "getGroupLabels",
+    "ACTION_IMPORT_PRODUCTS": "importProducts",
+    "ACTION_IN_INVENTORIERS": "inInventories",
+    "ACTION_GET_EXIST_DATA": "getExistData",
+    "ACTION_GET_LIST": "getList"
+  },
+
+  "SVC_INVENTORY": {
+    "NAME": "svc-product.inventories",
+    "ACTION_UPLOAD": "upload",
     "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_GET_WAREHOUSE_PRODUCT_DETAIL": "getWarehouseProductDetail",
-    "ACTION_UPDATE_WAREHOUSE_PRODUCT_DETAIL": "updateWarehouseProductDetail",
+    "ACTION_UPDATE_DETAIL": "updateDetail",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_CODE": "getWarehouseAvailable"
   },
 
@@ -2496,22 +2512,7 @@
     "ACTION_CREATE_INVENTORY_TRANSACTION": "createInventoryTransaction",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_VARIANT_ID": "getWarehouseAvailable"
   },
-  "SVC_PRODUCT_INVENTORIES": {
-    "NAME": "svc-product.inventories",
-    "ACTION_GET_AVAILABLE_PRODUCT_ITEMS": "getAvailableProductItems",
-    "ACTION_GET_PRODUCT_ITEMS_BY_CODE": "getProductItemByCode",
-    "ACTION_GET_AVAILABLE_WAREHOUSE": "getAvailableWarehouse",
-    "ACTION_CALCULATE_COST_PRODUCT": "calculateCostProduct",
-    "ACTION_HANDLE_HOLDING_QTY": "handleHoldingQty",
-    "ACTION_CHECK_EXIST_PRODUCT": "isExistProduct",
-    "ACTION_GET_PRODUCT_ITEMS": "getProductItems",
-    "ACTION_OUT_INVENTORIERS": "outInventories",
-    "ACTION_GET_GROUP_LABELS": "getGroupLabels",
-    "ACTION_IMPORT_PRODUCTS": "importProducts",
-    "ACTION_IN_INVENTORIERS": "inInventories",
-    "ACTION_GET_EXIST_DATA": "getExistData",
-    "ACTION_GET_LIST": "getList"
-  },
+
   "SVC_SHARED_USER_LOGIN": {
     "NAME": "svc-shared.userLogin",
     "ACTION_CREATE_TOKEN": "createToken",
