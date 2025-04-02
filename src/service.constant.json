@@ -58,8 +58,8 @@
   "SVC_INVENTORY": {
     "NAME": "svc-product.inventories",
     "ACTION_UPLOAD": "upload",
-    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE_DETAIL": "updateDetail",
+    "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_CODE": "getWarehouseAvailable"
   },
 
@@ -3135,5 +3135,13 @@
     "ACTION_GET": "get",
     "ACTION_POST_SEND_NOTIFICATION": "sendNotification",
     "ACTION_DELETE": "delete"
+  },
+
+  "SVC_DOWNLOAD_FILE": {
+    "NAME": "svc-shared.download-files",
+
+    "ACTION_DOWNLOAD_PRODUCT_GROUP_LABEL": "downloadProductGroupLabel",
+    "ACTION_DOWNLOAD_PRODUCT_ITEM_LABEL": "downloadProductItemLabel",
+    "ACTION_DOWNLOAD_WAREHOUSE_INVENTORY": "downloadWarehouseInventory"
   }
 }
