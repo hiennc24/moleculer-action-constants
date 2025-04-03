@@ -60,7 +60,7 @@
     "ACTION_UPLOAD": "upload",
     "ACTION_UPDATE_DETAIL": "updateDetail",
     "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
-    "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_CODE": "getWarehouseAvailable"
+    "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable"
   },
 
   "SVC_PRODUCT_ORDER_PRODUCT_ITEMS": {
@@ -3140,8 +3140,8 @@
   "SVC_DOWNLOAD_FILE": {
     "NAME": "svc-shared.download-files",
 
+    "ACTION_DOWNLOAD_PRODUCT_ITEM": "downloadProductItem",
     "ACTION_DOWNLOAD_PRODUCT_GROUP_LABEL": "downloadProductGroupLabel",
-    "ACTION_DOWNLOAD_PRODUCT_ITEM_LABEL": "downloadProductItemLabel",
     "ACTION_DOWNLOAD_WAREHOUSE_INVENTORY": "downloadWarehouseInventory"
   }
 }
