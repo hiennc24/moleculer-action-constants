@@ -589,6 +589,10 @@ const COLLECTIONS = {
   MOBILE_SETTING_REPOSITORY_NAME: "mobileSetting",
   MOBILE_SETTING_COLLECTION_NAME: "mobile_settings",
 
+  // Business Trip
+  BUSINESS_TRIP_REPOSITORY_NAME: "businessTrip",
+  BUSINESS_TRIP_COLLECTION_NAME: "business_trips",
+
   // SALE - API
   // Sale Order
   VENDOR_CONFIRM_REPOSITORY_NAME: "vendorConfirm",

@@ -1310,6 +1310,20 @@
     "ACTION_DELETE_MANY": "deleteMany"
   },
 
+  "API_HCM_BUSINESS_TRIP": {
+		"NAME": "api-hcm.business-trips",
+
+		"ACTION_GET_LIST": "getBusinessTrips",
+		"ACTION_GET_LIST_BY_EMPLOYEE": "getBusinessTripsByEmployeeId",
+		"ACTION_GET_DETAIL": "getBusinessTripDetail",
+		"ACTION_CREATE": "createBusinessTrip",
+		"ACTION_UPDATE": "updateBusinessTrip",
+		"ACTION_DELETE_MANY": "deleteBusinessTrips",
+		"ACTION_APPROVE": "approveBusinessTrip",
+		"ACTION_REJECT": "rejectBusinessTrip",
+		"ACTION_SEND": "sendBusinessTrip"
+	},
+
   "API_HCM_DASHBOARD": {
     "NAME": "api-hcm.dashboard",
     "ACTION_GET_LIST": "getList",
