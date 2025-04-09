@@ -1321,7 +1321,8 @@
 		"ACTION_DELETE_MANY": "deleteBusinessTrips",
 		"ACTION_APPROVE": "approveBusinessTrip",
 		"ACTION_REJECT": "rejectBusinessTrip",
-		"ACTION_SEND": "sendBusinessTrip"
+		"ACTION_SEND": "sendBusinessTrip",
+    "ACTION_GENERATE_CODE": "generateCode"
 	},
 
   "API_HCM_DASHBOARD": {
