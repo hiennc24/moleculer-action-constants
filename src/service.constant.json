@@ -42,6 +42,7 @@
     "NAME": "svc-product.inventories",
     "ACTION_UPLOAD": "upload",
     "ACTION_UPDATE_DETAIL": "updateDetail",
+    "ACTION_GET_QUEUE_IMPORT_STATUS": "getQueueImportStatus",
     "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable"
   },
@@ -1311,19 +1312,19 @@
   },
 
   "API_HCM_BUSINESS_TRIP": {
-		"NAME": "api-hcm.business-trips",
+    "NAME": "api-hcm.business-trips",
 
-		"ACTION_GET_LIST": "getBusinessTrips",
-		"ACTION_GET_LIST_BY_EMPLOYEE": "getBusinessTripsByEmployeeId",
-		"ACTION_GET_DETAIL": "getBusinessTripDetail",
-		"ACTION_CREATE": "createBusinessTrip",
-		"ACTION_UPDATE": "updateBusinessTrip",
-		"ACTION_DELETE_MANY": "deleteBusinessTrips",
-		"ACTION_APPROVE": "approveBusinessTrip",
-		"ACTION_REJECT": "rejectBusinessTrip",
-		"ACTION_SEND": "sendBusinessTrip",
+    "ACTION_GET_LIST": "getBusinessTrips",
+    "ACTION_GET_LIST_BY_EMPLOYEE": "getBusinessTripsByEmployeeId",
+    "ACTION_GET_DETAIL": "getBusinessTripDetail",
+    "ACTION_CREATE": "createBusinessTrip",
+    "ACTION_UPDATE": "updateBusinessTrip",
+    "ACTION_DELETE_MANY": "deleteBusinessTrips",
+    "ACTION_APPROVE": "approveBusinessTrip",
+    "ACTION_REJECT": "rejectBusinessTrip",
+    "ACTION_SEND": "sendBusinessTrip",
     "ACTION_GENERATE_CODE": "generateCode"
-	},
+  },
 
   "API_HCM_DASHBOARD": {
     "NAME": "api-hcm.dashboard",
