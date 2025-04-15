@@ -845,7 +845,8 @@
     "ACTION_FIND_ONE": "findOne",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
-    "ACTION_FIND": "find"
+    "ACTION_FIND": "find",
+    "ACTION_INIT": "init"
   },
 
   "SVC_SALES_PLAN_SALES_PLAN_PRODUCT": {
