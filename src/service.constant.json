@@ -3146,7 +3146,7 @@
   },
   
   "SVC_WORKFLOW_QUEUE": {
-		"NAME": "workflowQueue",
+		"NAME": "svc-workflows.queue",
 
 		"ADD_TO_QUEUE_AUTOMATION": "addToQueueAutomation",
 		"ADD_TO_QUEUE_NOTIFICATION": "addToQueueNotification"
