@@ -2913,6 +2913,7 @@
     "ACTION_POST_CREATE": "create",
     "ACTION_POST_DUPLICATE": "duplicate",
     "ACTION_PUT_UPDATE": "update",
+    "ACTION_PUT_CLOSE": "close",
     "ACTION_DELETE": "delete",
     "ACTION_DELETE_MULTI": "deleteManyTask",
     "ACTION_PATCH_UPDATE_FIELD": "updateFieldsTask",
@@ -3142,5 +3143,13 @@
     "ACTION_DOWNLOAD_PRODUCT_ITEM": "downloadProductItem",
     "ACTION_DOWNLOAD_PRODUCT_GROUP_LABEL": "downloadProductGroupLabel",
     "ACTION_DOWNLOAD_WAREHOUSE_INVENTORY": "downloadWarehouseInventory"
-  }
+  },
+  
+  "SVC_WORKFLOW_QUEUE": {
+		"NAME": "workflowQueue",
+
+		"ADD_TO_QUEUE_AUTOMATION": "addToQueueAutomation",
+		"ADD_TO_QUEUE_NOTIFICATION": "addToQueueNotification"
+	}
+
 }
