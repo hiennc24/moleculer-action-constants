@@ -1522,6 +1522,7 @@
     "ACTION_ASSIGN_INTO_ORD_ID_PRODUCT_ITEM": "assignGroupLabelOrProductIntoOrgId",
     "ACTION_GET_MORE_PRODUCT_ITEM_PAGINATION": "getMoreItemPagination",
     "ACTION_GET_DOWNLOAD_INFORMATION_PRODUCT_ITEM": "getDownloadInfo",
+    "ACTION_GET_PRODUCT_ITEM_FOR_ORDER": "getProductItemForOrder",
     "ACTION_UPDATE_MANY_PRODUCT_ITEM": "updateManyProduct",
     "ACTION_GET_ALL_PRODUCT_VARIANT": "getProductVariants",
     "ACTION_CREATE_PRODUCT_ITEM": "createProductItem",
@@ -3144,12 +3145,11 @@
     "ACTION_DOWNLOAD_PRODUCT_GROUP_LABEL": "downloadProductGroupLabel",
     "ACTION_DOWNLOAD_WAREHOUSE_INVENTORY": "downloadWarehouseInventory"
   },
-  
+
   "SVC_WORKFLOW_QUEUE": {
-		"NAME": "svc-workflows.queue",
+    "NAME": "svc-workflows.queue",
 
-		"ADD_TO_QUEUE_AUTOMATION": "addToQueueAutomation",
-		"ADD_TO_QUEUE_NOTIFICATION": "addToQueueNotification"
-	}
-
+    "ADD_TO_QUEUE_AUTOMATION": "addToQueueAutomation",
+    "ADD_TO_QUEUE_NOTIFICATION": "addToQueueNotification"
+  }
 }
