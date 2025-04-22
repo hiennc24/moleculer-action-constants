@@ -592,6 +592,10 @@ const COLLECTIONS = {
   // Business Trip
   BUSINESS_TRIP_REPOSITORY_NAME: "businessTrip",
   BUSINESS_TRIP_COLLECTION_NAME: "business_trips",
+  
+  // Setting Business Trip
+  SETTING_BUSINESS_TRIP_REPOSITORY_NAME: 'settingBusinessTrip',
+  SETTING_BUSINESS_TRIP_COLLECTION_NAME: 'setting_business_trips',
 
   // SALE - API
   // Sale Order
