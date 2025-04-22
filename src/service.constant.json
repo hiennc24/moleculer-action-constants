@@ -1327,7 +1327,7 @@
     "ACTION_GENERATE_CODE": "generateCode"
   },
 
-  "API_HCM_SETTING_BUSINESS_TRIPS": {
+  "API_HCM_SETTING_BUSINESS_TRIP": {
     "NAME": "api-hcm.setting-business-trips",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "update"
