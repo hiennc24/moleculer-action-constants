@@ -294,8 +294,8 @@ const COLLECTIONS = {
   INVENTORY_PRODUCTS_COLLECTION_NAME: "inventory_products",
 
   // Order Inventories for SOPO & another modules
-  ORDER_INVENTORY_REPOSITORY_NAME: "orderInventory",
-  ORDER_INVENTORY_COLLECTION_NAME: "order_inventories",
+  ORDER_INVENTORY_TRANSACTION_REPOSITORY_NAME: "orderInventoryTransaction",
+  ORDER_INVENTORY_TRANSACTION_COLLECTION_NAME: "order_inventory_transactions",
 
   // Inventories - Order Product Items
   ORDER_PRODUCT_ITEM_REPOSITORY_NAME: "orderProductItem",
@@ -592,10 +592,10 @@ const COLLECTIONS = {
   // Business Trip
   BUSINESS_TRIP_REPOSITORY_NAME: "businessTrip",
   BUSINESS_TRIP_COLLECTION_NAME: "business_trips",
-  
+
   // Setting Business Trip
-  SETTING_BUSINESS_TRIP_REPOSITORY_NAME: 'settingBusinessTrip',
-  SETTING_BUSINESS_TRIP_COLLECTION_NAME: 'setting_business_trips',
+  SETTING_BUSINESS_TRIP_REPOSITORY_NAME: "settingBusinessTrip",
+  SETTING_BUSINESS_TRIP_COLLECTION_NAME: "setting_business_trips",
 
   // SALE - API
   // Sale Order
