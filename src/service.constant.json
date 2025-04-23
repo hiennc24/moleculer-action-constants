@@ -41,6 +41,7 @@
   "SVC_INVENTORY": {
     "NAME": "svc-product.inventories",
     "ACTION_UPLOAD": "upload",
+    "ACTION_CREATE": "create",
     "ACTION_UPDATE_DETAIL": "updateDetail",
     "ACTION_GET_INVENTORY_REPORT": "getInventoryReport",
     "ACTION_GET_QUEUE_IMPORT_STATUS": "getQueueImportStatus",
@@ -52,6 +53,12 @@
     "NAME": "svc-product.inventory-transactions",
     "ACTION_CREATE": "createInventoryTransaction",
     "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport"
+  },
+
+  "SVC_ORDER_INVENTORY_TRANSACTIONS": {
+    "NAME": "svc-product.order-inventory-transactions",
+    "ACTION_CREATE": "createOrderInventoryTransaction",
+    "ACTION_GET_ORDER_INVENTORY_REPORTS": "getOrderInventoryReport"
   },
 
   "SVC_PRODUCT_ORDER_PRODUCT_ITEMS": {
