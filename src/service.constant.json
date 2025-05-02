@@ -1229,7 +1229,8 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_APPROVE": "approve",
-    "ACTION_REJECT": "reject"
+    "ACTION_REJECT": "reject",
+    "ACTION_APPROVE_MANY": "approveMany"
   },
 
   "API_HCM_TIMEKEEPING_EMPLOYEE_CONFIGS": {
