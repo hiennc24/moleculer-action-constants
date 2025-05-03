@@ -276,13 +276,6 @@ const COLLECTIONS = {
   DISTRICT_REPOSITORY_NAME: "district",
   DISTRICT_COLLECTION_NAME: "districts",
 
-  // PRODUCT SERVICE
-  // in-out Inventories
-  IN_OUT_INVENTORY_REPOSITORY_NAME: "inOutInventory",
-  IN_OUT_INVENTORY_COLLECTION_NAME: "in_out_inventories",
-  IN_OUT_PRODUCTS_REPOSITORY_NAME: "inOutProduct",
-  IN_OUT_PRODUCTS_COLLECTION_NAME: "in_out_products",
-
   // Inventory
   INVENTORY_REPOSITORY_NAME: "inventory",
   INVENTORY_COLLECTION_NAME: "inventories",
@@ -290,8 +283,10 @@ const COLLECTIONS = {
   // Inventory transaction
   INVENTORY_TRANSACTION_REPOSITORY_NAME: "inventoryTransaction",
   INVENTORY_TRANSACTION_COLLECTION_NAME: "inventory_transactions",
-  INVENTORY_PRODUCTS_REPOSITORY_NAME: "inventoryProduct",
-  INVENTORY_PRODUCTS_COLLECTION_NAME: "inventory_products",
+
+  // Order Inventory
+  ORDER_INVENTORY_REPOSITORY_NAME: "orderInventory",
+  ORDER_INVENTORY_COLLECTION_NAME: "order_inventories",
 
   // Order Inventories for SOPO & another modules
   ORDER_INVENTORY_TRANSACTION_REPOSITORY_NAME: "orderInventoryTransaction",

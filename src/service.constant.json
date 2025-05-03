@@ -55,6 +55,17 @@
     "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport"
   },
 
+  "SVC_ORDER_INVENTORY": {
+    "NAME": "svc-product.order-inventories",
+    "ACTION_UPLOAD": "upload",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE_DETAIL": "updateDetail",
+    "ACTION_GET_INVENTORY_REPORT": "getInventoryReport",
+    "ACTION_GET_QUEUE_IMPORT_STATUS": "getQueueImportStatus",
+    "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
+    "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable"
+  },
+
   "SVC_ORDER_INVENTORY_TRANSACTIONS": {
     "NAME": "svc-product.order-inventory-transactions",
     "ACTION_CREATE": "createOrderInventoryTransaction",
