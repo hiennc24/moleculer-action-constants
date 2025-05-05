@@ -958,7 +958,8 @@
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update"
+    "ACTION_UPDATE": "update",
+    "ACTION_APPROVE_MANY": "approveMany"
   },
 
   "API_HCM_SALARY_SETTINGS": {
