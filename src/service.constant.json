@@ -1314,7 +1314,8 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_GENERATE_CODE": "generateCode"
+    "ACTION_GENERATE_CODE": "generateCode",
+    "ACTION_APPROVE_OR_REJECT": "approveOrReject"
   },
 
   "API_HCM_WORKSHIFT_REGISTRATION_DETAILS": {
