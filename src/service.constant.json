@@ -1315,7 +1315,8 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GENERATE_CODE": "generateCode",
-    "ACTION_APPROVE_OR_REJECT": "approveOrReject"
+    "ACTION_APPROVE_OR_REJECT": "approveOrReject",
+    "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployeeId"
   },
 
   "API_HCM_WORKSHIFT_REGISTRATION_DETAILS": {
