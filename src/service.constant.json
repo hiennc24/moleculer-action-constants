@@ -14,6 +14,9 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
+  "SVC_INVOICE_PRODUCT_ITEMS": {
+    "NAME": "svc-shared.invoice-product-items"
+  },
   "SCHEDULE": {
     "NAME": "schedule",
     "ACTION_CREATE_SCHEDULE": "createSchedule",
