@@ -505,15 +505,6 @@
     "ACTION_CREATE": "createVendorConfirm"
   },
 
-  "API_SALES_INVOICE": {
-    "NAME": "api-sales.invoices",
-    "ACTION_GET_LIST": "getListInvoice",
-    "ACTION_GET_DETAIL": "getDetailInvoice",
-    "ACTION_UPDATE": "updateInvoice",
-    "ACTION_DELETE": "deleteInvoice",
-    "ACTION_CREATE": "createInvoice"
-  },
-
   "API_SALES_SALES_ORDER_HISTORY": {
     "NAME": "api-sales.salesOrderHistories",
     "ACTION_GET_LIST": "getListSaleOrderHistory"
