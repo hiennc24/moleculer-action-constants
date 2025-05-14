@@ -12,7 +12,9 @@
     "ACTION_GET_LISTS": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete"
+    "ACTION_DELETE": "delete",
+    "ACTION_SYNC_DATA": "sync",
+    "ACTION_UPDATE_STATUS": "updateStatus"
   },
   "SVC_INVOICE_PRODUCT_ITEMS": {
     "NAME": "svc-shared.invoice-product-items"
