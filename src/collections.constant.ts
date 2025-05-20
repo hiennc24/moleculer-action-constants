@@ -596,8 +596,8 @@ const COLLECTIONS = {
   // Sale Order
   VENDOR_CONFIRM_REPOSITORY_NAME: "vendorConfirm",
   VENDOR_CONFIRM_COLLECTION_NAME: "vendor_confirm",
-  INVOICES_REPOSITORY_NAME: "invoice",
-  INVOICES_COLLECTION_NAME: "invoices",
+  INVOICES_REPOSITORY_NAME: "eInvoice",
+  INVOICES_COLLECTION_NAME: "e_invoices",
   INVOICE_PRODUCT_ITEMS_REPOSITORY_NAME: "eInvoiceProductItems",
   INVOICE_PRODUCT_ITEMS_COLLECTION_NAME: "e_invoice_product_items",
   SALE_TYPES_REPOSITORY_NAME: "saleType",
@@ -729,6 +729,10 @@ const COLLECTIONS = {
   // order voucher
   ORDER_VOUCHER_REPOSITORY_NAME: "orderVouchers",
   ORDER_VOUCHER_COLLECTION_NAME: "order_vouchers",
+
+  // order voucher product
+  ORDER_VOUCHER_PRODUCT_REPOSITORY_NAME: "orderVoucherProduct",
+  ORDER_VOUCHER_PRODUCT_COLLECTION_NAME: "order_voucher_products",
 
   // WAREHOUSE - API
   // Sale Order
