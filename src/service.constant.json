@@ -6,18 +6,20 @@
     "ACTION_DELETE": "delete",
     "ACTION_GET": "get"
   },
-  "SVC_INVOICE": {
-    "NAME": "svc-shared.invoices",
+  "SVC_E_INVOICE": {
+    "NAME": "svc-shared.e-invoices",
     "ACTION_CREATE": "create",
     "ACTION_GET_LISTS": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete",
     "ACTION_SYNC_DATA": "sync",
-    "ACTION_UPDATE_STATUS": "updateStatus"
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_INVOICE_ISSUANCE": "invoiceIssuance",
+    "ACTION_ASSIGN_INVOICE_NUMBER": "assignInvoiceNumber"
   },
-  "SVC_INVOICE_PRODUCT_ITEMS": {
-    "NAME": "svc-shared.invoice-product-items"
+  "SVC_E_INVOICE_PRODUCT_ITEMS": {
+    "NAME": "svc-shared.e-invoice-product-items"
   },
   "SCHEDULE": {
     "NAME": "schedule",
@@ -2289,6 +2291,7 @@
     "DELETE_BY_ID": "_deleteById",
     "INSERT_MANY": "_insertMany",
     "DELETE_MANY": "_deleteMany",
+    "FIND_CURSOR": "_findCursor",
     "UPDATE_MANY": "_updateMany",
     "UPDATE_ONE": "_updateOne",
     "BULK_WRITE": "_bulkWrite",
