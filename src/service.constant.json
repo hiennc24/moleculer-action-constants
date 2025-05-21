@@ -58,7 +58,8 @@
   "SVC_INVENTORY_TRANSACTIONS": {
     "NAME": "svc-product.inventory-transactions",
     "ACTION_CREATE": "createInventoryTransaction",
-    "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport"
+    "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport",
+    "ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost"
   },
 
   "SVC_ORDER_INVENTORY": {
@@ -1505,7 +1506,6 @@
     "ACTION_UPDATE_ORG_SETTING": "updateOrgSetting",
     "ACTION_GET_ORG_SETTING": "getDetail"
   },
-
 
   "SVC_ORGANIZATION_PROCESS_DETAIL": {
     "NAME": "svc-organization.process-detail",
