@@ -1518,7 +1518,8 @@
     "ACTION_UPDATE_PD_SEGMENT": "bathcUpdatePdSegment",
     "ACTION_UPDATE_PD_TO_DO": "bathcUpdatePdToDo",
     "ACTION_GET_PARENT_ID": "getParentId",
-    "ACTION_SORT": "sortProcessDetail"
+    "ACTION_SORT": "sortProcessDetail",
+    "ACTION_APPROVE": "approveProcessDetail"
   },
 
   "SVC_ORGANIZATION_PROCESS": {
@@ -1527,7 +1528,8 @@
     "ACTION_DELETE_PROCESS": "deleteProcesses",
     "ACTION_MODIFY_PROCESS": "modifyProcesses",
     "ACTION_CREATE_PROCESS": "createProcess",
-    "ACTION_UPDATE_PROCESS": "updateProcess"
+    "ACTION_UPDATE_PROCESS": "updateProcess",
+    "ACTION_UPDATE_MANY_PROCESS": "updateManyProcesses"
   },
 
   "SVC_ORGANIZATION_VALUE_CHAIN": {
