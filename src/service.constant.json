@@ -1506,6 +1506,41 @@
     "ACTION_GET_ORG_SETTING": "getDetail"
   },
 
+
+  "SVC_ORGANIZATION_PROCESS_DETAIL": {
+    "NAME": "svc-organization.process-detail",
+    "ACTION_GET_PROCESS_DETAIL_REGULATION": "getProcessDetailRegulation",
+    "ACTION_GET_TREE_PD_NOT_IN_VALUE_CHAIN": "getTreePDNotInValueChain",
+    "ACTION_GET_TREE_PROCESS_DETAIL": "getTreeProcessDetail",
+    "ACTION_DELETE_PROCESS_DETAIL": "deleteProcessDetail",
+    "ACTION_CREATE_PROCESS_DETAIL": "createProcessDetail",
+    "ACTION_UPDATE_PROCESS_DETAIL": "updateProcessDetail",
+    "ACTION_UPDATE_PD_SEGMENT": "bathcUpdatePdSegment",
+    "ACTION_UPDATE_PD_TO_DO": "bathcUpdatePdToDo",
+    "ACTION_GET_PARENT_ID": "getParentId",
+    "ACTION_SORT": "sortProcessDetail"
+  },
+
+  "SVC_ORGANIZATION_PROCESS": {
+    "NAME": "svc-organization.process",
+    "ACTION_DELETE_MANY_PROCESSES": "deleteManyProcesses",
+    "ACTION_DELETE_PROCESS": "deleteProcesses",
+    "ACTION_MODIFY_PROCESS": "modifyProcesses",
+    "ACTION_CREATE_PROCESS": "createProcess",
+    "ACTION_UPDATE_PROCESS": "updateProcess"
+  },
+
+  "SVC_ORGANIZATION_VALUE_CHAIN": {
+    "NAME": "svc-organization.value-chain",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_IMPORT": "import",
+    "ACTION_EXPORT": "export"
+  },
+
   "SVC_PRODUCT_IMPORT_HISTORIES": {
     "NAME": "svc-product.historiesImportInventories",
     "ACTION_GET_IMPORT_HISTORIES": "getImportHistories"
@@ -1947,40 +1982,6 @@
     "ACTION_GET_DETAIL_BY_YEAR": "getDetailByYear",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_LIST": "getList"
-  },
-
-  "API_BIZCORE_PROCESS_DETAIL": {
-    "NAME": "api-bizcore.process-detail",
-    "ACTION_GET_PROCESS_DETAIL_REGULATION": "getProcessDetailRegulation",
-    "ACTION_GET_TREE_PD_NOT_IN_VALUE_CHAIN": "getTreePDNotInValueChain",
-    "ACTION_GET_TREE_PROCESS_DETAIL": "getTreeProcessDetail",
-    "ACTION_DELETE_PROCESS_DETAIL": "deleteProcessDetail",
-    "ACTION_CREATE_PROCESS_DETAIL": "createProcessDetail",
-    "ACTION_UPDATE_PROCESS_DETAIL": "updateProcessDetail",
-    "ACTION_UPDATE_PD_SEGMENT": "bathcUpdatePdSegment",
-    "ACTION_UPDATE_PD_TO_DO": "bathcUpdatePdToDo",
-    "ACTION_GET_PARENT_ID": "getParentId",
-    "ACTION_SORT": "sortProcessDetail"
-  },
-
-  "API_BIZCORE_PROCESS": {
-    "NAME": "api-bizcore.process",
-    "ACTION_DELETE_MANY_PROCESSES": "deleteManyProcesses",
-    "ACTION_DELETE_PROCESS": "deleteProcesses",
-    "ACTION_MODIFY_PROCESS": "modifyProcesses",
-    "ACTION_CREATE_PROCESS": "createProcess",
-    "ACTION_UPDATE_PROCESS": "updateProcess"
-  },
-
-  "API_BIZCORE_VALUE_CHAIN": {
-    "NAME": "api-bizcore.value-chain",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_IMPORT": "import",
-    "ACTION_EXPORT": "export"
   },
 
   "API_BIZCORE_MARKETING_CAMPAIGN": {
