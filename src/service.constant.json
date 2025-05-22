@@ -76,6 +76,7 @@
   "SVC_ORDER_INVENTORY_TRANSACTIONS": {
     "NAME": "svc-product.order-inventory-transactions",
     "ACTION_CREATE": "createOrderInventoryTransaction",
+    "ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost",
     "ACTION_GET_ORDER_INVENTORY_REPORTS": "getOrderInventoryReport"
   },
 
