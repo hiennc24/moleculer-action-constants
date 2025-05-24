@@ -51,8 +51,9 @@
     "ACTION_UPDATE_DETAIL": "updateDetail",
     "ACTION_GET_INVENTORY_REPORT": "getInventoryReport",
     "ACTION_GET_QUEUE_IMPORT_STATUS": "getQueueImportStatus",
+    "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable",
     "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
-    "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable"
+    "ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "seedInventoryTransactionsData"
   },
 
   "SVC_INVENTORY_TRANSACTIONS": {
@@ -69,8 +70,9 @@
     "ACTION_UPDATE_DETAIL": "updateDetail",
     "ACTION_GET_INVENTORY_REPORT": "getInventoryReport",
     "ACTION_GET_QUEUE_IMPORT_STATUS": "getQueueImportStatus",
+    "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable",
     "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
-    "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable"
+    "ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "seedInventoryTransactionsData"
   },
 
   "SVC_ORDER_INVENTORY_TRANSACTIONS": {
