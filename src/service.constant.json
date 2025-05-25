@@ -1013,14 +1013,12 @@
     "ACTION_SYNC_DATA_VERSION": "syncDataVersion"
   },
 
-  "API_HCM_PAYROLL_TEMPLATE_EMPLOYEES": {
-    "NAME": "api-hcm.payrollTemplateEmployees",
+  "API_HCM_PAYROLL_TEMPLATES": {
+    "NAME": "api-hcm.payroll-templates",
     "ACTION_CREATE": "create",
-    "ACTION_GET_PAGE": "getPage",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_SORT": "sort",
-    "ACTION_DELETE_DEPARTMENT": "deleteByDepartment"
+    "ACTION_GET_LIST": "getList"
   },
 
   "API_HCM_PAYROLL": {
