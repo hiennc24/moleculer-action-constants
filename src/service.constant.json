@@ -3153,7 +3153,8 @@
     "ACTION_PATCH_SEND": "send",
     "ACTION_POST_APPROVE": "approve",
     "ACTION_POST_APPROVE_MULTI": "approveMulti",
-    "ACTION_POST_COMPLETE": "complete"
+    "ACTION_POST_COMPLETE": "complete",
+    "ACTION_GET_LIST_FOR_APP": "getListForMobileApp"
   },
   "SVC_WORKFLOW_APPROVER": {
     "NAME": "svc-workflows.approvers",
