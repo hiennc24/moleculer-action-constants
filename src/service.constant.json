@@ -991,8 +991,8 @@
     "ACTION_CREATE": "create"
   },
 
-  "API_HCM_SALARY_COMPOSITIONS": {
-    "NAME": "api-hcm.salaryCompositions",
+  "API_HCM_SALARY_COMPONENTS": {
+    "NAME": "api-hcm.salary-components",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_INFO": "getInfo",
     "ACTION_CREATE": "create",

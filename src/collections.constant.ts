@@ -506,9 +506,9 @@ const COLLECTIONS = {
   PAYCHECK_EMPLOYEE_REPOSITORY_NAME: "paycheckEmployee",
   PAYCHECK_EMPLOYEE_COLLECTION_NAME: "paycheck_employees",
 
-  // Salary Composition
-  SALARY_COMPOSITION_REPOSITORY_NAME: "salaryComposition",
-  SALARY_COMPOSITION_COLLECTION_NAME: "salary_compositions",
+  // Salary Component
+  SALARY_COMPONENT_REPOSITORY_NAME: "salaryComponent",
+  SALARY_COMPONENT_COLLECTION_NAME: "salary_components",
 
   // Setting
   HCM_SETTING_REPOSITORY_NAME: "hcmSetting",
