@@ -266,8 +266,8 @@
     "ACTION_DELETE": "delete"
   },
 
-  "SVC_DEBT_DETAILS": {
-    "NAME": "svc-order.debt-details",
+  "SVC_DEBT_TRANSACTIONS": {
+    "NAME": "svc-order.debt-transactions",
     "ACTION_GET_LIST": "lists",
     "ACTION_GET_DETAIL": "detail",
     "ACTION_CREATE": "create",
@@ -286,6 +286,11 @@
     "ACTION_DELETE": "delete",
     "ACTION_GET_LIST_BY_CUSTOMER": "get-list-by-customer",
     "ACTION_GENERATE_CODE": "generate-code"
+  },
+
+  "SVC_DEBT_HISTORIES": {
+    "NAME": "svc-order.debt-histories",
+    "ACTION_CREATE_HISTORY": "createHistory"
   },
 
   "API_SALES_DELIVERY_HISTORY": {
@@ -549,11 +554,6 @@
   "SVC_SALES_ORDER_HISTORIES": {
     "NAME": "api-sales-order-histories",
     "ACTION_CREATE_MANY": "createHistory"
-  },
-
-  "API_SALES_DEBT_HISTORIES": {
-    "NAME": "api-sales.debt-histories",
-    "ACTION_CREATE_HISTORY": "createHistory"
   },
 
   "API_SALES_DELIVERY_MODIFY_HISTORY": {
