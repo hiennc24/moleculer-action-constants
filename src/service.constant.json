@@ -266,8 +266,8 @@
     "ACTION_DELETE": "delete"
   },
 
-  "API_SALES_DEBT_DETAILS": {
-    "NAME": "api-sales.debt-details",
+  "SVC_DEBT_DETAILS": {
+    "NAME": "svc-order.debt-details",
     "ACTION_GET_LIST": "lists",
     "ACTION_GET_DETAIL": "detail",
     "ACTION_CREATE": "create",
@@ -277,8 +277,8 @@
     "ACTION_GENERATE_CODE": "generate-code"
   },
 
-  "API_SALES_DEBTS": {
-    "NAME": "api-sales.debts",
+  "SVC_DEBTS": {
+    "NAME": "svc-order.debts",
     "ACTION_GET_LIST": "lists",
     "ACTION_GET_DETAIL": "detail",
     "ACTION_CREATE": "create",
