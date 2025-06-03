@@ -370,7 +370,8 @@
 
   "API_SALES_LEAD_HISTORY": {
     "NAME": "api-sales.lead-history",
-    "ACTION_GET_LIST": "getListLeadHistory"
+    "ACTION_GET_LIST": "getListLeadHistory",
+    "ACTION_CREATE": "createLeadHistory"
   },
 
   "API_SALES_LEAD_SCHEDULE": {
@@ -553,7 +554,7 @@
 
   "SVC_SALES_ORDER_HISTORIES": {
     "NAME": "api-sales-order-histories",
-    "ACTION_CREATE_MANY": "createHistory"
+    "ACTION_CREATE": "createHistory"
   },
 
   "API_SALES_DELIVERY_MODIFY_HISTORY": {
@@ -593,8 +594,8 @@
 
   "API_PURCHASE_DELIVERY_HISTORY": {
     "NAME": "api-purchase.delivery-history",
-    "ACTION_CREATE_DELIVERY_HISTORY": "createDeliveryHistories",
-    "ACTION_UPDATE_DELIVERY_HISTORY": "updateDeliveryHistories"
+    "ACTION_CREATE_DELIVERY_HISTORY": "create",
+    "ACTION_UPDATE_DELIVERY_HISTORY": "update"
   },
 
   "API_PURCHASE_DELIVERY_MODIFY_HISTORY": {
@@ -676,8 +677,8 @@
     "ACTION_CREATE": "createOrderVouchers"
   },
 
-  "API_PURCHASE_ORDER_MODIFY_HISTORY": {
-    "NAME": "api-purchase.orderModifyHistory"
+  "API_PURCHASE_ORDER_HISTORY": {
+    "NAME": "api-purchase.histories"
   },
 
   "API_PURCHASE_ORDER_PRODUCT": {
