@@ -77,6 +77,10 @@ const COLLECTIONS = {
   CUSTOMER_DETAIL_REPOSITORY_NAME: "customerDetail",
   CUSTOMER_DETAIL_COLLECTION_NAME: "customer_details",
 
+  // Voucher Type
+  VOUCHER_TYPE_REPOSITORY_NAME: "voucherType",
+  VOUCHER_TYPE_COLLECTION_NAME: "voucher_types",
+
   // ORGANIZATION SERVICE
   // Employee
   EMPLOYEE_REPOSITORY_NAME: "employee",

@@ -138,8 +138,8 @@
     "ACTION_DELETE": "deleteSettings"
   },
 
-  "SVC_ADMINISTRATION_LIST_TRANSACTION_LISTS": {
-    "NAME": "svc-administration-list.transaction_lists",
+  "SVC_VOUCHER_TYPES": {
+    "NAME": "svc-administration-list.voucher-types",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_LIST": "getList",
     "ACTION_CREATE": "create",
