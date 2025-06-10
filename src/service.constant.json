@@ -2288,6 +2288,23 @@
     "ACTION_GET": "get"
   },
 
+  "SVC_SHARED_PRINT_TEMPLATE_KEYS": {
+		"NAME": "svc-shared.print-template-key",
+
+		"ACTION_GET_LIST": "getPrintTemplateKeys",
+		"ACTION_CREATE": "createPrintTemplateKey",
+		"ACTION_UPDATE": "updatePrintTemplateKey"
+	},
+
+	"SVC_SHARED_PRINT_TEMPLATE_LIBRARIES": {
+		"NAME": "svc-shared.print-template-library",
+
+		"ACTION_GET_LIST": "getPrintTemplateLibraries",
+		"ACTION_CREATE": "createPrintTemplateLibrary",
+		"ACTION_UPDATE": "updatePrintTemplateLibrary",
+		"ACTION_DELETE_MANY": "deleteManyPrintTemplateLibrary"
+	},
+
   "COMMON_METHODS": {
     "FIND_ONE_AND_UPDATE": "_findOneAndUpdate",
     "COUNT_DOCUMENTS": "_countDocuments",

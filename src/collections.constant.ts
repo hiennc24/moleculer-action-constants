@@ -1120,6 +1120,14 @@ const COLLECTIONS = {
   // Partner Group
   PARTNER_GROUP_REPOSITORY_NAME: "partnerGroup",
   PARTNER_GROUP_COLLECTION_NAME: "partner_groups",
+
+  // Print Template Keys
+  PRINT_TEMPLATE_KEY_REPOSITORY_NAME: "printTemplateKey",
+  PRINT_TEMPLATE_KEY_COLLECTION_NAME: "print_template_keys",
+
+  // Print Template Libraries
+  PRINT_TEMPLATE_LIBRARY_REPOSITORY_NAME: "printTemplateLibrary",
+  PRINT_TEMPLATE_LIBRARY_COLLECTION_NAME: "print_template_libraries",
 };
 
 export default COLLECTIONS;
