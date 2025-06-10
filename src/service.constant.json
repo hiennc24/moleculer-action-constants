@@ -2300,6 +2300,7 @@
 		"NAME": "svc-shared.print-template-library",
 
 		"ACTION_GET_LIST": "getPrintTemplateLibraries",
+    "ACTION_GET_DETAIL": "getPrintTemplateLibraryDetail",
 		"ACTION_CREATE": "createPrintTemplateLibrary",
 		"ACTION_UPDATE": "updatePrintTemplateLibrary",
 		"ACTION_DELETE_MANY": "deleteManyPrintTemplateLibrary"
