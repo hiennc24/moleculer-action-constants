@@ -503,6 +503,8 @@ const COLLECTIONS = {
   PAYROLL_TEMPLATE_SETTING_COLLECTION_NAME: "payroll_template_settings",
   PAYROLL_TEMPLATE_REPOSITORY_NAME: "payrollTemplate",
   PAYROLL_TEMPLATE_COLLECTION_NAME: "payroll_templates",
+  PAYROLL_TEMPLATE_EMPLOYEE_REPOSITORY_NAME: "payrollTemplateEmployee",
+  PAYROLL_TEMPLATE_EMPLOYEE_COLLECTION_NAME: "payroll_template_employees",
 
   // Paycheck
   PAYCHECK_SETTING_REPOSITORY_NAME: "paycheckSetting",
