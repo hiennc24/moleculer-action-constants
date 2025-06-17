@@ -415,7 +415,7 @@
 
   "SVC_SALES_ORDERS": {
     "NAME": "svc-sales-orders",
-    "ACTION_GET_SALES_ORDERS_AVAILABLE_FOR_DEBT_TRANSACTION": "getSalesOrdersAvailableForDebtTransaction",
+    "ACTION_GET_SALES_ORDERS_BY_CUSTOMER_ID": "getSalesOrdersByCustomerId",
     "ACTION_GET_ORDER_PRODUCT_LIST": "getListProductBySaleOrderCode",
     "ACTION_UPDATE_PROCESS_STATUS": "updateProcessStatusSalesOrder",
     "ACTION_GET_SO_FOR_DELIVERY_ORDERS": "getSOForDeliveryOrders",
