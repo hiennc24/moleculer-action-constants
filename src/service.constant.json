@@ -415,6 +415,7 @@
 
   "SVC_SALES_ORDERS": {
     "NAME": "svc-sales-orders",
+    "ACTION_GET_SALES_ORDERS_AVAILABLE_FOR_DEBT_TRANSACTION": "getSalesOrdersAvailableForDebtTransaction",
     "ACTION_GET_ORDER_PRODUCT_LIST": "getListProductBySaleOrderCode",
     "ACTION_UPDATE_PROCESS_STATUS": "updateProcessStatusSalesOrder",
     "ACTION_GET_SO_FOR_DELIVERY_ORDERS": "getSOForDeliveryOrders",
@@ -2289,22 +2290,22 @@
   },
 
   "SVC_SHARED_PRINT_TEMPLATE_KEYS": {
-		"NAME": "svc-shared.print-template-key",
+    "NAME": "svc-shared.print-template-key",
 
-		"ACTION_GET_LIST": "getPrintTemplateKeys",
-		"ACTION_CREATE": "createPrintTemplateKey",
-		"ACTION_UPDATE": "updatePrintTemplateKey"
-	},
+    "ACTION_GET_LIST": "getPrintTemplateKeys",
+    "ACTION_CREATE": "createPrintTemplateKey",
+    "ACTION_UPDATE": "updatePrintTemplateKey"
+  },
 
-	"SVC_SHARED_PRINT_TEMPLATE_LIBRARIES": {
-		"NAME": "svc-shared.print-template-library",
+  "SVC_SHARED_PRINT_TEMPLATE_LIBRARIES": {
+    "NAME": "svc-shared.print-template-library",
 
-		"ACTION_GET_LIST": "getPrintTemplateLibraries",
+    "ACTION_GET_LIST": "getPrintTemplateLibraries",
     "ACTION_GET_DETAIL": "getPrintTemplateLibraryDetail",
-		"ACTION_CREATE": "createPrintTemplateLibrary",
-		"ACTION_UPDATE": "updatePrintTemplateLibrary",
-		"ACTION_DELETE_MANY": "deleteManyPrintTemplateLibrary"
-	},
+    "ACTION_CREATE": "createPrintTemplateLibrary",
+    "ACTION_UPDATE": "updatePrintTemplateLibrary",
+    "ACTION_DELETE_MANY": "deleteManyPrintTemplateLibrary"
+  },
 
   "COMMON_METHODS": {
     "FIND_ONE_AND_UPDATE": "_findOneAndUpdate",
