@@ -274,6 +274,7 @@
     "ACTION_CREATE_MANY": "create-many",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete",
+    "ACTION_UPDATE_STATUS": "updateStatus",
     "ACTION_GENERATE_CODE": "generate-code"
   },
 
