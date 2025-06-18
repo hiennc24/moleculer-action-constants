@@ -727,10 +727,16 @@ const COLLECTIONS = {
   // Debt
   DEBTS_REPOSITORY_NAME: "debts",
   DEBTS_COLLECTION_NAME: "debts",
+  // Debt Transactions
   DEBT_TRANSACTIONS_REPOSITORY_NAME: "debtTransactions",
   DEBT_TRANSACTIONS_COLLECTION_NAME: "debt_transactions",
+  // Debt History
   DEBT_HISTORIES_REPOSITORY_NAME: "debtHistory",
   DEBT_HISTORIES_COLLECTION_NAME: "debt_histories",
+
+  // Debt periods
+  DEBT_PERIOD_REPOSITORY_NAME: "debtPeriod",
+  DEBT_PERIOD_COLLECTION_NAME: "debt_periods",
 
   // order voucher
   ORDER_VOUCHER_REPOSITORY_NAME: "orderVouchers",

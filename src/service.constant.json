@@ -278,6 +278,15 @@
     "ACTION_GENERATE_CODE": "generate-code"
   },
 
+  "SVC_DEBT_PERIODS": {
+    "NAME": "svc-order.debt-periods",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
   "SVC_DEBTS": {
     "NAME": "svc-order.debts",
     "ACTION_GET_LIST": "lists",
