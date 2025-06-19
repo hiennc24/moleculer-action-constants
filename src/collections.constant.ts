@@ -499,10 +499,12 @@ const COLLECTIONS = {
   SALARY_HISTORY_COLLECTION_NAME: "salary_histories",
 
   // Payroll Template
-  PAYROLL_TEMPLATE_SETTING_REPOSITORY_NAME: "payrollTemplateSetting",
-  PAYROLL_TEMPLATE_SETTING_COLLECTION_NAME: "payroll_template_settings",
   PAYROLL_TEMPLATE_REPOSITORY_NAME: "payrollTemplate",
   PAYROLL_TEMPLATE_COLLECTION_NAME: "payroll_templates",
+  PAYROLL_TEMPLATE_SETTING_REPOSITORY_NAME: "payrollTemplateSetting",
+  PAYROLL_TEMPLATE_SETTING_COLLECTION_NAME: "payroll_template_settings",
+  PAYROLL_TEMPLATE_DETAIL_REPOSITORY_NAME: "payrollTemplateDetail",
+  PAYROLL_TEMPLATE_DETAIL_COLLECTION_NAME: "payroll_template_details",
   PAYROLL_TEMPLATE_EMPLOYEE_REPOSITORY_NAME: "payrollTemplateEmployee",
   PAYROLL_TEMPLATE_EMPLOYEE_COLLECTION_NAME: "payroll_template_employees",
 
