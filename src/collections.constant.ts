@@ -493,8 +493,8 @@ const COLLECTIONS = {
   // Salary ranges
   SALARY_SETTING_REPOSITORY_NAME: "salarySetting",
   SALARY_SETTING_COLLECTION_NAME: "salary_settings",
-  SALARY_RANGER_REPOSITORY_NAME: "salaryRange",
-  SALARY_RANGER_COLLECTION_NAME: "salary_ranges",
+  SALARY_RANGE_REPOSITORY_NAME: "salaryRange",
+  SALARY_RANGE_COLLECTION_NAME: "salary_ranges",
   SALARY_HISTORY_REPOSITORY_NAME: "salaryHistory",
   SALARY_HISTORY_COLLECTION_NAME: "salary_histories",
 
