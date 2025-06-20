@@ -1000,6 +1000,7 @@
 
   "API_HCM_SALARY_HISTORIES": {
     "NAME": "api-hcm.salaryHistories",
+    "ACTION_GET_PAGE": "getPage",
     "ACTION_CREATE": "create"
   },
 
