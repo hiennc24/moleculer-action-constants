@@ -429,6 +429,7 @@
     "ACTION_GET_ORDER_PRODUCT_LIST": "getListProductBySaleOrderCode",
     "ACTION_UPDATE_PROCESS_STATUS": "updateProcessStatusSalesOrder",
     "ACTION_GET_SO_FOR_DELIVERY_ORDERS": "getSOForDeliveryOrders",
+    "ACTION_UPDATE_SALE_ORDER_PAYMENT": "updateSaleOrderPayment",
     "ACTION_CANCEL_ACKNOWLEDGE_VALUE": "cancelAcknowledgeValue",
     "ACTION_UPDATE_STATUS_SALE_ORDER": "updateStatusSaleOrder",
     "ACTION_GET_SO_DETAIL_FOR_EXPORT": "getSODetailForExport",
