@@ -1447,6 +1447,7 @@
   "SVC_ORGANIZATION_EMPLOYEES": {
     "NAME": "svc-organization.employees",
     "ACTION_GENERATE_CODE_SAMPLE_EMPLOYEES": "generateCodeSampleEmployee",
+    "ACTION_GET_EMPLOYEES_BY_DEPARTMENTS": "getEmployeesByDepartments",
     "ACTION_UPDATE_EMPLOYEE_FROM_AUTH": "updateEmployeeFromAuth",
     "ACTION_GET_PAGE_BY_WORKING_STATUS": "getPageByWorkingStatus",
     "ACTION_CREATE_EMPLOYEE_BY_USER": "createEmployeeByUser",
