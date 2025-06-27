@@ -1046,16 +1046,22 @@
     "ACTION_UPDATE": "update"
   },
 
-  "API_HCM_PAYROLL": {
-    "NAME": "api-hcm.payrolls",
+  "API_HCM_PAYROLL_SHEET": {
+    "NAME": "api-hcm.payroll-sheets",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_LOCK_UNLOCK": "lockUnlock",
-    "ACTION_SYNC_DATA": "syncData",
     "ACTION_GET_GENERATED_MONTHS": "getGeneratedMonths"
+  },
+
+  "API_HCM_PAYROLL_SHEET_DETAILS": {
+    "NAME": "api-hcm.payroll-sheet-details",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update"
   },
 
   "API_HCM_PAYROLL_SETTINGS": {

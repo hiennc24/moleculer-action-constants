@@ -527,12 +527,10 @@ const COLLECTIONS = {
   SETTING_HOLIDAY_COLLECTION_NAME: "setting_holidays",
 
   // Payroll
-  PAYROLL_REPOSITORY_NAME: "payroll",
-  PAYROLL_COLLECTION_NAME: "payrolls",
-  PAYROLL_SETTING_REPOSITORY_NAME: "payrollSetting",
-  PAYROLL_SETTING_COLLECTION_NAME: "payroll_settings",
-  PAYROLL_EMPLOYEE_REPOSITORY_NAME: "payrollEmployee",
-  PAYROLL_EMPLOYEE_COLLECTION_NAME: "payroll_employees",
+  PAYROLL_SHEET_REPOSITORY_NAME: "payrollSheet",
+  PAYROLL_SHEET_COLLECTION_NAME: "payroll_sheets",
+  PAYROLL_SHEET_DETAIL_REPOSITORY_NAME: "payrollSheetDetail",
+  PAYROLL_SHEET_DETAIL_COLLECTION_NAME: "payroll_sheet_details",
 
   // Bonus Mechanism
   BONUS_ITEM_REPOSITORY_NAME: "bonusItem",
