@@ -2174,8 +2174,8 @@
     "ACTION_LOCK": "lock"
   },
 
-  "SVC_ADMINISTRATION_LIST_CURRENCY_LISTS": {
-    "NAME": "svc-administration-list.currency_lists",
+  "SVC_CURRENCY_LISTS": {
+    "NAME": "svc-administration-list.currencies",
     "ACTION_GET_UNASSIGNED_TO_ORG": "getUnAssignedToOrg",
     "ACTION_COUNT_QTY_USED": "countQtyUsed",
     "ACTION_GET_DETAIL": "getDetail",

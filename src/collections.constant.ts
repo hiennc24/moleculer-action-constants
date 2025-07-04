@@ -73,6 +73,10 @@ const COLLECTIONS = {
   CUSTOMER_REPOSITORY_NAME: "customer",
   CUSTOMER_COLLECTION_NAME: "customers",
 
+  // Currency
+  CURRENCY_REPOSITORY_NAME: "currency",
+  CURRENCY_COLLECTION_NAME: "currencies",
+
   // Customer Detail
   CUSTOMER_DETAIL_REPOSITORY_NAME: "customerDetail",
   CUSTOMER_DETAIL_COLLECTION_NAME: "customer_details",
