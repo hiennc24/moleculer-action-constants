@@ -1319,7 +1319,7 @@
     "ACTION_GET_APPLIED_WIFI": "getAppliedWIFI"
   },
 
-  "API_HCM_WORKSHIFT_EMPLOYEES": {
+  "API_HCM_WORK_SHIFT_EMPLOYEES": {
     "NAME": "api-hcm.workshift-employees",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
@@ -1328,7 +1328,7 @@
     "ACTION_GET_MONTH": "getMonth"
   },
 
-  "API_HCM_WORKSHIFT_ITEMS": {
+  "API_HCM_WORK_SHIFT_ITEMS": {
     "NAME": "api-hcm.workshift-items",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
@@ -1337,7 +1337,7 @@
     "ACTION_DELETE_MANY": "deleteMany"
   },
 
-  "API_HCM_WORKSHIFT_REGISTRATIONS": {
+  "API_HCM_WORK_SHIFT_REGISTRATIONS": {
     "NAME": "api-hcm.workshift-registrations",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
@@ -1349,14 +1349,14 @@
     "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployeeId"
   },
 
-  "API_HCM_WORKSHIFT_REGISTRATION_DETAILS": {
+  "API_HCM_WORK_SHIFT_REGISTRATION_DETAILS": {
     "NAME": "api-hcm.workshift-registration-details",
     "ACTION_CREATE": "create",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_APPROVE_OR_CANCEL_MANY": "approveOrCancelMany"
   },
 
-  "API_HCM_WORKSHIFTS": {
+  "API_HCM_WORK_SHIFTS": {
     "NAME": "api-hcm.workshifts",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
