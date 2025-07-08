@@ -1320,7 +1320,7 @@
   },
 
   "API_HCM_WORK_SHIFT_EMPLOYEES": {
-    "NAME": "api-hcm.workshift-employees",
+    "NAME": "api-hcm.work-shift-employees",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
@@ -1329,7 +1329,7 @@
   },
 
   "API_HCM_WORK_SHIFT_ITEMS": {
-    "NAME": "api-hcm.workshift-items",
+    "NAME": "api-hcm.work-shift-items",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
@@ -1338,7 +1338,7 @@
   },
 
   "API_HCM_WORK_SHIFT_REGISTRATIONS": {
-    "NAME": "api-hcm.workshift-registrations",
+    "NAME": "api-hcm.work-shift-registrations",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
@@ -1350,14 +1350,14 @@
   },
 
   "API_HCM_WORK_SHIFT_REGISTRATION_DETAILS": {
-    "NAME": "api-hcm.workshift-registration-details",
+    "NAME": "api-hcm.work-shift-registration-details",
     "ACTION_CREATE": "create",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_APPROVE_OR_CANCEL_MANY": "approveOrCancelMany"
   },
 
   "API_HCM_WORK_SHIFTS": {
-    "NAME": "api-hcm.workshifts",
+    "NAME": "api-hcm.work-shifts",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
