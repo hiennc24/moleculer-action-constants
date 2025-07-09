@@ -1042,9 +1042,9 @@
     "NAME": "api-hcm.payroll-template-details",
     "ACTION_GET_EMPLOYEES_NOT_IN_PAYROLL_TEMPLATE": "getEmployeesNotInPayrollTemplate",
     "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_UPDATE_MANY": "updateMany",
     "ACTION_GET_LIST": "getList",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update"
+    "ACTION_CREATE": "create"
   },
 
   "API_HCM_PAYROLL_SHEET": {
