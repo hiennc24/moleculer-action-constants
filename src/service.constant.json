@@ -1032,6 +1032,7 @@
     "ACTION_UPDATE_STATUS": "updateStatus",
     "ACTION_GET_DETAIL_WITH_EMPLOYEES": "getDetailWithEmployees",
     "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_UPDATE_SORT": "updateSort",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_LIST": "getList",
     "ACTION_CREATE": "create",
