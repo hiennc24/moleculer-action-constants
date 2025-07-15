@@ -1042,6 +1042,7 @@
   "API_HCM_PAYROLL_TEMPLATE_DETAILS": {
     "NAME": "api-hcm.payroll-template-details",
     "ACTION_GET_EMPLOYEES_NOT_IN_PAYROLL_TEMPLATE": "getEmployeesNotInPayrollTemplate",
+    "ACTION_GET_SALARY_RANGES_BY_PAYROLL_TEMPLATE_ID": "getSalaryRangesByPayrollTemplateId",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_UPDATE_MANY": "updateMany",
     "ACTION_GET_LIST": "getList",
