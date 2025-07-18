@@ -1430,27 +1430,26 @@
     "ACTION_UPDATE_ACTION": "updateAction"
   },
 
-  "SVC_AUTH_USERS": {
-    "NAME": "svc-auth.users",
-    "ACTION_CREATE_OR_UPDATE_USER_BY_EMPLOYEE_ID": "createOrUpdateUserByEmployeeId",
-    "ACTION_GET_USER_ACCOUNT_BY_EMPLOYEE_ID": "getUserAccountByEmployeeId",
-    "ACTION_GET_USER_DETAIL_BY_ID_OR_EMAIL": "getUserDetailByIdOrEmail",
-    "ACTION_DELETE_USER_BY_EMPLOYEE_ID": "deleteUserByEmployeeId",
-    "ACTION_DELETE_USER_FROM_EMPLOYEE": "deleteUserFromEmployee",
+  "SVC_AUTH_ACCOUNTS": {
+    "NAME": "svc-auth.accounts",
+    "ACTION_CREATE_OR_UPDATE_ACCOUNT_BY_EMPLOYEE_ID": "createOrUpdateAccountByEmployeeId",
+    "ACTION_GET_ACCOUNT_BY_EMPLOYEE_ID": "getAccountByEmployeeId",
+    "ACTION_GET_ACCOUNT_DETAIL_BY_ID_OR_EMAIL": "getAccountDetailByIdOrEmail",
+    "ACTION_DELETE_ACCOUNT_BY_EMPLOYEE_ID": "deleteAccountByEmployeeId",
+    "ACTION_DELETE_ACCOUNT_FROM_EMPLOYEE": "deleteAccountFromEmployee",
     "ACTION_VERIFY_EMAIL_REGISTER": "verifyEmailRegister",
-    "ACTION_CREATE_USER_PASSWORD": "createUserPassword",
-    "ACTION_ASSIGN_ROLE_TO_USERS": "assignRoleToUsers",
-    "ACTION_VERIFY_USER_ACCOUNT": "verifyUserAccount",
-    "ACTION_DELETE_LIST_USER": "deleteListUser",
+    "ACTION_CREATE_ACCOUNT_PASSWORD": "createAccountPassword",
+    "ACTION_ASSIGN_ROLE_TO_ACCOUNTS": "assignRoleToAccounts",
+    "ACTION_GET_LIST_ACCOUNT": "getListAccount",
+    "ACTION_VERIFY_ACCOUNT": "verifyAccount",
+    "ACTION_DELETE_ACCOUNTS": "deleteAccounts",
     "ACTION_CHANGE_PASSWORD": "changePassword",
     "ACTION_FORGOT_PASSWORD": "forgotPassword",
     "ACTION_RESTORE_ACCOUNT": "restoreAccount",
     "ACTION_RESET_PASSWORD": "resetPassword",
     "ACTION_ASSIGN_ROLE_ID": "assignRoleId",
-    "ACTION_GET_LIST_USER": "getListUser",
-    "ACTION_CREATE_USER": "createUser",
-    "ACTION_UPDATE_USER": "updateUser",
-    "ACTION_DELETE_USER": "deleteUser",
+    "ACTION_CREATE_ACCOUNT": "createAccount",
+    "ACTION_UPDATE_ACCOUNT": "updateAccount",
     "ACTION_SWITCH_ORG": "switchOrg",
     "ACTION_SEND_MAIL": "sendMail"
   },
@@ -1647,10 +1646,6 @@
     "ACTION_UPDATE_TAG": "updateTag",
     "ACTION_REMOVE_TAG": "removeTag",
     "ACTION_ADD_TAG": "addTag"
-  },
-
-  "SVC_PRODUCT_COMBO": {
-    "NAME": "svc-product.product-combos"
   },
 
   "API_BIZCORE_BSC_VERSION": {

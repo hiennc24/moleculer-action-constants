@@ -316,10 +316,6 @@ const COLLECTIONS = {
   PRODUCT_ITEM_REPOSITORY_NAME: "productItem",
   PRODUCT_ITEM_COLLECTION_NAME: "product_items",
 
-  // Product Combos
-  PRODUCT_COMBO_REPOSITORY_NAME: "productCombo",
-  PRODUCT_COMBO_COLLECTION_NAME: "product_combos",
-
   // Order products
   WAREHOUSE_REPOSITORY_NAME: "warehouse",
   WAREHOUSE_COLLECTION_NAME: "warehouses",
