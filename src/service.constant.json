@@ -1223,6 +1223,7 @@
     "NAME": "api-hcm.leave-configs",
     "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployee",
     "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany"
