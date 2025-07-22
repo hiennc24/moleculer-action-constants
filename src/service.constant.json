@@ -1417,18 +1417,12 @@
 
   "SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE": {
     "NAME": "svc-auth.authorizations.tenant-role",
+    "ACTION_GET_APPLICATION_ACTIONS": "getApplicationActions",
     "ACTION_UPDATE_MANY_TENANT_ROLES": "updateManyTenantRoles",
     "ACTION_DELETE_TENANT_ROLES": "deleteTenantRoles",
     "ACTION_CREATE_TENANT_ROLES": "createTenantRoles",
     "ACTION_UPDATE_TENANT_ROLES": "updateTenantRoles",
     "ACTION_GET_TENANT_ROLES": "getTenantRoles"
-  },
-
-  "SVC_AUTH_AUTHORIZATIONS_APP_ACTION": {
-    "NAME": "svc-auth.authorizations.app-action",
-    "ACTION_GET_ACTION_LIST": "getActionList",
-    "ACTION_CREATE_ACTION": "createAction",
-    "ACTION_UPDATE_ACTION": "updateAction"
   },
 
   "SVC_AUTH_ACCOUNTS": {
