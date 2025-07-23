@@ -1432,6 +1432,7 @@
     "ACTION_RESEND_ACCOUNT_MAIL_CONFIRM": "resendMailConfirm",
     "ACTION_UPDATE_ACCOUNT_STATUS": "updateAccountStatus",
     "ACTION_ASSIGN_ROLE_TO_ACCOUNT": "assignRoleId",
+    "ACTION_GET_DETAIL_ACCOUNT": "getDetailAccount",
     "ACTION_GET_LIST_ACCOUNT": "getListAccount",
     "ACTION_DELETE_ACCOUNTS": "deleteAccounts",
     "ACTION_CHANGE_PASSWORD": "changePassword",
