@@ -1427,27 +1427,20 @@
 
   "SVC_AUTH_ACCOUNTS": {
     "NAME": "svc-auth.accounts",
-    "ACTION_CREATE_OR_UPDATE_ACCOUNT_BY_EMPLOYEE_ID": "createOrUpdateAccountByEmployeeId",
-    "ACTION_GET_ACCOUNT_BY_EMPLOYEE_ID": "getAccountByEmployeeId",
-    "ACTION_GET_ACCOUNT_DETAIL_BY_ID_OR_EMAIL": "getAccountDetailByIdOrEmail",
-    "ACTION_DELETE_ACCOUNT_BY_EMPLOYEE_ID": "deleteAccountByEmployeeId",
-    "ACTION_DELETE_ACCOUNT_FROM_EMPLOYEE": "deleteAccountFromEmployee",
     "ACTION_VERIFY_EMAIL_REGISTER": "verifyEmailRegister",
     "ACTION_CREATE_ACCOUNT_PASSWORD": "createAccountPassword",
-    "ACTION_ASSIGN_ROLE_TO_ACCOUNTS": "assignRoleToAccounts",
+    "ACTION_RESEND_ACCOUNT_MAIL_CONFIRM": "resendMailConfirm",
     "ACTION_UPDATE_ACCOUNT_STATUS": "updateAccountStatus",
+    "ACTION_ASSIGN_ROLE_TO_ACCOUNT": "assignRoleId",
     "ACTION_GET_LIST_ACCOUNT": "getListAccount",
-    "ACTION_VERIFY_ACCOUNT": "verifyAccount",
     "ACTION_DELETE_ACCOUNTS": "deleteAccounts",
     "ACTION_CHANGE_PASSWORD": "changePassword",
     "ACTION_FORGOT_PASSWORD": "forgotPassword",
-    "ACTION_RESTORE_ACCOUNT": "restoreAccount",
     "ACTION_RESET_PASSWORD": "resetPassword",
-    "ACTION_ASSIGN_ROLE_ID": "assignRoleId",
+    "ACTION_VERIFY_ACCOUNT": "verifyAccount",
     "ACTION_CREATE_ACCOUNT": "createAccount",
     "ACTION_UPDATE_ACCOUNT": "updateAccount",
-    "ACTION_SWITCH_ORG": "switchOrg",
-    "ACTION_SEND_MAIL": "sendMail"
+    "ACTION_SWITCH_ORG": "switchOrg"
   },
 
   "SVC_ORGANIZATION_EMPLOYEES": {
