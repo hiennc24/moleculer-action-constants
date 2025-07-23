@@ -1435,6 +1435,7 @@
     "ACTION_VERIFY_EMAIL_REGISTER": "verifyEmailRegister",
     "ACTION_CREATE_ACCOUNT_PASSWORD": "createAccountPassword",
     "ACTION_ASSIGN_ROLE_TO_ACCOUNTS": "assignRoleToAccounts",
+    "ACTION_UPDATE_ACCOUNT_STATUS": "updateAccountStatus",
     "ACTION_GET_LIST_ACCOUNT": "getListAccount",
     "ACTION_VERIFY_ACCOUNT": "verifyAccount",
     "ACTION_DELETE_ACCOUNTS": "deleteAccounts",

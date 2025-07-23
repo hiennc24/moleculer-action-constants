@@ -136,8 +136,6 @@ const COLLECTIONS = {
   // Authorize
   TENANT_ROLE_REPOSITORY_NAME: "tenantRole",
   TENANT_ROLE_COLLECTION_NAME: "tenant_roles",
-  APPLICATION_ACTION_REPOSITORY_NAME: "applicationAction",
-  APPLICATION_ACTION_COLLECTION_NAME: "application_actions",
 
   // AUTH2 PLATFORM
   AUTH2_REPOSITORY_NAME: "oAuth2",
