@@ -1427,9 +1427,10 @@
 
   "SVC_AUTH_ACCOUNTS": {
     "NAME": "svc-auth.accounts",
-    "ACTION_VERIFY_EMAIL_REGISTER": "verifyEmailRegister",
+    "ACTION_SEND_ACCOUNT_MAIL_DEACTIVATED": "sendMailDeactivatedAccount",
     "ACTION_CREATE_ACCOUNT_PASSWORD": "createAccountPassword",
     "ACTION_RESEND_ACCOUNT_MAIL_CONFIRM": "resendMailConfirm",
+    "ACTION_VERIFY_EMAIL_REGISTER": "verifyEmailRegister",
     "ACTION_UPDATE_ACCOUNT_STATUS": "updateAccountStatus",
     "ACTION_ASSIGN_ROLE_TO_ACCOUNT": "assignRoleId",
     "ACTION_GET_DETAIL_ACCOUNT": "getDetailAccount",
