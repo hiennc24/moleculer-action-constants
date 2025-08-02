@@ -1366,6 +1366,8 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
+    "ACTION_CANCEL": "cancel",
+    "ACTION_APPROVE": "approve",
     "ACTION_DELETE_MANY": "deleteMany"
   },
 
