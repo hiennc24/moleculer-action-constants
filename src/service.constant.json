@@ -1298,7 +1298,8 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_PREVIEW_BY_IDS": "previewByIds",
-    "ACTION_PREVIEW_BY_ENTITY": "previewByEntity"
+    "ACTION_PREVIEW_BY_ENTITY": "previewByEntity",
+    "ACTION_GENERATE_CODE": "generateCode"
   },
 
   "API_HCM_TIMEKEEPING_SUMMARIES": {
@@ -1308,7 +1309,8 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_GET_STATISTIC": "getStatistic"
+    "ACTION_GET_STATISTIC": "getStatistic",
+    "ACTION_GENERATE_CODE": "generateCode"
   },
 
   "API_HCM_TIMEKEEPING_TIMEKEEPERS": {
@@ -1368,7 +1370,8 @@
     "ACTION_UPDATE": "update",
     "ACTION_CANCEL": "cancel",
     "ACTION_APPROVE": "approve",
-    "ACTION_DELETE_MANY": "deleteMany"
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GENERATE_CODE": "generateCode"
   },
 
   "API_HCM_BUSINESS_TRIP": {
