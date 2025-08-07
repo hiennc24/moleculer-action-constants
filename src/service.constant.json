@@ -1254,7 +1254,8 @@
     "ACTION_GET_PERSONAL_DATA": "getPersonalData",
     "ACTION_IN_SHIFT": "inShift",
     "ACTION_OUT_SHIFT": "outShift",
-    "ACTION_APPROVE_OR_REJECT": "approveOrReject"
+    "ACTION_APPROVE_OR_REJECT": "approveOrReject",
+    "ACTION_GET_SUMMARY": "getSummary"
   },
 
   "API_HCM_TIMEKEEPING_COMPONENTS": {
@@ -1299,7 +1300,8 @@
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_PREVIEW_BY_IDS": "previewByIds",
     "ACTION_PREVIEW_BY_ENTITY": "previewByEntity",
-    "ACTION_GENERATE_CODE": "generateCode"
+    "ACTION_GENERATE_CODE": "generateCode",
+    "ACTION_LOAD_MORE_EMPLOYEES_BY_DETAIL": "loadMoreEmployeesByDetail"
   },
 
   "API_HCM_TIMEKEEPING_SUMMARIES": {
@@ -1310,7 +1312,8 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GET_STATISTIC": "getStatistic",
-    "ACTION_GENERATE_CODE": "generateCode"
+    "ACTION_GENERATE_CODE": "generateCode",
+    "ACTION_LOAD_MORE_EMPLOYEES_BY_DETAILS": "loadMoreEmployeesByDetails"
   },
 
   "API_HCM_TIMEKEEPING_TIMEKEEPERS": {

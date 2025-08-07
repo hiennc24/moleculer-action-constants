@@ -596,6 +596,9 @@ const COLLECTIONS = {
   SETTING_BUSINESS_TRIP_REPOSITORY_NAME: "settingBusinessTrip",
   SETTING_BUSINESS_TRIP_COLLECTION_NAME: "setting_business_trips",
 
+  SETTING_WORK_SHIFT_REGISTRATION_REPOSITORY_NAME: "settingWorkShiftRegistration",
+  SETTING_WORK_SHIFT_REGISTRATION_COLLECTION_NAME: "setting_work_shift_registrations",
+
   // SALE - API
   // Sale Order
   VENDOR_CONFIRM_REPOSITORY_NAME: "vendorConfirm",
