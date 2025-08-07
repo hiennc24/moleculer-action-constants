@@ -1312,7 +1312,8 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GET_STATISTIC": "getStatistic",
-    "ACTION_GENERATE_CODE": "generateCode"
+    "ACTION_GENERATE_CODE": "generateCode",
+    "ACTION_LOAD_MORE_EMPLOYEES_BY_DETAILS": "loadMoreEmployeesByDetails"
   },
 
   "API_HCM_TIMEKEEPING_TIMEKEEPERS": {
