@@ -1398,6 +1398,12 @@
     "ACTION_UPDATE": "update"
   },
 
+  "API_HCM_SETTING_WORK_SHIFT_REGISTRATIONS": {
+    "NAME": "api-hcm.setting-work-shift-registrations",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "update"
+  },
+
   "API_HCM_DASHBOARD": {
     "NAME": "api-hcm.dashboard",
     "ACTION_GET_LIST": "getList",
