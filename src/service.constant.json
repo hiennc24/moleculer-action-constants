@@ -1349,7 +1349,10 @@
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GENERATE_CODE": "generateCode",
     "ACTION_APPROVE_OR_REJECT": "approveOrReject",
-    "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployeeId"
+    "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployeeId",
+    "ACTION_APPROVE_CANCELLATION": "approveCancellation",
+    "ACTION_REJECT_CANCELLATION": "rejectCancellation",
+    "ACTION_REQUEST_CANCELLATION": "requestCancellation"
   },
 
   "API_HCM_WORK_SHIFT_REGISTRATION_DETAILS": {
