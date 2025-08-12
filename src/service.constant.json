@@ -1030,7 +1030,7 @@
   "API_HCM_PAYROLL_TEMPLATES": {
     "NAME": "api-hcm.payroll-templates",
     "ACTION_UPDATE_STATUS": "updateStatus",
-    "ACTION_GET_DETAIL_WITH_EMPLOYEES": "getDetailWithEmployees",
+    "ACTION_PREVIEW": "preview",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_UPDATE_SORT": "updateSort",
     "ACTION_GET_DETAIL": "getDetail",
@@ -1040,13 +1040,7 @@
   },
 
   "API_HCM_PAYROLL_TEMPLATE_DETAILS": {
-    "NAME": "api-hcm.payroll-template-details",
-    "ACTION_GET_EMPLOYEES_NOT_IN_PAYROLL_TEMPLATE": "getEmployeesNotInPayrollTemplate",
-    "ACTION_GET_SALARY_RANGES_BY_PAYROLL_TEMPLATE_ID": "getSalaryRangesByPayrollTemplateId",
-    "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_UPDATE_MANY": "updateMany",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_CREATE": "create"
+    "NAME": "api-hcm.payroll-template-details"
   },
 
   "API_HCM_PAYROLL_SHEET": {
