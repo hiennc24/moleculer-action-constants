@@ -112,6 +112,10 @@ const COLLECTIONS = {
   POSITION_REPOSITORY_NAME: "position",
   POSITION_COLLECTION_NAME: "positions",
 
+  // Department Position
+  DEPARTMENT_POSITION_REPOSITORY_NAME: "departmentPosition",
+  DEPARTMENT_POSITION_COLLECTION_NAME: "department_positions",
+
   // Org Setting
   ORG_SETTING_REPOSITORY_NAME: "orgSetting",
   ORG_SETTING_COLLECTION_NAME: "org_settings",
@@ -596,8 +600,10 @@ const COLLECTIONS = {
   SETTING_BUSINESS_TRIP_REPOSITORY_NAME: "settingBusinessTrip",
   SETTING_BUSINESS_TRIP_COLLECTION_NAME: "setting_business_trips",
 
-  SETTING_WORK_SHIFT_REGISTRATION_REPOSITORY_NAME: "settingWorkShiftRegistration",
-  SETTING_WORK_SHIFT_REGISTRATION_COLLECTION_NAME: "setting_work_shift_registrations",
+  SETTING_WORK_SHIFT_REGISTRATION_REPOSITORY_NAME:
+    "settingWorkShiftRegistration",
+  SETTING_WORK_SHIFT_REGISTRATION_COLLECTION_NAME:
+    "setting_work_shift_registrations",
 
   // SALE - API
   // Sale Order

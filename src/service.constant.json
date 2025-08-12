@@ -1513,6 +1513,7 @@
     "ACTION_GET_DEPARTMENT_DETAIL_WITH_FLAT_EMPLOYEE": "getDepartmentDetailWithFlatEmployee",
     "ACTION_GET_DEPARTMENT_LISTS_FOR_EMPLOYEE": "getDepartmentListsForEmployee",
     "ACTION_GET_ALL_DEPARTMENT_WITH_POSITION": "getAllDepartmentWithPosition",
+    "ACTION_GET_POSITION_LIST_BY_DEPARTMENT": "getPositionListByDepartment",
     "ACTION_LIST_POSITION_BY_DEPARTMENT": "getListPositionByDepartment",
     "ACTION_GET_FLAT_TREE_DEPARTMENT_IDS": "getFlatTreeDepartmentIds",
     "ACTION_GET_DEPARTMENT_FLAT_LISTS": "getDepartmentFlatLists",
@@ -1536,6 +1537,16 @@
     "ACTION_COUNT_POSITION": "countPosition",
     "ACTION_CLONE_POSITION": "clonePosition",
     "ACTION_GET_POSITION": "getPosition"
+  },
+
+  "SVC_ORGANIZATION_POSITIONS": {
+    "NAME": "svc-organization.positions",
+    "ACTION_GET_DEPARTMENT_LIST_BY_POSITION": "getDepartmentListByPosition",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE": "createPosition",
+    "ACTION_UPDATE": "updatePosition",
+    "ACTION_DELETE": "deletePosition"
   },
 
   "SVC_ORGANIZATION_ORG_SETTING": {
