@@ -89,16 +89,15 @@ const COLLECTIONS = {
   // Employee
   EMPLOYEE_REPOSITORY_NAME: "employee",
   EMPLOYEE_COLLECTION_NAME: "employees",
-  EMPLOYEE_DETAIL_REPOSITORY_NAME: "employeeDetail",
-  EMPLOYEE_DETAIL_COLLECTION_NAME: "employee_details",
+
+  EMPLOYEE_PROFILE_REPOSITORY_NAME: "employeeProfile",
+  EMPLOYEE_PROFILE_COLLECTION_NAME: "employee_profiles",
+
+  EMPLOYEE_HISTORY_REPOSITORY_NAME: "employeeHistory",
+  EMPLOYEE_HISTORY_COLLECTION_NAME: "employee_histories",
+
   EMPLOYEE_SETTING_REPOSITORY_NAME: "employeeSetting",
   EMPLOYEE_SETTING_COLLECTION_NAME: "employee_settings",
-  EMPLOYEE_JOB_REPOSITORY_NAME: "employeeJob",
-  EMPLOYEE_JOB_COLLECTION_NAME: "employee_jobs",
-  EMPLOYEE_SALARY_REPOSITORY_NAME: "employeeSalary",
-  EMPLOYEE_SALARY_COLLECTION_NAME: "employee_salaries",
-  EMPLOYEE_SALARY_HISTORY_REPOSITORY_NAME: "employeeSalaryHistory",
-  EMPLOYEE_SALARY_HISTORY_COLLECTION_NAME: "employee_salary_histories",
 
   // Organization
   ORGANIZATION_REPOSITORY_NAME: "organization",
