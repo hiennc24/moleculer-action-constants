@@ -1476,20 +1476,12 @@
     "ACTION_COUNT": "count"
   },
 
-  "SVC_ORGANIZATION_EMPLOYEE_SALARY_HISTORIES": {
-    "NAME": "svc-organization.employee-salary-histories"
+  "SVC_ORGANIZATION_EMPLOYEE_HISTORIES": {
+    "NAME": "svc-organization.employee-histories"
   },
 
-  "SVC_ORGANIZATION_EMPLOYEE_SALARIES": {
-    "NAME": "svc-organization.employee-salaries"
-  },
-
-  "SVC_ORGANIZATION_EMPLOYEE_JOBS": {
-    "NAME": "svc-organization.employee-jobs"
-  },
-
-  "SVC_ORGANIZATION_EMPLOYEE_DETAILS": {
-    "NAME": "svc-organization.employee-details"
+  "SVC_ORGANIZATION_EMPLOYEE_PROFILES": {
+    "NAME": "svc-organization.employee-profiles"
   },
 
   "SVC_ORGANIZATION_EMPLOYEE_SETTINGS": {
