@@ -1387,7 +1387,8 @@
     "ACTION_REJECT": "rejectBusinessTrip",
     "ACTION_SEND": "sendBusinessTrip",
     "ACTION_GENERATE_CODE": "generateCode",
-    "ACTION_CANCEL": "cancelBusinessTrip"
+    "ACTION_CANCEL": "cancelBusinessTrip",
+    "ACTION_REJECT_CANCEL": "rejectCancelBusinessTrip"
   },
 
   "API_HCM_SETTING_BUSINESS_TRIP": {
