@@ -1044,7 +1044,12 @@
   },
 
   "API_HCM_PAYROLL_ADVANCE": {
-    "NAME": "api-hcm.payroll-advances"
+    "NAME": "api-hcm.payroll-advances",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
   },
 
   "API_HCM_PAYROLL": {
