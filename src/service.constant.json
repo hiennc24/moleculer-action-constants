@@ -1512,11 +1512,13 @@
     "ACTION_CHANGE_COLOR_DEPARTMENTS": "changeColorDepartments",
     "ACTION_DELETE_DEPARTMENT": "deleteDepartment",
     "ACTION_UPDATE_DEPARTMENT": "updateDepartment",
-    "ACTION_GET_LIST_BY_POSITION": "getListByPosition"
+    "ACTION_GET_LIST_BY_POSITION": "getListByPosition",
+    "ACTION_GET_LIST_BY_POSITION_LIST": "getListDepartmentByPositionList"
   },
 
   "SVC_ORGANIZATION_POSITIONS": {
     "NAME": "svc-organization.positions",
+    "ACTION_GET_LIST_BY_DEPARTMENT_LIST": "getPositionListByDepartmentList",
     "ACTION_GET_LIST_BY_DEPARTMENT": "getListByDepartment",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_LIST": "getList",
