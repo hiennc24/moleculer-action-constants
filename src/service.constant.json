@@ -1049,6 +1049,7 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
+    "ACTION_UPDATE_STATUS": "updateStatus",
     "ACTION_DELETE_MANY": "deleteMany"
   },
 
