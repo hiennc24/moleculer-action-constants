@@ -1522,7 +1522,6 @@
     "ACTION_GET_LIST_DEPARTMENT": "getListDepartment",
     "ACTION_CREATE_DEPARTMENT": "createDepartment",
     "ACTION_CLONE_DEPARTMENT": "cloneDepartment",
-    "ACTION_GET_DEPARTMENT_LISTS_FOR_EMPLOYEE": "getDepartmentListsForEmployee",
     "ACTION_GET_DEPARTMENT_FLAT_LISTS": "getDepartmentFlatLists",
     "ACTION_GET_TREE_DEPARTMENTS": "getTreeDepartments",
     "ACTION_GET_DEPARTMENT_DETAIL": "getDepartmentDetail",
@@ -1531,7 +1530,10 @@
     "ACTION_CHANGE_COLOR_DEPARTMENTS": "changeColorDepartments",
     "ACTION_DELETE_DEPARTMENT": "deleteDepartment",
     "ACTION_UPDATE_DEPARTMENT": "updateDepartment",
-    "ACTION_GET_LIST_BY_POSITION": "getListByPosition"
+    "ACTION_GET_LIST_BY_POSITION": "getListByPosition",
+    "ACTION_GET_LIST_BY_POSITION_LIST": "getListDepartmentByPositionList",
+    "ACTION_GET_DEPARTMENT_LISTS_FOR_EMPLOYEE": "getDepartmentListsForEmployee",
+    "ACTION_VALIDATE_DEPARTMENT_POSITION_EMPLOYEES": "validateDepartmentPositionEmployees"
   },
 
   "SVC_ORGANIZATION_POSITIONS": {
