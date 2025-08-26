@@ -514,6 +514,8 @@ const COLLECTIONS = {
   PAYCHECK_SETTING_COLLECTION_NAME: "paycheck_settings",
   PAYCHECK_EMPLOYEE_REPOSITORY_NAME: "paycheckEmployee",
   PAYCHECK_EMPLOYEE_COLLECTION_NAME: "paycheck_employees",
+  OLE_REPOSITORY_NAME: "ole",
+  OLE_COLLECTION_NAME: "oles",
 
   // Salary Component
   SALARY_COMPONENT_REPOSITORY_NAME: "salaryComponent",
