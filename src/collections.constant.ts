@@ -96,6 +96,9 @@ const COLLECTIONS = {
   EMPLOYEE_HISTORY_REPOSITORY_NAME: "employeeHistory",
   EMPLOYEE_HISTORY_COLLECTION_NAME: "employee_histories",
 
+  EMPLOYEE_CHANGE_HISTORY_REPOSITORY_NAME: "employeeChangeHistory",
+  EMPLOYEE_CHANGE_HISTORY_COLLECTION_NAME: "employee_change_histories",
+
   EMPLOYEE_SETTING_REPOSITORY_NAME: "employeeSetting",
   EMPLOYEE_SETTING_COLLECTION_NAME: "employee_settings",
 

@@ -1474,6 +1474,13 @@
     "ACTION_COUNT": "count"
   },
 
+  "SVC_ORGANIZATION_EMPLOYEE_CHANGE_HISTORIES": {
+    "NAME": "svc-organization.employee-change-histories",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_CRITICAL_CHANGES": "getCriticalChanges",
+    "ACTION_GET_ANALYTICS_CHANGES": "getAnalyticsChange"
+  },
+
   "SVC_ORGANIZATION_EMPLOYEE_HISTORIES": {
     "NAME": "svc-organization.employee-histories"
   },
