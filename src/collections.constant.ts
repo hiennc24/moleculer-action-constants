@@ -96,9 +96,6 @@ const COLLECTIONS = {
   EMPLOYEE_HISTORY_REPOSITORY_NAME: "employeeHistory",
   EMPLOYEE_HISTORY_COLLECTION_NAME: "employee_histories",
 
-  EMPLOYEE_CHANGE_HISTORY_REPOSITORY_NAME: "employeeChangeHistory",
-  EMPLOYEE_CHANGE_HISTORY_COLLECTION_NAME: "employee_change_histories",
-
   EMPLOYEE_SETTING_REPOSITORY_NAME: "employeeSetting",
   EMPLOYEE_SETTING_COLLECTION_NAME: "employee_settings",
 
@@ -537,6 +534,8 @@ const COLLECTIONS = {
   PAYROLL_DETAIL_COLLECTION_NAME: "payroll_details",
   PAYROLL_ADVANCE_REPOSITORY_NAME: "payrollAdvance",
   PAYROLL_ADVANCE_COLLECTION_NAME: "payroll_advances",
+  PAYROLL_ADVANCE_DETAIL_REPOSITORY_NAME: "payrollAdvanceDetail",
+  PAYROLL_ADVANCE_DETAIL_COLLECTION_NAME: "payroll_advance_details",
 
   // Bonus Mechanism
   BONUS_ITEM_REPOSITORY_NAME: "bonusItem",

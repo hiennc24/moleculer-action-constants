@@ -1053,6 +1053,16 @@
     "ACTION_DELETE_MANY": "deleteMany"
   },
 
+  "API_HCM_PAYROLL_ADVANCE_DETAILS": {
+    "NAME": "api-hcm.payroll-advance-details",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_UPDATE_MANY": "updateMany",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+
   "API_HCM_PAYROLL": {
     "NAME": "api-hcm.payrolls",
     "ACTION_GET_LIST": "getList",
@@ -1474,13 +1484,6 @@
     "ACTION_COUNT": "count"
   },
 
-  "SVC_ORGANIZATION_EMPLOYEE_CHANGE_HISTORIES": {
-    "NAME": "svc-organization.employee-change-histories",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_CRITICAL_CHANGES": "getCriticalChanges",
-    "ACTION_GET_ANALYTICS_CHANGES": "getAnalyticsChange"
-  },
-
   "SVC_ORGANIZATION_EMPLOYEE_HISTORIES": {
     "NAME": "svc-organization.employee-histories"
   },
@@ -1510,6 +1513,7 @@
     "ACTION_GET_LIST_DEPARTMENT": "getListDepartment",
     "ACTION_CREATE_DEPARTMENT": "createDepartment",
     "ACTION_CLONE_DEPARTMENT": "cloneDepartment",
+    "ACTION_GET_DEPARTMENT_LISTS_FOR_EMPLOYEE": "getDepartmentListsForEmployee",
     "ACTION_GET_DEPARTMENT_FLAT_LISTS": "getDepartmentFlatLists",
     "ACTION_GET_TREE_DEPARTMENTS": "getTreeDepartments",
     "ACTION_GET_DEPARTMENT_DETAIL": "getDepartmentDetail",
@@ -1518,15 +1522,11 @@
     "ACTION_CHANGE_COLOR_DEPARTMENTS": "changeColorDepartments",
     "ACTION_DELETE_DEPARTMENT": "deleteDepartment",
     "ACTION_UPDATE_DEPARTMENT": "updateDepartment",
-    "ACTION_GET_LIST_BY_POSITION": "getListByPosition",
-    "ACTION_GET_LIST_BY_POSITION_LIST": "getListDepartmentByPositionList",
-    "ACTION_GET_DEPARTMENT_LISTS_FOR_EMPLOYEE": "getDepartmentListsForEmployee",
-    "ACTION_VALIDATE_DEPARTMENT_POSITION_EMPLOYEES": "validateDepartmentPositionEmployees"
+    "ACTION_GET_LIST_BY_POSITION": "getListByPosition"
   },
 
   "SVC_ORGANIZATION_POSITIONS": {
     "NAME": "svc-organization.positions",
-    "ACTION_GET_LIST_BY_DEPARTMENT_LIST": "getPositionListByDepartmentList",
     "ACTION_GET_LIST_BY_DEPARTMENT": "getListByDepartment",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_LIST": "getList",
