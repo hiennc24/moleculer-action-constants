@@ -1101,7 +1101,16 @@
     "ACTION_CONFIRM_PAYCHECK": "confirmPaycheck",
     "ACTION_CONFIRM_PAYCHECK_WORKSPACE": "confirmPaycheckWorkspace",
     "ACTION_STATISTICS": "statistics",
-    "ACTION_DOWNLOAD": "download"
+    "ACTION_DOWNLOAD": "download",
+    "ACTION_CREATE_MANY": "createMany"
+  },
+
+  "API_HCM_OLE": {
+    "NAME": "api-hcm.oles",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_CREATE": "create",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_APPROVE": "approve"
   },
 
   "API_HCM_PAYCHECK_SETTINGS": {
