@@ -1060,7 +1060,8 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_UPDATE_MANY": "updateMany",
-    "ACTION_DELETE_MANY": "deleteMany"
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_INSERT_MANY": "insertMany"
   },
 
   "API_HCM_PAYROLL": {
