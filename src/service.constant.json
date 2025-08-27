@@ -1538,6 +1538,7 @@
 
   "SVC_ORGANIZATION_POSITIONS": {
     "NAME": "svc-organization.positions",
+    "ACTION_GET_LIST_BY_DEPARTMENT_LIST": "getListByDepartmentList",
     "ACTION_GET_LIST_BY_DEPARTMENT": "getListByDepartment",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_LIST": "getList",
