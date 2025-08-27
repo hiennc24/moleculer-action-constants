@@ -1087,8 +1087,8 @@
     "ACTION_UPDATE": "update"
   },
 
-  "API_HCM_PAYCHECK_EMPLOYEES": {
-    "NAME": "api-hcm.paycheckEmployees",
+  "API_HCM_OLE_DETAILS": {
+    "NAME": "api-hcm.oleDetails",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_PAGE": "getPage",
     "ACTION_CREATE": "create",
@@ -1097,9 +1097,9 @@
     "ACTION_GENERATE": "generate",
     "ACTION_APPROVE": "approve",
     "ACTION_SEND_OLE": "sendOle",
-    "ACTION_GET_PAYCHECK_CONFIRM": "getPaycheckConfirm",
-    "ACTION_CONFIRM_PAYCHECK": "confirmPaycheck",
-    "ACTION_CONFIRM_PAYCHECK_WORKSPACE": "confirmPaycheckWorkspace",
+    "ACTION_GET_OLE_DETAIL_CONFIRM": "getOleDetailConfirm",
+    "ACTION_CONFIRM_OLE_DETAIL": "confirmOleDetail",
+    "ACTION_CONFIRM_OLE_DETAIL_WORKSPACE": "confirmOleDetailWorkspace",
     "ACTION_STATISTICS": "statistics",
     "ACTION_DOWNLOAD": "download",
     "ACTION_CREATE_MANY": "createMany"
