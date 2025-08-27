@@ -539,6 +539,16 @@ const COLLECTIONS = {
   PAYROLL_ADVANCE_DETAIL_REPOSITORY_NAME: "payrollAdvanceDetail",
   PAYROLL_ADVANCE_DETAIL_COLLECTION_NAME: "payroll_advance_details",
 
+  // Data Payroll
+  PAYROLL_DATA_KPI_REPOSITORY_NAME: "payrollDataKpi",
+  PAYROLL_DATA_KPI_COLLECTION_NAME: "payroll_data_kpis",
+  PAYROLL_DATA_KPI_DETAIL_REPOSITORY_NAME: "payrollDataKpiDetail",
+  PAYROLL_DATA_KPI_DETAIL_COLLECTION_NAME: "payroll_data_kpi_details",
+  PAYROLL_DATA_TIME_SHEET_REPOSITORY_NAME: "payrollDataTimeSheet",
+  PAYROLL_DATA_TIME_SHEET_COLLECTION_NAME: "payroll_data_time_sheets",
+  PAYROLL_DATA_TIME_SHEET_DETAIL_REPOSITORY_NAME: "payrollDataTimeSheetDetail",
+  PAYROLL_DATA_TIME_SHEET_DETAIL_COLLECTION_NAME:
+    "payroll_data_time_sheet_details",
   // Bonus Mechanism
   BONUS_ITEM_REPOSITORY_NAME: "bonusItem",
   BONUS_ITEM_COLLECTION_NAME: "bonus_items",
