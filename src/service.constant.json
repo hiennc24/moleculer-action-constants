@@ -1029,8 +1029,9 @@
 
   "API_HCM_PAYROLL_TEMPLATES": {
     "NAME": "api-hcm.payroll-templates",
-    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
     "ACTION_UPDATE_EMPLOYEES": "updateEmployees",
+    "ACTION_UPDATE_STATUS": "updateStatus",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_UPDATE_SORT": "updateSort",
     "ACTION_GET_DETAIL": "getDetail",
@@ -1038,10 +1039,6 @@
     "ACTION_PREVIEW": "preview",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update"
-  },
-
-  "API_HCM_PAYROLL_TEMPLATE_DETAILS": {
-    "NAME": "api-hcm.payroll-template-details"
   },
 
   "API_HCM_PAYROLL_ADVANCE": {
