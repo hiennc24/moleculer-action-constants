@@ -1030,6 +1030,7 @@
   "API_HCM_PAYROLL_TEMPLATES": {
     "NAME": "api-hcm.payroll-templates",
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
+    "ACTION_GET_DETAIL_WITH_EMPLOYEES": "getDetailWithEmployees",
     "ACTION_UPDATE_EMPLOYEES": "updateEmployees",
     "ACTION_UPDATE_STATUS": "updateStatus",
     "ACTION_DELETE_MANY": "deleteMany",
