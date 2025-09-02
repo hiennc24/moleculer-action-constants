@@ -544,11 +544,11 @@ const COLLECTIONS = {
   PAYROLL_DATA_KPI_COLLECTION_NAME: "payroll_data_kpis",
   PAYROLL_DATA_KPI_DETAIL_REPOSITORY_NAME: "payrollDataKpiDetail",
   PAYROLL_DATA_KPI_DETAIL_COLLECTION_NAME: "payroll_data_kpi_details",
-  PAYROLL_DATA_TIME_SHEET_REPOSITORY_NAME: "payrollDataTimeSheet",
-  PAYROLL_DATA_TIME_SHEET_COLLECTION_NAME: "payroll_data_time_sheets",
-  PAYROLL_DATA_TIME_SHEET_DETAIL_REPOSITORY_NAME: "payrollDataTimeSheetDetail",
-  PAYROLL_DATA_TIME_SHEET_DETAIL_COLLECTION_NAME:
-    "payroll_data_time_sheet_details",
+  PAYROLL_DATA_TIMESHEET_REPOSITORY_NAME: "payrollDataTimesheet",
+  PAYROLL_DATA_TIMESHEET_COLLECTION_NAME: "payroll_data_timesheets",
+  PAYROLL_DATA_TIMESHEET_DETAIL_REPOSITORY_NAME: "payrollDataTimesheetDetail",
+  PAYROLL_DATA_TIMESHEET_DETAIL_COLLECTION_NAME:
+    "payroll_data_timesheet_details",
   // Bonus Mechanism
   BONUS_ITEM_REPOSITORY_NAME: "bonusItem",
   BONUS_ITEM_COLLECTION_NAME: "bonus_items",
