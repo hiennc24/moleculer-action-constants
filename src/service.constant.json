@@ -1055,7 +1055,8 @@
     "ACTION_INSERT_MANY_DETAIL": "insertManyDetail",
     "ACTION_UPDATE_MANY_DETAIL": "updateManyDetail",
     "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail",
-    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured"
+    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
+    "ACTION_CALCULATE_TOTAL_ADVANCE_AMOUNT_FOR_EMPLOYEES": "calculateTotalAdvanceAmountForEmployees"
   },
 
   "API_HCM_PAYROLL_DATA_KPI": {
