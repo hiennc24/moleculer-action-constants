@@ -1029,39 +1029,65 @@
 
   "API_HCM_PAYROLL_TEMPLATES": {
     "NAME": "api-hcm.payroll-templates",
+    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
+    "ACTION_GET_DETAIL_WITH_EMPLOYEES": "getDetailWithEmployees",
+    "ACTION_UPDATE_EMPLOYEES": "updateEmployees",
     "ACTION_UPDATE_STATUS": "updateStatus",
-    "ACTION_PREVIEW": "preview",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_UPDATE_SORT": "updateSort",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_LIST": "getList",
+    "ACTION_PREVIEW": "preview",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update"
   },
 
-  "API_HCM_PAYROLL_TEMPLATE_DETAILS": {
-    "NAME": "api-hcm.payroll-template-details"
-  },
-
   "API_HCM_PAYROLL_ADVANCE": {
     "NAME": "api-hcm.payroll-advances",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_UPDATE_STATUS": "updateStatus",
-    "ACTION_DELETE_MANY": "deleteMany"
+    "ACTION_UPDATE_DETAIL": "updateDetail",
+    "ACTION_GET_LIST_DETAIL": "getListDetail",
+    "ACTION_INSERT_MANY_DETAIL": "insertManyDetail",
+    "ACTION_UPDATE_MANY_DETAIL": "updateManyDetail",
+    "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail",
+    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured"
   },
 
-  "API_HCM_PAYROLL_ADVANCE_DETAILS": {
-    "NAME": "api-hcm.payroll-advance-details",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
+  "API_HCM_PAYROLL_DATA_KPI": {
+    "NAME": "api-hcm.payroll-data-kpi",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
-    "ACTION_UPDATE_MANY": "updateMany",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_INSERT_MANY": "insertMany"
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_UPDATE_DETAIL": "updateDetail",
+    "ACTION_GET_LIST_DETAIL": "getListDetail",
+    "ACTION_INSERT_MANY_DETAIL": "insertManyDetail",
+    "ACTION_UPDATE_MANY_DETAIL": "updateManyDetail",
+    "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail",
+    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured"
+  },
+
+  "API_HCM_PAYROLL_DATA_TIMESHEET": {
+    "NAME": "api-hcm.payroll-data-timesheet",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_UPDATE_DETAIL": "updateDetail",
+    "ACTION_GET_LIST_DETAIL": "getListDetail",
+    "ACTION_INSERT_MANY_DETAIL": "insertManyDetail",
+    "ACTION_UPDATE_MANY_DETAIL": "updateManyDetail",
+    "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail",
+    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured"
   },
 
   "API_HCM_PAYROLL": {

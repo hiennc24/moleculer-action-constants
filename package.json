@@ -1,6 +1,6 @@
 {
   "name": "@hiennc24/constant",
-  "version": "1.3.35",
+  "version": "1.3.41",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
