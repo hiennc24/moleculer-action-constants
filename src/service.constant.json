@@ -1032,6 +1032,7 @@
     "ACTION_GET_SALARY_RANGE_BY_PAYROLL_TEMPLATE": "getSalaryRangeByPayrollTemplate",
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
     "ACTION_GET_DETAIL_WITH_EMPLOYEES": "getDetailWithEmployees",
+    "ACTION_INSERT_MANY_EMPLOYEES": "insertManyEmployees",
     "ACTION_DELETE_MANY_EMPLOYEES": "deleteManyEmployees",
     "ACTION_UPDATE_EMPLOYEES": "updateEmployees",
     "ACTION_UPDATE_STATUS": "updateStatus",
