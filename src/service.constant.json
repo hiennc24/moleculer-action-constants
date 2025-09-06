@@ -1127,7 +1127,8 @@
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_SEND_PAYSLIPS": "sendPayslips",
     "ACTION_UPDATE_STATUS": "updateStatus",
-    "ACTION_GET_PAYROLL_DATA_BY_PERIOD": "getPayrollDataByPeriod"
+    "ACTION_GET_PAYROLL_DATA_BY_PERIOD": "getPayrollDataByPeriod",
+    "ACTION_GET_PAYSLIP_DETAIL_WITH_EMPLOYEES": "getPayslipDetailWithEmployees"
   },
 
   "API_HCM_PAYROLL_SETTINGS": {
