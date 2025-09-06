@@ -529,6 +529,10 @@ const COLLECTIONS = {
   SETTING_HOLIDAY_REPOSITORY_NAME: "settingHoliday",
   SETTING_HOLIDAY_COLLECTION_NAME: "setting_holidays",
 
+  // Payslips
+  PAYSLIP_REPOSITORY_NAME: "paysLip",
+  PAYSLIP_COLLECTION_NAME: "payslips",
+
   // Payroll
   PAYROLL_REPOSITORY_NAME: "payroll",
   PAYROLL_COLLECTION_NAME: "payrolls",

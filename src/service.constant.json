@@ -1117,6 +1117,18 @@
     "ACTION_UPDATE": "update"
   },
 
+  "API_HCM_PAYSLIPS": {
+    "NAME": "api-hcm.payslips",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_SEND_PAYSLIPS": "sendPayslips",
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_GET_PAYROLL_DATA_BY_PERIOD": "getPayrollDataByPeriod"
+  },
+
   "API_HCM_PAYROLL_SETTINGS": {
     "NAME": "api-hcm.payrollSettings",
     "ACTION_GET": "get",
