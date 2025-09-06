@@ -1101,6 +1101,7 @@
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_UPDATE_STATUS": "updateStatus",
     "ACTION_GET_DETAIL_EMPLOYEES": "getDetailEmployees",
     "ACTION_UPDATE_MANY_EMPLOYEES": "updateManyEmployees",
     "ACTION_INSERT_MANY_EMPLOYEES": "insertManyEmployees",
