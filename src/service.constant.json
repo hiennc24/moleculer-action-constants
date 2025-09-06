@@ -1107,6 +1107,7 @@
     "ACTION_INSERT_MANY_EMPLOYEES": "insertManyEmployees",
     "ACTION_DELETE_MANY_EMPLOYEES": "deleteManyEmployees",
     "ACTION_PREPARE_DATA_BEFORE_CREATE": "prepareDataBeforeCreate",
+    "ACTION_GET_EMPLOYEES_BY_PAYROLL_IDS": "getEmployeesByPayrollIds",
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured"
   },
 
