@@ -1059,7 +1059,7 @@
     "ACTION_UPDATE_MANY_DETAIL": "updateManyDetail",
     "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail",
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
-    "ACTION_CALCULATE_TOTAL_ADVANCE_AMOUNT_FOR_EMPLOYEES": "calculateTotalAdvanceAmountForEmployees"
+    "ACTION_CALCULATE_TOTAL_ADVANCE_AMOUNT_FOR_EMPLOYEES": "calculateTotalAdvancesAmountForEmployees"
   },
 
   "API_HCM_PAYROLL_DATA_KPI": {
@@ -1075,7 +1075,8 @@
     "ACTION_INSERT_MANY_DETAIL": "insertManyDetail",
     "ACTION_UPDATE_MANY_DETAIL": "updateManyDetail",
     "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail",
-    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured"
+    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
+    "ACTION_CALCULATE_TOTAL_OLE_AMOUNT_FOR_EMPLOYEES": "calculateTotalOlesAmountForEmployees"
   },
 
   "API_HCM_PAYROLL_DATA_TIMESHEET": {
@@ -1091,7 +1092,8 @@
     "ACTION_INSERT_MANY_DETAIL": "insertManyDetail",
     "ACTION_UPDATE_MANY_DETAIL": "updateManyDetail",
     "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail",
-    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured"
+    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
+    "ACTION_CALCULATE_TOTAL_TIMESHEET_AMOUNT_FOR_EMPLOYEES": "calculateTotalTimesheetsAmountForEmployees"
   },
 
   "API_HCM_PAYROLL": {
