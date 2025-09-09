@@ -1189,6 +1189,15 @@
     "ACTION_GET_PARAMS": "getParams"
   },
 
+  "API_HCM_SETTING_OLE_TARGETS": {
+    "NAME": "api-hcm.setting-ole-targets",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_GET_PAGE": "getPage",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+
   "API_HCM_SETTING_HOLIDAYS": {
     "NAME": "api-hcm.setting-holidays",
     "ACTION_GET_LIST": "getList",
