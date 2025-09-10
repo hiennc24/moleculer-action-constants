@@ -509,7 +509,7 @@ const COLLECTIONS = {
   PAYROLL_TEMPLATE_EMPLOYEE_REPOSITORY_NAME: "payrollTemplateEmployee",
   PAYROLL_TEMPLATE_EMPLOYEE_COLLECTION_NAME: "payroll_template_employees",
 
-  // Paycheck
+  // OLE
   OLE_SETTING_REPOSITORY_NAME: "oleSetting",
   OLE_SETTING_COLLECTION_NAME: "ole_settings",
   OLE_DETAIL_REPOSITORY_NAME: "oleDetail",
