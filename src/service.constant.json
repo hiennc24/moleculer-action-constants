@@ -1163,7 +1163,8 @@
     "ACTION_GET_PAGE": "getPage",
     "ACTION_CREATE": "create",
     "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_APPROVE": "approve"
+    "ACTION_APPROVE": "approve",
+    "ACTION_GET_EMPLOYEES_WITHOUT_OLE": "getEmployeesWithoutOLE"
   },
 
   "API_HCM_OLE_PAYROLL_SETTINGS": {
