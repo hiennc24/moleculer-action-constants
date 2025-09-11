@@ -1166,8 +1166,8 @@
     "ACTION_APPROVE": "approve"
   },
 
-  "API_HCM_OLE_SETTINGS": {
-    "NAME": "api-hcm.oleSettings",
+  "API_HCM_OLE_PAYROLL_SETTINGS": {
+    "NAME": "api-hcm.olePayrollSettings",
     "ACTION_GET": "get",
     "ACTION_UPDATE": "update"
   },
