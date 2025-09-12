@@ -514,7 +514,7 @@ const COLLECTIONS = {
   OLE_PAYROLL_SETTING_COLLECTION_NAME: "ole_payroll_settings",
   OLE_DETAIL_REPOSITORY_NAME: "oleDetail",
   OLE_DETAIL_COLLECTION_NAME: "ole_details",
-  OLE_REPOSITORY_NAME: "ole", 
+  OLE_REPOSITORY_NAME: "ole",
   OLE_COLLECTION_NAME: "oles",
 
   // Salary Component
@@ -536,6 +536,12 @@ const COLLECTIONS = {
   // Payslips
   PAYSLIP_REPOSITORY_NAME: "paysLip",
   PAYSLIP_COLLECTION_NAME: "payslips",
+
+  // Request management
+  REQUEST_CATEGORY_REPOSITORY_NAME: "requestCategory",
+  REQUEST_CATEGORY_COLLECTION_NAME: "request_categories",
+  REQUEST_PROCESS_REPOSITORY_NAME: "requestProcess",
+  REQUEST_PROCESS_COLLECTION_NAME: "request_processes",
 
   // Payroll
   PAYROLL_REPOSITORY_NAME: "payroll",
