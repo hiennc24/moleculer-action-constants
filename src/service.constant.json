@@ -954,16 +954,12 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE_MANY": "updateMany",
-    "ACTION_GET_DETAIL": "getDetail"
-  },
-
-  "API_HCM_REQUEST_PROCESS": {
-    "NAME": "api-hcm.request-process",
     "ACTION_CREATE_PROCESS": "createProcess",
     "ACTION_UPDATE_PROCESS": "updateProcess",
-    "ACTION_GET_LIST_PROCESS_BY_CATEGORY": "getListProcessByCategory",
-    "ACTION_GET_PROCESS_DETAIL": "getProcessDetail"
+    "ACTION_GET_PROCESS_DETAIL": "getProcessDetail",
+    "ACTION_GET_LIST_PROCESS_BY_CATEGORY": "getListProcessByCategory"
   },
 
   "API_HCM_PROVINCE": {
