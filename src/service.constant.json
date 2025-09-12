@@ -1163,6 +1163,7 @@
     "ACTION_GET_PAGE": "getPage",
     "ACTION_CREATE": "create",
     "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_UPDATE": "update",
     "ACTION_APPROVE": "approve",
     "ACTION_GET_EMPLOYEES_WITHOUT_OLE": "getEmployeesWithoutOLE"
   },
