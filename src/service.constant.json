@@ -959,6 +959,7 @@
     "ACTION_CREATE_PROCESS": "createProcess",
     "ACTION_UPDATE_PROCESS": "updateProcess",
     "ACTION_GET_PROCESS_DETAIL": "getProcessDetail",
+    "ACTION_GET_VALUE_BY_CONDITION_TYPE": "getValueByConditionType",
     "ACTION_GET_LIST_PROCESS_BY_CATEGORY": "getListProcessByCategory"
   },
 
@@ -999,8 +1000,7 @@
     "NAME": "api-hcm.setting-salaries",
     "ACTION_UPDATE": "update",
     "ACTION_GET": "get"
-
-},
+  },
 
   "API_HCM_SALARY_RANGES": {
     "NAME": "api-hcm.salaryRanges",
