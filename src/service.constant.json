@@ -1175,6 +1175,7 @@
   "API_HCM_OLE": {
     "NAME": "api-hcm.oles",
     "ACTION_GET_PAGE": "getPage",
+    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_UPDATE": "update",
