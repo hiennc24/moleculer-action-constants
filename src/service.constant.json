@@ -1002,6 +1002,12 @@
     "ACTION_GET": "get"
   },
 
+  "API_HCM_SETTING_TAXES": {
+    "NAME": "api-hcm.setting-taxes",
+    "ACTION_UPDATE": "update",
+    "ACTION_GET": "get"
+  },
+
   "API_HCM_SALARY_RANGES": {
     "NAME": "api-hcm.salaryRanges",
     "ACTIONS_GET_LIST": "getList",

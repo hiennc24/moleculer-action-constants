@@ -530,7 +530,8 @@ const COLLECTIONS = {
   SETTING_HOLIDAY_COLLECTION_NAME: "setting_holidays",
   SETTING_SALARY_REPOSITORY_NAME: "settingSalary",
   SETTING_SALARY_COLLECTION_NAME: "setting_salaries", 
-  
+  SETTING_TAX_REPOSITORY_NAME: "settingTax",
+  SETTING_TAX_COLLECTION_NAME: "setting_taxes",
 
   // Salary Component
   SETTING_OLE_TARGET_REPOSITORY_NAME: "settingOleTarget",
