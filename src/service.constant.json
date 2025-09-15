@@ -995,6 +995,13 @@
     "ACTION_GET": "get"
   },
 
+  "API_HCM_SETTING_SALARIES": {
+    "NAME": "api-hcm.setting-salaries",
+    "ACTION_UPDATE": "update",
+    "ACTION_GET": "get"
+
+},
+
   "API_HCM_SALARY_RANGES": {
     "NAME": "api-hcm.salaryRanges",
     "ACTIONS_GET_LIST": "getList",

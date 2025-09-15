@@ -528,6 +528,9 @@ const COLLECTIONS = {
   SETTING_WORKING_DAY_COLLECTION_NAME: "setting_working_days",
   SETTING_HOLIDAY_REPOSITORY_NAME: "settingHoliday",
   SETTING_HOLIDAY_COLLECTION_NAME: "setting_holidays",
+  SETTING_SALARY_REPOSITORY_NAME: "settingSalary",
+  SETTING_SALARY_COLLECTION_NAME: "setting_salaries", 
+  
 
   // Salary Component
   SETTING_OLE_TARGET_REPOSITORY_NAME: "settingOleTarget",
