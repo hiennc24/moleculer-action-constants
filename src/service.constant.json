@@ -1168,7 +1168,8 @@
     "ACTION_CONFIRM_OLE_DETAIL_WORKSPACE": "confirmOleDetailWorkspace",
     "ACTION_STATISTICS": "statistics",
     "ACTION_DOWNLOAD": "download",
-    "ACTION_CREATE_MANY": "createMany"
+    "ACTION_CREATE_MANY": "createMany",
+    "ACTION_UPDATE_GOAL_RESULT_FOR_MANY": "updateGoalResultForMany"
   },
 
   "API_HCM_OLE": {
