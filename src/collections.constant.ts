@@ -529,7 +529,7 @@ const COLLECTIONS = {
   SETTING_HOLIDAY_REPOSITORY_NAME: "settingHoliday",
   SETTING_HOLIDAY_COLLECTION_NAME: "setting_holidays",
   SETTING_SALARY_REPOSITORY_NAME: "settingSalary",
-  SETTING_SALARY_COLLECTION_NAME: "setting_salaries", 
+  SETTING_SALARY_COLLECTION_NAME: "setting_salaries",
   SETTING_TAX_REPOSITORY_NAME: "settingTax",
   SETTING_TAX_COLLECTION_NAME: "setting_taxes",
 
@@ -546,6 +546,8 @@ const COLLECTIONS = {
   REQUEST_CATEGORY_COLLECTION_NAME: "request_categories",
   REQUEST_PROCESS_REPOSITORY_NAME: "requestProcess",
   REQUEST_PROCESS_COLLECTION_NAME: "request_processes",
+  REQUEST_APPROVE_REPOSITORY_NAME: "requestApprove",
+  REQUEST_APPROVE_COLLECTION_NAME: "request_approves",
 
   // Payroll
   PAYROLL_REPOSITORY_NAME: "payroll",
