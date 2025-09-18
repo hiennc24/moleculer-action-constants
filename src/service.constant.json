@@ -988,7 +988,8 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
-    "ACTION_APPROVE_MANY": "approveMany"
+    "ACTION_APPROVE_MANY": "approveMany",
+    "ACTION_DELETE_MANY": "deleteMany"
   },
 
   "API_HCM_SALARY_SETTINGS": {
