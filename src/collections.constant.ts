@@ -99,6 +99,9 @@ const COLLECTIONS = {
   EMPLOYEE_SETTING_REPOSITORY_NAME: "employeeSetting",
   EMPLOYEE_SETTING_COLLECTION_NAME: "employee_settings",
 
+  EMPLOYEE_CHANGE_HISTORY_REPOSITORY_NAME: "employeeChangeHistory",
+  EMPLOYEE_CHANGE_HISTORY_COLLECTION_NAME: "employee_change_histories",
+
   // Organization
   ORGANIZATION_REPOSITORY_NAME: "organization",
   ORGANIZATION_COLLECTION_NAME: "organizations",
