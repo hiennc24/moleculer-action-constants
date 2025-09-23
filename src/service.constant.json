@@ -984,6 +984,7 @@
 
   "SVC_REQUEST_MANAGEMENT": {
     "NAME": "api-hcm.svc-request-management",
+    "ACTION_SEND": "send",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_REJECT": "reject",
