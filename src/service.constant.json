@@ -958,7 +958,6 @@
     "ACTION_UPDATE_MANY": "updateMany",
     "ACTION_CREATE_PROCESS": "createProcess",
     "ACTION_UPDATE_PROCESS": "updateProcess",
-    "ACTION_DELETE_PROCESS": "deleteProcess",
     "ACTION_GET_PROCESS_DETAIL": "getProcessDetail",
     "ACTION_GET_VALUE_BY_CONDITION_TYPE": "getValueByConditionType",
     "ACTION_GET_LIST_PROCESS_BY_CATEGORY": "getListProcessByCategory"
@@ -984,14 +983,11 @@
 
   "SVC_REQUEST_MANAGEMENT": {
     "NAME": "api-hcm.svc-request-management",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_REJECT": "reject",
-    "ACTION_APPROVE": "approve",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_GET_APPROVAL_DETAIL": "getApprovalDetail"
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_APPROVE_MANY": "approveMany"
   },
 
   "API_HCM_SALARY_SETTINGS": {
@@ -1579,6 +1575,7 @@
     "ACTION_UPDATE_HISTORY": "updateHistory",
     "ACTION_GENERATE_CODE": "generateCode",
     "ACTION_LOCK_UNLOCK": "lockOrUnlock",
+    "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_PAGE": "getPage",
     "ACTION_DELETE": "delete",
