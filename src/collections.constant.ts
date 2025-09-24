@@ -535,6 +535,8 @@ const COLLECTIONS = {
   SETTING_SALARY_COLLECTION_NAME: "setting_salaries",
   SETTING_TAX_REPOSITORY_NAME: "settingTax",
   SETTING_TAX_COLLECTION_NAME: "setting_taxes",
+  SETTING_LEAVE_REPOSITORY_NAME: "settingLeave",
+  SETTING_LEAVE_COLLECTION_NAME: "setting_leaves",
 
   // Salary Component
   SETTING_OLE_TARGET_REPOSITORY_NAME: "settingOleTarget",
@@ -597,6 +599,7 @@ const COLLECTIONS = {
   LEAVE_EMPLOYEE_COLLECTION_NAME: "leave_employees",
   LEAVE_DEPARTMENT_REPOSITORY_NAME: "leaveDepartment",
   LEAVE_DEPARTMENT_COLLECTION_NAME: "leave_departments",
+
 
   // Timekeeping
   TIMEKEEPING_SETTING_REPOSITORY_NAME: "timekeepingSettings",

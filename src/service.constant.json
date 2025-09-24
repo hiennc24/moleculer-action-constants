@@ -1259,6 +1259,16 @@
     "ACTION_SYNC_EMPLOYEE": "syncEmployee"
   },
 
+  "API_HCM_SETTING_LEAVE": {
+    "NAME": "api-hcm.setting-leave",
+    "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployee",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+
   "API_HCM_BONUS_ITEMS": {
     "NAME": "api-hcm.bonusItems",
     "ACTION_GET_PAGE_SPREADSHEET_VIEW": "getPageSpreadsheetView",
