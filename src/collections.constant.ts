@@ -535,8 +535,8 @@ const COLLECTIONS = {
   SETTING_SALARY_COLLECTION_NAME: "setting_salaries",
   SETTING_TAX_REPOSITORY_NAME: "settingTax",
   SETTING_TAX_COLLECTION_NAME: "setting_taxes",
-  SETTING_LEAVE_REPOSITORY_NAME: "settingLeave",
-  SETTING_LEAVE_COLLECTION_NAME: "setting_leaves",
+  SETTING_LEAVE_TYPE_REPOSITORY_NAME: "settingLeaveType",
+  SETTING_LEAVE_TYPE_COLLECTION_NAME: "setting_leave_types",
 
   // Salary Component
   SETTING_OLE_TARGET_REPOSITORY_NAME: "settingOleTarget",

@@ -1259,8 +1259,8 @@
     "ACTION_SYNC_EMPLOYEE": "syncEmployee"
   },
 
-  "API_HCM_SETTING_LEAVE": {
-    "NAME": "api-hcm.setting-leave",
+  "API_HCM_SETTING_LEAVE_TYPES": {
+    "NAME": "api-hcm.setting-leave-types",
     "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployee",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
