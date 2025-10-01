@@ -1777,7 +1777,8 @@
     "ACTION_UPDATE_SET": "updateSet",
     "ACTION_ADD_PACKAGE": "addPackage",
     "ACTION_REMOVE_PACKAGE": "removePackage",
-    "ACTION_UPDATE_PACKAGE": "updatePackage"
+    "ACTION_UPDATE_PACKAGE": "updatePackage",
+    "ACTION_UPDATE_DETAIL_FIELD": "updateDetailField"
   },
 
   "API_BIZCORE_BSC_VERSION": {
