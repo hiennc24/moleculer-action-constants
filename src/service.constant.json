@@ -1771,7 +1771,13 @@
     "ACTION_GET_SETTING": "getSetting",
     "ACTION_UPDATE_TAG": "updateTag",
     "ACTION_REMOVE_TAG": "removeTag",
-    "ACTION_ADD_TAG": "addTag"
+    "ACTION_ADD_TAG": "addTag",
+    "ACTION_ADD_SET": "addSet",
+    "ACTION_REMOVE_SET": "removeSet",
+    "ACTION_UPDATE_SET": "updateSet",
+    "ACTION_ADD_PACKAGE": "addPackage",
+    "ACTION_REMOVE_PACKAGE": "removePackage",
+    "ACTION_UPDATE_PACKAGE": "updatePackage"
   },
 
   "API_BIZCORE_BSC_VERSION": {
