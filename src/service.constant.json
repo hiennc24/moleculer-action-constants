@@ -1322,14 +1322,15 @@
 
   "API_HCM_LEAVE_EMPLOYEES": {
     "NAME": "api-hcm.leave-employees",
-    "ACTION_CREATE_MANY": "createMany",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_STATISTIC": "getStatistic",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_GET_EMPLOYEE_WITHOUT_LEAVE": "getEmployeeWithoutLeave",
-    "ACTION_LOAD_MORE": "loadMore",
     "ACTION_UPDATE": "update",
-    "ACTION_DELETE_MANY": "deleteMany"
+    "ACTION_GET_LIST": "getList",
+    "ACTION_LOAD_MORE": "loadMore",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_CREATE_MANY": "createMany",
+    "ACTION_GET_STATISTIC": "getStatistic",
+    "ACTION_GET_DETAIL_BY_EMPLOYEE": "getDetailByEmployee",
+    "ACTION_GET_EMPLOYEE_WITHOUT_LEAVE": "getEmployeeWithoutLeave"
   },
 
   "API_HCM_LEAVE_CONFIGS": {
