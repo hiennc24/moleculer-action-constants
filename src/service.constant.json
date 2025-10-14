@@ -992,7 +992,8 @@
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_GET_APPROVAL_DETAIL": "getApprovalDetail"
+    "ACTION_GET_APPROVAL_DETAIL": "getApprovalDetail",
+    "ACTION_ASSIGN_APPROVER_FOR_NEXT_STEP": "assignApproverForNextStep"
   },
 
   "API_HCM_SALARY_SETTINGS": {
