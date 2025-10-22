@@ -512,6 +512,12 @@ const COLLECTIONS = {
   PAYROLL_TEMPLATE_EMPLOYEE_REPOSITORY_NAME: "payrollTemplateEmployee",
   PAYROLL_TEMPLATE_EMPLOYEE_COLLECTION_NAME: "payroll_template_employees",
 
+  // payroll settings
+  PAYROLL_CATEGORY_REPOSITORY_NAME: "payrollCategory",
+  PAYROLL_CATEGORY_COLLECTION_NAME: "payroll_categories",
+  PAYROLL_PROCESS_REPOSITORY_NAME: "payrollProcess",
+  PAYROLL_PROCESS_COLLECTION_NAME: "payroll_processes",
+
   // OLE
   OLE_PAYROLL_SETTING_REPOSITORY_NAME: "olePayrollSetting",
   OLE_PAYROLL_SETTING_COLLECTION_NAME: "ole_payroll_settings",
@@ -599,7 +605,6 @@ const COLLECTIONS = {
   LEAVE_EMPLOYEE_COLLECTION_NAME: "leave_employees",
   LEAVE_DEPARTMENT_REPOSITORY_NAME: "leaveDepartment",
   LEAVE_DEPARTMENT_COLLECTION_NAME: "leave_departments",
-
 
   // Timekeeping
   TIMEKEEPING_SETTING_REPOSITORY_NAME: "timekeepingSettings",
