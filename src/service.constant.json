@@ -1169,8 +1169,16 @@
 
   "API_HCM_PAYROLL_SETTINGS": {
     "NAME": "api-hcm.payrollSettings",
-    "ACTION_GET": "get",
-    "ACTION_UPDATE": "update"
+    "ACTION_UPDATE": "update",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE_MANY": "updateMany",
+    "ACTION_CREATE_PAYROLL_SETTING_PROCESS": "createPayrollSettingProcess",
+    "ACTION_UPDATE_PAYROLL_SETTING_PROCESS": "updatePayrollSettingProcess",
+    "ACTION_DELETE_PAYROLL_SETTING_PROCESS": "deletePayrollSettingProcess",
+    "ACTION_GET_PAYROLL_SETTING_PROCESS_DETAIL": "getPayrollSettingProcessDetail",
+    "ACTION_GET_LIST_PAYROLL_SETTING_PROCESS_BY_CATEGORY": "getListPayrollSettingProcessByCategory",
+    "ACTION_GET_VALUE_BY_PAYROLL_SETTING_CONDITION_TYPE": "getValueByPayrollSettingConditionType"
   },
 
   "API_HCM_OLE_DETAILS": {
@@ -2416,8 +2424,11 @@
 
   "SVC_SHARED_ACTIVITY_LOGS": {
     "NAME": "svc-shared.activityLog",
+    "ACTION_GET_STATS": "getStats",
+    "ACTION_GET_STATUS": "getStatus",
+    "ACTION_GET_ACTIVITIES": "getActivities",
     "ACTION_CREATE_ACTIVITIES": "createActivities",
-    "ACTION_GET_ACTIVITIES": "getActivities"
+    "ACTION_CLEANUP_ACTIVITIES": "cleanupActivities"
   },
 
   "SVC_SHARED_SETTING_COMMON": {
