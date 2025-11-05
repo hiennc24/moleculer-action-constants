@@ -526,6 +526,14 @@ const COLLECTIONS = {
   OLE_REPOSITORY_NAME: "ole",
   OLE_COLLECTION_NAME: "oles",
 
+  // OLE Comments
+  OLE_COMMENT_REPOSITORY_NAME: "oleComment",
+  OLE_COMMENT_COLLECTION_NAME: "ole_comments",
+
+  // OLE Histories
+  OLE_HISTORY_REPOSITORY_NAME: "oleHistory",
+  OLE_HISTORY_COLLECTION_NAME: "ole_histories",
+
   // Salary Component
   SALARY_COMPONENT_REPOSITORY_NAME: "salaryComponent",
   SALARY_COMPONENT_COLLECTION_NAME: "salary_components",

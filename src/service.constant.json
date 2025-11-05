@@ -1211,6 +1211,19 @@
     "ACTION_GET_OLE_HISTORIES": "getOleHistories"
   },
 
+  "API_HCM_OLE_COMMENTS": {
+    "ACTION_GET_LIST_COMMENTS_BY_OLE_DETAIL_ID": "getListCommentsByOleDetailId",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_REPLY": "reply"
+  },
+
+  "API_HCM_OLE_HISTORY": {
+    "ACTION_CREATE": "createHistory",
+    "ACTION_GET_LIST_BY_OLE_DETAIL_ID": "getListByOleDetailId"
+  },
+
   "API_HCM_OLE": {
     "NAME": "api-hcm.oles",
     "ACTION_GET_PAGE": "getPage",
