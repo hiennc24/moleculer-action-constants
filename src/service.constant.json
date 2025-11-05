@@ -1200,7 +1200,8 @@
     "ACTION_GET_OLE_DETAIL": "getOleDetail",
     "ACTION_UPDATE_OLE_DETAIL": "updateOleDetail",
     "ACTION_CONFIRM_OLE_DETAIL": "confirmOleDetail",
-    "ACTION_GET_OLE_DETAIL_FOR_EMPLOYEE": "getOleDetailForEmployee",
+    "ACTION_GET_OLE_DETAIL_LIST_FOR_EMPLOYEE": "getOleDetailListForEmployee",
+    "ACTION_GET_OLE_DETAIL_FOR_EMPLOYEE_BY_ID": "getOleDetailForEmployeeById",
     "ACTION_UPDATE_GOAL_RESULT_FOR_MANY": "updateGoalResultForMany",
     "ACTION_CONFIRM_OLE_DETAIL_WORKSPACE": "confirmOleDetailWorkspace"
   },
