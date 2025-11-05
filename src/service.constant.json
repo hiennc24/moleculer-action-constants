@@ -1212,6 +1212,7 @@
   },
 
   "API_HCM_OLE_COMMENTS": {
+    "NAME": "api-hcm.ole-comments",
     "ACTION_GET_LIST_COMMENTS_BY_OLE_DETAIL_ID": "getListCommentsByOleDetailId",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
@@ -1220,6 +1221,7 @@
   },
 
   "API_HCM_OLE_HISTORY": {
+    "NAME": "api-hcm.ole-histories",
     "ACTION_CREATE": "createHistory",
     "ACTION_GET_LIST_BY_OLE_DETAIL_ID": "getListByOleDetailId"
   },
