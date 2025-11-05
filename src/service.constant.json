@@ -1184,21 +1184,24 @@
 
   "API_HCM_OLE_DETAILS": {
     "NAME": "api-hcm.oleDetails",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_GET_PAGE": "getPage",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
-    "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_GENERATE": "generate",
+    "ACTION_CONFIRM": "confirm",
     "ACTION_APPROVE": "approve",
     "ACTION_SEND_OLE": "sendOle",
-    "ACTION_GET_OLE_DETAIL_CONFIRM": "getOleDetailConfirm",
-    "ACTION_CONFIRM_OLE_DETAIL": "confirmOleDetail",
-    "ACTION_CONFIRM_OLE_DETAIL_WORKSPACE": "confirmOleDetailWorkspace",
-    "ACTION_STATISTICS": "statistics",
+    "ACTION_GET_PAGE": "getPage",
     "ACTION_DOWNLOAD": "download",
+    "ACTION_GENERATE": "generate",
+    "ACTION_RECOMMEND": "recommend",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_STATISTICS": "statistics",
     "ACTION_CREATE_MANY": "createMany",
-    "ACTION_UPDATE_GOAL_RESULT_FOR_MANY": "updateGoalResultForMany"
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_CONFIRM_OLE_DETAIL": "confirmOleDetail",
+    "ACTION_GET_OLE_DETAIL_CONFIRM": "getOleDetailConfirm",
+    "ACTION_GET_OLE_DETAIL_FOR_EMPLOYEE": "getOleDetailForEmployee",
+    "ACTION_UPDATE_GOAL_RESULT_FOR_MANY": "updateGoalResultForMany",
+    "ACTION_CONFIRM_OLE_DETAIL_WORKSPACE": "confirmOleDetailWorkspace"
   },
 
   "API_HCM_OLE": {
