@@ -1204,6 +1204,7 @@
     "ACTION_CONFIRM_OLE_DETAIL_WORKSPACE": "confirmOleDetailWorkspace",
     "ACTION_GET_OLE_DETAIL_LIST_FOR_EMPLOYEE": "getOleDetailListForEmployee",
     "ACTION_GET_OLE_DETAIL_FOR_EMPLOYEE_BY_ID": "getOleDetailForEmployeeById",
+    "ACTION_GET_APPROVAL_DETAIL_FOR_CURRENT_STEP": "getApprovalDetailForCurrentStep",
     "ACTION_GET_OLE_COMMENTS": "getOleComments",
     "ACTION_CREATE_OLE_COMMENT": "createOleComment",
     "ACTION_UPDATE_OLE_COMMENT": "updateOleComment",
