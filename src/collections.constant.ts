@@ -551,6 +551,8 @@ const COLLECTIONS = {
   SETTING_TAX_COLLECTION_NAME: "setting_taxes",
   SETTING_LEAVE_TYPE_REPOSITORY_NAME: "settingLeaveType",
   SETTING_LEAVE_TYPE_COLLECTION_NAME: "setting_leave_types",
+  SETTING_TIMEKEEPING_METHOD_REPOSITORY_NAME: "settingTimekeepingMethod",
+  SETTING_TIMEKEEPING_METHOD_COLLECTION_NAME: "setting_timekeeping_methods",
 
   // Salary Component
   SETTING_OLE_TARGET_REPOSITORY_NAME: "settingOleTarget",
@@ -617,8 +619,7 @@ const COLLECTIONS = {
   // Timekeeping
   TIMEKEEPING_SETTING_REPOSITORY_NAME: "timekeepingSettings",
   TIMEKEEPING_SETTING_COLLECTION_NAME: "timekeeping_settings",
-  TIMEKEEPING_TIMEKEEPER_REPOSITORY_NAME: "timekeepingTimekeeper",
-  TIMEKEEPING_TIMEKEEPER_COLLECTION_NAME: "timekeeping_timekeepers",
+
   TIMEKEEPING_EMPLOYEE_CONFIG_REPOSITORY_NAME: "timekeepingEmployeeConfig",
   TIMEKEEPING_EMPLOYEE_CONFIG_COLLECTION_NAME: "timekeeping_employee_configs",
   TIMEKEEPING_SUMMARY_REPOSITORY_NAME: "timekeepingSummary",
@@ -1059,9 +1060,6 @@ const COLLECTIONS = {
   BONUS_EMPLOYEE_REPOSITORY_NAME: "bonusEmployee",
   WORK_SHIFT_REGISTRATION_COLLECTION_NAME: "work_shift_registrations",
   WORK_SHIFT_REGISTRATION_REPOSITORY_NAME: "workShiftRegistration",
-  WORK_SHIFT_REGISTRATION_DETAIL_COLLECTION_NAME:
-    "work_shift_registration_details",
-  WORK_SHIFT_REGISTRATION_DETAIL_REPOSITORY_NAME: "workShiftRegistrationDetail",
 
   REQUEST_MANAGEMENT_COLLECTION_NAME: "request_managements",
   REQUEST_MANAGEMENT_REPOSITORY_NAME: "requestManagement",

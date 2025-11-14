@@ -1204,12 +1204,7 @@
     "ACTION_CONFIRM_OLE_DETAIL_WORKSPACE": "confirmOleDetailWorkspace",
     "ACTION_GET_OLE_DETAIL_LIST_FOR_EMPLOYEE": "getOleDetailListForEmployee",
     "ACTION_GET_OLE_DETAIL_FOR_EMPLOYEE_BY_ID": "getOleDetailForEmployeeById",
-    "ACTION_GET_APPROVAL_DETAIL_FOR_CURRENT_STEP": "getApprovalDetailForCurrentStep",
-    "ACTION_GET_OLE_COMMENTS": "getOleComments",
-    "ACTION_CREATE_OLE_COMMENT": "createOleComment",
-    "ACTION_UPDATE_OLE_COMMENT": "updateOleComment",
-    "ACTION_DELETE_OLE_COMMENT": "deleteOleComment",
-    "ACTION_GET_OLE_HISTORIES": "getOleHistories"
+    "ACTION_GET_APPROVAL_DETAIL_FOR_CURRENT_STEP": "getApprovalDetailForCurrentStep"
   },
 
   "API_HCM_OLE_COMMENTS": {
@@ -1444,15 +1439,12 @@
 
   "API_HCM_TIMEKEEPING_DETAILS": {
     "NAME": "api-hcm.timekeeping-details",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
-    "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_PREVIEW_BY_IDS": "previewByIds",
-    "ACTION_PREVIEW_BY_ENTITY": "previewByEntity",
-    "ACTION_GENERATE_CODE": "generateCode",
-    "ACTION_LOAD_MORE_EMPLOYEES_BY_DETAIL": "loadMoreEmployeesByDetail"
+    "ACTION_GET_LIST": "getList",
+    "ACTION_APPROVAL": "approval",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_DELETE_MANY": "deleteMany"
   },
 
   "API_HCM_TIMEKEEPING_SUMMARIES": {
@@ -1495,28 +1487,6 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany"
-  },
-
-  "API_HCM_WORK_SHIFT_REGISTRATIONS": {
-    "NAME": "api-hcm.work-shift-registrations",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_GENERATE_CODE": "generateCode",
-    "ACTION_APPROVE_OR_REJECT": "approveOrReject",
-    "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployeeId",
-    "ACTION_APPROVE_CANCELLATION": "approveCancellation",
-    "ACTION_REJECT_CANCELLATION": "rejectCancellation",
-    "ACTION_REQUEST_CANCELLATION": "requestCancellation"
-  },
-
-  "API_HCM_WORK_SHIFT_REGISTRATION_DETAILS": {
-    "NAME": "api-hcm.work-shift-registration-details",
-    "ACTION_CREATE": "create",
-    "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_APPROVE_OR_CANCEL_MANY": "approveOrCancelMany"
   },
 
   "API_HCM_WORK_SHIFTS": {
