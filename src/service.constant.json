@@ -1588,6 +1588,7 @@
 
   "SVC_ORGANIZATION_EMPLOYEES": {
     "NAME": "svc-organization.employees",
+    "ACTION_GET_LISTS_EMPLOYEE_NOT_CONFIGURED_ON_TIMEKEEPING_EMPLOYEE": "getListsEmployeeNotConfiguredOnTimekeepingEmployee",
     "ACTION_GENERATE_CODE_SAMPLE_EMPLOYEES": "generateCodeSampleEmployee",
     "ACTION_GET_EMPLOYEES_BY_DEPARTMENTS": "getEmployeesByDepartments",
     "ACTION_UPDATE_EMPLOYEE_FROM_AUTH": "updateEmployeeFromAuth",
