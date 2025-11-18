@@ -1392,17 +1392,17 @@
   "API_HCM_TIMEKEEPING_EMPLOYEES": {
     "NAME": "api-hcm.timekeeping-employees",
     "ACTION_UPDATE": "update",
-    "ACTION_GET_LIST": "getList",
     "ACTION_IN_SHIFT": "inShift",
     "ACTION_OUT_SHIFT": "outShift",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE_MANY": "createMany",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GET_SUMMARY": "getSummary",
+    "ACTION_GET_PAGE_LIST": "getPageList",
     "ACTION_GET_PERSONAL_DATA": "getPersonalData",
     "ACTION_GET_LIST_BY_MANAGERS": "getListByManagers",
-    "ACTION_APPROVE_OR_REJECT": "approveOrReject",
-    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured"
+    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
+    "ACTION_GET_LIST_BY_TIMEKEEPING_DETAIL_ID": "getListsByTimekeepingDetailId"
   },
 
   "API_HCM_TIMEKEEPING_COMPONENTS": {
