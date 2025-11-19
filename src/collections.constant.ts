@@ -553,6 +553,10 @@ const COLLECTIONS = {
   SETTING_LEAVE_TYPE_COLLECTION_NAME: "setting_leave_types",
   SETTING_TIMEKEEPING_METHOD_REPOSITORY_NAME: "settingTimekeepingMethod",
   SETTING_TIMEKEEPING_METHOD_COLLECTION_NAME: "setting_timekeeping_methods",
+  SETTING_TIMEKEEPING_METHOD_DETAIL_REPOSITORY_NAME:
+    "settingTimekeepingMethodDetail",
+  SETTING_TIMEKEEPING_METHOD_DETAIL_COLLECTION_NAME:
+    "setting_timekeeping_method_details",
 
   // Salary Component
   SETTING_OLE_TARGET_REPOSITORY_NAME: "settingOleTarget",
