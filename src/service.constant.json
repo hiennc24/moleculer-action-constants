@@ -1487,7 +1487,8 @@
     "ACTION_GET_DETAIL_OF_DETAIL": "getDetailOfDetail",
     "ACTION_CREATE_DETAIL": "createDetail",
     "ACTION_UPDATE_DETAIL": "updateDetail",
-    "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail"
+    "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail",
+    "ACTION_SYNC_TIMEKEEPING_METHODS_FOR_EMPLOYEES": "syncTimekeepingMethodsForEmployees"
   },
 
   "API_HCM_WORK_SHIFT_EMPLOYEES": {
@@ -1609,7 +1610,9 @@
     "ACTION_GET_LISTS_EMPLOYEE_NOT_CONFIGURED_ON_TIMEKEEPING_EMPLOYEE": "getListsEmployeeNotConfiguredOnTimekeepingEmployee",
     "ACTION_GENERATE_CODE_SAMPLE_EMPLOYEES": "generateCodeSampleEmployee",
     "ACTION_GET_EMPLOYEES_BY_DEPARTMENTS": "getEmployeesByDepartments",
+    "ACTION_UPDATE_TIMEKEEPING_DETAILS": "updateTimekeepingDetails",
     "ACTION_UPDATE_EMPLOYEE_FROM_AUTH": "updateEmployeeFromAuth",
+    "ACTION_GET_TIMEKEEPING_DETAILS": "getTimekeepingDetails",
     "ACTION_GET_PAGE_BY_WORKING_STATUS": "getPageByWorkingStatus",
     "ACTION_CREATE_EMPLOYEE_BY_USER": "createEmployeeByUser",
     "ACTION_GET_DETAIL_BY_PASS_AUTH": "getDetailByPassAuth",
