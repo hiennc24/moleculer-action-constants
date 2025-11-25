@@ -517,6 +517,8 @@ const COLLECTIONS = {
   PAYROLL_CATEGORY_COLLECTION_NAME: "payroll_categories",
   PAYROLL_PROCESS_REPOSITORY_NAME: "payrollProcess",
   PAYROLL_PROCESS_COLLECTION_NAME: "payroll_processes",
+  SETTING_PROCESS_APPROVAL_REPOSITORY_NAME: "payrollSettingProcessApproval",
+  SETTING_PROCESS_APPROVAL_COLLECTION_NAME: "payroll_setting_process_approvals",
 
   // OLE
   OLE_PAYROLL_SETTING_REPOSITORY_NAME: "olePayrollSetting",
