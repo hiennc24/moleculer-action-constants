@@ -575,6 +575,8 @@ const COLLECTIONS = {
   REQUEST_PROCESS_COLLECTION_NAME: "request_processes",
   REQUEST_APPROVE_REPOSITORY_NAME: "requestApprove",
   REQUEST_APPROVE_COLLECTION_NAME: "request_approves",
+  REQUEST_PROCESS_APPROVAL_REPOSITORY_NAME: "requestProcessApproval",
+  REQUEST_PROCESS_APPROVAL_COLLECTION_NAME: "request_process_approvals",
 
   // Payroll
   PAYROLL_REPOSITORY_NAME: "payroll",

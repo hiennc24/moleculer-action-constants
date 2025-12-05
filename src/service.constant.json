@@ -998,6 +998,14 @@
     "ACTION_GET_LIST_REQUEST_FOR_EMPLOYEE_RESPONSIBLE": "getPageRequestForEmployeeResponsible"
   },
 
+  "SVC_REQUEST_PROCESS_APPROVAL": {
+    "NAME": "api-hcm.svc-request-process-approval",
+    "ACTION_GET_LISTS": "getLists",
+    "ACTION_UPDATE": "update",
+    "ACTION_CREATE": "create",
+    "ACTION_DELETE": "delete"
+  },
+
   "API_HCM_SALARY_SETTINGS": {
     "NAME": "api-hcm.salarySettings",
     "ACTION_UPDATE": "update",
