@@ -569,12 +569,16 @@ const COLLECTIONS = {
   PAYSLIP_COLLECTION_NAME: "payslips",
 
   // Request management
-  REQUEST_CATEGORY_REPOSITORY_NAME: "requestCategory",
-  REQUEST_CATEGORY_COLLECTION_NAME: "request_categories",
-  REQUEST_PROCESS_REPOSITORY_NAME: "requestProcess",
-  REQUEST_PROCESS_COLLECTION_NAME: "request_processes",
   REQUEST_REPOSITORY_NAME: "request",
   REQUEST_COLLECTION_NAME: "requests",
+  REQUEST_PROCESS_REPOSITORY_NAME: "requestProcess",
+  REQUEST_PROCESS_COLLECTION_NAME: "request_processes",
+  REQUEST_CATEGORY_REPOSITORY_NAME: "requestCategory",
+  REQUEST_CATEGORY_COLLECTION_NAME: "request_categories",
+  REQUEST_COMMENT_REPOSITORY_NAME: "requestComment",
+  REQUEST_COMMENT_COLLECTION_NAME: "request_comments",
+  REQUEST_HISTORY_REPOSITORY_NAME: "requestHistory",
+  REQUEST_HISTORY_COLLECTION_NAME: "request_histories",
   REQUEST_PROCESS_APPROVAL_REPOSITORY_NAME: "requestProcessApproval",
   REQUEST_PROCESS_APPROVAL_COLLECTION_NAME: "request_process_approvals",
 
