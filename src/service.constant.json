@@ -2500,8 +2500,8 @@
     "ACTION_DELETE": "delete"
   },
 
-  "SVC_SHARED_SETTING_ECOMMERCE_PLATFORM": {
-    "NAME": "svc-shared.settingEcommercePlatform",
+  "SVC_SHARED_SETTING_E_COMMERCE_PLATFORM": {
+    "NAME": "svc-shared.settingECommercePlatform",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete",
@@ -2789,13 +2789,14 @@
     "ACTION_REMOVE_TOKEN": "removeToken",
     "ACTION_REMOVE_SOCKET": "removeSocket"
   },
-  "SVC_SHARED_NOTIFICATION": {
-    "NAME": "svc-shared.notification",
+  "SVC_NOTIFICATION": {
+    "NAME": "svc-integration.notifications",
     "ACTION_IN_APP_TRIGGER": "in-app",
     "ACTION_EMAIL_TRIGGER": "email",
     "ACTION_SMS_TRIGGER": "sms",
     "ACTION_PUSH_TRIGGER": "push",
     "ACTION_CHAT_TRIGGER": "chat",
+    "ACTION_BATCH_TRIGGER": "batch",
     "ACTION_INIT_SUBSCRIPTIONS": "initSubscriptions",
     "ACTION_UPDATE_SUBSCRIPTION": "updateSubscription"
   },
