@@ -1507,11 +1507,12 @@
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_DELETE_MANY": "deleteMany",
-    "ACTION_GET_LIST_DETAIL": "getListDetail",
-    "ACTION_GET_DETAIL_OF_DETAIL": "getDetailOfDetail",
     "ACTION_CREATE_DETAIL": "createDetail",
     "ACTION_UPDATE_DETAIL": "updateDetail",
+    "ACTION_GET_LIST_DETAIL": "getListDetail",
     "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail",
+    "ACTION_GET_DETAIL_OF_DETAIL": "getDetailOfDetail",
+    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
     "ACTION_SYNC_TIMEKEEPING_METHODS_FOR_EMPLOYEES": "syncTimekeepingMethodsForEmployees"
   },
 
