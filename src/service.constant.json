@@ -3027,6 +3027,33 @@
     "ACTION_GET_DETAIL": "getDetail"
   },
 
+  "SVC_PURCHASE_ORDERS": {
+    "NAME": "svc-orders.purchase-orders",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE_PURCHASE_ORDER": "create",
+    "ACTION_UPDATE_PURCHASE_ORDER": "update",
+    "ACTION_GET_DETAIL_PURCHASE_ORDER": "getDetail",
+    "ACTION_UPDATE_STATUS_PURCHASE_ORDER": "updateStatus",
+    "ACTION_GET_ORDER_PRODUCT_LIST": "getOrderProductList",
+    "ACTION_UPDATE_PURCHASE_ORDER_PAYMENT": "updatePayment",
+    "ACTION_GET_PURCHASE_ORDERS_BY_SUPPLIER_ID": "getBySupplierIds"
+  },
+
+  "SVC_PURCHASE_ORDER_PRODUCTS": {
+    "NAME": "svc-orders.purchase-order-products",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "SVC_PURCHASE_ORDER_HISTORIES": {
+    "NAME": "svc-orders.purchase-order-histories",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE": "create"
+  },
+
   "SVC_WORKFLOW_CRITERIA": {
     "NAME": "svc-workflows.criteria",
 
