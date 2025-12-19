@@ -130,14 +130,6 @@
     "NAME": "svc-administration-list.customer-details"
   },
 
-  "API_WAREHOUSE_SETTINGS": {
-    "NAME": "api-warehouse.settings",
-    "ACTION_GET_MASTER_DATA": "getOrCreateMasterData",
-    "ACTION_CREATE": "createSettings",
-    "ACTION_UPDATE": "updateSettings",
-    "ACTION_DELETE": "deleteSettings"
-  },
-
   "SVC_VOUCHER_TYPES": {
     "NAME": "svc-administration-list.voucher-types",
     "ACTION_GET_DETAIL": "getDetail",
@@ -150,33 +142,26 @@
     "ACTION_LOCK": "lock"
   },
 
-  "API_WAREHOUSE_VOUCHERS": {
-    "NAME": "api-warehouse.vouchers",
-    "ACTION_UPDATE_VOUCHERS_STATUS": "updateVouchersStatus",
-    "ACTION_DELETE_MANY_VOUCHERS": "deleteManyVouchers",
-    "ACTION_GET_LIST_IO_CODE": "getListIOCode",
-    "ACTION_CREATE_VOUCHERS": "createVouchers",
-    "ACTION_UPDATE_VOUCHERS": "updateVouchers",
-    "ACTION_DELETE_VOUCHERS": "deleteVouchers",
-    "ACTION_GET_EXIST_DATA": "getExistData",
-    "ACTION_GENERATE_CODE": "generateCode",
-    "ACTION_TOGGLE_LOCK": "toggleLock",
+  "SVC_WAREHOUSE_SETTINGS": {
+    "NAME": "svc-warehouse.settings",
     "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_GET_LIST": "getList"
+    "ACTION_UPDATE": "update"
   },
 
-  "API_WAREHOUSE_VOUCHER": {
-    "NAME": "api-warehouse.warehouse-voucher",
-    "ACTION_UPDATE_PROCESS_VOUCHER": "updateProcessVoucher",
-    "ACTION_COMPLETE_VOUCHER": "completeVoucher",
-    "ACTION_APPROVE_VOUCHER": "approveVoucher",
-    "ACTION_CREATE_VOUCHER": "createVoucher",
-    "ACTION_UPDATE_VOUCHER": "updateVoucher",
-    "ACTION_GET_DETAIL": "getDetailVoucher",
-    "ACTION_GET_LIST": "getListVoucher"
+  "SVC_WAREHOUSE_VOUCHERS": {
+    "NAME": "svc-warehouse.vouchers",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE_VOUCHER": "create",
+    "ACTION_UPDATE_VOUCHER": "update",
+    "ACTION_CHANGE_STATUS_VOUCHER": "changeStatus",
+    "ACTION_DELETE_VOUCHER": "delete",
+    "ACTION_GET_PRODUCT_LIST": "getProductList",
+    "ACTION_CREATE_PRODUCT": "createProduct",
+    "ACTION_UPDATE_MANY_PRODUCT": "updateManyProduct",
+    "ACTION_DELETE_MANY_PRODUCT": "deleteManyProduct"
   },
 
-  "API_WAREHOUSE_INVENTORIES": {
+  "SVC_WAREHOUSE_INVENTORIES": {
     "NAME": "api-warehouse.inventories",
     "ACTION_DELETE_MANY_INVENTORIES": "deleteManyInventories",
     "ACTION_DELETE_INVENTORIES": "deleteInventories",
@@ -189,22 +174,10 @@
     "ACTION_GET_LIST": "getList"
   },
 
-  "API_WAREHOUSE_PERMISSION": {
-    "NAME": "api-warehouse.permission-actions",
-    "ACTION_GET_PERMISSION_ACTIONS": "get-list"
-  },
-  "API_WAREHOUSE_MANAGEMENT": {
+  "SVC_WAREHOUSE_MANAGEMENT": {
     "NAME": "api-warehouse.warehouseManagement",
     "ACTION_UPDATE_PRODUCT_RESERVED_OR_INCOMING": "updateProductReservedOrIncoming",
     "ACTION_UPDATE_PRODUCT_QUANTITY": "updateProductQuantity"
-  },
-  "API_WAREHOUSE_ORDER_PRODUCTS": {
-    "NAME": "api-warehouse.orderProducts",
-    "ACTION_UPDATE_HOLDING_QTY": "updateHoldingQty",
-    "ACTION_CRUD": "crudOrderProducts"
-  },
-  "API_WAREHOUSE_VOUCHER_PRODUCTS": {
-    "NAME": "api-warehouse.voucherProduct"
   },
 
   "API_SALES_SALES_PROMOTION_DETAIL": {
@@ -572,16 +545,10 @@
   "API_SALES_DELIVERY_MODIFY_HISTORY": {
     "NAME": "api-sales.delivery-modify-history"
   },
-  "API_PURCHASE_PERMISSION": {
-    "NAME": "api-purchase.permission-actions",
-    "ACTION_GET_PERMISSION_ACTIONS": "get-list"
-  },
-  "API_PURCHASE_SETTING": {
-    "NAME": "api-purchase.settings",
-    "ACTIONS_GET_PURCHASE_SETTING": "getSetting",
-    "ACTION_CREATE_SETTING": "createSetting",
-    "ACTION_UPDATE_SETTING": "updateSetting",
-    "ACTION_DELETE_SETTING": "deleteSetting"
+  "SVC_PURCHASE_SETTING": {
+    "NAME": "svc-purchase.settings",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "update"
   },
 
   "API_PURCHASE_DEBT_DETAILS": {
