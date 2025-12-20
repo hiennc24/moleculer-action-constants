@@ -155,7 +155,10 @@
     "ACTION_GET_DETAIL_VOUCHER": "getDetail",
     "ACTION_UPDATE_VOUCHER": "update",
     "ACTION_CHANGE_STATUS_VOUCHER": "changeStatus",
-    "ACTION_DELETE_VOUCHER": "delete"
+    "ACTION_DELETE_VOUCHER": "delete",
+    "ACTION_CANCEL_VOUCHER": "cancel",
+    "ACTION_APPROVE_VOUCHER": "approve",
+    "ACTION_REJECT_VOUCHER": "reject"
   },
 
   "SVC_WAREHOUSE_VOUCHER_PRODUCTS": {
