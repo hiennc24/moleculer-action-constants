@@ -155,7 +155,11 @@
     "ACTION_GET_DETAIL_VOUCHER": "getDetail",
     "ACTION_UPDATE_VOUCHER": "update",
     "ACTION_CHANGE_STATUS_VOUCHER": "changeStatus",
-    "ACTION_DELETE_VOUCHER": "delete",
+    "ACTION_DELETE_VOUCHER": "delete"
+  },
+
+  "SVC_WAREHOUSE_VOUCHER_PRODUCTS": {
+    "NAME": "svc-warehouse.voucher-products",
     "ACTION_GET_PRODUCT_LIST": "getProductList",
     "ACTION_CREATE_PRODUCT": "createProduct",
     "ACTION_UPDATE_MANY_PRODUCT": "updateManyProduct",
