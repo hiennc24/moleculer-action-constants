@@ -152,6 +152,7 @@
     "NAME": "svc-warehouse.vouchers",
     "ACTION_GET_LIST": "getList",
     "ACTION_CREATE_VOUCHER": "create",
+    "ACTION_GET_DETAIL_VOUCHER": "getDetail",
     "ACTION_UPDATE_VOUCHER": "update",
     "ACTION_CHANGE_STATUS_VOUCHER": "changeStatus",
     "ACTION_DELETE_VOUCHER": "delete",
