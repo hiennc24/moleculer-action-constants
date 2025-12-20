@@ -840,6 +840,10 @@ const COLLECTIONS = {
   // Warehouse Inventories
   WAREHOUSE_INVENTORY_REPOSITORY_NAME: "warehouseInventory",
   WAREHOUSE_INVENTORY_COLLECTION_NAME: "warehouse_inventories",
+  WAREHOUSE_INVENTORY_TRANSACTION_REPOSITORY_NAME:
+    "warehouseInventoryTransaction",
+  WAREHOUSE_INVENTORY_TRANSACTION_COLLECTION_NAME:
+    "warehouse_inventory_transactions",
   PRODUCT_INVENTORY_REPOSITORY_NAME: "productInventory",
   PRODUCT_INVENTORY_COLLECTION_NAME: "product_inventories",
 

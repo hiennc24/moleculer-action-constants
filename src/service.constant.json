@@ -170,6 +170,25 @@
     "ACTION_DELETE_MANY_PRODUCT": "deleteManyProduct"
   },
 
+  "SVC_WAREHOUSE_INVENTORY": {
+    "NAME": "svc-warehouse.inventories",
+    "ACTION_UPLOAD": "upload",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE_DETAIL": "updateDetail",
+    "ACTION_GET_INVENTORY_REPORT": "getInventoryReport",
+    "ACTION_GET_QUEUE_IMPORT_STATUS": "getQueueImportStatus",
+    "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable",
+    "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
+    "ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "seedInventoryTransactionsData"
+  },
+
+  "SVC_WAREHOUSE_INVENTORY_TRANSACTIONS": {
+    "NAME": "svc-warehouse.inventory-transactions",
+    "ACTION_CREATE": "createInventoryTransaction",
+    "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport",
+    "ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost"
+  },
+
   "SVC_WAREHOUSE_INVENTORIES": {
     "NAME": "api-warehouse.inventories",
     "ACTION_DELETE_MANY_INVENTORIES": "deleteManyInventories",
