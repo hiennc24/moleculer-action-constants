@@ -158,6 +158,7 @@
     "ACTION_DELETE_VOUCHER": "delete",
     "ACTION_CANCEL_VOUCHER": "cancel",
     "ACTION_APPROVE_VOUCHER": "approve",
+    "ACTION_COMPLETE_VOUCHER": "complete",
     "ACTION_REJECT_VOUCHER": "reject"
   },
 
