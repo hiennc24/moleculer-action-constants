@@ -1513,11 +1513,12 @@
 
   "API_HCM_WORK_SHIFT_EMPLOYEES": {
     "NAME": "api-hcm.work-shift-employees",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
-    "ACTION_GET_MONTH": "getMonth"
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_MONTH": "getMonth",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_CURRENT_DATE": "getWorkShiftEmployeesByCurrentDate"
   },
 
   "API_HCM_WORK_SHIFT_ITEMS": {
