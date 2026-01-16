@@ -1426,6 +1426,7 @@
     "ACTION_GET_PAGE_LIST": "getPageList",
     "ACTION_GET_PERSONAL_DATA": "getPersonalData",
     "ACTION_GET_LIST_BY_MANAGERS": "getListByManagers",
+    "ACTION_RESET_TIMEKEEPING_DATA": "resetTimekeepingData",
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
     "ACTION_GET_LIST_BY_TIMEKEEPING_DETAIL_ID": "getListsByTimekeepingDetailId"
   },
