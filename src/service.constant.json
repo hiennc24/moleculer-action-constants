@@ -987,6 +987,7 @@
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_VIEW_DASHBOARD": "viewDashboard",
     "ACTION_GET_APPROVAL_DETAIL": "getApprovalDetail",
     "ACTION_GET_DETAIL_FOR_ADMIN": "getDetailForAdmin",
     "ACTION_GET_LEAVE_REQUEST_TYPE_LIST": "getLeaveRequestTypeList",
