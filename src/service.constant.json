@@ -1425,6 +1425,7 @@
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GET_SUMMARY": "getSummary",
     "ACTION_GET_PAGE_LIST": "getPageList",
+    "ACTION_VIEW_DASHBOARD": "getDashboard",
     "ACTION_GET_PERSONAL_DATA": "getPersonalData",
     "ACTION_GET_LIST_BY_MANAGERS": "getListByManagers",
     "ACTION_RESET_TIMEKEEPING_DATA": "resetTimekeepingData",
@@ -1477,13 +1478,14 @@
 
   "API_HCM_TIMEKEEPING_SUMMARIES": {
     "NAME": "api-hcm.timekeeping-summaries",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GET_STATISTIC": "getStatistic",
     "ACTION_GENERATE_CODE": "generateCode",
+    "ACTION_VIEW_DASHBOARD": "getDashboard",
     "ACTION_LOAD_MORE_EMPLOYEES_BY_DETAILS": "loadMoreEmployeesByDetails"
   },
 
