@@ -1022,6 +1022,12 @@
     "ACTION_DELETE": "delete"
   },
 
+  "API_HCM_SETTING_LATE_EARLY_THRESHOLDS": {
+    "NAME": "api-hcm.setting-late-early-thresholds",
+    "ACTION_UPDATE": "update",
+    "ACTION_GET": "get"
+  },
+
   "API_HCM_SALARY_SETTINGS": {
     "NAME": "api-hcm.salarySettings",
     "ACTION_UPDATE": "update",
