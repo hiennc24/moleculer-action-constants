@@ -559,6 +559,8 @@ const COLLECTIONS = {
     "settingTimekeepingMethodDetail",
   SETTING_TIMEKEEPING_METHOD_DETAIL_COLLECTION_NAME:
     "setting_timekeeping_method_details",
+  SETTING_LATE_EARLY_THRESHOLD_REPOSITORY_NAME: "lateEarlyThreshold",
+  SETTING_LATE_EARLY_THRESHOLD_COLLECTION_NAME: "late_early_thresholds",
 
   // Salary Component
   SETTING_OLE_TARGET_REPOSITORY_NAME: "settingOleTarget",
