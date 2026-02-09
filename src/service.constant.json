@@ -3187,7 +3187,8 @@
     "ACTION_POST_CREATE": "create",
     "ACTION_PUT_UPDATE": "update",
     "ACTION_PUT_ASSIGN": "assignToProject",
-    "ACTION_DELETE": "delete"
+    "ACTION_DELETE": "delete",
+    "ACTION_CHECK_PERMISSION_FOR_USER": "checkPermissionForUser"
   },
   "SVC_WORKFLOW_PROJECT_COMMENTS": {
     "NAME": "svc-workflows.project-comments",
