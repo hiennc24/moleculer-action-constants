@@ -114,8 +114,8 @@
     "ACTION_GET_LIST": "getList"
   },
 
-  "SVC_ADMINISTRATION_LIST_CUSTOMER": {
-    "NAME": "svc-administration-list.customers",
+  "SVC_BUSINESS_PARTNER": {
+    "NAME": "svc-business-partner.partners",
     "ACTION_GET_TAX_CODE": "getTaxCode",
     "ACTION_LOCK_UNLOCK": "lockUnlock",
     "ACTION_DELETE_MANY": "deleteMany",
@@ -126,8 +126,8 @@
     "ACTION_UPLOAD": "upload"
   },
 
-  "SVC_ADMINISTRATION_LIST_CUSTOMER_DETAIL": {
-    "NAME": "svc-administration-list.customer-details"
+  "SVC_BUSINESS_PARTNER_DETAIL": {
+    "NAME": "svc-business-partner.partner-details"
   },
 
   "SVC_VOUCHER_TYPES": {
