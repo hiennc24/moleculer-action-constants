@@ -280,6 +280,12 @@ const COLLECTIONS = {
   // setting invoices
   SETTING_INVOICE_REPOSITORY_NAME: "settingInvoice",
   SETTING_INVOICE_COLLECTION_NAME: "setting_invoices",
+  // setting shipping
+  SETTING_SHIPPING_REPOSITORY_NAME: "settingShipping",
+  SETTING_SHIPPING_COLLECTION_NAME: "setting_shippings",
+  // shipping orders
+  SHIPPING_ORDER_REPOSITORY_NAME: "shippingOrder",
+  SHIPPING_ORDER_COLLECTION_NAME: "shipping_orders",
   // Province
   PROVINCE_REPOSITORY_NAME: "province",
   PROVINCE_COLLECTION_NAME: "provinces",

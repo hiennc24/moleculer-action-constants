@@ -6,6 +6,26 @@
     "ACTION_DELETE": "delete",
     "ACTION_GET": "get"
   },
+  "SVC_SHARED_SETTING_SHIPPING": {
+    "NAME": "svc-shared.settingShipping",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_GET": "get",
+    "ACTION_UPDATE_PROVIDER": "updateProvider"
+  },
+  "SVC_SHIPPING": {
+    "NAME": "integration.shipping",
+    "ACTION_CREATE_ORDER": "createOrder",
+    "ACTION_CANCEL_ORDER": "cancelOrder",
+    "ACTION_COMPARE_RATES": "compareRates",
+    "ACTION_TRACK": "track",
+    "ACTION_GET_SERVICE_OPTIONS": "getServiceOptions",
+    "ACTION_WEBHOOK_VIETTEL": "webhookViettel",
+    "ACTION_WEBHOOK_GHN": "webhookGhn",
+    "ACTION_WEBHOOK_GHTK": "webhookGhtk",
+    "ACTION_WEBHOOK_SHOPEE": "webhookShopee"
+  },
   "SVC_E_INVOICE": {
     "NAME": "svc-shared.e-invoices",
     "ACTION_CREATE": "create",
@@ -225,26 +245,6 @@
     "ACTION_DELETE_BY_PROMOTION_IDS": "deleteByPromotionIds"
   },
 
-  "API_SALES_CAMPAIGN_PRICE": {
-    "NAME": "api-sales.campaign-price",
-    "ACTION_GET_LIST": "get-lists",
-    "ACTION_GET_DETAIL": "get-details",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_DELETE_MANY": "delete-many",
-    "ACTION_GET_LIST_BY_SO": "get-lists-by-so",
-    "ACTION_GET_HISTORIES": "get-histories"
-  },
-
-  "API_SALES_CAMPAIGN_PRODUCT_PRICE": {
-    "NAME": "api-sales.campaign-product-price"
-  },
-
-  "API_SALES_CAMPAIGN_PRICE_HISTORY": {
-    "NAME": "api-sales.campaign-price-history"
-  },
-
   "API_SALES_ACTUAL_SALES_GROUP": {
     "NAME": "api-sales.actual-sales-group",
     "ACTION_UPDATE_CORRESPOND_TO_ACTUAL_SALES_PRODUCT": "updateCorrspondToActualSalesProduct",
@@ -321,19 +321,14 @@
     "ACTION_GET_HISTORIES": "histories"
   },
 
-  "API_SALES_PROMOTIONS_TYPES": {
-    "NAME": "api-sales.promotions-types"
-  },
-
   "API_SALES_DELIVERY_PRODUCT": {
     "NAME": "api-sales.delivery-product",
     "ACTION_CREATE_DELIVERY_PRODUCT_FROM_WAREHOUSE_VOUCHERS": "create-delivery-product-from-warehouse-vouchers",
     "ACTION_CREATE_DELIVERY_PRODUCT_FROM_SO": "create-delivery-product-from-so"
   },
 
-  "API_SALES_PROMOTIONS": {
-    "NAME": "api-sales.promotions",
-
+  "SVC_PROMOTION_MANAGEMENT": {
+    "NAME": "svc-promotion.promotions",
     "ACTION_GET": "get",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
@@ -342,6 +337,25 @@
     "ACTION_GEN_CODE": "gen-code",
     "ACTION_CHANGE_STATUS": "change-status",
     "ACTION_UPDATE_MANY_STATUS": "update-many-status"
+  },
+
+  "SVC_PROMOTION_MANAGEMENT_PRODUCT": {
+    "NAME": "svc-promotion.promotion-products"
+  },
+
+  "SVC_PROMOTION_PRICING_POLICY": {
+    "NAME": "svc-promotion.pricing-policy",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_GET_LIST": "get-lists",
+    "ACTION_GET_DETAIL": "get-details",
+    "ACTION_DELETE_MANY": "delete-many",
+    "ACTION_GET_HISTORIES": "get-histories"
+  },
+
+  "SVC_PROMOTION_PRICING_POLICY_PRODUCT": {
+    "NAME": "svc-promotion.pricing-policy-products"
   },
 
   "API_SALES_LEAD": {
@@ -412,18 +426,6 @@
     "ACTIONS_GET_SETTING_ALLOW_OUT_OF_STOCK": "updateAllowOutOfStock"
   },
 
-  "API_SALES_PROMOTIONS_PRODUCT": {
-    "NAME": "api-sales.promotionProduct"
-  },
-
-  "API_SALES_PROMOTIONS_GROUP_LABEL": {
-    "NAME": "api-sales.promotionGroupLabel"
-  },
-
-  "API_SALES_PROMOTIONS_REPORT": {
-    "NAME": "api-sales.promotionsReport"
-  },
-
   "SVC_SALES_ORDERS": {
     "NAME": "svc-sales-orders",
     "ACTION_GET_SALES_ORDERS_BY_CUSTOMER_ID": "getSalesOrdersByCustomerId",
@@ -452,10 +454,6 @@
 
   "SVC_SALES_ORDER_DETAILS": {
     "NAME": "svc-sales-order-details"
-  },
-
-  "API_SALES_PROMOTIONS_REPORT_VIEWS": {
-    "NAME": "api-sales.promotionsReportViews"
   },
 
   "API_SALES_PRODUCT_ACCOUNTING_VALUES": {
