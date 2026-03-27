@@ -351,7 +351,12 @@
     "ACTION_GET_LIST": "get-lists",
     "ACTION_GET_DETAIL": "get-details",
     "ACTION_DELETE_MANY": "delete-many",
-    "ACTION_GET_HISTORIES": "get-histories"
+    "ACTION_GET_HISTORIES": "get-histories",
+    "ACTION_CALCULATE_PRICE": "calculate-price",
+    "ACTION_CREATE_POLICY_DRAFT": "create-policy-draft",
+    "ACTION_CREATE_POLICY_PRODUCTS": "create-policy-products",
+    "ACTION_CREATE_POLICY_CUSTOMERS": "update-policy-customers",
+    "ACTION_CREATE_POLICY_CONSTRAINTS": "update-policy-constraints"
   },
 
   "SVC_PROMOTION_PRICING_POLICY_PRODUCT": {
