@@ -353,6 +353,7 @@
     "ACTION_DELETE_MANY": "delete-many",
     "ACTION_GET_HISTORIES": "get-histories",
     "ACTION_CALCULATE_PRICE": "calculate-price",
+    "ACTION_FINALIZE_POLICY": "finalize-policy",
     "ACTION_CREATE_POLICY_DRAFT": "create-policy-draft",
     "ACTION_CREATE_POLICY_PRODUCTS": "create-policy-products",
     "ACTION_CREATE_POLICY_CUSTOMERS": "update-policy-customers",
