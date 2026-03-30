@@ -251,7 +251,14 @@
   },
 
   "API_WAREHOUSE_TRANSFER_VOUCHER_PRODUCTS": {
-    "NAME": "api-warehouse.transfer-voucher-products"
+    "NAME": "api-warehouse.transfer-voucher-products",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_UPDATE_MANY": "updateMany",
+    "ACTION_DELETE_MANY": "deleteMany"
   },
 
   "API_AFTER_SALES": {
