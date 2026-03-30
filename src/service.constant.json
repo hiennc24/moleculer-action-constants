@@ -2958,6 +2958,7 @@
     "ACTION_PUT_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
+
   "API_WAREHOUSE_STOCKTAKING": {
     "NAME": "api-warehouse.warehouseStocking",
     "ACTION_GET_LIST_WAREHOUSE_STOCKTAKING": "getListWarehouseStocking",
@@ -2971,6 +2972,7 @@
   "API_WAREHOUSE_STOCKTAKING_PRODUCT": {
     "NAME": "api-warehouse.warehouseStockingProduct"
   },
+
   "SVC_WAREHOUSE_LIST": {
     "NAME": "warehouse-lists",
     "ACTION_GET": "get",
@@ -2979,6 +2981,7 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
+
   "SVC_WAREHOUSE_ZONE": {
     "NAME": "warehouse-zones",
     "ACTION_GET": "get",
