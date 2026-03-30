@@ -3516,5 +3516,13 @@
 
     "ADD_TO_QUEUE_AUTOMATION": "addToQueueAutomation",
     "ADD_TO_QUEUE_NOTIFICATION": "addToQueueNotification"
+  },
+
+  "SVC_API_GATEWAY": {
+    "NAME": "api-gateway.health",
+    "ACTION_HEALTH_CHECK": "check",
+    "ACTION_LIVENESS": "live",
+    "ACTION_READINESS": "ready",
+    "ACTION_METRICS": "metrics"
   }
 }
