@@ -179,7 +179,10 @@
     "ACTION_CANCEL_VOUCHER": "cancel",
     "ACTION_APPROVE_VOUCHER": "approve",
     "ACTION_COMPLETE_VOUCHER": "complete",
-    "ACTION_REJECT_VOUCHER": "reject"
+    "ACTION_REJECT_VOUCHER": "reject",
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_CONFIRM_VOUCHER": "confirmVoucher",
+    "ACTION_BULK_DELETE": "bulkDelete"
   },
 
   "SVC_WAREHOUSE_VOUCHER_PRODUCTS": {
@@ -199,7 +202,12 @@
     "ACTION_GET_QUEUE_IMPORT_STATUS": "getQueueImportStatus",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable",
     "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
-    "ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "seedInventoryTransactionsData"
+    "ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "seedInventoryTransactionsData",
+    "ACTION_GET_INVENTORY_LIST": "getInventoryList",
+    "ACTION_GET_EVENT_HISTORY": "getEventHistory",
+    "ACTION_UPDATE_PRODUCT_SNAPSHOTS": "updateProductSnapshots",
+    "ACTION_UPDATE_WAREHOUSE_SNAPSHOTS": "updateWarehouseSnapshots",
+    "ACTION_BACKFILL_SNAPSHOTS": "backfillSnapshots"
   },
 
   "SVC_WAREHOUSE_INVENTORY_TRANSACTIONS": {
@@ -226,6 +234,34 @@
     "NAME": "api-warehouse.warehouseManagement",
     "ACTION_UPDATE_PRODUCT_RESERVED_OR_INCOMING": "updateProductReservedOrIncoming",
     "ACTION_UPDATE_PRODUCT_QUANTITY": "updateProductQuantity"
+  },
+
+  "API_WAREHOUSE_TRANSFER_VOUCHERS": {
+    "NAME": "api-warehouse.transfer-vouchers",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_BULK_DELETE": "bulkDelete",
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_CONFIRM_EXPORT": "confirmExport",
+    "ACTION_CONFIRM_RECEIVE": "confirmReceive",
+    "ACTION_UPDATE_TRANSPORT": "updateTransport"
+  },
+
+  "API_WAREHOUSE_TRANSFER_VOUCHER_PRODUCTS": {
+    "NAME": "api-warehouse.transfer-voucher-products"
+  },
+
+  "API_AFTER_SALES": {
+    "NAME": "api.sales.after-sales-complaints",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_UPDATE_STATUS": "updateStatus"
   },
 
   "API_SALES_SALES_PROMOTION_DETAIL": {
@@ -2404,7 +2440,9 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete",
     "ACTION_IMPORT": "import",
-    "ACTION_COUNT": "count"
+    "ACTION_COUNT": "count",
+    "ACTION_BULK_DELETE": "bulkDelete",
+    "ACTION_UPDATE_STATUS": "updateStatus"
   },
 
   "SVC_ADMINISTRATION_LIST_CONTRACT_LIBRARIES": {
