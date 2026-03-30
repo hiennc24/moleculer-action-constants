@@ -1217,6 +1217,20 @@ const COLLECTIONS = {
   // Print Template Libraries
   PRINT_TEMPLATE_LIBRARY_REPOSITORY_NAME: "printTemplateLibrary",
   PRINT_TEMPLATE_LIBRARY_COLLECTION_NAME: "print_template_libraries",
+
+  // Transfer Voucher
+  WAREHOUSE_TRANSFER_VOUCHER_REPOSITORY_NAME: "TransferVoucher",
+  WAREHOUSE_TRANSFER_VOUCHER_COLLECTION_NAME: "transfer_vouchers",
+  WAREHOUSE_TRANSFER_VOUCHER_PRODUCT_REPOSITORY_NAME: "TransferVoucherProduct",
+  WAREHOUSE_TRANSFER_VOUCHER_PRODUCT_COLLECTION_NAME: "transfer_voucher_products",
+
+  // After Sales Complaint
+  AFTER_SALES_COMPLAINT_REPOSITORY_NAME: "AfterSalesComplaint",
+  AFTER_SALES_COMPLAINT_COLLECTION_NAME: "after_sales_complaints",
+
+  // Contract Products
+  CONTRACT_PRODUCTS_REPOSITORY_NAME: "ContractProducts",
+  CONTRACT_PRODUCTS_COLLECTION_NAME: "contract_products",
 };
 
 export default COLLECTIONS;
