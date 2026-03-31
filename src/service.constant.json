@@ -3112,6 +3112,14 @@
     "ACTION_DELETE": "delete"
   },
 
+  "SVC_SUPPLIER_CONFIRMATION": {
+    "NAME": "svc-orders.supplier-confirmation",
+    "ACTION_VERIFY_CODE": "verifyCode",
+    "ACTION_REQUEST_CODE": "requestCode",
+    "ACTION_VALIDATE_TOKEN": "validateToken",
+    "ACTION_GET_PO_DETAIL_BY_TOKEN": "getPODetailByToken"
+  },
+
   "SVC_PURCHASE_ORDER_HISTORIES": {
     "NAME": "svc-orders.purchase-order-histories",
     "ACTION_GET_LIST": "getList",
