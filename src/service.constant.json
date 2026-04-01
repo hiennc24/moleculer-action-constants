@@ -1,4 +1,18 @@
 {
+  "EVENT_NAMES": {
+    "PURCHASE_ORDER": {
+      "CREATED": "purchase-order.created",
+      "UPDATED": "purchase-order.updated",
+      "APPROVED": "purchase-order.approved",
+      "REJECTED": "purchase-order.rejected"
+    },
+    "SALE_ORDER": {
+      "CREATED": "sale-order.created",
+      "UPDATED": "sale-order.updated",
+      "APPROVED": "sale-order.approved",
+      "REJECTED": "sale-order.rejected"
+    }
+  },
   "SVC_SHARED_SETTING_INVOICE": {
     "NAME": "svc-shared.settingInvoice",
     "ACTION_CREATE": "create",
@@ -148,6 +162,66 @@
 
   "SVC_BUSINESS_PARTNER_DETAIL": {
     "NAME": "svc-business-partner.partner-details"
+  },
+
+  "SVC_DEBTS": {
+    "NAME": "svc-business-partner.debts",
+    "ACTION_GET_LIST": "lists",
+    "ACTION_GET_DETAIL": "detail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+
+    "ACTION_GET_FORECAST": "getForecast",
+    "ACTION_GET_DASHBOARD": "getDashboard",
+    "ACTION_GET_FX_RATES": "getFXRates",
+    "ACTION_FETCH_FX_RATES": "fetchFXRates",
+    "ACTION_CONVERT_CURRENCY": "convertCurrency",
+    "ACTION_OVERRIDE_FX_RATE": "overrideFXRate",
+    "ACTION_GET_FX_RATE_HISTORY": "getFXRateHistories",
+    "ACTION_GL_JOURNAL_NETTING": "getGLJournalNetting",
+    "ACTION_GL_JOURNAL_PAYMENT": "getGLJournalPayment",
+    "ACTION_GL_BATCH_POST": "glBatchPost",
+    "ACTION_GL_RECONCILE": "glReconcile",
+    "ACTION_GL_ACCOUNTS": "getGLAccounts",
+    "ACTION_GL_JOURNAL_GET": "getGLJournalDetail",
+    "ACTION_EXECUTE_NETTING": "executeNetting",
+    "ACTION_GET_NETTING_OPPORTUNITIES": "getNettingOpportunities",
+    "ACTION_GET_NETTING_HISTORY": "getNettingHistories",
+    "ACTION_CHECK_NETTING_ELIGIBILITY": "checkNettingEligibility",
+    "ACTION_GET_PARTNER_DEBT_SUMMARY": "getPartnerSummaries",
+    "ACTION_GET_AGING_REPORT": "getAgingReports",
+    "ACTION_GET_LEDGERS_BY_PARTNER": "getLedgerByPartner",
+    "ACTION_CREATE_DEBT_FROM_ORDER": "createDebtFromOrder",
+    "ACTION_RECORD_PAYMENT": "recordPayment",
+    "ACTION_PREVIEW_ALLOCATION": "previewAllocation",
+    "ACTION_GET_PAYMENT_DETAIL": "getPaymentDetail"
+  },
+
+  "SVC_DEBT_TRANSACTIONS": {
+    "NAME": "svc-business-partner.debt-transactions",
+    "ACTION_GET_LIST": "lists",
+    "ACTION_GET_DETAIL": "detail",
+    "ACTION_CREATE": "create",
+    "ACTION_CREATE_MANY": "create-many",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_GENERATE_CODE": "generate-code"
+  },
+
+  "SVC_DEBT_PERIODS": {
+    "NAME": "svc-business-partner.debt-periods",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+
+  "SVC_DEBT_HISTORIES": {
+    "NAME": "svc-business-partner.debt-histories",
+    "ACTION_CREATE_HISTORY": "createHistory"
   },
 
   "SVC_VOUCHER_TYPES": {
@@ -308,43 +382,6 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
-  },
-
-  "SVC_DEBT_TRANSACTIONS": {
-    "NAME": "svc-order.debt-transactions",
-    "ACTION_GET_LIST": "lists",
-    "ACTION_GET_DETAIL": "detail",
-    "ACTION_CREATE": "create",
-    "ACTION_CREATE_MANY": "create-many",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_UPDATE_STATUS": "updateStatus",
-    "ACTION_GENERATE_CODE": "generate-code"
-  },
-
-  "SVC_DEBT_PERIODS": {
-    "NAME": "svc-order.debt-periods",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete"
-  },
-
-  "SVC_DEBTS": {
-    "NAME": "svc-order.debts",
-    "ACTION_GET_LIST": "lists",
-    "ACTION_GET_DETAIL": "detail",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_GET_LIST_BY_CUSTOMER": "get-list-by-customer",
-    "ACTION_GENERATE_CODE": "generate-code"
-  },
-
-  "SVC_DEBT_HISTORIES": {
-    "NAME": "svc-order.debt-histories",
-    "ACTION_CREATE_HISTORY": "createHistory"
   },
 
   "API_SALES_DELIVERY_HISTORY": {
@@ -3117,7 +3154,10 @@
     "ACTION_VERIFY_CODE": "verifyCode",
     "ACTION_REQUEST_CODE": "requestCode",
     "ACTION_VALIDATE_TOKEN": "validateToken",
-    "ACTION_GET_PO_DETAIL_BY_TOKEN": "getPODetailByToken"
+    "ACTION_GET_PO_DETAIL_BY_TOKEN": "getPODetailByToken",
+    "ACTION_ACCEPT": "accept",
+    "ACTION_REJECT": "reject",
+    "ACTION_NEED_UPDATE": "needUpdate"
   },
 
   "SVC_PURCHASE_ORDER_HISTORIES": {
