@@ -1236,6 +1236,35 @@ const COLLECTIONS = {
   // Contract Products
   CONTRACT_PRODUCTS_REPOSITORY_NAME: "ContractProducts",
   CONTRACT_PRODUCTS_COLLECTION_NAME: "contract_products",
+
+  // Debt Management
+  INVOICE_LEDGER_REPOSITORY_NAME: "InvoiceLedger",
+  INVOICE_LEDGER_COLLECTION_NAME: "invoice_ledgers",
+
+  PAYMENT_TRANSACTION_REPOSITORY_NAME: "PaymentTransaction",
+  PAYMENT_TRANSACTION_COLLECTION_NAME: "payment_transactions",
+
+  DEBT_EVENT_REPOSITORY_NAME: "DebtEvent",
+  DEBT_EVENT_COLLECTION_NAME: "debt_events",
+
+  // Debt Netting
+  NETTING_RECORD_REPOSITORY_NAME: "NettingRecord",
+  NETTING_RECORD_COLLECTION_NAME: "netting_records",
+
+  // Debt Multi-Currency
+  FX_RATE_REPOSITORY_NAME: "FxRate",
+  FX_RATE_COLLECTION_NAME: "fx_rates",
+
+  // Debt GL Integration
+  JOURNAL_ENTRY_REPOSITORY_NAME: "JournalEntry",
+  JOURNAL_ENTRY_COLLECTION_NAME: "journal_entries",
+
+  CHART_OF_ACCOUNTS_REPOSITORY_NAME: "ChartOfAccounts",
+  CHART_OF_ACCOUNTS_COLLECTION_NAME: "chart_of_accounts",
+
+  // Debt Reconciliation & Batch
+  BATCH_METADATA_REPOSITORY_NAME: "BatchMetadata",
+  BATCH_METADATA_COLLECTION_NAME: "batch_metadata",
 };
 
 export default COLLECTIONS;

@@ -245,18 +245,19 @@
   "SVC_WAREHOUSE_VOUCHERS": {
     "NAME": "svc-warehouse.vouchers",
     "ACTION_GET_LIST": "getList",
+    "ACTION_REJECT_VOUCHER": "reject",
     "ACTION_CREATE_VOUCHER": "create",
-    "ACTION_GET_DETAIL_VOUCHER": "getDetail",
     "ACTION_UPDATE_VOUCHER": "update",
-    "ACTION_CHANGE_STATUS_VOUCHER": "changeStatus",
     "ACTION_DELETE_VOUCHER": "delete",
     "ACTION_CANCEL_VOUCHER": "cancel",
+    "ACTION_BULK_DELETE": "bulkDelete",
     "ACTION_APPROVE_VOUCHER": "approve",
     "ACTION_COMPLETE_VOUCHER": "complete",
-    "ACTION_REJECT_VOUCHER": "reject",
     "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_GET_DETAIL_VOUCHER": "getDetail",
     "ACTION_CONFIRM_VOUCHER": "confirmVoucher",
-    "ACTION_BULK_DELETE": "bulkDelete"
+    "ACTION_CHANGE_STATUS_VOUCHER": "changeStatus",
+    "ACTION_GET_ORDER_AVAILABLE_LIST": "getOrderAvailableList"
   },
 
   "SVC_WAREHOUSE_VOUCHER_PRODUCTS": {
