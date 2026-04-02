@@ -1,4 +1,18 @@
 {
+  "EVENT_NAMES": {
+    "PURCHASE_ORDER": {
+      "CREATED": "purchase-order.created",
+      "UPDATED": "purchase-order.updated",
+      "APPROVED": "purchase-order.approved",
+      "REJECTED": "purchase-order.rejected"
+    },
+    "SALE_ORDER": {
+      "CREATED": "sale-order.created",
+      "UPDATED": "sale-order.updated",
+      "APPROVED": "sale-order.approved",
+      "REJECTED": "sale-order.rejected"
+    }
+  },
   "SVC_SHARED_SETTING_INVOICE": {
     "NAME": "svc-shared.settingInvoice",
     "ACTION_CREATE": "create",
@@ -47,23 +61,18 @@
     "ACTION_UPDATE_SCHEDULE": "updateSchedule",
     "ACTION_DELETE_SCHEDULE": "deleteSchedule"
   },
-
   "SVC_SYNC_PRODUCT_ITEM": {
     "NAME": "svc-sync-product-item"
   },
-
   "SVC_SYNC_PRODUCT_VARIANT": {
     "NAME": "svc-sync-product-variant"
   },
-
   "SVC_SYNC_PRODUCT_GROUP_LABEL": {
     "NAME": "svc-sync-product-group-label"
   },
-
   "SVC_PRODUCT_WAREHOUSE_SETTINGS": {
     "NAME": "svc-product.warehouseSettings"
   },
-
   "SVC_INVENTORY": {
     "NAME": "svc-product.inventories",
     "ACTION_UPLOAD": "upload",
@@ -75,14 +84,12 @@
     "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
     "ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "seedInventoryTransactionsData"
   },
-
   "SVC_INVENTORY_TRANSACTIONS": {
     "NAME": "svc-product.inventory-transactions",
     "ACTION_CREATE": "createInventoryTransaction",
     "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport",
     "ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost"
   },
-
   "SVC_ORDER_INVENTORY": {
     "NAME": "svc-product.order-inventories",
     "ACTION_UPLOAD": "upload",
@@ -94,46 +101,38 @@
     "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
     "ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "seedInventoryTransactionsData"
   },
-
   "SVC_ORDER_INVENTORY_TRANSACTIONS": {
     "NAME": "svc-product.order-inventory-transactions",
     "ACTION_CREATE": "createOrderInventoryTransaction",
     "ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost",
     "ACTION_GET_ORDER_INVENTORY_REPORTS": "getOrderInventoryReport"
   },
-
   "SVC_PRODUCT_ORDER_PRODUCT_ITEMS": {
     "NAME": "svc-product.orderProductItems",
     "ACTION_FIND_ALL_BY_AGGREGATE": "findAllByAggregations"
   },
-
   "SVC_TENANTS_ORGANIZATIONS": {
     "NAME": "api-admin.tenants.organizations",
     "ACTION_RESTORE": "restore",
     "ACTION_GET_ALL": "getAll"
   },
-
   "SVC_SHARED_PROVINCES": {
     "NAME": "svc-shared.provinces",
     "ACTION_GET": "getList"
   },
-
   "SVC_SHARED_DISTRICTS": {
     "NAME": "svc-shared.districts",
     "ACTION_GET": "getList"
   },
-
   "MIGRATIONS": {
     "NAME": "svc-migrations",
     "ACTION_MIGRATION_MASTER": "migrationsMaster",
     "ACTION_INIT_MASTER_DATA": "initMasterData"
   },
-
   "BANKS": {
     "NAME": "svc-banks",
     "ACTION_GET_LIST": "getList"
   },
-
   "SVC_BUSINESS_PARTNER": {
     "NAME": "svc-business-partner.partners",
     "ACTION_GET_TAX_CODE": "getTaxCode",
@@ -145,11 +144,64 @@
     "ACTION_UPDATE": "update",
     "ACTION_UPLOAD": "upload"
   },
-
   "SVC_BUSINESS_PARTNER_DETAIL": {
     "NAME": "svc-business-partner.partner-details"
   },
-
+  "SVC_DEBTS": {
+    "NAME": "svc-business-partner.debts",
+    "ACTION_GET_LIST": "lists",
+    "ACTION_GET_DETAIL": "detail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_GET_FORECAST": "getForecast",
+    "ACTION_GET_DASHBOARD": "getDashboard",
+    "ACTION_GET_FX_RATES": "getFXRates",
+    "ACTION_FETCH_FX_RATES": "fetchFXRates",
+    "ACTION_CONVERT_CURRENCY": "convertCurrency",
+    "ACTION_OVERRIDE_FX_RATE": "overrideFXRate",
+    "ACTION_GET_FX_RATE_HISTORY": "getFXRateHistories",
+    "ACTION_GL_JOURNAL_NETTING": "getGLJournalNetting",
+    "ACTION_GL_JOURNAL_PAYMENT": "getGLJournalPayment",
+    "ACTION_GL_BATCH_POST": "glBatchPost",
+    "ACTION_GL_RECONCILE": "glReconcile",
+    "ACTION_GL_ACCOUNTS": "getGLAccounts",
+    "ACTION_GL_JOURNAL_GET": "getGLJournalDetail",
+    "ACTION_EXECUTE_NETTING": "executeNetting",
+    "ACTION_GET_NETTING_OPPORTUNITIES": "getNettingOpportunities",
+    "ACTION_GET_NETTING_HISTORY": "getNettingHistories",
+    "ACTION_CHECK_NETTING_ELIGIBILITY": "checkNettingEligibility",
+    "ACTION_GET_PARTNER_DEBT_SUMMARY": "getPartnerSummaries",
+    "ACTION_GET_AGING_REPORT": "getAgingReports",
+    "ACTION_GET_LEDGERS_BY_PARTNER": "getLedgerByPartner",
+    "ACTION_CREATE_DEBT_FROM_ORDER": "createDebtFromOrder",
+    "ACTION_RECORD_PAYMENT": "recordPayment",
+    "ACTION_PREVIEW_ALLOCATION": "previewAllocation",
+    "ACTION_GET_PAYMENT_DETAIL": "getPaymentDetail"
+  },
+  "SVC_DEBT_TRANSACTIONS": {
+    "NAME": "svc-business-partner.debt-transactions",
+    "ACTION_GET_LIST": "lists",
+    "ACTION_GET_DETAIL": "detail",
+    "ACTION_CREATE": "create",
+    "ACTION_CREATE_MANY": "create-many",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_GENERATE_CODE": "generate-code"
+  },
+  "SVC_DEBT_PERIODS": {
+    "NAME": "svc-business-partner.debt-periods",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "SVC_DEBT_HISTORIES": {
+    "NAME": "svc-business-partner.debt-histories",
+    "ACTION_CREATE_HISTORY": "createHistory"
+  },
   "SVC_VOUCHER_TYPES": {
     "NAME": "svc-administration-list.voucher-types",
     "ACTION_GET_DETAIL": "getDetail",
@@ -161,31 +213,29 @@
     "ACTION_COUNT": "count",
     "ACTION_LOCK": "lock"
   },
-
   "SVC_WAREHOUSE_SETTINGS": {
     "NAME": "svc-warehouse.settings",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "update"
   },
-
   "SVC_WAREHOUSE_VOUCHERS": {
     "NAME": "svc-warehouse.vouchers",
     "ACTION_GET_LIST": "getList",
+    "ACTION_REJECT_VOUCHER": "reject",
     "ACTION_CREATE_VOUCHER": "create",
     "ACTION_CREATE_VOUCHER_FROM_ORDER": "createVoucherFromOrder",
-    "ACTION_GET_DETAIL_VOUCHER": "getDetail",
     "ACTION_UPDATE_VOUCHER": "update",
-    "ACTION_CHANGE_STATUS_VOUCHER": "changeStatus",
     "ACTION_DELETE_VOUCHER": "delete",
     "ACTION_CANCEL_VOUCHER": "cancel",
+    "ACTION_BULK_DELETE": "bulkDelete",
     "ACTION_APPROVE_VOUCHER": "approve",
     "ACTION_COMPLETE_VOUCHER": "complete",
-    "ACTION_REJECT_VOUCHER": "reject",
     "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_GET_DETAIL_VOUCHER": "getDetail",
     "ACTION_CONFIRM_VOUCHER": "confirmVoucher",
-    "ACTION_BULK_DELETE": "bulkDelete"
+    "ACTION_CHANGE_STATUS_VOUCHER": "changeStatus",
+    "ACTION_GET_ORDER_AVAILABLE_LIST": "getOrderAvailableList"
   },
-
   "SVC_WAREHOUSE_VOUCHER_PRODUCTS": {
     "NAME": "svc-warehouse.voucher-products",
     "ACTION_GET_PRODUCT_LIST": "getProductList",
@@ -193,7 +243,6 @@
     "ACTION_UPDATE_MANY_PRODUCT": "updateManyProduct",
     "ACTION_DELETE_MANY_PRODUCT": "deleteManyProduct"
   },
-
   "SVC_WAREHOUSE_INVENTORY": {
     "NAME": "svc-warehouse.inventories",
     "ACTION_UPLOAD": "upload",
@@ -210,14 +259,12 @@
     "ACTION_UPDATE_WAREHOUSE_SNAPSHOTS": "updateWarehouseSnapshots",
     "ACTION_BACKFILL_SNAPSHOTS": "backfillSnapshots"
   },
-
   "SVC_WAREHOUSE_INVENTORY_TRANSACTIONS": {
     "NAME": "svc-warehouse.inventory-transactions",
     "ACTION_CREATE": "createInventoryTransaction",
     "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport",
     "ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost"
   },
-
   "SVC_WAREHOUSE_INVENTORIES": {
     "NAME": "api-warehouse.inventories",
     "ACTION_DELETE_MANY_INVENTORIES": "deleteManyInventories",
@@ -230,13 +277,11 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_LIST": "getList"
   },
-
   "SVC_WAREHOUSE_MANAGEMENT": {
     "NAME": "api-warehouse.warehouseManagement",
     "ACTION_UPDATE_PRODUCT_RESERVED_OR_INCOMING": "updateProductReservedOrIncoming",
     "ACTION_UPDATE_PRODUCT_QUANTITY": "updateProductQuantity"
   },
-
   "API_WAREHOUSE_TRANSFER_VOUCHERS": {
     "NAME": "api-warehouse.transfer-vouchers",
     "ACTION_GET_LIST": "getList",
@@ -250,7 +295,6 @@
     "ACTION_CONFIRM_RECEIVE": "confirmReceive",
     "ACTION_UPDATE_TRANSPORT": "updateTransport"
   },
-
   "API_WAREHOUSE_TRANSFER_VOUCHER_PRODUCTS": {
     "NAME": "api-warehouse.transfer-voucher-products",
     "ACTION_GET_LIST": "getList",
@@ -261,7 +305,6 @@
     "ACTION_UPDATE_MANY": "updateMany",
     "ACTION_DELETE_MANY": "deleteMany"
   },
-
   "API_AFTER_SALES": {
     "NAME": "api.sales.after-sales-complaints",
     "ACTION_GET_LIST": "getList",
@@ -271,24 +314,20 @@
     "ACTION_DELETE": "delete",
     "ACTION_UPDATE_STATUS": "updateStatus"
   },
-
   "API_SALES_SALES_PROMOTION_DETAIL": {
     "NAME": "api-sales.promotionDetail",
     "ACTION_ADD_OR_UPDATE_PROMOTION_DETAILS": "addOrUpdatePromotionDetails",
     "ACTION_DELETE_BY_PROMOTION_IDS": "deleteByPromotionIds"
   },
-
   "API_SALES_PERMISSION": {
     "NAME": "api-sales.permission-actions",
     "ACTION_GET_PERMISSION_ACTIONS": "get-list"
   },
-
   "API_SALES_DASHBOARD": {
     "NAME": "api-sales.promotionDetail",
     "ACTION_ADD_OR_UPDATE_PROMOTION_DETAILS": "addOrUpdatePromotionDetails",
     "ACTION_DELETE_BY_PROMOTION_IDS": "deleteByPromotionIds"
   },
-
   "API_SALES_ACTUAL_SALES_GROUP": {
     "NAME": "api-sales.actual-sales-group",
     "ACTION_UPDATE_CORRESPOND_TO_ACTUAL_SALES_PRODUCT": "updateCorrspondToActualSalesProduct",
@@ -302,7 +341,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_UPLOAD": "upload"
   },
-
   "API_SALES_ACTUAL_SALES_PRODUCT": {
     "NAME": "api-sales.actual-sales-product",
     "ACTION_UPDATE_AND_RECALCULATE": "update-and-recaculate",
@@ -310,49 +348,10 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
-  "SVC_DEBT_TRANSACTIONS": {
-    "NAME": "svc-order.debt-transactions",
-    "ACTION_GET_LIST": "lists",
-    "ACTION_GET_DETAIL": "detail",
-    "ACTION_CREATE": "create",
-    "ACTION_CREATE_MANY": "create-many",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_UPDATE_STATUS": "updateStatus",
-    "ACTION_GENERATE_CODE": "generate-code"
-  },
-
-  "SVC_DEBT_PERIODS": {
-    "NAME": "svc-order.debt-periods",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete"
-  },
-
-  "SVC_DEBTS": {
-    "NAME": "svc-order.debts",
-    "ACTION_GET_LIST": "lists",
-    "ACTION_GET_DETAIL": "detail",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_GET_LIST_BY_CUSTOMER": "get-list-by-customer",
-    "ACTION_GENERATE_CODE": "generate-code"
-  },
-
-  "SVC_DEBT_HISTORIES": {
-    "NAME": "svc-order.debt-histories",
-    "ACTION_CREATE_HISTORY": "createHistory"
-  },
-
   "API_SALES_DELIVERY_HISTORY": {
     "NAME": "api-sales.delivery-history",
     "ACTION_CREATE_HISTORY": "createHistory"
   },
-
   "API_SALES_DELIVERY_ORDER": {
     "NAME": "api-sales.delivery-order",
     "ACTION_CREATE_DELIVERY_ORDER_FROM_WAREHOUSE": "create-delivery-order-from-warehouse",
@@ -364,13 +363,11 @@
     "ACTION_GENERATE_CODE": "generate-code",
     "ACTION_GET_HISTORIES": "histories"
   },
-
   "API_SALES_DELIVERY_PRODUCT": {
     "NAME": "api-sales.delivery-product",
     "ACTION_CREATE_DELIVERY_PRODUCT_FROM_WAREHOUSE_VOUCHERS": "create-delivery-product-from-warehouse-vouchers",
     "ACTION_CREATE_DELIVERY_PRODUCT_FROM_SO": "create-delivery-product-from-so"
   },
-
   "SVC_PROMOTION_MANAGEMENT": {
     "NAME": "svc-promotion.promotions",
     "ACTION_GET": "get",
@@ -382,11 +379,9 @@
     "ACTION_CHANGE_STATUS": "change-status",
     "ACTION_UPDATE_MANY_STATUS": "update-many-status"
   },
-
   "SVC_PROMOTION_MANAGEMENT_PRODUCT": {
     "NAME": "svc-promotion.promotion-products"
   },
-
   "SVC_PROMOTION_PRICING_POLICY": {
     "NAME": "svc-promotion.pricing-policy",
     "ACTION_CREATE": "create",
@@ -403,11 +398,9 @@
     "ACTION_CREATE_POLICY_CUSTOMERS": "update-policy-customers",
     "ACTION_CREATE_POLICY_CONSTRAINTS": "update-policy-constraints"
   },
-
   "SVC_PROMOTION_PRICING_POLICY_PRODUCT": {
     "NAME": "svc-promotion.pricing-policy-products"
   },
-
   "API_SALES_LEAD": {
     "NAME": "api-sales.lead",
     "ACTION_COUNT_LEAD_BY_EMPLOYEE": "countLeadByEmployee",
@@ -420,35 +413,28 @@
     "ACTION_UPDATE_MANY_POSITIONS": "updateManyPosition",
     "ACTION_UPDATE_POSITION": "updatePosition"
   },
-
   "API_SALES_LEAD_SETTING": {
     "NAME": "api-sales.lead-setting",
-
     "ACTION_GET_LIST": "getListLeadSetting",
     "ACTION_UPDATE": "updateLeadSetting"
   },
-
   "API_SALES_LEAD_PRODUCT": {
     "NAME": "api-sales.lead-product",
     "ACTION_CREATE_LEAD_PRODUCT": "create-lead-product"
   },
-
   "API_SALES_LEAD_DETAIL": {
     "NAME": "api-sales.lead-detail"
   },
-
   "API_SALES_LEAD_STATUS": {
     "NAME": "api-sales.lead-status",
     "ACTION_GET_LIST": "getListLeadStatus",
     "ACTION_UPDATE_MANY": "updateManyLeadStatus"
   },
-
   "API_SALES_LEAD_HISTORY": {
     "NAME": "api-sales.lead-history",
     "ACTION_GET_LIST": "getListLeadHistory",
     "ACTION_CREATE": "createLeadHistory"
   },
-
   "API_SALES_LEAD_SCHEDULE": {
     "NAME": "api-sales.lead-schedule",
     "ACTION_GET_LIST": "getListLeadSchedule",
@@ -456,7 +442,6 @@
     "ACTION_UPDATE": "updateLeadSchedule",
     "ACTION_DELETE": "deleteLeadSchedule"
   },
-
   "API_SALES_LEAD_COMMENT": {
     "NAME": "api-sales.lead-comment",
     "ACTION_GET_LIST": "getListLeadComment",
@@ -464,10 +449,8 @@
     "ACTION_UPDATE": "updateLeadComment",
     "ACTION_DELETE": "deleteLeadComment"
   },
-
   "API_SALES_SETTING": {
     "NAME": "api-sales.settings",
-
     "ACTION_GET": "getSetting",
     "ACTION_GET_TRANSACTIONS": "getSettingTransactions",
     "ACTION_GET_DOCUMENTS": "getSettingDocuments",
@@ -475,7 +458,6 @@
     "ACTION_UPDATE_ALLOW_OUT_OF_STOCK": "getSettingAllowOutOfStock",
     "ACTIONS_GET_SETTING_ALLOW_OUT_OF_STOCK": "updateAllowOutOfStock"
   },
-
   "SVC_SALES_ORDERS": {
     "NAME": "svc-sales-orders",
     "ACTION_GET_SALES_ORDERS_BY_CUSTOMER_ID": "getSalesOrdersByCustomerId",
@@ -501,11 +483,9 @@
     "ACTION_RESCIND": "rescind",
     "ACTION_AMEND": "amend"
   },
-
   "SVC_SALES_ORDER_DETAILS": {
     "NAME": "svc-sales-order-details"
   },
-
   "API_SALES_PRODUCT_ACCOUNTING_VALUES": {
     "NAME": "api-sales.productAccountingValues",
     "ACTION_CANCEL_SO_ACKNOWLEDGE_VALUE": "cancelSOAcknowledgeValue",
@@ -514,11 +494,9 @@
     "ACTION_DOWNLOAD_EXCEL_TEMPLATE": "downloadExcelTemplate",
     "ACTION_GET_LIST": "getList"
   },
-
   "API_SALES_GROUP_LABEL_ACCOUNTING_VALUES": {
     "NAME": "api-sales.groupLabelAccountingValues"
   },
-
   "API_SALES_SALES_COST": {
     "NAME": "api-sales.salesCosts",
     "ACTION_GET_LIST_USED": "getListSalesCostUsed",
@@ -529,14 +507,12 @@
     "ACTION_GET_LIST_EXPENSE": "getExpenseList",
     "ACTION_DELETE_SALE_COSTS": "deleteSaleCosts"
   },
-
   "API_SALES_SALES_COST_CONFIGURATION": {
     "NAME": "api-sales.salesCostsConfiguration",
     "ACTION_GET_CONFIG_EXPENSE_LIST": "getConfigExpenseList",
     "ACTION_ADD_OR_UPDATE_CONFIG": "addOrUpdateConfig",
     "ACTION_GET_CONFIG": "getConfig"
   },
-
   "API_SALES_SALE_TYPE": {
     "NAME": "api-sales.salesType",
     "ACTION_GET_LIST": "getListSaleType",
@@ -547,21 +523,18 @@
     "ACTION_UPDATE_MANY": "updateManySaleType",
     "ACTION_DELETE_MANY": "deleteManySaleType"
   },
-
   "API_SALES_ORDER_DASHBOARD": {
     "NAME": "api-sales.orderDashboard",
     "ACTION_GET_LIST": "getListOrderDashboard",
     "ACTION_UPDATE": "updateOrderDashboard",
     "ACTION_DELETE": "deleteOrderDashboard"
   },
-
   "API_SALES_ORDER_VOUCHER": {
     "NAME": "api-sales.orderVouchers",
     "ACTION_CREATE_ORDER_VOUCHERS": "createOrderVouchers",
     "ACTION_GET_LIST": "getListOrderVouchers",
     "ACTION_GET_DETAIL": "getDetailOrderVouchers"
   },
-
   "API_SALES_ORDER_PRODUCT": {
     "NAME": "api-sales.orderProducts",
     "ACTION_GET_LIST": "getListOrderProduct",
@@ -570,7 +543,6 @@
     "ACTION_DELETE": "deleteOrderProduct",
     "ACTION_CREATE": "createOrderProduct"
   },
-
   "API_SALES_VENDOR_CONFIRM": {
     "NAME": "api-sales.vendorConfirms",
     "ACTION_GET_LIST": "getListVendorConfirm",
@@ -579,16 +551,13 @@
     "ACTION_DELETE": "deleteVendorConfirm",
     "ACTION_CREATE": "createVendorConfirm"
   },
-
   "API_SALES_SALES_ORDER_HISTORY": {
     "NAME": "api-sales.salesOrderHistories",
     "ACTION_GET_LIST": "getListSaleOrderHistory"
   },
-
   "API_SALES_SALES_ORDER_DETAIL": {
     "NAME": "api-sales.salesOrderDetail"
   },
-
   "API_SALES_DASHBOARD_PROCESS_ITEM": {
     "NAME": "api-sales.dashboardProcessItem",
     "ACTION_GET_LIST": "getListDashboardProcessItem",
@@ -597,7 +566,6 @@
     "ACTION_UPDATE": "updateDashboardProcessItem",
     "ACTION_DELETE": "deleteDashboardProcessItem"
   },
-
   "SVC_SALES_ORDER_PRODUCTS": {
     "NAME": "api-sales-order-products",
     "ACTION_UPDATE_ORDER_VOUCHER_4_PRODUCT": "updateOrderVoucherId4Product",
@@ -607,17 +575,14 @@
     "ACTION_CRUD_ORDER_PRODUCTS": "crudOrderProducts",
     "ACTION_CREATE_HOLDING_QTY": "createHoldingQty"
   },
-
   "API_SALES_ORDER_ADDRESS": {
     "NAME": "api-sales.orderAddress",
     "ACTION_CRUD_ORDER_ADDRESS": "crudOrderAddress"
   },
-
   "SVC_SALES_ORDER_HISTORIES": {
     "NAME": "api-sales-order-histories",
     "ACTION_CREATE": "createHistory"
   },
-
   "API_SALES_DELIVERY_MODIFY_HISTORY": {
     "NAME": "api-sales.delivery-modify-history"
   },
@@ -626,7 +591,6 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "update"
   },
-
   "API_PURCHASE_DEBT_DETAILS": {
     "NAME": "api-purchase.debt-details",
     "ACTION_GET_DETAIL_DEBT_DETAILS": "getDetailDebtDetails",
@@ -636,7 +600,6 @@
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GET_LIST": "getlist"
   },
-
   "API_PURCHASE_DEBT": {
     "NAME": "api-purchase.debt",
     "ACTION_GET_DETAIL_DEBT": "getDetailDebts",
@@ -646,23 +609,19 @@
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GET_LIST": "getlist"
   },
-
   "API_PURCHASE_DELIVERY_HISTORY": {
     "NAME": "api-purchase.delivery-history",
     "ACTION_CREATE_DELIVERY_HISTORY": "create",
     "ACTION_UPDATE_DELIVERY_HISTORY": "update"
   },
-
   "API_PURCHASE_DELIVERY_MODIFY_HISTORY": {
     "NAME": "api-purchase.delivery-modify-history"
   },
-
   "API_PURCHASE_DELIVERY_PRODUCT": {
     "NAME": "api-purchase-delivery-product",
     "ACTION_APPROVE_DELIVERY_PRODUCTS": "approveDeliveryProducts",
     "ACTION_CRUD_DELIVERY_PRODUCT": "crudDeliveryProduct"
   },
-
   "API_PURCHASE_DELIVERY_ORDER": {
     "NAME": "api-purchase.delivery-order",
     "ACTION_GET_DETAIL_DELIVERY_ORDER": "getDetailDeliveryOrder",
@@ -672,7 +631,6 @@
     "ACTION_UPDATE_DELIVERY_ORDER": "updateDeliveryOrder",
     "ACTION_DELETE_DELIVERY_ORDER": "deleteDeliveryOrder"
   },
-
   "API_PURCHASE_INVOICE": {
     "NAME": "api-purchase.invoice",
     "ACTION_CREATE_DELIVERY_ORDER": "createDeliveryOrder",
@@ -683,40 +641,32 @@
     "ACTION_DELETE_INVOICE": "deleteInvoices",
     "ACTION_UPDATE_INVOICE": "updateInvoice"
   },
-
   "API_PURCHASE_INVOICE_DETAIL": {
     "NAME": "api-purchase.invoice-detail",
     "ACTION_CRUD_INVOICE_DETAIL": "crudInvoiceDetail"
   },
-
   "API_PURCHASE_INVOICE_PAYMENT_TYPE": {
     "NAME": "api-purchase.invoice-payment-type",
     "ACTION_GET_LIST_INVOICE_PAYMENT_TYPES": "getListInvoicePaymentTypes",
     "ACTION_MODIFY_INVOICE_PAYMENT_TYPES": "modifyInvoicePaymentTypes"
   },
-
   "API_PURCHASE_ORDER_DASHBOARD": {
     "NAME": "api-purchase.orderDashboard",
     "ACTION_GET_LIST_ORDER_DASHBOARDS": "getListOrderDashboards",
     "ACTION_UPDATE_ORDER_DASHBOARDS": "updateOrderDashboards"
   },
-
   "API_PURCHASE_PURCHASE_TYPE": {
     "NAME": "api-purchase.purchaseType"
   },
-
   "API_PURCHASE_DASHBOARD_PROCESS_ITEM": {
     "NAME": "api-purchase.dashboardProcessItem"
   },
-
   "API_PURCHASE_DELIVERY_TYPE": {
     "NAME": "api-purchase.deliveryType"
   },
-
   "API_PURCHASE_ORDER_CONFIRM": {
     "NAME": "api-purchase.orderConfirm"
   },
-
   "API_PURCHASE_ORDER": {
     "NAME": "api-purchase.purchaseOrder",
     "ACTION_CREATE_ADDITIONAL_PURCHASE_ORDER": "createAdditionalPurchaseOrder",
@@ -725,24 +675,20 @@
     "ACTION_GET_PAGE_PURCHASE_ORDER": "getPagePurchaseOrder",
     "ACTION_UPDATE_PURCHASE_ORDER": "updatePurchaseOrder"
   },
-
   "API_PURCHASE_ORDER_VOUCHERS": {
     "NAME": "api-purchase.orderVouchers",
     "ACTION_GET_LIST": "getListOrderVouchers",
     "ACTION_CREATE": "createOrderVouchers"
   },
-
   "API_PURCHASE_ORDER_HISTORY": {
     "NAME": "api-purchase.histories"
   },
-
   "API_PURCHASE_ORDER_PRODUCT": {
     "NAME": "api-purchase.orderProduct",
     "ACTION_GET_WAREHOUSE_INVENTORIES": "getDetailWarehouseInventories",
     "ACTION_UPDATE_VOUCHER_ID_4_PRODUCT": "updateVoucherId4Product",
     "ACTION_BACTH_UPDATE_ORDER_PRODUCT": "bacthUpdateOrderProduct"
   },
-
   "SVC_SALES_PLANS_CONFIGURATIONS": {
     "NAME": "svc-sales-plans.configurations",
     "ACTION_GET_SALES_PLAN_PRODUCT_CONFIGURATION_DETAILS": "getSalesPlanProductConfigurationDetails",
@@ -750,21 +696,17 @@
     "ACTION_UPDATE_SALES_PLAN_PRODUCT_CONFIGURATION": "updateSalesPlanProductConfiguration",
     "ACTION_UPDATE_SALES_PLAN_GROUP_CONFIGURATION": "updateSalesPlanGroupConfiguration"
   },
-
   "SVC_SALES_PLANS_REVENUE_CONFIGURATIONS": {
     "NAME": "svc-sales-plans.revenue-configurations",
     "ACTION_INIT_REVENUE_CONFIG_MASTER_DATA": "initRevenueConfigMasterData",
     "ACTION_GET_REVENUE_CONFIG_DETAIL": "getRevenueConfigDetail"
   },
-
   "SVC_SYNC_ACTUAL_SALES_GROUP": {
     "NAME": "svc-sync-actual-sales-group"
   },
-
   "SVC_SYNC_ACTUAL_SALES_PRODUCT": {
     "NAME": "svc-sync-actual-sales-product"
   },
-
   "SVC_SYNC_ACTUAL_SALES_VALUES": {
     "NAME": "svc-sync-actual-sales-values",
     "ACTION_GET_GROUP_SUMMARY_BY_ELEMENT_IDS": "getGroupSummaryByElementIds",
@@ -772,20 +714,16 @@
     "ACTION_GET_GROUP_LIST_SUMMARY": "getGroupListSummary",
     "ACTION_GET_GROUP_TOTAL_DETAIL": "getGroupTotalDetail"
   },
-
   "SVC_SYNC_ADMINISTRATION_ITEMS": {
     "NAME": "svc-sync-administration-items"
   },
-
   "SVC_SYNC_MANAGEMENT_CRITERIA": {
     "NAME": "svc-sync-management-criteria",
     "ACTION_FIND_IN_BUSINESS_CRITERIA": "findInBusinessCriteria"
   },
-
   "SVC_SYNC_METHOD_LISTS": {
     "NAME": "svc-sync-sales-plan-group"
   },
-
   "SVC_SALES_PLAN_ACTION_PLANS": {
     "NAME": "svc-sales-plan.action-plans",
     "ACTION_DELETE_ACTION_PLAN_DETAIL_BY_SALES_PLAN_ID": "deleteActionPlanBySalesPlanId",
@@ -796,7 +734,6 @@
     "ACTION_DELETE_ACTION_PLAN": "deleteActionPlan",
     "ACTION_FIND": "find"
   },
-
   "SVC_SALES_PLAN_SYNC_METHOD": {
     "NAME": "svc-sales-plan.sync-method",
     "ACTION_GET_SYNC_METHOD_WITH_COUNT_DATA": "getSyncMethodWithCountData",
@@ -806,7 +743,6 @@
     "ACTION_FIND_ONE": "findOne",
     "ACTION_FIND": "find"
   },
-
   "SVC_SALES_PLAN_SALES_PLAN": {
     "NAME": "svc-sales-plan.sales-plan",
     "ACTION_GET_AVAILABLE_CLASSIFICATION_LIST": "getAvailableClassificationList",
@@ -839,12 +775,10 @@
     "ACTION_FIND_ONE": "findOne",
     "ACTION_FIND": "find"
   },
-
   "SVC_SALES_PLAN_DATA_STATISTICS_VIEW": {
     "NAME": "svc-sales-plan.data-statistics-view",
     "ACTION_DELETE_MANY_DATA_STATISTICS_VIEW": "deleteManyDataStatisticsView"
   },
-
   "SVC_SALES_PLAN_SALES_PLAN_GROUP": {
     "NAME": "svc-sales-plan.sales-plan-group",
     "ACTION_GET_NOT_YET_PLANNED_GROUP_LABEL_AND_PRODUCT_CORRESPOND_TO_SYNC_METHOD": "getNotYetPlannedGroupLabelAndProductCorrespondToSyncMethod",
@@ -874,7 +808,6 @@
     "ACTION_CREATE": "create",
     "ACTION_FIND": "find"
   },
-
   "SVC_SALES_PLAN_SUBDIVISION_CONFIG": {
     "NAME": "svc-sales-plan.subdivision-config",
     "ACTION_TRIGGER_ANCESTORS_SHOULD_RECALCULATE": "triggerAncestorsShouldRecalculate",
@@ -886,7 +819,6 @@
     "ACTION_FIND_ONE": "findOne",
     "ACTION_FIND": "find"
   },
-
   "SVC_SALES_PLAN_ALLOCATION": {
     "NAME": "svc-sales-plan.allocation",
     "ACTION_DELETE_MANY_ALLOCATION": "deleteManyAllocation",
@@ -898,7 +830,6 @@
     "ACTION_FIND_ONE": "findOne",
     "ACTION_FIND": "find"
   },
-
   "SVC_SALES_PLAN_SETTING": {
     "NAME": "svc-sales-plan.setting",
     "ACTION_CREATE_OR_UPDATE_SALE_PLAN_SETTING": "createOrUpdateSalePlanetting",
@@ -908,7 +839,6 @@
     "ACTION_FIND_ONE": "findOne",
     "ACTION_CREATE": "create"
   },
-
   "SVC_SALES_PLAN_VERSION": {
     "NAME": "svc-sales-plan.version",
     "ACTION_INTERNAL_UPDATE_VERSION_ACTIVE": "internalUpdateVersionActive",
@@ -924,7 +854,6 @@
     "ACTION_FIND": "find",
     "ACTION_INIT": "init"
   },
-
   "SVC_SALES_PLAN_SALES_PLAN_PRODUCT": {
     "NAME": "svc-sales-plan.sales-plan-product",
     "ACTION_GET_LIST_HAS_REAL_VALUE_BASE_ON_SYNC_METHOD": "getListHasRealValueBaseOnSyncMethod",
@@ -949,7 +878,6 @@
     "ACTION_CREATE": "create",
     "ACTION_FIND": "find"
   },
-
   "SVC_SALES_PLAN_PLAN_QUANTITY": {
     "NAME": "svc-sales-plan.plan-quantity",
     "ACTION_GET_DETAILS_FOR_CONFIGURATION": "getDetailsForConfiguration",
@@ -961,16 +889,13 @@
     "ACTION_UPLOAD": "upload",
     "ACTION_FIND": "find"
   },
-
   "SVC_SALES_PLAN_FM01_CLASSIFICATION_MAPPING": {
     "NAME": "svc-sales-plan.fm01-classification-mapping"
   },
-
   "API_HCM_PERMISSION": {
     "NAME": "api-hcm.permission-actions",
     "ACTION_GET_PERMISSION_ACTIONS": "get-list"
   },
-
   "API_HCM_BONUS_CALC_BASIS": {
     "NAME": "api-hcm.bonus-calc-basis",
     "ACTION_GENERATE_CODE": "generateCode",
@@ -980,7 +905,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany"
   },
-
   "API_HCM_BONUS_CALC_BASIS_CONFIG": {
     "NAME": "api-hcm.bonus-calc-basis-config",
     "ACTION_GET_LIST": "getList",
@@ -991,7 +915,6 @@
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GET_PAGE_CHILD_ITEMS": "getPageChildItems"
   },
-
   "API_HCM_REQUEST_CATEGORY": {
     "NAME": "api-hcm.request-category",
     "ACTION_CREATE": "create",
@@ -1006,16 +929,13 @@
     "ACTION_GET_VALUE_BY_CONDITION_TYPE": "getValueByConditionType",
     "ACTION_GET_LIST_PROCESS_BY_CATEGORY": "getListProcessByCategory"
   },
-
   "API_HCM_PROVINCE": {
     "NAME": "api-hcm.province",
     "ACTION_GET_LIST_PROVINCE": "getListProvince"
   },
-
   "API_HCM_COMPULSORY_INSURANCES": {
     "NAME": "api-hcm.compulsoryInsurances"
   },
-
   "API_HCM_MOBILE_SETTING": {
     "NAME": "api-hcm.mobile-settings",
     "ACTION_GET_LIST": "getList",
@@ -1024,7 +944,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany"
   },
-
   "SVC_REQUEST_MANAGEMENT": {
     "NAME": "api-hcm.svc-request-management",
     "ACTION_SEND": "send",
@@ -1045,13 +964,11 @@
     "ACTION_ASSIGN_APPROVER_FOR_NEXT_STEP": "assignApproverForNextStep",
     "ACTION_GET_LIST_REQUEST_FOR_EMPLOYEE_RESPONSIBLE": "getPageRequestForEmployeeResponsible"
   },
-
   "SVC_REQUEST_HISTORY": {
     "NAME": "api-hcm.svc-request-history",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail"
   },
-
   "SVC_REQUEST_COMMENT": {
     "NAME": "api-hcm.svc-request-comments",
     "ACTION_CREATE": "create",
@@ -1061,7 +978,6 @@
     "ACTION_GET_WITH_REPLIES": "getWithReplies",
     "ACTION_GET_LIST_BY_REQUEST": "getListByRequest"
   },
-
   "SVC_REQUEST_PROCESS_APPROVAL": {
     "NAME": "api-hcm.svc-request-process-approval",
     "ACTION_GET_LISTS": "getLists",
@@ -1069,31 +985,26 @@
     "ACTION_CREATE": "create",
     "ACTION_DELETE": "delete"
   },
-
   "API_HCM_SETTING_LATE_EARLY_THRESHOLDS": {
     "NAME": "api-hcm.setting-late-early-thresholds",
     "ACTION_UPDATE": "update",
     "ACTION_GET": "get"
   },
-
   "API_HCM_SALARY_SETTINGS": {
     "NAME": "api-hcm.salarySettings",
     "ACTION_UPDATE": "update",
     "ACTION_GET": "get"
   },
-
   "API_HCM_SETTING_SALARIES": {
     "NAME": "api-hcm.setting-salaries",
     "ACTION_UPDATE": "update",
     "ACTION_GET": "get"
   },
-
   "API_HCM_SETTING_TAXES": {
     "NAME": "api-hcm.setting-taxes",
     "ACTION_UPDATE": "update",
     "ACTION_GET": "get"
   },
-
   "API_HCM_SALARY_RANGES": {
     "NAME": "api-hcm.salaryRanges",
     "ACTIONS_GET_LIST": "getList",
@@ -1110,13 +1021,11 @@
     "ACTIONS_UPDATE_PAYMENT_VERSION": "updatePaymentVersion",
     "ACTIONS_GENERATE_CODE": "generateCode"
   },
-
   "API_HCM_SALARY_HISTORIES": {
     "NAME": "api-hcm.salaryHistories",
     "ACTION_GET_PAGE": "getPage",
     "ACTION_CREATE": "create"
   },
-
   "API_HCM_SALARY_COMPONENTS": {
     "NAME": "api-hcm.salary-components",
     "ACTION_GET_LIST": "getList",
@@ -1127,7 +1036,6 @@
     "ACTION_LOCK_UNLOCK": "lockUnlock",
     "ACTION_BATCH_UPDATE": "batchUpdate"
   },
-
   "API_HCM_PAYROLL_TEMPLATE_SETTINGS": {
     "NAME": "api-hcm.payrollTemplateSettings",
     "ACTION_GET": "get",
@@ -1138,7 +1046,6 @@
     "ACTION_DELETE_MANY_VERSIONS": "deleteManyVersions",
     "ACTION_SYNC_DATA_VERSION": "syncDataVersion"
   },
-
   "API_HCM_PAYROLL_TEMPLATES": {
     "NAME": "api-hcm.payroll-templates",
     "ACTION_GET_SALARY_RANGE_BY_PAYROLL_TEMPLATE": "getSalaryRangeByPayrollTemplate",
@@ -1156,7 +1063,6 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update"
   },
-
   "API_HCM_PAYROLL_ADVANCE": {
     "NAME": "api-hcm.payroll-advances",
     "ACTION_CREATE": "create",
@@ -1173,7 +1079,6 @@
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
     "ACTION_CALCULATE_TOTAL_ADVANCE_AMOUNT_FOR_EMPLOYEES": "calculateTotalAdvancesAmountForEmployees"
   },
-
   "API_HCM_PAYROLL_DATA_KPI": {
     "NAME": "api-hcm.payroll-data-kpi",
     "ACTION_CREATE": "create",
@@ -1190,7 +1095,6 @@
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
     "ACTION_CALCULATE_TOTAL_OLE_AMOUNT_FOR_EMPLOYEES": "calculateTotalOlesAmountForEmployees"
   },
-
   "API_HCM_PAYROLL_DATA_TIMESHEET": {
     "NAME": "api-hcm.payroll-data-timesheet",
     "ACTION_CREATE": "create",
@@ -1207,7 +1111,6 @@
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
     "ACTION_CALCULATE_TOTAL_TIMESHEET_AMOUNT_FOR_EMPLOYEES": "calculateTotalTimesheetsAmountForEmployees"
   },
-
   "API_HCM_PAYROLL": {
     "NAME": "api-hcm.payrolls",
     "ACTION_CREATE": "create",
@@ -1224,7 +1127,6 @@
     "ACTION_GET_EMPLOYEES_BY_PAYROLL_IDS": "getEmployeesByPayrollIds",
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured"
   },
-
   "API_HCM_PAYROLL_DETAILS": {
     "NAME": "api-hcm.payroll-details",
     "ACTION_DELETE_MANY": "deleteMany",
@@ -1232,7 +1134,6 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update"
   },
-
   "API_HCM_PAYSLIPS": {
     "NAME": "api-hcm.payslips",
     "ACTION_CREATE": "create",
@@ -1245,7 +1146,6 @@
     "ACTION_GET_PAYROLL_DATA_BY_PERIOD": "getPayrollDataByPeriod",
     "ACTION_GET_PAYSLIP_DETAIL_WITH_EMPLOYEES": "getPayslipDetailWithEmployees"
   },
-
   "API_HCM_PAYROLL_SETTINGS": {
     "NAME": "api-hcm.payrollSettings",
     "ACTION_UPDATE": "update",
@@ -1264,7 +1164,6 @@
     "ACTION_GET_LIST_PAYROLL_SETTING_PROCESS_BY_CATEGORY": "getListPayrollSettingProcessByCategory",
     "ACTION_GET_VALUE_BY_PAYROLL_SETTING_CONDITION_TYPE": "getValueByPayrollSettingConditionType"
   },
-
   "API_HCM_OLE_DETAILS": {
     "NAME": "api-hcm.oleDetails",
     "ACTION_CREATE": "create",
@@ -1289,7 +1188,6 @@
     "ACTION_GET_OLE_DETAIL_FOR_EMPLOYEE_BY_ID": "getOleDetailForEmployeeById",
     "ACTION_GET_APPROVAL_DETAIL_FOR_CURRENT_STEP": "getApprovalDetailForCurrentStep"
   },
-
   "API_HCM_OLE_COMMENTS": {
     "NAME": "api-hcm.ole-comments",
     "ACTION_GET_LIST_COMMENTS_BY_OLE_DETAIL_ID": "getListCommentsByOleDetailId",
@@ -1298,13 +1196,11 @@
     "ACTION_DELETE": "delete",
     "ACTION_REPLY": "reply"
   },
-
   "API_HCM_OLE_HISTORY": {
     "NAME": "api-hcm.ole-histories",
     "ACTION_CREATE": "createHistory",
     "ACTION_GET_LIST_BY_OLE_DETAIL_ID": "getListByOleDetailId"
   },
-
   "API_HCM_OLE": {
     "NAME": "api-hcm.oles",
     "ACTION_GET_PAGE": "getPage",
@@ -1315,13 +1211,11 @@
     "ACTION_APPROVE": "approve",
     "ACTION_GET_EMPLOYEES_WITHOUT_OLE": "getEmployeesWithoutOLE"
   },
-
   "API_HCM_OLE_PAYROLL_SETTINGS": {
     "NAME": "api-hcm.olePayrollSettings",
     "ACTION_GET": "get",
     "ACTION_UPDATE": "update"
   },
-
   "API_HCM_BONUS_CATEGORIES": {
     "NAME": "api-hcm.bonusCategories",
     "ACTION_GENERATE_CODE": "generateCode",
@@ -1331,14 +1225,12 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "API_HCM_SETTINGS": {
     "NAME": "api-hcm.settings",
     "ACTION_GET_PAGE": "getPage",
     "ACTION_UPDATE": "update",
     "ACTION_GET_PARAMS": "getParams"
   },
-
   "API_HCM_SETTING_OLE_TARGETS": {
     "NAME": "api-hcm.setting-ole-targets",
     "ACTION_CREATE": "create",
@@ -1347,7 +1239,6 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_DELETE_MANY": "deleteMany"
   },
-
   "API_HCM_SETTING_HOLIDAYS": {
     "NAME": "api-hcm.setting-holidays",
     "ACTION_GET_LIST": "getList",
@@ -1356,14 +1247,12 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany"
   },
-
   "API_HCM_BONUS_COLUMNS": {
     "NAME": "api-hcm.bonusColumns",
     "ACTION_UPDATE_TITLE": "updateTitle",
     "ACTION_GET": "get",
     "ACTION_ADD": "add"
   },
-
   "API_HCM_SETTING_WORKING_DAYS": {
     "NAME": "api-hcm.setting-working-days",
     "ACTION_GET_LIST": "getList",
@@ -1373,7 +1262,6 @@
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_SYNC_EMPLOYEE": "syncEmployee"
   },
-
   "API_HCM_SETTING_LEAVE_TYPES": {
     "NAME": "api-hcm.setting-leave-types",
     "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployee",
@@ -1383,7 +1271,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany"
   },
-
   "API_HCM_BONUS_ITEMS": {
     "NAME": "api-hcm.bonusItems",
     "ACTION_GET_PAGE_SPREADSHEET_VIEW": "getPageSpreadsheetView",
@@ -1396,7 +1283,6 @@
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GENERATE_CODE": "generateCode"
   },
-
   "API_HCM_BONUS_RANGES": {
     "NAME": "api-hcm.bonusRanges",
     "ACTION_GET_LIST": "getList",
@@ -1406,21 +1292,17 @@
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GENERATE_CODE": "generateCode"
   },
-
   "API_HCM_BONUS_RANGE_EMPLOYEES": {
     "NAME": "api-hcm.bonusRangeEmployees",
     "ACTION_UPSERT": "upsert"
   },
-
   "API_HCM_BONUS_CALC_SCHEDULES": {
     "NAME": "api-hcm.bonusCalculateSchedules",
     "ACTION_UPSERT": "upsert"
   },
-
   "API_HCM_BONUS_EMPLOYEES": {
     "NAME": "api-hcm.bonusEmployees"
   },
-
   "API_HCM_LEAVES": {
     "NAME": "api-hcm.leaves",
     "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployeeId",
@@ -1434,7 +1316,6 @@
     "ACTION_RETURN": "return",
     "ACTION_CANCEL": "cancel"
   },
-
   "API_HCM_LEAVE_EMPLOYEES": {
     "NAME": "api-hcm.leave-employees",
     "ACTION_UPDATE": "update",
@@ -1447,7 +1328,6 @@
     "ACTION_GET_DETAIL_BY_EMPLOYEE": "getDetailByEmployee",
     "ACTION_GET_EMPLOYEE_WITHOUT_LEAVE": "getEmployeeWithoutLeave"
   },
-
   "API_HCM_LEAVE_CONFIGS": {
     "NAME": "api-hcm.leave-configs",
     "ACTION_GET_LIST_BY_EMPLOYEE": "getListByEmployee",
@@ -1457,21 +1337,17 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany"
   },
-
   "API_HCM_LEAVE_DEPARTMENTS": {
     "NAME": "api-hcm.leave-departments"
   },
-
   "API_HCM_BONUS_CONFIGS": {
     "NAME": "api-hcm.bonusConfigs"
   },
-
   "API_HCM_TIMEKEEPING_SETTINGS": {
     "NAME": "api-hcm.timekeeping-settings",
     "ACTION_GET_SETTING": "getSetting",
     "ACTION_UPDATE_SETTING": "updateSetting"
   },
-
   "API_HCM_TIMEKEEPING_EMPLOYEES": {
     "NAME": "api-hcm.timekeeping-employees",
     "ACTION_UPDATE": "update",
@@ -1489,7 +1365,6 @@
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
     "ACTION_GET_LIST_BY_TIMEKEEPING_DETAIL_ID": "getListsByTimekeepingDetailId"
   },
-
   "API_HCM_TIMEKEEPING_COMPONENTS": {
     "NAME": "api-hcm.timekeeping-components",
     "ACTION_GET_LIST": "getList",
@@ -1499,7 +1374,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany"
   },
-
   "API_HCM_TIMEKEEPING_REQUESTS": {
     "NAME": "api-hcm.timekeeping-requests",
     "ACTION_GET_LIST": "getList",
@@ -1511,7 +1385,6 @@
     "ACTION_REJECT": "reject",
     "ACTION_APPROVE_MANY": "approveMany"
   },
-
   "API_HCM_TIMEKEEPING_EMPLOYEE_CONFIGS": {
     "NAME": "api-hcm.timekeeping-configs",
     "ACTION_GET_LIST": "getList",
@@ -1522,7 +1395,6 @@
     "ACTION_GET_DATA_TIMEKEEPING_BY_EMPLOYEE": "getDataTimekeepingByEmployee",
     "ACTION_GET_PAGE_EMPLOYEE_WITHOUT_CONFIG": "getPageEmployeeWithoutConfig"
   },
-
   "API_HCM_TIMEKEEPING_DETAILS": {
     "NAME": "api-hcm.timekeeping-details",
     "ACTION_CREATE": "create",
@@ -1532,7 +1404,6 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_DELETE_MANY": "deleteMany"
   },
-
   "API_HCM_TIMEKEEPING_SUMMARIES": {
     "NAME": "api-hcm.timekeeping-summaries",
     "ACTION_CREATE": "create",
@@ -1545,7 +1416,6 @@
     "ACTION_VIEW_DASHBOARD": "getDashboard",
     "ACTION_LOAD_MORE_EMPLOYEES_BY_DETAILS": "loadMoreEmployeesByDetails"
   },
-
   "API_HCM_TIMEKEEPING_TIMEKEEPERS": {
     "NAME": "api-hcm.timekeeping-timekeepers",
     "ACTION_GET_LIST": "getList",
@@ -1572,7 +1442,6 @@
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
     "ACTION_SYNC_TIMEKEEPING_METHODS_FOR_EMPLOYEES": "syncTimekeepingMethodsForEmployees"
   },
-
   "API_HCM_WORK_SHIFT_EMPLOYEES": {
     "NAME": "api-hcm.work-shift-employees",
     "ACTION_CREATE": "create",
@@ -1582,7 +1451,6 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_CURRENT_DATE": "getWorkShiftEmployeesByCurrentDate"
   },
-
   "API_HCM_WORK_SHIFT_ITEMS": {
     "NAME": "api-hcm.work-shift-items",
     "ACTION_GET_LIST": "getList",
@@ -1591,7 +1459,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany"
   },
-
   "API_HCM_WORK_SHIFTS": {
     "NAME": "api-hcm.work-shifts",
     "ACTION_CREATE": "create",
@@ -1604,7 +1471,6 @@
     "ACTION_GENERATE_CODE": "generateCode",
     "ACTION_GET_DASHBOARD_STATISTICS": "viewDashboard"
   },
-
   "API_HCM_BUSINESS_TRIP": {
     "NAME": "api-hcm.business-trips",
     "ACTION_SEND": "sendBusinessTrip",
@@ -1621,26 +1487,22 @@
     "ACTION_REJECT_CANCEL": "rejectCancelBusinessTrip",
     "ACTION_GET_LIST_BY_EMPLOYEE": "getBusinessTripsByEmployeeId"
   },
-
   "API_HCM_SETTING_BUSINESS_TRIP": {
     "NAME": "api-hcm.setting-business-trips",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "update"
   },
-
   "API_HCM_SETTING_WORK_SHIFT_REGISTRATIONS": {
     "NAME": "api-hcm.setting-work-shift-registrations",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "update"
   },
-
   "API_HCM_DASHBOARD": {
     "NAME": "api-hcm.dashboard",
     "ACTION_GET_LIST": "getList",
     "ACTION_UPDATE": "update",
     "ACTION_GET_STATISTICS": "getStatistics"
   },
-
   "SVC_AUTH_AUTHENTICATIONS": {
     "NAME": "svc-auth.authentications",
     "ACTION_VERIFY_JWT_TOKEN": "verifyJWTToken",
@@ -1650,7 +1512,6 @@
     "ACTION_LOGOUT": "logout",
     "ACTION_ADD_USER_TO_BLACKLIST": "addUserToBlacklist"
   },
-
   "SVC_AUTH_VERIFY_EMAIL_TOKENS": {
     "NAME": "svc-auth.verify_email_token",
     "ACTION_CREATE_WITH_OUT_ORGIDS_BYPASS_AUTH": "createWithOutOrgIdsByPassAuth",
@@ -1659,7 +1520,6 @@
     "ACTION_FIND_ONE_WITH_OUT_ORGIDS": "findOneWithOutOrgIds",
     "ACTION_CREATE_WITH_OUT_ORGIDS": "createWithOutOrgIds"
   },
-
   "SVC_AUTH_AUTHORIZATIONS_TENANT_ROLE": {
     "NAME": "svc-auth.authorizations.tenant-role",
     "ACTION_GET_APPLICATION_ACTIONS": "getApplicationActions",
@@ -1669,7 +1529,6 @@
     "ACTION_UPDATE_TENANT_ROLES": "updateTenantRoles",
     "ACTION_GET_TENANT_ROLES": "getTenantRoles"
   },
-
   "SVC_AUTH_ACCOUNTS": {
     "NAME": "svc-auth.accounts",
     "ACTION_SEND_ACCOUNT_MAIL_DEACTIVATED": "sendMailDeactivatedAccount",
@@ -1689,7 +1548,6 @@
     "ACTION_UPDATE_ACCOUNT": "updateAccount",
     "ACTION_SWITCH_ORG": "switchOrg"
   },
-
   "SVC_ORGANIZATION_EMPLOYEES": {
     "NAME": "svc-organization.employees",
     "ACTION_GET_LISTS_EMPLOYEE_NOT_CONFIGURED_ON_TIMEKEEPING_EMPLOYEE": "getListsEmployeeNotConfiguredOnTimekeepingEmployee",
@@ -1713,31 +1571,25 @@
     "ACTION_IMPORT": "import",
     "ACTION_EXPORT": "export",
     "ACTION_CREATE": "create",
-
     "ACTION_COUNT": "count"
   },
-
   "SVC_ORGANIZATION_EMPLOYEE_CHANGE_HISTORIES": {
     "NAME": "svc-organization.employee-change-histories",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_CRITICAL_CHANGES": "getCriticalChanges",
     "ACTION_GET_ANALYTICS_CHANGES": "getAnalyticsChange"
   },
-
   "SVC_ORGANIZATION_EMPLOYEE_HISTORIES": {
     "NAME": "svc-organization.employee-histories"
   },
-
   "SVC_ORGANIZATION_EMPLOYEE_PROFILES": {
     "NAME": "svc-organization.employee-profiles"
   },
-
   "SVC_ORGANIZATION_EMPLOYEE_SETTINGS": {
     "NAME": "svc-organization.employee-settings",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "update"
   },
-
   "SVC_ORGANIZATION_ORGANIZATION": {
     "NAME": "svc-organization.organizations",
     "ACTION_CREATE_ORGANIZATION": "createOrganization",
@@ -1747,7 +1599,6 @@
     "ACTION_IMPORT_ORGANIZATION": "importOrganization",
     "ACTION_GET_ORGANIZATION": "getOrganization"
   },
-
   "SVC_ORGANIZATION_DEPARTMENTS": {
     "NAME": "svc-organization.departments",
     "ACTION_GET_LIST_DEPARTMENT": "getListDepartment",
@@ -1766,7 +1617,6 @@
     "ACTION_GET_DEPARTMENT_LISTS_FOR_EMPLOYEE": "getDepartmentListsForEmployee",
     "ACTION_VALIDATE_DEPARTMENT_POSITION_EMPLOYEES": "validateDepartmentPositionEmployees"
   },
-
   "SVC_ORGANIZATION_POSITIONS": {
     "NAME": "svc-organization.positions",
     "ACTION_GET_LIST_BY_DEPARTMENT_LIST": "getListByDepartmentList",
@@ -1777,13 +1627,11 @@
     "ACTION_UPDATE": "updatePosition",
     "ACTION_DELETE": "deletePosition"
   },
-
   "SVC_ORGANIZATION_ORG_SETTING": {
     "NAME": "svc-organization.orgSetting",
     "ACTION_UPDATE_ORG_SETTING": "updateOrgSetting",
     "ACTION_GET_ORG_SETTING": "getDetail"
   },
-
   "SVC_ORGANIZATION_PROCESS_DETAIL": {
     "NAME": "svc-organization.process-detail",
     "ACTION_GET_PROCESS_DETAIL_REGULATION": "getProcessDetailRegulation",
@@ -1798,7 +1646,6 @@
     "ACTION_SORT": "sortProcessDetail",
     "ACTION_APPROVE": "approveProcessDetail"
   },
-
   "SVC_ORGANIZATION_PROCESS": {
     "NAME": "svc-organization.process",
     "ACTION_DELETE_MANY_PROCESSES": "deleteManyProcesses",
@@ -1808,7 +1655,6 @@
     "ACTION_UPDATE_PROCESS": "updateProcess",
     "ACTION_UPDATE_MANY_PROCESS": "updateManyProcesses"
   },
-
   "SVC_ORGANIZATION_VALUE_CHAIN": {
     "NAME": "svc-organization.value-chain",
     "ACTION_GET_DETAIL": "getDetail",
@@ -1819,12 +1665,10 @@
     "ACTION_IMPORT": "import",
     "ACTION_EXPORT": "export"
   },
-
   "SVC_PRODUCT_IMPORT_HISTORIES": {
     "NAME": "svc-product.historiesImportInventories",
     "ACTION_GET_IMPORT_HISTORIES": "getImportHistories"
   },
-
   "SVC_PRODUCT_ORDER_INVENTORIES": {
     "NAME": "svc-product.orderInventories",
     "ACTION_CALCULATE_COST_PRODUCT": "calculateCostProduct",
@@ -1834,7 +1678,6 @@
     "ACTION_GET_EXIST_DATA": "getExistData",
     "ACTION_GET_LIST": "getList"
   },
-
   "SVC_PRODUCT_GROUP_LABEL": {
     "NAME": "svc-product.groupLabels",
     "ACTION_GET_PRODUCT_BY_CATEGORY": "getProductItemByProductCategoryCode",
@@ -1855,7 +1698,6 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_LIST": "getList"
   },
-
   "SVC_PRODUCT_ITEMS": {
     "NAME": "svc-product.product-items",
     "ACTION_REMOVE_GROUP_LABEL_OR_PRODUCT_ITEM": "removeGroupLabelOrProductItemIds",
@@ -1874,7 +1716,6 @@
     "ACTION_CREATE_PRODUCT": "createProduct",
     "ACTION_UPLOAD_PRODUCT_ITEM": "upload"
   },
-
   "SVC_PRODUCT_SETTING": {
     "NAME": "svc-product.product-settings",
     "ACTION_UPDATE_ACTIVE_ATTRIBUTE": "updateActiveAttribute",
@@ -1896,20 +1737,16 @@
     "ACTION_UPDATE_PACKAGE": "updatePackage",
     "ACTION_UPDATE_DETAIL_FIELD": "updateDetailField"
   },
-
   "API_BIZCORE_BSC_VERSION": {
     "NAME": "api-bizcore.bsc-version"
   },
-
   "API_BIZCORE_PERMISSION": {
     "NAME": "api-bizcore.permission-actions",
     "ACTION_GET_PERMISSION_ACTIONS": "get-list"
   },
-
   "API_BIZCORE_BSC_ITEM_FIELD": {
     "NAME": "api-bizcore.bsc-item-field"
   },
-
   "API_BIZCORE_BSC": {
     "NAME": "api-bizcore.bsc",
     "ACTION_GET_SYNC_CLASSIFICATION_LIST": "getSyncClassificationsList",
@@ -1939,7 +1776,6 @@
     "ACTION_CREATE_BSC": "createBSC",
     "ACTION_GET_LIST": "getList"
   },
-
   "API_BIZCORE_CASHFLOW_LIST": {
     "NAME": "api-bizcore.cashflow-list",
     "ACTION_LOCK_OR_UNLOCK_CASH_FLOW_LIST": "lockOrUnlockCashFlowList",
@@ -1956,7 +1792,6 @@
     "ACTION_UPLOAD": "upload",
     "ACTION_SORT": "sort"
   },
-
   "API_BIZCORE_REAL_CASHFLOW_LIST": {
     "NAME": "api-bizcore.real-cashflow-list",
     "ACTION_INSERT_OR_UPDATE_REAL_CASH_FLOW_LIST": "insertOrUpdateRealCashFlowList",
@@ -1964,7 +1799,6 @@
     "ACTION_DELETE_REAL_CASH_FLOW_LIST": "deleteRealCashFlowList",
     "ACTION_GET_REAL_CASH_FLOW_LIST": "getRealCashFlowList"
   },
-
   "API_BIZCORE_ACTUAL_CASHFLOW_LIST": {
     "NAME": "api-bizcore.actual-cashflow-list",
     "ACTION_GET_ACTUAL_CASHFLOW_TEMPLATE": "getActualCashFlowTemplate",
@@ -1972,7 +1806,6 @@
     "ACTION_FORMAT_INPUT_TEMPLATE": "formatInputTemplate",
     "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData"
   },
-
   "API_BIZCORE_INCOME_AND_REVENUE_LIST": {
     "NAME": "api-bizcore.income-and-revenue-list",
     "ACTION_LOCK_OR_UNLOCK_INCOME_AND_REVENUE_LIST": "lockOrUnlockIncomeAndRevenueList",
@@ -1987,21 +1820,18 @@
     "ACTION_UPLOAD": "upload",
     "ACTION_SORT": "sort"
   },
-
   "API_BIZCORE_ACTUAL_INCOME_AND_REVENUE_LIST": {
     "NAME": "api-bizcore.actual-income-and-revenue-list",
     "ACTION_FORMAT_INPUT_TEMPLATE": "formatInputTemplate",
     "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData",
     "ACTION_UPLOAD": "upload"
   },
-
   "API_BIZCORE_ACTUAL_PROFIT": {
     "NAME": "api-bizcore.actual-profit",
     "ACTION_FORMAT_INPUT_TEMPLATE": "formatInputTemplate",
     "ACTION_GET_TIME_RANGE_DATA": "getTimeRangeData",
     "ACTION_UPLOAD": "upload"
   },
-
   "API_BIZCORE_FM01_ALLOCATION_MAPPING": {
     "NAME": "api-bizcore.fm01-allocation-mapping",
     "ACTION_UPDATE_VERSION_MAPPING": "updateVersionMapping",
@@ -2012,13 +1842,11 @@
     "ACTION_SYNC_ALLOCATION": "syncAllocation",
     "ACTION_GET_ALLOCATIONS": "getAllocations"
   },
-
   "API_BIZCORE_FM01_CONFIGURATION": {
     "NAME": "api-bizcore.fm01-configuration",
     "ACTION_GET_FINANCIAL_MODEL_CONFIGURATION": "getFinancialModelConfiguration",
     "ACTION_ADD_OR_UPDATE_CONFIG": "addOrUpdateConfig"
   },
-
   "API_BIZCORE_FM02_LIST": {
     "NAME": "api-bizcore.fm02-list",
     "ACTION_GET_CASHFLOW_AVAILABLE": "getCashflowAvailabe",
@@ -2028,7 +1856,6 @@
     "ACTION_GET_FM02_DATA": "getFM02Data",
     "ACTION_GET_SYNC_LIST": "getSyncList"
   },
-
   "API_BIZCORE_FM02_VERSION": {
     "NAME": "api-bizcore.fm02-version",
     "ACTION_UPDATE_VERSION_MAPPING": "updateVersionMapping",
@@ -2039,14 +1866,12 @@
     "ACTION_DELETE_VERSION": "deleteVersion",
     "ACTION_GET_VERSIONS": "getVersions"
   },
-
   "API_BIZCORE_FM02_ALLOCATION_CONFIG": {
     "NAME": "api-bizcore.fm02-allocation-config",
     "ACTION_UPDATE_ALLOCATION": "updateAllocation",
     "ACTION_SYNC_SUBDIVISIONS": "syncSubdivisions",
     "ACTION_GET_SUBDIVISIONS": "getSubdivisions"
   },
-
   "API_BIZCORE_FM02_CONFIGURATION": {
     "NAME": "api-bizcore.fm02-configuration",
     "ACTION_UPDATE_CONFIGS": "updateConfigs",
@@ -2056,7 +1881,6 @@
     "ACTION_GET_CONFIG": "getConfig",
     "ACTION_REMOVE": "remove"
   },
-
   "API_BIZCORE_FM02_TARGET": {
     "NAME": "api-bizcore.fm02-target",
     "ACTION_INIT_MASTER_DATA": "initMasterData",
@@ -2064,13 +1888,11 @@
     "ACTION_INIT_TARGET": "initTarget",
     "ACTION_GET_TARGET": "getTarget"
   },
-
   "API_BIZCORE_FM03_CONFIG": {
     "NAME": "api-bizcore.fm03-config",
     "ACTION_CREATE_OR_UPDATE_CONFIGS": "createOrUpdateConfigs",
     "ACTION_GET_CONFIGS": "getConfigs"
   },
-
   "API_BIZCORE_FM03_VERSION": {
     "NAME": "api-bizcore.fm03-vesion",
     "ACTION_CREATE_VERSION": "createVersion",
@@ -2078,7 +1900,6 @@
     "ACTION_DELETE_VERSION": "deleteVersion",
     "ACTION_GET_VERSIONS": "getVersions"
   },
-
   "API_BIZCORE_FINANCIAL_PLAN_AND_REPORT": {
     "NAME": "api-bizcore.financial-plan-and-report",
     "ACTION_GENERATE_PLAN_AND_REPORT_CODE": "generatePlanAndReportCode",
@@ -2093,14 +1914,12 @@
     "ACTION_DELETE_REPORT": "deleteReport",
     "ACTION_GET_DETAILS": "getDetails"
   },
-
   "API_BIZCORE_FINANCIAL_PLAN_AND_REPORT_FM01_ITEM": {
     "NAME": "api-bizcore.financial-plan-and-report-fm01-item",
     "ACTION_UPDATE_MANY_ITEMS": "updateManyItems",
     "ACTION_GET_ITEMS_DETAILS": "getItemsDetails",
     "ACTION_ADD_MANY_ITEMS": "addManyItems"
   },
-
   "API_BIZCORE_TM_CONTRACT": {
     "NAME": "api-bizcore.tmp-contract",
     "ACTION_GET_DETAIL_TM_CONTRACT": "getDetailTmContract",
@@ -2112,43 +1931,35 @@
     "ACTION_GET_QTY_INFO": "getQtyInfo",
     "ACTION_SYNC_FM01": "syncFM01"
   },
-
   "API_BIZCORE_TM_CONTRACT_BONUS": {
     "NAME": "api-bizcore.tmp-contract-bonus",
     "ACTION_BATCH_UPDATE_TM_CONTRACT_BONUSES": "batchUpdateTmContractBonuses"
   },
-
   "API_BIZCORE_TM_CONTRACT_BOUNDARY": {
     "NAME": "api-bizcore.tmp-contract-boundary",
     "ACTION_BATCH_UPDATE_TM_CONTRACT_BOUNDARY": "batchUpdateTmContractBoundaries"
   },
-
   "API_BIZCORE_TM_CONTRACT_BUDGET": {
     "NAME": "api-bizcore.tmp-contract-budget",
     "ACTION_BATCH_UPDATE_TM_CONTRACT_BUDGETS": "batchUpdateTmContractBudgets"
   },
-
   "API_BIZCORE_TM_CONTRACT_SALARY": {
     "NAME": "api-bizcore.tmp-contract-salary",
     "ACTION_BATCH_UPDATE_TM_CONTRACT_SALARIES": "batchUpdateTmContractSalaries"
   },
-
   "API_BIZCORE_TM_CONTRACT_TARGET": {
     "NAME": "api-bizcore.tmp-contract-target",
     "ACTION_BATCH_UPDATE_TM_CONTRACT_TARGET": "batchUpdateTmContractTargets"
   },
-
   "API_BIZCORE_TRANSPORT_LIST": {
     "NAME": "api-bizcore.transport-list",
     "ACTION_BATCH_UPDATE_TRANSPORT_LISTS": "batchUpdateTransportLists"
   },
-
   "API_BIZCORE_TRANSPORT_STATUS": {
     "NAME": "api-bizcore.transport-status",
     "ACTION_GET_LIST_TRANSPORT_STATUS": "getListTransportStatus",
     "ACTION_MODIFY_TRANSPORT_STATUSES": "modifyTransportStatuses"
   },
-
   "API_BIZCORE_FM01_VERSION": {
     "NAME": "api-bizcore.fm01-version",
     "ACTION_GET_TARGET_WITH_ACTUAL_VALUE": "getTargetWithActualValue",
@@ -2163,7 +1974,6 @@
     "ACTION_GET_REPORT": "getReport",
     "ACTION_RESET_DATA": "resetData"
   },
-
   "API_BIZCORE_FM01_TARGET": {
     "NAME": "api-bizcore.fm01-target",
     "ACTION_GET_FINANCIAL_MODEL_TARGET_LIST": "getFinancialModelTargetList",
@@ -2173,11 +1983,9 @@
     "ACTION_CHECK_INITIAL": "checkInitial",
     "ACTION_INIT_DATA": "initData"
   },
-
   "API_BIZCORE_FM01_TARGET_CONFIG": {
     "NAME": "api-bizcore.fm01-target-config"
   },
-
   "API_BIZCORE_FM01_LIST": {
     "NAME": "api-bizcore.fm01-list",
     "ACTION_GET_EXPENSE_CONFIGURED_AVAILABLE": "getExpenseConfiguredAvailable",
@@ -2193,7 +2001,6 @@
     "ACTION_GET_DETAILS": "getDetails",
     "ACTION_SUM_FINANCIAL_MODEL_LISTS": "getSumFinancialModelList"
   },
-
   "API_BIZCORE_EXPENSE_LIST": {
     "NAME": "api-bizcore.expense-list",
     "ACTION_CREATE_DEFAULT_EXPENSE_LIST": "createDefaultExpenseList",
@@ -2211,7 +2018,6 @@
     "ACTION_UPLOAD": "upload",
     "ACTION_SORT": "sort"
   },
-
   "API_BIZCORE_ACTUAL_EXPENSE_LIST": {
     "NAME": "api-bizcore.actual-expense-list",
     "ACTION_GET_ACTUAL_EXPENSE_LIST_TEMPLATE": "getActualExpenseListTemplate",
@@ -2219,17 +2025,14 @@
     "ACTION_INSERT_MANY": "insertMany",
     "ACTION_UPLOAD": "upload"
   },
-
   "API_BIZCORE_REAL_EXPENSE_LIST": {
     "NAME": "api-bizcore.real-expense-list",
     "ACTION_INSERT_MANY_REAL_EXPENSE_LIST": "insertManyRealExpenList",
     "ACTION_GET_REAL_EXPENSE_LIST": "getRealExpenList"
   },
-
   "API_BIZCORE_REVENUE_LIST": {
     "NAME": "api-bizcore.revenue-list"
   },
-
   "API_BIZCORE_SETTINGS": {
     "NAME": "api-bizcore.setting",
     "ACTION_GET_COLUMN_PRIORITIES_PARTNER_LIST": "getColumnPrioritiesPartnerList",
@@ -2253,7 +2056,6 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "update"
   },
-
   "API_BIZCORE_FINANCIAL_YEAR": {
     "NAME": "api-bizcore.financial-year",
     "ACTION_GET_FINANCIAL_YEAR_FROM_CURRENT_FISCAL_ON_WARDS": "getFinancialYearFromCurrentFiscalOnWards",
@@ -2265,7 +2067,6 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_LIST": "getList"
   },
-
   "API_BIZCORE_MARKETING_CAMPAIGN": {
     "NAME": "api-bizcore.marketing-campaign",
     "ACTION_GET_LIST": "getList",
@@ -2274,7 +2075,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "API_BIZCORE_MARKETING_CHECK_LIST": {
     "NAME": "api-bizcore.marketing-checklist",
     "ACTION_GET_LIST": "getList",
@@ -2283,7 +2083,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "API_BIZCORE_MARKETING_TASK": {
     "NAME": "api-bizcore.marketing-task",
     "ACTION_GET_LIST": "getList",
@@ -2292,7 +2091,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "API_BIZCORE_MARKETING_PLAN": {
     "NAME": "api-bizcore.marketing-plan",
     "ACTION_GET_LIST": "getList",
@@ -2301,7 +2099,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "API_BIZCORE_PURCHASE_PLAN_GROUP": {
     "NAME": "api-bizcore.purchase-plan-group",
     "ACTION_GET_LIST": "getList",
@@ -2310,7 +2107,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "API_BIZCORE_PURCHASE_PLAN": {
     "NAME": "api-bizcore.purchase-plan",
     "ACTION_GET_LIST": "getList",
@@ -2319,7 +2115,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMINISTRATION_LIST_FACILITY_LISTS": {
     "NAME": "svc-administration-list.facility-lists",
     "ACTION_GET_UNASSIGNED_TO_ORG": "getListsUnassignedToOrg",
@@ -2334,7 +2129,6 @@
     "ACTION_UPLOAD": "upload",
     "ACTION_COUNT": "count"
   },
-
   "SVC_ADMINISTRATION_LIST_MANAGEMENT_CRITERIA": {
     "NAME": "svc-administration-list.management-criteria",
     "ACTION_GET_LINKED_CATEGORY_LIST_DETAILS_FIND": "getLinkedCategoryListDetailsFind",
@@ -2358,7 +2152,6 @@
     "ACTION_COUNT": "count",
     "ACTION_INIT": "init"
   },
-
   "SVC_ADMINISTRATION_LIST_ADMINISTRATION_LISTS": {
     "NAME": "svc-administration-list.administration_lists",
     "ACTION_UPDATE_MANY": "updateMany",
@@ -2370,7 +2163,6 @@
     "ACTION_INIT": "init",
     "ACTION_LOCK": "lock"
   },
-
   "SVC_ADMINISTRATION_LIST_ADMINISTRATION_ITEMS": {
     "NAME": "svc-administration-list.administration_items",
     "ACTION_GET_UNASSIGNED_TO_ORG": "getUnAssignedToOrg",
@@ -2382,7 +2174,6 @@
     "ACTION_UPLOAD": "upload",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMINISTRATION_LIST_METHOD_LIST": {
     "NAME": "svc-administration-list.method-lists",
     "ACTION_GET_LIST_UNASSIGNED_TO_ORG": "getListUnassignedToOrg",
@@ -2400,13 +2191,11 @@
     "ACTION_COUNT": "count",
     "ACTION_LOCK": "lock"
   },
-
   "SVC_ADMINISTRATION_LIST_METHOD_ITEM": {
     "NAME": "svc-administration-list.method-items",
     "ACTION_BATCH_UPDATE": "batchUpdate",
     "ACTION_GET_LIST": "getList"
   },
-
   "SVC_ADMINISTRATION_LIST_CHANNEL_LISTS": {
     "NAME": "svc-administration-list.channel_lists",
     "ACTION_GET_UNASSIGNED_TO_ORG": "getUnAssignedToOrg",
@@ -2420,7 +2209,6 @@
     "ACTION_COUNT": "count",
     "ACTION_LOCK": "lock"
   },
-
   "SVC_CURRENCY_LISTS": {
     "NAME": "svc-administration-list.currencies",
     "ACTION_GET_UNASSIGNED_TO_ORG": "getUnAssignedToOrg",
@@ -2435,7 +2223,6 @@
     "ACTION_INIT": "init",
     "ACTION_LOCK": "lock"
   },
-
   "SVC_ADMINISTRATION_LIST_CONTRACT_LISTS": {
     "NAME": "svc-administration-list.contract_lists",
     "ACTION_GET_CONTRACT_TYPE_DETAIL": "getContractTypeDetail",
@@ -2452,7 +2239,6 @@
     "ACTION_BULK_DELETE": "bulkDelete",
     "ACTION_UPDATE_STATUS": "updateStatus"
   },
-
   "SVC_ADMINISTRATION_LIST_CONTRACT_LIBRARIES": {
     "NAME": "svc-administration-list.contract_libraries",
     "ACTION_GET_DETAIL": "getDetail",
@@ -2461,7 +2247,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMINISTRATION_LIST_CONTRACT_KEYS": {
     "NAME": "svc-administration-list.contract_keys",
     "ACTION_GET_DETAIL": "getDetail",
@@ -2470,14 +2255,12 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMINISTRATION_LIST_MENU_APPLICATIONS": {
     "NAME": "svc-administration-list.menu-applications",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "updateMenus",
     "ACTION_GET_LIST": "getList"
   },
-
   "SVC_ADMINISTRATION_LIST_UNIT_LISTS": {
     "NAME": "svc-administration-list.unit_lists",
     "ACTION_GET_UNASSIGNED_TO_ORG": "getUnAssignedToOrg",
@@ -2491,7 +2274,6 @@
     "ACTION_INIT": "init",
     "ACTION_LOCK": "lock"
   },
-
   "SVC_ADMINISTRATION_LIST_SELLING_METHODS": {
     "NAME": "svc-administration-list.selling-methods",
     "ACTION_INITIAL": "initialMasterData",
@@ -2503,14 +2285,12 @@
     "ACTION_DELETE": "delete",
     "ACTION_COUNT": "count"
   },
-
   "SVC_ADMINISTRATION_LIST_WAREHOUSE_TYPES": {
     "NAME": "svc-administration-list.warehouse-types",
     "ACTION_INITIAL": "initialMasterData",
     "ACTION_BATCH_UPDATE": "batchUpdate",
     "ACTION_GET_LIST": "getList"
   },
-
   "SVC_ADMINISTRATION_LIST_WAREHOUSE_LISTS": {
     "NAME": "svc-administration-list.warehouse-lists",
     "ACTION_GET_UNASSIGNED_TO_ORG": "getUnAssignedToOrg",
@@ -2524,11 +2304,9 @@
     "ACTION_DELETE": "delete",
     "ACTION_COUNT": "count"
   },
-
   "SVC_SALE_PLAN_FM01_CLASSIFICATION_MAPPING": {
     "NAME": "svc-sales-plan.fm01-classification-mapping"
   },
-
   "SVC_SHARED_ACTIVITY_LOGS": {
     "NAME": "svc-shared.activityLog",
     "ACTION_GET_STATS": "getStats",
@@ -2537,7 +2315,6 @@
     "ACTION_CREATE_ACTIVITIES": "createActivities",
     "ACTION_CLEANUP_ACTIVITIES": "cleanupActivities"
   },
-
   "SVC_SHARED_SETTING_COMMON": {
     "NAME": "svc-shared.settingCommon",
     "ACTION_CREATE": "create",
@@ -2545,7 +2322,6 @@
     "ACTION_DELETE": "delete",
     "ACTION_GET": "get"
   },
-
   "SVC_SHARED_SETTING_ACCESS_TOKEN": {
     "NAME": "svc-shared.settingAccessToken",
     "ACTION_CREATE": "create",
@@ -2553,7 +2329,6 @@
     "ACTION_DELETE": "delete",
     "ACTION_GET": "get"
   },
-
   "SVC_SHARED_SETTING_FINANCIAL_YEAR": {
     "NAME": "svc-shared.settingFinancialYear",
     "ACTION_GET": "get",
@@ -2562,7 +2337,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_SHARED_SETTING_E_COMMERCE_PLATFORM": {
     "NAME": "svc-shared.settingECommercePlatform",
     "ACTION_CREATE": "create",
@@ -2570,25 +2344,20 @@
     "ACTION_DELETE": "delete",
     "ACTION_GET": "get"
   },
-
   "SVC_SHARED_PRINT_TEMPLATE_KEYS": {
     "NAME": "svc-shared.print-template-key",
-
     "ACTION_GET_LIST": "getPrintTemplateKeys",
     "ACTION_CREATE": "createPrintTemplateKey",
     "ACTION_UPDATE": "updatePrintTemplateKey"
   },
-
   "SVC_SHARED_PRINT_TEMPLATE_LIBRARIES": {
     "NAME": "svc-shared.print-template-library",
-
     "ACTION_GET_LIST": "getPrintTemplateLibraries",
     "ACTION_GET_DETAIL": "getPrintTemplateLibraryDetail",
     "ACTION_CREATE": "createPrintTemplateLibrary",
     "ACTION_UPDATE": "updatePrintTemplateLibrary",
     "ACTION_DELETE_MANY": "deleteManyPrintTemplateLibrary"
   },
-
   "COMMON_METHODS": {
     "FIND_ONE_AND_UPDATE": "_findOneAndUpdate",
     "COUNT_DOCUMENTS": "_countDocuments",
@@ -2608,7 +2377,6 @@
     "CREATE": "_create",
     "FIND": "_find"
   },
-
   "SVC_TENANTS_INFORMATION": {
     "NAME": "api-admin.tenants.information",
     "ACTION_GET_SERVICE_CONFIG_OF_TENANT_BY_DOMAIN": "getServiceConfigOfTenantByDomain",
@@ -2632,11 +2400,9 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_TENANTS": {
     "NAME": "api-admin.tenants"
   },
-
   "SVC_ADMIN_ROLES": {
     "NAME": "api-admin.roles",
     "ACTION_GET_PERMISSION": "getPermission",
@@ -2647,7 +2413,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_TENANTS_CONFIGURE": {
     "NAME": "api-admin.tenants.configure",
     "ACTION_CONFIGURE_ON_PREMISE_SERVER_FOR_TENANT": "configureOnPremiseServerForTenant",
@@ -2661,7 +2426,6 @@
     "ACTION_UPDATE_TENANT_DELETION_FLAG": "updateTenantDeletionFlag",
     "ACTION_VALIDATE_SERVER_CONNECTION": "validateServerConnection"
   },
-
   "SVC_TENANTS_BUSINESS_CATEGORIES": {
     "NAME": "api-admin.tenants.business-categories",
     "ACTION_LOCK_BUSINESS_CATEGORIES": "lockBusinessCategories",
@@ -2672,7 +2436,6 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update"
   },
-
   "SVC_TENANTS_APPLICATIONS": {
     "NAME": "api-admin.tenants.applications",
     "ACTION_GET_LIST_BY_BUSINESS_CATEGORY_CODE": "getListByBusinessCategoryCode",
@@ -2682,7 +2445,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_TENANTS_POTENTIAL_TENANTS": {
     "NAME": "api-admin.tenants.potential-tenants",
     "ACTION_GET_DETAIL": "getDetail",
@@ -2691,7 +2453,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_TENANTS_PAYMENTS": {
     "NAME": "api-admin.tenants.tenant-payments",
     "ACTION_GET_DETAIL": "getDetail",
@@ -2700,18 +2461,15 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_TENANTS_SETTINGS": {
     "NAME": "api-admin.tenants.settings"
   },
-
   "SVC_ADMIN_AUTHENTICATIONS": {
     "NAME": "api-admin.authentications",
     "ACTION_VERIFY_JWT_TOKEN": "verifyJWTToken",
     "ACTION_REFRESH_TOKEN": "refreshToken",
     "ACTION_LOGIN": "login"
   },
-
   "SVC_ADMIN_ACCOUNTS": {
     "NAME": "api-admin.accounts",
     "ACTION_CHANGE_PASSWORD_ACCOUNT": "changePasswordAccount",
@@ -2730,11 +2488,9 @@
     "ACTION_CREATE": "create",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMIN_VERIFY_EMAIL_TOKEN": {
     "NAME": "api-admin.verify-email-token"
   },
-
   "SVC_ADMIN_EMAIL": {
     "NAME": "api-admin.emails",
     "ACTION_RENDER_SITE_INFO": "renderSiteInfo",
@@ -2744,7 +2500,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMIN_EMAIL_CAMPAIGN": {
     "NAME": "api-admin.emails.campaigns",
     "ACTION_GET_DETAIL": "getDetail",
@@ -2753,7 +2508,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMIN_EMAIL_CUSTOMER": {
     "NAME": "api-admin.emails.customers",
     "ACTION_GET_DETAIL": "getDetail",
@@ -2762,7 +2516,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMIN_EMAIL_KEYWORD": {
     "NAME": "api-admin.emails.keywords",
     "ACTION_DELETE_MANY": "deleteMany",
@@ -2772,7 +2525,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMIN_EMAIL_LIBRARY": {
     "NAME": "api-admin.emails.libraries",
     "ACTION_GET_DETAIL": "getDetail",
@@ -2781,7 +2533,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMIN_EMAIL_SEND": {
     "NAME": "api-admin.emails.sends",
     "ACTION_GET_DETAIL": "getDetail",
@@ -2790,13 +2541,11 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMIN_EMAIL_CUSTOMER_CONFIG": {
     "NAME": "api-admin.emails.customer-configs",
     "ACTION_GET_LIST": "getList",
     "ACTION_MODIFY": "modify"
   },
-
   "SVC_ADMIN_GIT_PROJECTS": {
     "NAME": "api-admin.git-projects",
     "ACTION_GET_LIST_FROM_GITLAB": "getGitlabProject",
@@ -2807,14 +2556,12 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMIN_GIT_TAGS": {
     "NAME": "api-admin.git-tags",
     "ACTION_CREATE": "createTag",
     "ACTION_UPDATE": "updateTag",
     "ACTION_DELETE": "deleteTag"
   },
-
   "SVC_ADMIN_SERVER": {
     "NAME": "api-admin.server",
     "ACTION_SWITCH_MAINTENANCE_MODE": "switchMaintenanceMode",
@@ -2824,7 +2571,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_ADMIN_SERVICE": {
     "NAME": "api-admin.service",
     "ACTION_UPDATE_MANY": "updateMany",
@@ -2833,19 +2579,16 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update"
   },
-
   "SVC_ADMIN_SETTINGS": {
     "NAME": "api-admin.settings",
     "ACTION_UPDATE_TENANT_SETTING": "updateTenantSetting",
     "ACTION_GET_TENANT_SETTING": "getTenantSetting"
   },
-
   "SVC_MIGRATIONS": {
     "NAME": "svc-migrations",
     "ACTION_INIT_MASTER_DATA": "initMasterData",
     "ACTION_MIGRATION_DATA": "migrationData"
   },
-
   "SVC_SHARED_USER_LOGIN": {
     "NAME": "svc-shared.userLogin",
     "ACTION_CREATE_TOKEN": "createToken",
@@ -2959,7 +2702,6 @@
     "ACTION_PUT_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "API_WAREHOUSE_STOCKTAKING": {
     "NAME": "api-warehouse.warehouseStocking",
     "ACTION_GET_LIST_WAREHOUSE_STOCKTAKING": "getListWarehouseStocking",
@@ -2969,11 +2711,9 @@
     "ACTION_CHANGE_STATUS_WAREHOUSE_STOCKTAKING": "changeStatusDetailWarehouseStocking",
     "ACTION_DELETE_MANY_WAREHOUSE_STOCKTAKING": "deleteManyWarehouseStocking"
   },
-
   "API_WAREHOUSE_STOCKTAKING_PRODUCT": {
     "NAME": "api-warehouse.warehouseStockingProduct"
   },
-
   "SVC_WAREHOUSE_LIST": {
     "NAME": "warehouse-lists",
     "ACTION_GET": "get",
@@ -2982,7 +2722,6 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_WAREHOUSE_ZONE": {
     "NAME": "warehouse-zones",
     "ACTION_GET": "get",
@@ -3025,7 +2764,6 @@
   },
   "SVC_ACCOUNTING_VOUCHER": {
     "NAME": "svc-orders.accounting-voucher",
-
     "ACTION_GET_LIST_VOUCHER_SALE_ORDER": "getLists",
     "ACTION_GET_DETAIL_VOUCHER_SALE_ORDER": "getDetail",
     "ACTION_CREATE_VOUCHER_SALE_ORDER": "create",
@@ -3034,7 +2772,6 @@
   },
   "SVC_ACCOUNTING_PRODUCT_VOUCHER": {
     "NAME": "svc-orders.accounting-product-voucher",
-
     "ACTION_CREATE_SALE_ORDER_PRODUCT_VOUCHER": "createProducts",
     "ACTION_UPDATE_SALE_ORDER_PRODUCT_VOUCHER": "updateProducts",
     "ACTION_DELETE_SALE_ORDER_PRODUCT_VOUCHER": "delete"
@@ -3045,14 +2782,12 @@
   },
   "API_HCM_SETTING_APPROVES": {
     "NAME": "api-hcm.setting-approves",
-
     "ACTION_GET": "getSettingApprove",
     "ACTION_UPDATE": "updateSettingApprove",
     "ACTION_GET_MANAGEMENT": "getManagement"
   },
   "SVC_ACCOUNTING_VOUCHER_SALE_ORDER": {
     "NAME": "svc-orders.accounting-voucher-sale-order",
-
     "ACTION_GET_LIST_VOUCHER_SALE_ORDER": "getLists",
     "ACTION_GET_DETAIL_VOUCHER_SALE_ORDER": "getDetail",
     "ACTION_CREATE_VOUCHER_SALE_ORDER": "create",
@@ -3061,24 +2796,20 @@
   },
   "SVC_ACCOUNTING_VOUCHER_PURCHASE_ORDER": {
     "NAME": "svc-orders.accounting-voucher-purchase-order",
-
     "ACTION_GET_LIST_VOUCHER_PURCHASE_ORDER": "getLists",
     "ACTION_GET_DETAIL_VOUCHER_PURCHASE_ORDER": "getDetail",
     "ACTION_CREATE_VOUCHER_PURCHASE_ORDER": "create",
     "ACTION_UPDATE_VOUCHER_PURCHASE_ORDER": "update",
     "ACTION_DELETE_VOUCHER_PURCHASE_ORDER": "delete"
   },
-
   "SVC_ACCOUNTING_PRODUCT_VOUCHER_SALE_ORDER": {
     "NAME": "svc-orders.accounting-product-voucher-sale-order",
-
     "ACTION_CREATE_SALE_ORDER_PRODUCT_VOUCHER": "create",
     "ACTION_UPDATE_SALE_ORDER_PRODUCT_VOUCHER": "update",
     "ACTION_DELETE_SALE_ORDER_PRODUCT_VOUCHER": "delete"
   },
   "SVC_ACCOUNTING_PRODUCT_VOUCHER_PURCHASE_ORDER": {
     "NAME": "svc-orders.accounting-product-voucher-purchase-order",
-
     "ACTION_CREATE_PURCHASE_ORDER_PRODUCT_VOUCHER": "create",
     "ACTION_UPDATE_PURCHASE_ORDER_PRODUCT_VOUCHER": "update",
     "ACTION_DELETE_PURCHASE_ORDER_PRODUCT_VOUCHER": "delete"
@@ -3091,7 +2822,6 @@
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail"
   },
-
   "SVC_PURCHASE_ORDERS": {
     "NAME": "svc-orders.purchase-orders",
     "ACTION_GET_LIST": "getList",
@@ -3103,7 +2833,6 @@
     "ACTION_UPDATE_PURCHASE_ORDER_PAYMENT": "updatePayment",
     "ACTION_GET_PURCHASE_ORDERS_BY_SUPPLIER_ID": "getBySupplierIds"
   },
-
   "SVC_PURCHASE_ORDER_PRODUCTS": {
     "NAME": "svc-orders.purchase-order-products",
     "ACTION_GET_LIST": "getList",
@@ -3112,16 +2841,23 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
   },
-
+  "SVC_SUPPLIER_CONFIRMATION": {
+    "NAME": "svc-orders.supplier-confirmation",
+    "ACTION_VERIFY_CODE": "verifyCode",
+    "ACTION_REQUEST_CODE": "requestCode",
+    "ACTION_VALIDATE_TOKEN": "validateToken",
+    "ACTION_GET_PO_DETAIL_BY_TOKEN": "getPODetailByToken",
+    "ACTION_ACCEPT": "accept",
+    "ACTION_REJECT": "reject",
+    "ACTION_NEED_UPDATE": "needUpdate"
+  },
   "SVC_PURCHASE_ORDER_HISTORIES": {
     "NAME": "svc-orders.purchase-order-histories",
     "ACTION_GET_LIST": "getList",
     "ACTION_CREATE": "create"
   },
-
   "SVC_WORKFLOW_CRITERIA": {
     "NAME": "svc-workflows.criteria",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetailCriteria",
     "ACTION_CREATE": "create",
@@ -3130,7 +2866,6 @@
   },
   "SVC_WORKFLOW_RESULT_TYPE": {
     "NAME": "svc-workflows.result-type",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
@@ -3139,7 +2874,6 @@
   },
   "SVC_WORKFLOW_PROJECT": {
     "NAME": "svc-workflows.projects",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3177,7 +2911,6 @@
   },
   "SVC_WORKFLOW_PROJECT_HISTORY": {
     "NAME": "svc-workflows.project-histories",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_CREATE": "create",
@@ -3186,7 +2919,6 @@
   },
   "SVC_WORKFLOW_PROJECT_SUMMARY": {
     "NAME": "svc-workflows.project-summaries",
-
     "ACTION_GET": "get",
     "ACTION_GET_REPORT_TASK": "getReportTask",
     "ACTION_GET_COMMON_SEARCH": "getCommonSearch",
@@ -3194,12 +2926,10 @@
   },
   "SVC_WORKFLOW_PROJECT_SETTING": {
     "NAME": "svc-workflows.project-settings",
-
     "ACTION_PUT_UPDATE": "update"
   },
   "SVC_WORKFLOW_PHASES": {
     "NAME": "svc-workflows.phases",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3212,7 +2942,6 @@
   },
   "SVC_WORKFLOW_FOLDER": {
     "NAME": "svc-workflows.folders",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3223,7 +2952,6 @@
   },
   "SVC_WORKFLOW_PROJECT_GROUP_MEMBER": {
     "NAME": "svc-workflows.project-group-members",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3233,7 +2961,6 @@
   },
   "SVC_WORKFLOW_PROJECT_ROLE": {
     "NAME": "svc-workflows.project-roles",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GET_ROLE_PERMISSION_FOR_USER": "getRolePermissionForUser",
@@ -3246,7 +2973,6 @@
   },
   "SVC_WORKFLOW_PROJECT_COMMENTS": {
     "NAME": "svc-workflows.project-comments",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3257,7 +2983,6 @@
   },
   "SVC_WORKFLOW_TASK": {
     "NAME": "svc-workflows.tasks",
-
     "ACTION_GET": "get",
     "ACTION_GET_DASHBOARD": "dashboard",
     "ACTION_GET_OVERVIEW": "overview",
@@ -3289,7 +3014,6 @@
   },
   "SVC_WORKFLOW_POST_TASK": {
     "NAME": "svc-workflows.post-tasks",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3302,7 +3026,6 @@
   },
   "SVC_WORKFLOW_COMMENT_POST": {
     "NAME": "svc-workflows.comment-posts",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3314,13 +3037,11 @@
   },
   "SVC_WORKFLOW_TASK_HISTORY": {
     "NAME": "svc-workflows.task-histories",
-
     "ACTION_GET": "get",
     "ACTION_CREATE": "create"
   },
   "SVC_WORKFLOW_AUTOMATION_TASK": {
     "NAME": "svc-workflows.automation-tasks",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3330,18 +3051,15 @@
   },
   "SVC_WORKFLOW_FILE_TASK": {
     "NAME": "svc-workflows.file-tasks",
-
     "ACTION_GET": "get"
   },
   "SVC_WORKFLOW_REPORT_TASK": {
     "NAME": "svc-workflows.report-tasks",
-
     "ACTION_GET_CHART": "getChartTaskReports",
     "ACTION_GET_MODULE_BY_TASK": "getModuleByTask"
   },
   "SVC_WORKFLOW_TEMPLATE": {
     "NAME": "svc-workflows.templates",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3354,7 +3072,6 @@
   },
   "SVC_WORKFLOW_FOLDER_TEMPLATE": {
     "NAME": "svc-workflows.folder-templates",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3363,7 +3080,6 @@
   },
   "SVC_WORKFLOW_COMMENT_TEMPLATE": {
     "NAME": "svc-workflows.comment-templates",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3374,7 +3090,6 @@
   },
   "SVC_WORKFLOW_ROLE_PROJECT_TEMPLATE": {
     "NAME": "svc-workflows.roleProject-templates",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3383,7 +3098,6 @@
   },
   "SVC_WORKFLOW_GROUP_PROJECT_TEMPLATE": {
     "NAME": "svc-workflows.groupProject-templates",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3392,12 +3106,10 @@
   },
   "SVC_WORKFLOW_PERMISSION": {
     "NAME": "svc-workflows.permissions",
-
     "ACTION_GET": "get"
   },
   "SVC_WORKFLOW_PARTNER_TRADER": {
     "NAME": "svc-workflows.partner-trader",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3407,7 +3119,6 @@
   },
   "SVC_WORKFLOW_PARTNER_HISTORY": {
     "NAME": "svc-workflows.partner-histories",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3416,7 +3127,6 @@
   },
   "SVC_WORKFLOW_PARTNER_LIST": {
     "NAME": "svc-workflows.partner-list",
-
     "ACTION_GET": "get",
     "ACTION_GET_PAGING": "getPaging",
     "ACTION_GET_DETAIL": "getDetail",
@@ -3428,7 +3138,6 @@
   },
   "SVC_WORKFLOW_PARTNER_GROUP": {
     "NAME": "svc-workflows.partner-group",
-
     "ACTION_GET": "get",
     "ACTION_GET_FOR": "getFor",
     "ACTION_GET_DETAIL": "getDetail"
@@ -3451,7 +3160,6 @@
   },
   "SVC_WORKFLOW_REQUEST_TYPE": {
     "NAME": "svc-workflows.request-types",
-
     "ACTION_GET": "get",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
@@ -3462,7 +3170,6 @@
   },
   "SVC_WORKFLOW_COMMENT_APPROVAL": {
     "NAME": "svc-workflows.comment-approvals",
-
     "ACTION_GET": "get",
     "ACTION_POST_CREATE": "create",
     "ACTION_PUT_UPDATE": "update",
@@ -3472,7 +3179,6 @@
   },
   "SVC_WORKFLOW_APPROVAL": {
     "NAME": "svc-workflows.approvals",
-
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_POST_CREATE": "create",
     "ACTION_PUT_UPDATE": "update",
@@ -3492,33 +3198,26 @@
   },
   "SVC_WORKFLOW_APPROVER": {
     "NAME": "svc-workflows.approvers",
-
     "ACTION_POST_APPROVE": "approve",
     "ACTION_POST_APPROVE_MULTI": "approveMulti"
   },
   "SVC_WORKFLOW_APPROVAL_NOTIFICATION": {
     "NAME": "svc-workflows.approval-notifications",
-
     "ACTION_GET": "get",
     "ACTION_POST_SEND_NOTIFICATION": "sendNotification",
     "ACTION_DELETE": "delete"
   },
-
   "SVC_DOWNLOAD_FILE": {
     "NAME": "svc-shared.download-files",
-
     "ACTION_DOWNLOAD_PRODUCT_ITEM": "downloadProductItem",
     "ACTION_DOWNLOAD_PRODUCT_GROUP_LABEL": "downloadProductGroupLabel",
     "ACTION_DOWNLOAD_WAREHOUSE_INVENTORY": "downloadWarehouseInventory"
   },
-
   "SVC_WORKFLOW_QUEUE": {
     "NAME": "svc-workflows.queue",
-
     "ADD_TO_QUEUE_AUTOMATION": "addToQueueAutomation",
     "ADD_TO_QUEUE_NOTIFICATION": "addToQueueNotification"
   },
-
   "SVC_API_GATEWAY": {
     "NAME": "api-gateway.health",
     "ACTION_HEALTH_CHECK": "check",

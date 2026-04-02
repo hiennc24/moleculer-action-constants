@@ -865,14 +865,18 @@ const COLLECTIONS = {
   DASHBOARD_PROCESS_ITEM_COLLECTION_NAME: "dashboard_process_items",
 
   // Purchase Order
-  PURCHASE_ORDERS_REPOSITORY_NAME: "purchaseOrders",
+  PURCHASE_ORDERS_REPOSITORY_NAME: "purchaseOrder",
   PURCHASE_ORDERS_COLLECTION_NAME: "purchase_orders",
-  PURCHASE_ORDERS_DETAIL_REPOSITORY_NAME: "purchaseOrderDetails",
+  PURCHASE_ORDERS_DETAIL_REPOSITORY_NAME: "purchaseOrderDetail",
   PURCHASE_ORDERS_DETAIL_COLLECTION_NAME: "purchase_order_details",
   PURCHASE_ORDER_PRODUCTS_REPOSITORY_NAME: "purchaseOrdersProduct",
   PURCHASE_ORDER_PRODUCTS_COLLECTION_NAME: "purchase_order_products",
   PURCHASE_ORDERS_HISTORY_REPOSITORY_NAME: "purchaseOrdersHistory",
   PURCHASE_ORDERS_HISTORY_COLLECTION_NAME: "purchase_orders_histories",
+
+  // Supplier confirmation
+  SUPPLIER_VERIFICATION_TOKEN_REPOSITORY_NAME: "supplierVerificationToken",
+  SUPPLIER_VERIFICATION_TOKEN_COLLECTION: "supplier_verification_tokens",
 
   ORDER_PROMOTION_REPOSITORY_NAME: "orderPromotion",
   ORDER_PROMOTION_COLLECTION_NAME: "order_promotions",
@@ -1222,7 +1226,8 @@ const COLLECTIONS = {
   WAREHOUSE_TRANSFER_VOUCHER_REPOSITORY_NAME: "TransferVoucher",
   WAREHOUSE_TRANSFER_VOUCHER_COLLECTION_NAME: "transfer_vouchers",
   WAREHOUSE_TRANSFER_VOUCHER_PRODUCT_REPOSITORY_NAME: "TransferVoucherProduct",
-  WAREHOUSE_TRANSFER_VOUCHER_PRODUCT_COLLECTION_NAME: "transfer_voucher_products",
+  WAREHOUSE_TRANSFER_VOUCHER_PRODUCT_COLLECTION_NAME:
+    "transfer_voucher_products",
 
   // After Sales Complaint
   AFTER_SALES_COMPLAINT_REPOSITORY_NAME: "AfterSalesComplaint",
@@ -1231,6 +1236,35 @@ const COLLECTIONS = {
   // Contract Products
   CONTRACT_PRODUCTS_REPOSITORY_NAME: "ContractProducts",
   CONTRACT_PRODUCTS_COLLECTION_NAME: "contract_products",
+
+  // Debt Management
+  INVOICE_LEDGER_REPOSITORY_NAME: "InvoiceLedger",
+  INVOICE_LEDGER_COLLECTION_NAME: "invoice_ledgers",
+
+  PAYMENT_TRANSACTION_REPOSITORY_NAME: "PaymentTransaction",
+  PAYMENT_TRANSACTION_COLLECTION_NAME: "payment_transactions",
+
+  DEBT_EVENT_REPOSITORY_NAME: "DebtEvent",
+  DEBT_EVENT_COLLECTION_NAME: "debt_events",
+
+  // Debt Netting
+  NETTING_RECORD_REPOSITORY_NAME: "NettingRecord",
+  NETTING_RECORD_COLLECTION_NAME: "netting_records",
+
+  // Debt Multi-Currency
+  FX_RATE_REPOSITORY_NAME: "FxRate",
+  FX_RATE_COLLECTION_NAME: "fx_rates",
+
+  // Debt GL Integration
+  JOURNAL_ENTRY_REPOSITORY_NAME: "JournalEntry",
+  JOURNAL_ENTRY_COLLECTION_NAME: "journal_entries",
+
+  CHART_OF_ACCOUNTS_REPOSITORY_NAME: "ChartOfAccounts",
+  CHART_OF_ACCOUNTS_COLLECTION_NAME: "chart_of_accounts",
+
+  // Debt Reconciliation & Batch
+  BATCH_METADATA_REPOSITORY_NAME: "BatchMetadata",
+  BATCH_METADATA_COLLECTION_NAME: "batch_metadata",
 };
 
 export default COLLECTIONS;
