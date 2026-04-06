@@ -2239,6 +2239,17 @@
     "ACTION_BULK_DELETE": "bulkDelete",
     "ACTION_UPDATE_STATUS": "updateStatus"
   },
+  "SVC_ADMINISTRATION_LIST_CONTRACT_PRODUCTS": {
+    "NAME": "svc-administration-list.contract_products",
+    "ACTION_GET_BY_CONTRACT": "getByContract",
+    "ACTION_BULK_CREATE": "bulkCreate",
+    "ACTION_BULK_UPDATE": "bulkUpdate",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update"
+  },
   "SVC_ADMINISTRATION_LIST_CONTRACT_LIBRARIES": {
     "NAME": "svc-administration-list.contract_libraries",
     "ACTION_GET_DETAIL": "getDetail",
