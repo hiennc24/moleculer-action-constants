@@ -234,7 +234,8 @@
     "ACTION_GET_DETAIL_VOUCHER": "getDetail",
     "ACTION_CONFIRM_VOUCHER": "confirmVoucher",
     "ACTION_CHANGE_STATUS_VOUCHER": "changeStatus",
-    "ACTION_GET_ORDER_AVAILABLE_LIST": "getOrderAvailableList"
+    "ACTION_GET_ORDER_AVAILABLE_LIST": "getOrderAvailableList",
+    "ACTION_GET_ORDER_REMAINING_PRODUCTS": "getOrderRemainingProducts"
   },
   "SVC_WAREHOUSE_VOUCHER_PRODUCTS": {
     "NAME": "svc-warehouse.voucher-products",
@@ -377,7 +378,10 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_GEN_CODE": "gen-code",
     "ACTION_CHANGE_STATUS": "change-status",
-    "ACTION_UPDATE_MANY_STATUS": "update-many-status"
+    "ACTION_UPDATE_MANY_STATUS": "update-many-status",
+    "ACTION_GET_DASHBOARD_KPIS": "getDashboardKPIs",
+    "ACTION_CHECK_CONFLICTS": "checkConflicts",
+    "ACTION_VALIDATE_PROMOTION": "validatePromotion"
   },
   "SVC_PROMOTION_MANAGEMENT_PRODUCT": {
     "NAME": "svc-promotion.promotion-products"
@@ -2237,7 +2241,8 @@
     "ACTION_IMPORT": "import",
     "ACTION_COUNT": "count",
     "ACTION_BULK_DELETE": "bulkDelete",
-    "ACTION_UPDATE_STATUS": "updateStatus"
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_CREATE_ORDER_FROM_CONTRACT": "createOrderFromContract"
   },
   "SVC_ADMINISTRATION_LIST_CONTRACT_PRODUCTS": {
     "NAME": "svc-administration-list.contract_products",
