@@ -396,6 +396,8 @@
     "ACTION_DELETE_MANY": "delete-many",
     "ACTION_GET_HISTORIES": "get-histories",
     "ACTION_CALCULATE_PRICE": "calculate-price",
+    "ACTION_CHANGE_STATUS": "changeStatus",
+    "ACTION_BULK_CHANGE_STATUS": "bulk-change-status",
     "ACTION_FINALIZE_POLICY": "finalize-policy",
     "ACTION_CREATE_POLICY_DRAFT": "create-policy-draft",
     "ACTION_CREATE_POLICY_PRODUCTS": "create-policy-products",
@@ -1550,7 +1552,8 @@
     "ACTION_VERIFY_ACCOUNT": "verifyAccount",
     "ACTION_CREATE_ACCOUNT": "createAccount",
     "ACTION_UPDATE_ACCOUNT": "updateAccount",
-    "ACTION_SWITCH_ORG": "switchOrg"
+    "ACTION_SWITCH_ORG": "switchOrg",
+    "ACTION_REGISTER_TRIAL": "registerTrial"
   },
   "SVC_ORGANIZATION_EMPLOYEES": {
     "NAME": "svc-organization.employees",
