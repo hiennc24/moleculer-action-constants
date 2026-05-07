@@ -1538,6 +1538,7 @@
   "SVC_AUTH_ACCOUNTS": {
     "NAME": "svc-auth.accounts",
     "ACTION_SEND_ACCOUNT_MAIL_DEACTIVATED": "sendMailDeactivatedAccount",
+    "ACTION_RESET_PASSWORD_WITH_TOKEN": "resetPasswordWithToken",
     "ACTION_CREATE_ACCOUNT_PASSWORD": "createAccountPassword",
     "ACTION_RESEND_ACCOUNT_MAIL_CONFIRM": "resendMailConfirm",
     "ACTION_VERIFY_EMAIL_REGISTER": "verifyEmailRegister",
