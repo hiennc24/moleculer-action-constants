@@ -1475,7 +1475,8 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_GENERATE_CODE": "generateCode",
-    "ACTION_GET_DASHBOARD_STATISTICS": "viewDashboard"
+    "ACTION_GET_DASHBOARD_STATISTICS": "viewDashboard",
+    "ACTION_GET_PENDING_EMPLOYEES": "getPendingEmployees"
   },
   "API_HCM_BUSINESS_TRIP": {
     "NAME": "api-hcm.business-trips",
