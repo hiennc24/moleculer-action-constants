@@ -1207,6 +1207,13 @@
     "ACTION_CREATE": "createHistory",
     "ACTION_GET_LIST_BY_OLE_DETAIL_ID": "getListByOleDetailId"
   },
+  "API_HCM_DASHBOARD": {
+    "NAME": "api-hcm.dashboards",
+    "ACTION_GET_HR_DASHBOARD": "getHRDashboard",
+    "ACTION_GET_PAYROLL_DASHBOARD": "getPayrollDashboard",
+    "ACTION_GET_OLE_DASHBOARD": "getOLEDashboard",
+    "ACTION_GET_SUMMARY": "getSummary"
+  },
   "API_HCM_OLE": {
     "NAME": "api-hcm.oles",
     "ACTION_GET_PAGE": "getPage",
@@ -1503,12 +1510,6 @@
     "NAME": "api-hcm.setting-work-shift-registrations",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_UPDATE": "update"
-  },
-  "API_HCM_DASHBOARD": {
-    "NAME": "api-hcm.dashboard",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_UPDATE": "update",
-    "ACTION_GET_STATISTICS": "getStatistics"
   },
   "SVC_AUTH_AUTHENTICATIONS": {
     "NAME": "svc-auth.authentications",
