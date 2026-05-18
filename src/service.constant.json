@@ -1557,7 +1557,9 @@
     "ACTION_CREATE_ACCOUNT": "createAccount",
     "ACTION_UPDATE_ACCOUNT": "updateAccount",
     "ACTION_SWITCH_ORG": "switchOrg",
-    "ACTION_REGISTER_TRIAL": "registerTrial"
+    "ACTION_REGISTER_TRIAL": "registerTrial",
+    "ACTION_GET_MY_PROFILE": "getMyProfile",
+    "ACTION_UPDATE_MY_PROFILE": "updateMyProfile"
   },
   "SVC_ORGANIZATION_EMPLOYEES": {
     "NAME": "svc-organization.employees",
