@@ -1212,7 +1212,9 @@
     "ACTION_GET_HR_DASHBOARD": "getHRDashboard",
     "ACTION_GET_PAYROLL_DASHBOARD": "getPayrollDashboard",
     "ACTION_GET_OLE_DASHBOARD": "getOLEDashboard",
-    "ACTION_GET_SUMMARY": "getSummary"
+    "ACTION_GET_SUMMARY": "getSummary",
+    "ACTION_GET_STATISTICS": "getStatistics",
+    "ACTION_UPDATE": "update"
   },
   "API_HCM_OLE": {
     "NAME": "api-hcm.oles",
@@ -2874,7 +2876,8 @@
     "ACTION_GET_PO_DETAIL_BY_TOKEN": "getPODetailByToken",
     "ACTION_ACCEPT": "accept",
     "ACTION_REJECT": "reject",
-    "ACTION_NEED_UPDATE": "needUpdate"
+    "ACTION_NEED_UPDATE": "needUpdate",
+    "ACTION_RESPOND": "respond"
   },
   "SVC_PURCHASE_ORDER_HISTORIES": {
     "NAME": "svc-orders.purchase-order-histories",
