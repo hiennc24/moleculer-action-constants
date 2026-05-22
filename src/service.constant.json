@@ -13,6 +13,26 @@
       "REJECTED": "sale-order.rejected"
     }
   },
+  "CHANNEL_NAMES": {
+    "ORGANIZATION": {
+      "EMPLOYEE_UPDATED": "organization.employee.updated",
+      "POSITION_UPDATED": "organization.position.updated"
+    }
+  },
+  "CHANNEL_CONSUMER_GROUPS": {
+    "HRM": {
+      "LEAVE_MANAGEMENT": "hrm.leave-management",
+      "TIMEKEEPING": "hrm.timekeeping",
+      "WORKSHIFT": "hrm.workshift"
+    }
+  },
+  "CHANNEL_DLQ_QUEUES": {
+    "HRM": {
+      "LEAVE_EMPLOYEE_UPDATED": "DEAD_LETTER.hrm.employee.updated",
+      "TIMEKEEPING_EMPLOYEE_UPDATED": "DEAD_LETTER.hrm.timekeeping.employee.updated",
+      "WORKSHIFT_EMPLOYEE_UPDATED": "DEAD_LETTER.hrm.workshift.employee.updated"
+    }
+  },
   "SVC_SHARED_SETTING_INVOICE": {
     "NAME": "svc-shared.settingInvoice",
     "ACTION_CREATE": "create",
