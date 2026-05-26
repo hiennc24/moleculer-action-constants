@@ -1240,6 +1240,7 @@
     "ACTION_CONFIRM_OLE_DETAIL": "confirmOleDetail",
     "ACTION_UPDATE_GOAL_RESULT_FOR_MANY": "updateGoalResultForMany",
     "ACTION_CONFIRM_OLE_DETAIL_WORKSPACE": "confirmOleDetailWorkspace",
+    "ACTION_GET_EMPLOYEE_DASHBOARD_OVERVIEW": "getEmployeeDashboardOverview",
     "ACTION_GET_OLE_DETAIL_LIST_FOR_EMPLOYEE": "getOleDetailListForEmployee",
     "ACTION_GET_OLE_DETAIL_FOR_EMPLOYEE_BY_ID": "getOleDetailForEmployeeById",
     "ACTION_GET_APPROVAL_DETAIL_FOR_CURRENT_STEP": "getApprovalDetailForCurrentStep"
