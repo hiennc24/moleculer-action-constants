@@ -1012,6 +1012,7 @@
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_VIEW_DASHBOARD": "viewDashboard",
+    "ACTION_MULTIPLE_APPROVALS": "approveMultiple",
     "ACTION_GET_APPROVAL_DETAIL": "getApprovalDetail",
     "ACTION_GET_DETAIL_FOR_ADMIN": "getDetailForAdmin",
     "ACTION_VIEW_ADMIN_DASHBOARD": "viewAdminDashboard",
