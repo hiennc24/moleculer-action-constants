@@ -1017,6 +1017,7 @@
     "ACTION_GET_DETAIL_FOR_ADMIN": "getDetailForAdmin",
     "ACTION_VIEW_ADMIN_DASHBOARD": "viewAdminDashboard",
     "ACTION_VIEW_LEAVE_DASHBOARD": "viewLeaveDashboard",
+    "ACTION_RECOMPUTE_APPROVAL_STEPS": "recomputeApprovalSteps",
     "ACTION_GET_LEAVE_REQUEST_TYPE_LIST": "getLeaveRequestTypeList",
     "ACTION_VIEW_BUSINESS_TRIP_DASHBOARD": "viewBusinessTripDashboard",
     "ACTION_ASSIGN_APPROVER_FOR_NEXT_STEP": "assignApproverForNextStep",
