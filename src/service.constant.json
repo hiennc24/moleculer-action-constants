@@ -514,6 +514,16 @@
     "ACTION_UPDATE_ALLOW_OUT_OF_STOCK": "getSettingAllowOutOfStock",
     "ACTIONS_GET_SETTING_ALLOW_OUT_OF_STOCK": "updateAllowOutOfStock"
   },
+  "SVC_SALES_ORDERS_PARTNER_AGGREGATION": {
+    "NAME": "svc-sales-orders.partner-aggregation",
+    "ACTION_GET_PARTNER_ORDERS": "getPartnerOrders",
+    "ACTION_GET_PARTNER_ORDERS_SUMMARY": "getPartnerOrdersSummary",
+    "ACTION_GET_PARTNER_RETURNS": "getPartnerReturns",
+    "ACTION_GET_PARTNER_PRODUCTS": "getPartnerProducts",
+    "ACTION_GET_PARTNER_REVENUE_CHART": "getPartnerRevenueChart",
+    "ACTION_GET_PARTNER_TOP_PRODUCTS": "getPartnerTopProducts",
+    "ACTION_GET_PARTNER_RECENT_TRANSACTIONS": "getPartnerRecentTransactions"
+  },
   "SVC_SALES_ORDERS": {
     "NAME": "svc-sales-orders",
     "ACTION_GET_SALES_ORDERS_BY_CUSTOMER_ID": "getSalesOrdersByCustomerId",
