@@ -17,6 +17,9 @@
     "ORGANIZATION": {
       "EMPLOYEE_UPDATED": "organization.employee.updated",
       "POSITION_UPDATED": "organization.position.updated"
+    },
+    "PRODUCT": {
+      "UPDATED": "product.product.updated"
     }
   },
   "CHANNEL_CONSUMER_GROUPS": {
@@ -24,6 +27,9 @@
       "LEAVE_MANAGEMENT": "hrm.leave-management",
       "TIMEKEEPING": "hrm.timekeeping",
       "WORKSHIFT": "hrm.workshift"
+    },
+    "WAREHOUSE": {
+      "INVENTORY": "warehouse.inventory"
     }
   },
   "CHANNEL_DLQ_QUEUES": {
@@ -31,6 +37,9 @@
       "LEAVE_EMPLOYEE_UPDATED": "DEAD_LETTER.hrm.employee.updated",
       "TIMEKEEPING_EMPLOYEE_UPDATED": "DEAD_LETTER.hrm.timekeeping.employee.updated",
       "WORKSHIFT_EMPLOYEE_UPDATED": "DEAD_LETTER.hrm.workshift.employee.updated"
+    },
+    "WAREHOUSE": {
+      "INVENTORY_PRODUCT_UPDATED": "DEAD_LETTER.warehouse.inventory.product.updated"
     }
   },
   "SVC_SHARED_SETTING_INVOICE": {
