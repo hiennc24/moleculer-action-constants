@@ -17,6 +17,9 @@
     "ORGANIZATION": {
       "EMPLOYEE_UPDATED": "organization.employee.updated",
       "POSITION_UPDATED": "organization.position.updated"
+    },
+    "PRODUCT": {
+      "UPDATED": "product.product.updated"
     }
   },
   "CHANNEL_CONSUMER_GROUPS": {
@@ -24,6 +27,9 @@
       "LEAVE_MANAGEMENT": "hrm.leave-management",
       "TIMEKEEPING": "hrm.timekeeping",
       "WORKSHIFT": "hrm.workshift"
+    },
+    "WAREHOUSE": {
+      "INVENTORY": "warehouse.inventory"
     }
   },
   "CHANNEL_DLQ_QUEUES": {
@@ -31,6 +37,9 @@
       "LEAVE_EMPLOYEE_UPDATED": "DEAD_LETTER.hrm.employee.updated",
       "TIMEKEEPING_EMPLOYEE_UPDATED": "DEAD_LETTER.hrm.timekeeping.employee.updated",
       "WORKSHIFT_EMPLOYEE_UPDATED": "DEAD_LETTER.hrm.workshift.employee.updated"
+    },
+    "WAREHOUSE": {
+      "INVENTORY_PRODUCT_UPDATED": "DEAD_LETTER.warehouse.inventory.product.updated"
     }
   },
   "SVC_SHARED_SETTING_INVOICE": {
@@ -172,15 +181,18 @@
     "ACTION_GET_OVERVIEW": "getOverview",
     "ACTION_GET_REVENUE_CHART": "getRevenueChart",
     "ACTION_GET_TOP_PRODUCTS": "getTopProducts",
-    "ACTION_GET_RECENT_TX": "getRecentTx"
+    "ACTION_GET_RECENT_TX": "getRecentTx",
+    "ACTION_GET_DASHBOARD": "getDashboard"
   },
   "SVC_CUSTOMER_SALES": {
     "NAME": "svc-business-partner.customer-sales",
     "ACTION_GET_ORDERS": "getOrders",
     "ACTION_GET_ORDERS_SUMMARY": "getOrdersSummary",
     "ACTION_GET_INVOICES": "getInvoices",
+    "ACTION_GET_INVOICES_SUMMARY": "getInvoicesSummary",
     "ACTION_GET_RETURNS": "getReturns",
-    "ACTION_GET_PRODUCTS": "getProducts"
+    "ACTION_GET_PRODUCTS": "getProducts",
+    "ACTION_GET_SALES_TAB": "getSalesTab"
   },
   "SVC_CUSTOMER_MARKETING": {
     "NAME": "svc-business-partner.customer-marketing",
@@ -188,14 +200,16 @@
     "ACTION_GET_PROMOTIONS": "getPromotions",
     "ACTION_GET_LOYALTY": "getLoyalty",
     "ACTION_GET_REWARDS": "getRewards",
-    "ACTION_GET_EMAILS": "getEmails"
+    "ACTION_GET_EMAILS": "getEmails",
+    "ACTION_GET_MARKETING_TAB": "getMarketingTab"
   },
   "SVC_CUSTOMER_PAYMENT": {
     "NAME": "svc-business-partner.customer-payment",
     "ACTION_GET_VOUCHERS": "getVouchers",
     "ACTION_GET_SUMMARY": "getSummary",
     "ACTION_GET_VOUCHER_BY_ID": "getVoucherById",
-    "ACTION_DOWNLOAD_VOUCHER": "downloadVoucher"
+    "ACTION_DOWNLOAD_VOUCHER": "downloadVoucher",
+    "ACTION_GET_PAYMENT_TAB": "getPaymentTab"
   },
   "SVC_DEBTS": {
     "NAME": "svc-business-partner.debts",
@@ -513,6 +527,16 @@
     "ACTION_UPDATE": "updateSetting",
     "ACTION_UPDATE_ALLOW_OUT_OF_STOCK": "getSettingAllowOutOfStock",
     "ACTIONS_GET_SETTING_ALLOW_OUT_OF_STOCK": "updateAllowOutOfStock"
+  },
+  "SVC_SALES_ORDERS_PARTNER_AGGREGATION": {
+    "NAME": "svc-sales-orders.partner-aggregation",
+    "ACTION_GET_PARTNER_ORDERS": "getPartnerOrders",
+    "ACTION_GET_PARTNER_ORDERS_SUMMARY": "getPartnerOrdersSummary",
+    "ACTION_GET_PARTNER_RETURNS": "getPartnerReturns",
+    "ACTION_GET_PARTNER_PRODUCTS": "getPartnerProducts",
+    "ACTION_GET_PARTNER_REVENUE_CHART": "getPartnerRevenueChart",
+    "ACTION_GET_PARTNER_TOP_PRODUCTS": "getPartnerTopProducts",
+    "ACTION_GET_PARTNER_RECENT_TRANSACTIONS": "getPartnerRecentTransactions"
   },
   "SVC_SALES_ORDERS": {
     "NAME": "svc-sales-orders",
