@@ -1021,6 +1021,7 @@
     "ACTION_GET_LEAVE_REQUEST_TYPE_LIST": "getLeaveRequestTypeList",
     "ACTION_VIEW_BUSINESS_TRIP_DASHBOARD": "viewBusinessTripDashboard",
     "ACTION_ASSIGN_APPROVER_FOR_NEXT_STEP": "assignApproverForNextStep",
+    "ACTION_RECOMPUTE_APPROVAL_MANY_STEPS": "recomputeApprovalManySteps",
     "ACTION_GET_LIST_REQUEST_FOR_EMPLOYEE_RESPONSIBLE": "getPageRequestForEmployeeResponsible"
   },
   "SVC_REQUEST_HISTORY": {
