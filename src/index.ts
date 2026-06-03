@@ -11,6 +11,11 @@ export {
   CollectionsConstantType,
 } from "./collections.constant";
 
+export {
+  default as PERMISSIONS,
+  PermissionConstantType,
+} from "./permission.constant";
+
 export const addLocalServices = (services: ServiceBrokerConstantType) => {
   Object.assign(SERVICE_BROKER, services);
   console.log("added local services!");
