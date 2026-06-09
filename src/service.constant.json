@@ -3334,5 +3334,131 @@
     "ACTION_LIVENESS": "live",
     "ACTION_READINESS": "ready",
     "ACTION_METRICS": "metrics"
+  },
+  "API_AI_PLATFORM_INTEGRATIONS": {
+    "NAME": "svc-ai-platform.integrations",
+    "ACTION_LIST_PROVIDERS": "listProviders",
+    "ACTION_REGISTER_PROVIDER": "registerProvider",
+    "ACTION_UNREGISTER_PROVIDER": "unregisterProvider",
+    "ACTION_CREATE": "create",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_CONNECT_BOT": "connectBot",
+    "ACTION_DISCONNECT_BOT": "disconnectBot",
+    "ACTION_TEST_CONNECTION": "testConnection",
+    "ACTION_VERIFY_WEBHOOK": "verifyWebhook",
+    "ACTION_RECEIVE_WEBHOOK": "receiveWebhook",
+    "ACTION_RECEIVE_OUTBOUND": "receiveOutbound",
+    "ACTION_GET_WIDGET_CHAT": "getWidgetChat",
+    "ACTION_UPDATE_WIDGET_CHAT": "updateWidgetChat",
+    "EVENT_INTEGRATION_CREATED": "ai-platform.integration.created",
+    "EVENT_INTEGRATION_UPDATED": "ai-platform.integration.updated",
+    "EVENT_INTEGRATION_DELETED": "ai-platform.integration.deleted"
+  },
+  "API_AI_PLATFORM_BOTS": {
+    "NAME": "svc-ai-platform.bots",
+    "ACTION_CREATE": "create",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_TEST": "test",
+    "ACTION_GET_ACTIVE_COUNT": "getActiveCount",
+    "EVENT_BOT_INVOKE": "ai-platform.bot.invoke"
+  },
+  "API_AI_PLATFORM_CONVERSATIONS": {
+    "NAME": "svc-ai-platform.conversations",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_FIND_BY_ID": "findById",
+    "ACTION_RESOLVE": "resolve",
+    "ACTION_ASSIGN": "assign",
+    "ACTION_HANDOFF": "handoff",
+    "ACTION_CLOSE": "close",
+    "ACTION_REOPEN": "reopen",
+    "ACTION_UPDATE_TAGS": "updateTags",
+    "EVENT_CONVERSATION_CREATED": "ai-platform.conversation.created",
+    "EVENT_CONVERSATION_HANDOFF": "ai-platform.conversation.handoff",
+    "EVENT_CONVERSATION_CLOSED": "ai-platform.conversation.closed"
+  },
+  "API_AI_PLATFORM_MESSAGES": {
+    "NAME": "svc-ai-platform.messages",
+    "ACTION_CREATE": "create",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_LIST_BY_CONVERSATION": "listByConversation",
+    "ACTION_SEND": "send",
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "EVENT_MESSAGE_CREATED": "ai-platform.message.created"
+  },
+  "API_AI_PLATFORM_CONTACTS": {
+    "NAME": "svc-ai-platform.contacts",
+    "ACTION_CREATE": "create",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_FIND_BY_ID": "findById",
+    "ACTION_RESOLVE": "resolve",
+    "ACTION_UPDATE": "update",
+    "ACTION_MERGE": "merge"
+  },
+  "API_AI_PLATFORM_DOCUMENTS": {
+    "NAME": "svc-ai-platform.documents",
+    "ACTION_GET_PRESIGNED_UPLOAD": "getPresignedUpload",
+    "ACTION_CONFIRM_UPLOAD": "confirmUpload",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_PRESIGNED_DOWNLOAD": "getPresignedDownload",
+    "ACTION_GET_PRESIGNED_DOWNLOAD_BY_KEY": "getPresignedDownloadByKey",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "EVENT_DOCUMENT_CONFIRMED": "ai-platform.document.confirmed"
+  },
+  "API_AI_PLATFORM_STORAGE": {
+    "NAME": "svc-ai-platform.storage",
+    "ACTION_GET_PRESIGNED_UPLOAD": "getPresignedUpload",
+    "ACTION_GET_PRESIGNED_DOWNLOAD": "getPresignedDownload",
+    "ACTION_VERIFY_FILE": "verifyFile",
+    "ACTION_DELETE_FILE": "deleteFile",
+    "ACTION_DELETE_FOLDER": "deleteFolder",
+    "ACTION_MOVE_FILES": "moveFiles",
+    "ACTION_COPY_FILE": "copyFile",
+    "ACTION_HEAD_FILE": "headFile",
+    "ACTION_LIST_FILES": "listFiles"
+  },
+  "API_AI_PLATFORM_MESSAGE_INBOUND": {
+    "NAME": "svc-ai-platform.message-inbound",
+    "ACTION_PROCESS": "process",
+    "EVENT_MESSAGE_INBOUND": "ai-platform.message.inbound",
+    "EVENT_DLQ_MESSAGE_INBOUND": "DEAD_LETTER.ai-platform.message.inbound"
+  },
+  "API_AI_PLATFORM_MESSAGE_OUTBOUND": {
+    "NAME": "svc-ai-platform.message-outbound",
+    "ACTION_PROCESS": "process",
+    "EVENT_MESSAGE_OUTBOUND": "ai-platform.message.outbound",
+    "EVENT_MESSAGE_DELIVERED": "ai-platform.message.delivered",
+    "EVENT_DLQ_MESSAGE_OUTBOUND": "DEAD_LETTER.ai-platform.message.outbound"
+  },
+  "API_AI_PLATFORM_JOBS": {
+    "NAME": "svc-ai-platform.jobs",
+    "ACTION_TRIGGER_REINDEX": "triggerReindex",
+    "ACTION_LIST": "list",
+    "ACTION_GET_LOGS": "getLogs"
+  },
+  "API_AI_PLATFORM_WIDGET": {
+    "NAME": "svc-ai-platform.widget",
+    "ACTION_GET_CONFIG": "getConfig",
+    "ACTION_RESOLVE_CONTACT": "resolveContact",
+    "ACTION_LIST_MESSAGES": "listMessages",
+    "ACTION_CREATE_MESSAGE": "createMessage",
+    "ACTION_GET_CHANNEL_BY_TOKEN": "getChannelByWidgetToken"
+  },
+  "API_AI_PLATFORM_CLIENTS": {
+    "NAME": "svc-ai-platform.clients",
+    "ACTION_SIMULATE_BOT_STREAM": "simulateBotStream",
+    "EVENT_STREAM_MESSAGE_CREATED": "ai-platform.stream.message.created"
+  },
+  "BISO24_API_GATEWAY": {
+    "NAME": "BISO24-API-GATEWAY"
   }
 }

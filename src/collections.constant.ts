@@ -1265,6 +1265,43 @@ const COLLECTIONS = {
   // Debt Reconciliation & Batch
   BATCH_METADATA_REPOSITORY_NAME: "BatchMetadata",
   BATCH_METADATA_COLLECTION_NAME: "batch_metadata",
+
+  // AI PLATFORM SERVICE
+  // Channel
+  AI_PLATFORM_CHANNEL_REPOSITORY_NAME: "aiPlatformChannel",
+  AI_PLATFORM_CHANNEL_COLLECTION_NAME: "ai_platform_channels",
+
+  // Bot
+  AI_PLATFORM_BOT_REPOSITORY_NAME: "aiPlatformBot",
+  AI_PLATFORM_BOT_COLLECTION_NAME: "ai_platform_bots",
+
+  // Integration provider (catalog of supported platforms)
+  AI_PLATFORM_INTEGRATION_PROVIDER_REPOSITORY_NAME: "aiPlatformIntegrationProvider",
+  AI_PLATFORM_INTEGRATION_PROVIDER_COLLECTION_NAME: "ai_platform_integration_providers",
+
+  // Integration instance (== Channel in the v2 spec; one row per connected channel)
+  AI_PLATFORM_INTEGRATION_REPOSITORY_NAME: "aiPlatformIntegration",
+  AI_PLATFORM_INTEGRATION_COLLECTION_NAME: "ai_platform_integrations",
+
+  // Channel widget chat config
+  AI_PLATFORM_CHANNEL_WIDGET_CHAT_REPOSITORY_NAME: "aiPlatformChannelWidgetChat",
+  AI_PLATFORM_CHANNEL_WIDGET_CHAT_COLLECTION_NAME: "ai_platform_channel_widget_chats",
+
+  // Contact
+  AI_PLATFORM_CONTACT_REPOSITORY_NAME: "aiPlatformContact",
+  AI_PLATFORM_CONTACT_COLLECTION_NAME: "ai_platform_contacts",
+
+  // Conversation
+  AI_PLATFORM_CONVERSATION_REPOSITORY_NAME: "aiPlatformConversation",
+  AI_PLATFORM_CONVERSATION_COLLECTION_NAME: "ai_platform_conversations",
+
+  // Message
+  AI_PLATFORM_MESSAGE_REPOSITORY_NAME: "aiPlatformMessage",
+  AI_PLATFORM_MESSAGE_COLLECTION_NAME: "ai_platform_messages",
+
+  // Document (knowledge base file)
+  AI_PLATFORM_DOCUMENT_REPOSITORY_NAME: "aiPlatformDocument",
+  AI_PLATFORM_DOCUMENT_COLLECTION_NAME: "ai_platform_documents",
 };
 
 export default COLLECTIONS;
