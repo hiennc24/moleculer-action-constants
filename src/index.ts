@@ -1,4 +1,4 @@
-import SERVICE_BROKER from "./service.constant.json";
+import SERVICE_BROKER from './service.constant.json';
 
 export default SERVICE_BROKER;
 
@@ -9,9 +9,11 @@ export type ServiceBrokerConstantType = {
 export {
   default as COLLECTIONS,
   CollectionsConstantType,
-} from "./collections.constant";
+} from './collections.constant';
 
 export const addLocalServices = (services: ServiceBrokerConstantType) => {
   Object.assign(SERVICE_BROKER, services);
-  console.log("added local services!");
+  console.log('added local services!');
 };
+
+export { default as PERMISSIONS } from './permission.constant';
