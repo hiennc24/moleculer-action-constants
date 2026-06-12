@@ -243,28 +243,34 @@
     "ACTION_PREVIEW_ALLOCATION": "previewAllocation",
     "ACTION_GET_PAYMENT_DETAIL": "getPaymentDetail"
   },
-  "SVC_DEBT_TRANSACTIONS": {
-    "NAME": "svc-business-partner.debt-transactions",
-    "ACTION_GET_LIST": "lists",
-    "ACTION_GET_DETAIL": "detail",
-    "ACTION_CREATE": "create",
-    "ACTION_CREATE_MANY": "create-many",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
-    "ACTION_UPDATE_STATUS": "updateStatus",
-    "ACTION_GENERATE_CODE": "generate-code"
+  "SVC_DEBT_RECONCILIATIONS": {
+    "NAME": "svc-business-partner.debt-reconciliations",
+    "ACTION_RECONCILIATION_MATCH": "match",
+    "ACTION_RECONCILIATION_PENDING": "pendingMatches",
+    "ACTION_RECONCILIATION_LIST": "list",
+    "ACTION_RECONCILIATION_GET_DETAIL": "getDetail",
+    "ACTION_RECONCILIATION_CONFIRM_MATCH": "confirmMatch",
+    "ACTION_RECONCILIATION_REJECT_MATCH": "rejectMatch"
   },
-  "SVC_DEBT_PERIODS": {
-    "NAME": "svc-business-partner.debt-periods",
-    "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete"
+  "SVC_DEBT_EXCEPTIONS": {
+    "NAME": "svc-business-partner.debt-exceptions",
+    "ACTION_EXCEPTIONS_QUEUE": "queue",
+    "ACTION_EXCEPTIONS_GET": "get",
+    "ACTION_EXCEPTIONS_ASSIGN": "assign",
+    "ACTION_EXCEPTIONS_RESOLVE": "resolve",
+    "ACTION_EXCEPTIONS_ESCALATE": "escalate",
+    "ACTION_EXCEPTIONS_METRICS": "metrics"
   },
-  "SVC_DEBT_HISTORIES": {
-    "NAME": "svc-business-partner.debt-histories",
-    "ACTION_CREATE_HISTORY": "createHistory"
+  "SVC_DEBT_DUNNING": {
+    "NAME": "svc-business-partner.debt-dunning",
+    "ACTION_DUNNING_QUEUE": "queue",
+    "ACTION_DUNNING_SEND": "send",
+    "ACTION_DUNNING_SEND_BATCH": "sendBatch"
+  },
+  "SVC_DEBT_ALLOCATES": {
+    "NAME": "svc-business-partner.debt-allocates",
+    "ACTION_BATCH_ALLOCATE_PAYMENTS": "allocatePayments",
+    "ACTION_BATCH_EXECUTE_NETTING": "executeNetting"
   },
   "SVC_VOUCHER_TYPES": {
     "NAME": "svc-administration-list.voucher-types",
