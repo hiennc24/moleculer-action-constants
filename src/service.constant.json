@@ -11,6 +11,12 @@
       "UPDATED": "sale-order.updated",
       "APPROVED": "sale-order.approved",
       "REJECTED": "sale-order.rejected"
+    },
+    "DEBT": {
+      "EVENT_NETTING_EXECUTED": "debt.nettingExecuted",
+      "EVENT_NETTING_FAILED": "debt.nettingFailed",
+      "EVENT_OVERDUE_FLAGGED": "debt.overdueFlagged",
+      "EVENT_FULLY_PAID": "debt.fullyPaid"
     }
   },
   "CHANNEL_NAMES": {
