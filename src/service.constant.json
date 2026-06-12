@@ -198,7 +198,8 @@
     "ACTION_GET_INVOICES_SUMMARY": "getInvoicesSummary",
     "ACTION_GET_RETURNS": "getReturns",
     "ACTION_GET_PRODUCTS": "getProducts",
-    "ACTION_GET_SALES_TAB": "getSalesTab"
+    "ACTION_GET_SALES_TAB": "getSalesTab",
+    "ACTION_GET_PRODUCTS_SUMMARY": "getProductsSummary"
   },
   "SVC_CUSTOMER_MARKETING": {
     "NAME": "svc-business-partner.customer-marketing",
@@ -457,7 +458,13 @@
     "ACTION_UPDATE_MANY_STATUS": "update-many-status",
     "ACTION_GET_DASHBOARD_KPIS": "getDashboardKPIs",
     "ACTION_CHECK_CONFLICTS": "checkConflicts",
-    "ACTION_VALIDATE_PROMOTION": "validatePromotion"
+    "ACTION_VALIDATE_PROMOTION": "validatePromotion",
+    "ACTION_GET_PARTNER_PROMOTIONS": "getPartnerPromotions",
+    "ACTION_CALCULATE_PROMOTIONS": "calculatePromotions",
+    "ACTION_ISSUE_VOUCHER_CODES": "issueVoucherCodes",
+    "ACTION_GET_VOUCHER_CODES": "getVoucherCodes",
+    "ACTION_REDEEM_PROMOTION": "redeemPromotion",
+    "ACTION_ROLLBACK_REDEMPTION": "rollbackRedemption"
   },
   "SVC_PROMOTION_MANAGEMENT_PRODUCT": {
     "NAME": "svc-promotion.promotion-products"
@@ -478,7 +485,8 @@
     "ACTION_CREATE_POLICY_DRAFT": "create-policy-draft",
     "ACTION_CREATE_POLICY_PRODUCTS": "create-policy-products",
     "ACTION_CREATE_POLICY_CUSTOMERS": "update-policy-customers",
-    "ACTION_CREATE_POLICY_CONSTRAINTS": "update-policy-constraints"
+    "ACTION_CREATE_POLICY_CONSTRAINTS": "update-policy-constraints",
+    "ACTION_GET_PARTNER_PRICE_POLICIES": "getPartnerPricePolicies"
   },
   "SVC_PROMOTION_PRICING_POLICY_PRODUCT": {
     "NAME": "svc-promotion.pricing-policy-products"
@@ -493,7 +501,9 @@
     "ACTION_UPDATE": "updateLead",
     "ACTION_DELETE": "deleteLead",
     "ACTION_UPDATE_MANY_POSITIONS": "updateManyPosition",
-    "ACTION_UPDATE_POSITION": "updatePosition"
+    "ACTION_UPDATE_POSITION": "updatePosition",
+    "ACTION_CREATE_CONTRACT_FROM_LEAD": "createContractFromLead",
+    "ACTION_CREATE_SALE_ORDER_FROM_LEAD": "createSaleOrderFromLead"
   },
   "API_SALES_LEAD_SETTING": {
     "NAME": "api-sales.lead-setting",
@@ -556,7 +566,8 @@
     "ACTION_GET_PARTNER_PRODUCTS": "getPartnerProducts",
     "ACTION_GET_PARTNER_REVENUE_CHART": "getPartnerRevenueChart",
     "ACTION_GET_PARTNER_TOP_PRODUCTS": "getPartnerTopProducts",
-    "ACTION_GET_PARTNER_RECENT_TRANSACTIONS": "getPartnerRecentTransactions"
+    "ACTION_GET_PARTNER_RECENT_TRANSACTIONS": "getPartnerRecentTransactions",
+    "ACTION_GET_PARTNER_PRODUCTS_SUMMARY": "getPartnerProductsSummary"
   },
   "SVC_SALES_ORDERS": {
     "NAME": "svc-sales-orders",
@@ -2355,7 +2366,8 @@
     "ACTION_COUNT": "count",
     "ACTION_BULK_DELETE": "bulkDelete",
     "ACTION_UPDATE_STATUS": "updateStatus",
-    "ACTION_CREATE_ORDER_FROM_CONTRACT": "createOrderFromContract"
+    "ACTION_CREATE_ORDER_FROM_CONTRACT": "createOrderFromContract",
+    "ACTION_GET_CONTENT": "getContractContent"
   },
   "SVC_ADMINISTRATION_LIST_CONTRACT_PRODUCTS": {
     "NAME": "svc-administration-list.contract_products",
@@ -2383,6 +2395,14 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete"
+  },
+  "SVC_ADMINISTRATION_LIST_CONTRACT_HISTORIES": {
+    "NAME": "administration-list.contractHistories",
+    "ACTION_GET_LIST": "getListContractHistory",
+    "ACTION_GET_DETAIL": "getDetailContractHistory",
+    "ACTION_CREATE": "createContractHistory",
+    "ACTION_UPDATE": "updateContractHistory",
+    "ACTION_DELETE": "deleteContractHistory"
   },
   "SVC_ADMINISTRATION_LIST_MENU_APPLICATIONS": {
     "NAME": "svc-administration-list.menu-applications",
@@ -2527,7 +2547,8 @@
     "ACTION_RESTORE": "restore",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete"
+    "ACTION_DELETE": "delete",
+    "ACTION_MIGRATION_DATA": "migrationData"
   },
   "SVC_TENANTS": {
     "NAME": "api-admin.tenants"
@@ -2960,7 +2981,8 @@
     "ACTION_UPDATE_STATUS_PURCHASE_ORDER": "updateStatus",
     "ACTION_GET_ORDER_PRODUCT_LIST": "getOrderProductList",
     "ACTION_UPDATE_PURCHASE_ORDER_PAYMENT": "updatePayment",
-    "ACTION_GET_PURCHASE_ORDERS_BY_SUPPLIER_ID": "getBySupplierIds"
+    "ACTION_GET_PURCHASE_ORDERS_BY_SUPPLIER_ID": "getBySupplierIds",
+    "ACTION_GET_PARTNER_RETURNS": "getPartnerReturns"
   },
   "SVC_PURCHASE_ORDER_PRODUCTS": {
     "NAME": "svc-orders.purchase-order-products",
