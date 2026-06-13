@@ -248,7 +248,8 @@
     "ACTION_CREATE_DEBT_FROM_ORDER": "createDebtFromOrder",
     "ACTION_RECORD_PAYMENT": "recordPayment",
     "ACTION_PREVIEW_ALLOCATION": "previewAllocation",
-    "ACTION_GET_PAYMENT_DETAIL": "getPaymentDetail"
+    "ACTION_GET_PAYMENT_DETAIL": "getPaymentDetail",
+    "ACTION_GET_PAYMENT_LIST": "getPaymentList"
   },
   "SVC_DEBT_RECONCILIATIONS": {
     "NAME": "svc-business-partner.debt-reconciliations",
