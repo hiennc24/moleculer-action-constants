@@ -3519,6 +3519,11 @@
     "ACTION_GET_CATEGORIES": "getCategories",
     "ACTION_RENDER": "render"
   },
+  "API_AI_PLATFORM_PLAYGROUND": {
+    "NAME": "svc-ai-platform.playground",
+    "ACTION_RESOLVE_CONVERSATION": "resolveConversation",
+    "ACTION_SEND_MESSAGE": "sendMessage"
+  },
   "BISO24_API_GATEWAY": {
     "NAME": "BISO24-API-GATEWAY"
   }
