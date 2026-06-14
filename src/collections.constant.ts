@@ -1304,6 +1304,14 @@ const COLLECTIONS = {
   // Document (knowledge base file)
   AI_PLATFORM_DOCUMENT_REPOSITORY_NAME: "aiPlatformDocument",
   AI_PLATFORM_DOCUMENT_COLLECTION_NAME: "ai_platform_documents",
+
+  // Model catalog (global reference list of available LLM models)
+  AI_PLATFORM_MODEL_CATALOG_REPOSITORY_NAME: "aiPlatformModelCatalog",
+  AI_PLATFORM_MODEL_CATALOG_COLLECTION_NAME: "ai_platform_model_catalog",
+
+  // Prompt template (system stock + tenant-custom)
+  AI_PLATFORM_PROMPT_TEMPLATE_REPOSITORY_NAME: "aiPlatformPromptTemplate",
+  AI_PLATFORM_PROMPT_TEMPLATE_COLLECTION_NAME: "ai_platform_prompt_templates",
 };
 
 export default COLLECTIONS;
