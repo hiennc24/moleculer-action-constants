@@ -3501,6 +3501,29 @@
     "ACTION_SIMULATE_BOT_STREAM": "simulateBotStream",
     "EVENT_STREAM_MESSAGE_CREATED": "ai-platform.stream.message.created"
   },
+  "API_AI_PLATFORM_MODEL_CATALOG": {
+    "NAME": "svc-ai-platform.model-catalog",
+    "ACTION_CREATE": "create",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "API_AI_PLATFORM_PROMPT_TEMPLATES": {
+    "NAME": "svc-ai-platform.prompt-templates",
+    "ACTION_CREATE": "create",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_GET_CATEGORIES": "getCategories",
+    "ACTION_RENDER": "render"
+  },
+  "API_AI_PLATFORM_PLAYGROUND": {
+    "NAME": "svc-ai-platform.playground",
+    "ACTION_RESOLVE_CONVERSATION": "resolveConversation",
+    "ACTION_SEND_MESSAGE": "sendMessage"
+  },
   "BISO24_API_GATEWAY": {
     "NAME": "BISO24-API-GATEWAY"
   }
