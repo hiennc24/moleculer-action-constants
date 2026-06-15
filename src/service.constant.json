@@ -3494,7 +3494,8 @@
     "ACTION_RESOLVE_CONTACT": "resolveContact",
     "ACTION_LIST_MESSAGES": "listMessages",
     "ACTION_CREATE_MESSAGE": "createMessage",
-    "ACTION_GET_CHANNEL_BY_TOKEN": "getChannelByWidgetToken"
+    "ACTION_GET_CHANNEL_BY_TOKEN": "getChannelByWidgetToken",
+    "ACTION_ATTACHMENT_UPLOAD": "attachmentUpload"
   },
   "API_AI_PLATFORM_CLIENTS": {
     "NAME": "svc-ai-platform.clients",
@@ -3522,7 +3523,8 @@
   "API_AI_PLATFORM_PLAYGROUND": {
     "NAME": "svc-ai-platform.playground",
     "ACTION_RESOLVE_CONVERSATION": "resolveConversation",
-    "ACTION_SEND_MESSAGE": "sendMessage"
+    "ACTION_SEND_MESSAGE": "sendMessage",
+    "ACTION_ATTACHMENT_UPLOAD": "attachmentUpload"
   },
   "BISO24_API_GATEWAY": {
     "NAME": "BISO24-API-GATEWAY"
