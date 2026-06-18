@@ -3396,6 +3396,7 @@
     "ACTION_RECEIVE_OUTBOUND": "receiveOutbound",
     "ACTION_GET_WIDGET_CHAT": "getWidgetChat",
     "ACTION_UPDATE_WIDGET_CHAT": "updateWidgetChat",
+    "ACTION_GET_WIDGET_BY_TOKEN": "getWidgetByToken",
     "EVENT_INTEGRATION_CREATED": "ai-platform.integration.created",
     "EVENT_INTEGRATION_UPDATED": "ai-platform.integration.updated",
     "EVENT_INTEGRATION_DELETED": "ai-platform.integration.deleted"
@@ -3422,9 +3423,13 @@
     "ACTION_CLOSE": "close",
     "ACTION_REOPEN": "reopen",
     "ACTION_UPDATE_TAGS": "updateTags",
+    "ACTION_UPDATE_LAST_MESSAGE": "updateLastMessage",
+    "ACTION_SYNC_CONTACT_SEARCH": "syncContactSearch",
+    "ACTION_MARK_READ": "markRead",
     "EVENT_CONVERSATION_CREATED": "ai-platform.conversation.created",
     "EVENT_CONVERSATION_HANDOFF": "ai-platform.conversation.handoff",
-    "EVENT_CONVERSATION_CLOSED": "ai-platform.conversation.closed"
+    "EVENT_CONVERSATION_CLOSED": "ai-platform.conversation.closed",
+    "EVENT_CONVERSATION_UPDATED": "ai-platform.conversation.updated"
   },
   "API_AI_PLATFORM_MESSAGES": {
     "NAME": "svc-ai-platform.messages",
@@ -3525,6 +3530,11 @@
     "ACTION_RESOLVE_CONVERSATION": "resolveConversation",
     "ACTION_SEND_MESSAGE": "sendMessage",
     "ACTION_ATTACHMENT_UPLOAD": "attachmentUpload"
+  },
+  "API_AI_PLATFORM_MCP": {
+    "NAME": "svc-ai-platform.mcp",
+    "ACTION_GET_LIST_TOOLS": "getListTools",
+    "ACTION_EXECUTE_TOOL": "executeTool"
   },
   "BISO24_API_GATEWAY": {
     "NAME": "BISO24-API-GATEWAY"
