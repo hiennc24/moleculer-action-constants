@@ -1312,6 +1312,11 @@ const COLLECTIONS = {
   // Prompt template (system stock + tenant-custom)
   AI_PLATFORM_PROMPT_TEMPLATE_REPOSITORY_NAME: "aiPlatformPromptTemplate",
   AI_PLATFORM_PROMPT_TEMPLATE_COLLECTION_NAME: "ai_platform_prompt_templates",
+
+  // ADMIN — Generic cross-tenant entity mapping (used for webhook routing,
+  // resource ↔ domain lookup, etc.). Discriminator `type` keeps the table reusable.
+  ENTITY_MAPPING_REPOSITORY_NAME: "entityMapping",
+  ENTITY_MAPPING_COLLECTION_NAME: "entity_mappings",
 };
 
 export default COLLECTIONS;
