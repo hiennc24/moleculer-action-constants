@@ -2368,6 +2368,7 @@
     "ACTION_BULK_DELETE": "bulkDelete",
     "ACTION_UPDATE_STATUS": "updateStatus",
     "ACTION_CREATE_ORDER_FROM_CONTRACT": "createOrderFromContract",
+    "ACTION_SEND_EMAIL": "sendEmail",
     "ACTION_GET_CONTENT": "getContractContent"
   },
   "SVC_ADMINISTRATION_LIST_CONTRACT_PRODUCTS": {
