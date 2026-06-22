@@ -2640,6 +2640,14 @@
     "ACTION_CREATE": "create",
     "ACTION_DELETE": "delete"
   },
+  "SVC_ADMIN_ENTITY_MAPPINGS": {
+    "NAME": "api-admin.entity-mappings",
+    "ACTION_RESOLVE_MAPPING": "resolveMapping",
+    "ACTION_FIND_BY_TARGET": "findByTargetId",
+    "ACTION_CREATE_MAPPING": "createMapping",
+    "ACTION_SOFT_DELETE_BY_TARGET": "softDeleteByTargetId",
+    "ACTION_UPDATE_DOMAIN": "updateDomainByTargetIds"
+  },
   "SVC_ADMIN_VERIFY_EMAIL_TOKEN": {
     "NAME": "api-admin.verify-email-token"
   },
@@ -3394,6 +3402,8 @@
     "ACTION_TEST_CONNECTION": "testConnection",
     "ACTION_VERIFY_WEBHOOK": "verifyWebhook",
     "ACTION_RECEIVE_WEBHOOK": "receiveWebhook",
+    "ACTION_RECEIVE_WEBHOOK_BY_PLATFORM": "receiveWebhookByPlatform",
+    "ACTION_VERIFY_CONFIG": "verifyConfig",
     "ACTION_RECEIVE_OUTBOUND": "receiveOutbound",
     "ACTION_GET_WIDGET_CHAT": "getWidgetChat",
     "ACTION_UPDATE_WIDGET_CHAT": "updateWidgetChat",
@@ -3467,6 +3477,7 @@
     "NAME": "svc-ai-platform.storage",
     "ACTION_GET_PRESIGNED_UPLOAD": "getPresignedUpload",
     "ACTION_GET_PRESIGNED_DOWNLOAD": "getPresignedDownload",
+    "ACTION_UPLOAD_FILE": "uploadFile",
     "ACTION_VERIFY_FILE": "verifyFile",
     "ACTION_DELETE_FILE": "deleteFile",
     "ACTION_DELETE_FOLDER": "deleteFolder",
