@@ -26,6 +26,9 @@
     },
     "PRODUCT": {
       "UPDATED": "product.product.updated"
+    },
+    "OBSERVABILITY": {
+      "AUDIT_EVENT": "audit.event"
     }
   },
   "CHANNEL_CONSUMER_GROUPS": {
@@ -36,6 +39,9 @@
     },
     "WAREHOUSE": {
       "INVENTORY": "warehouse.inventory"
+    },
+    "OBSERVABILITY": {
+      "AUDIT": "audit-service"
     }
   },
   "CHANNEL_DLQ_QUEUES": {
@@ -46,6 +52,9 @@
     },
     "WAREHOUSE": {
       "INVENTORY_PRODUCT_UPDATED": "DEAD_LETTER.warehouse.inventory.product.updated"
+    },
+    "OBSERVABILITY": {
+      "AUDIT_EVENT": "audit.event.dlq"
     }
   },
   "SVC_SHARED_SETTING_INVOICE": {
@@ -3547,6 +3556,14 @@
     "NAME": "svc-ai-platform.mcp",
     "ACTION_GET_LIST_TOOLS": "getListTools",
     "ACTION_EXECUTE_TOOL": "executeTool"
+  },
+  "SVC_OBSERVABILITY_AUDIT_QUERY": {
+    "NAME": "audit-query",
+    "ACTION_LIST": "list",
+    "ACTION_BY_REQUEST_ID": "byRequestId",
+    "ACTION_STATS": "stats",
+    "ACTION_LAG": "lag",
+    "ACTION_EXPORT": "export"
   },
   "BISO24_API_GATEWAY": {
     "NAME": "BISO24-API-GATEWAY"
