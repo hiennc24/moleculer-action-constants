@@ -550,6 +550,16 @@
     "ACTION_COMPLETE": "completeLeadTask",
     "ACTION_DELETE": "deleteLeadTask"
   },
+  "API_SALES_PRE_SALE": {
+    "NAME": "api-sales.pre-sale",
+    "ACTION_GET_LIST": "getListPreSale",
+    "ACTION_GET_DETAIL": "getDetailPreSale",
+    "ACTION_CREATE": "createPreSale",
+    "ACTION_UPDATE": "updatePreSale",
+    "ACTION_DELETE": "deletePreSale",
+    "ACTION_CONVERT_TO_LEAD": "convertPreSaleToLead",
+    "ACTION_INGEST": "ingestPreSale"
+  },
   "API_SALES_SETTING": {
     "NAME": "api-sales.settings",
     "ACTION_GET": "getSetting",

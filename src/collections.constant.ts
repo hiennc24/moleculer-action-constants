@@ -720,6 +720,11 @@ const COLLECTIONS = {
   LEAD_COMMENT_COLLECTION_NAME: "lead_comments",
   LEAD_TASK_REPOSITORY_NAME: "leadTask",
   LEAD_TASK_COLLECTION_NAME: "lead_tasks",
+
+  // Pre-sales ("Dữ liệu trước bán")
+  PRE_SALE_ITEM_REPOSITORY_NAME: "preSaleItem",
+  PRE_SALE_ITEM_COLLECTION_NAME: "pre_sale_items",
+
   LEAD_SALE_TYPE_REPOSITORY_NAME: "leadSaleType",
   LEAD_SALE_TYPE_COLLECTION_NAME: "lead_sale_types",
   PAYMENT_METHOD_REPOSITORY_NAME: "paymentMethod",
