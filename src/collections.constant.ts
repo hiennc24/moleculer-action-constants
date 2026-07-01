@@ -261,6 +261,10 @@ const COLLECTIONS = {
   ACTIVITY_LOG_REPOSITORY_NAME: "activityLog",
   ACTIVITY_LOG_COLLECTION_NAME: "activity_logs",
 
+  // OBSERVABILITY — Audit Logs (Mongo Time Series, per-tenant)
+  AUDIT_LOG_REPOSITORY_NAME: "auditLog",
+  AUDIT_LOG_COLLECTION_NAME: "audit_logs",
+
   // Setting Common
   SETTING_COMMON_REPOSITORY_NAME: "settingCommon",
   SETTING_COMMON_COLLECTION_NAME: "setting_commons",
