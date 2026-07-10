@@ -1,5 +1,8 @@
 {
   "EVENT_NAMES": {
+    "WAREHOUSE": {
+      "UPDATED": "warehouse.updated"
+    },
     "PURCHASE_ORDER": {
       "CREATED": "purchase-order.created",
       "UPDATED": "purchase-order.updated",
@@ -123,10 +126,18 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE_DETAIL": "updateDetail",
     "ACTION_GET_INVENTORY_REPORT": "getInventoryReport",
+    "ACTION_GET_INVENTORY_LIST": "getInventoryList",
     "ACTION_GET_QUEUE_IMPORT_STATUS": "getQueueImportStatus",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable",
     "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
-    "ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "seedInventoryTransactionsData"
+    "ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "seedInventoryTransactionsData",
+    "ACTION_BACKFILL_SNAPSHOTS": "backfillSnapshots",
+    "ACTION_GET_EVENT_HISTORY": "getEventHistory",
+    "ACTION_UPDATE_PRODUCT_SNAPSHOTS": "updateProductSnapshots",
+    "ACTION_UPDATE_WAREHOUSE_SNAPSHOTS": "updateWarehouseSnapshots",
+    "ACTION_DECREMENT_INCOMING": "decrementIncoming",
+    "ACTION_PROCESS_VOUCHER_INVENTORY": "processVoucherInventory",
+    "ACTION_CREATE_INVENTORY_TRANSACTION": "createInventoryTransaction"
   },
   "SVC_INVENTORY_TRANSACTIONS": {
     "NAME": "svc-product.inventory-transactions",
@@ -140,6 +151,7 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE_DETAIL": "updateDetail",
     "ACTION_GET_INVENTORY_REPORT": "getInventoryReport",
+    "ACTION_GET_INVENTORY_LIST": "getInventoryList",
     "ACTION_GET_QUEUE_IMPORT_STATUS": "getQueueImportStatus",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable",
     "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
@@ -337,11 +349,11 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE_DETAIL": "updateDetail",
     "ACTION_GET_INVENTORY_REPORT": "getInventoryReport",
+    "ACTION_GET_INVENTORY_LIST": "getInventoryList",
     "ACTION_GET_QUEUE_IMPORT_STATUS": "getQueueImportStatus",
     "ACTION_GET_WAREHOUSE_AVAILABLE_BY_PRODUCT_ID": "getWarehouseAvailable",
     "ACTION_GET_PRODUCT_LIST_BY_WAREHOUSE_ID": "getProductListByWarehouseId",
     "ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "seedInventoryTransactionsData",
-    "ACTION_GET_INVENTORY_LIST": "getInventoryList",
     "ACTION_GET_EVENT_HISTORY": "getEventHistory",
     "ACTION_UPDATE_PRODUCT_SNAPSHOTS": "updateProductSnapshots",
     "ACTION_UPDATE_WAREHOUSE_SNAPSHOTS": "updateWarehouseSnapshots",
