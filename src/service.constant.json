@@ -724,6 +724,7 @@
   },
   "SVC_SALES_ORDER_HISTORIES": {
     "NAME": "api-sales-order-histories",
+    "ACTION_GET_LIST": "getList",
     "ACTION_CREATE": "createHistory"
   },
   "API_SALES_DELIVERY_MODIFY_HISTORY": {
