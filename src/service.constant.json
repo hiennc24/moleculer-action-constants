@@ -121,7 +121,7 @@
     "NAME": "svc-product.warehouseSettings"
   },
   "SVC_INVENTORY": {
-    "NAME": "svc-product.inventories",
+    "NAME": "svc-inventory",
     "ACTION_UPLOAD": "upload",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE_DETAIL": "updateDetail",
@@ -140,13 +140,13 @@
     "ACTION_CREATE_INVENTORY_TRANSACTION": "createInventoryTransaction"
   },
   "SVC_INVENTORY_TRANSACTIONS": {
-    "NAME": "svc-product.inventory-transactions",
+    "NAME": "svc-inventory.transactions",
     "ACTION_CREATE": "createInventoryTransaction",
     "ACTION_GET_INVENTORY_REPORTS": "getInventoryReport",
     "ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost"
   },
   "SVC_ORDER_INVENTORY": {
-    "NAME": "svc-product.order-inventories",
+    "NAME": "svc-inventory.order-inventories",
     "ACTION_UPLOAD": "upload",
     "ACTION_CREATE": "create",
     "ACTION_UPDATE_DETAIL": "updateDetail",
@@ -158,7 +158,7 @@
     "ACTION_CREATE_INVENTORY_TRANSACTION_DATA_SEED": "seedInventoryTransactionsData"
   },
   "SVC_ORDER_INVENTORY_TRANSACTIONS": {
-    "NAME": "svc-product.order-inventory-transactions",
+    "NAME": "svc-inventory.order-inventory-transactions",
     "ACTION_CREATE": "createOrderInventoryTransaction",
     "ACTION_GET_PRODUCT_PRICE_COST": "getProductPriceCost",
     "ACTION_GET_ORDER_INVENTORY_REPORTS": "getOrderInventoryReport"
@@ -2333,7 +2333,8 @@
     "ACTION_CREATE": "create",
     "ACTION_UPDATE": "update",
     "ACTION_UPLOAD": "upload",
-    "ACTION_DELETE": "delete"
+    "ACTION_DELETE": "delete",
+    "ACTION_ENSURE_DEFAULT_CUSTOMER_GROUP": "ensureDefaultCustomerGroup"
   },
   "SVC_ADMINISTRATION_LIST_METHOD_LIST": {
     "NAME": "svc-administration-list.method-lists",
@@ -3008,11 +3009,12 @@
   },
   "SVC_ORDERS_ORDER_VOUCHER": {
     "NAME": "svc-orders.order-vouchers",
-    "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update",
-    "ACTION_DELETE": "delete",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail"
+  },
+  "SVC_ORDERS_STOCK_LEDGER": {
+    "NAME": "svc-orders.stock-ledger",
+    "ACTION_GET_LIST": "getList"
   },
   "SVC_PURCHASE_ORDERS": {
     "NAME": "svc-orders.purchase-orders",
