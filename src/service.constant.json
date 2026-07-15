@@ -3579,8 +3579,16 @@
   },
   "API_AI_PLATFORM_MCP": {
     "NAME": "svc-ai-platform.mcp",
+    "ACTION_LIST": "registry.list",
+    "ACTION_GET": "registry.get",
+    "ACTION_CREATE": "registry.create",
+    "ACTION_UPDATE": "registry.update",
+    "ACTION_DELETE": "registry.delete",
+    "ACTION_TEST_CONNECTION": "registry.testConnection",
+    "ACTION_TEST_PREVIEW": "registry.testPreview",
     "ACTION_GET_LIST_TOOLS": "getListTools",
-    "ACTION_EXECUTE_TOOL": "executeTool"
+    "ACTION_EXECUTE_TOOL": "executeTool",
+    "ACTION_INVALIDATE_CACHE": "registry.invalidateCache"
   },
   "SVC_OBSERVABILITY_AUDIT_QUERY": {
     "NAME": "audit-query",

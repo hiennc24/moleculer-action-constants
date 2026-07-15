@@ -1322,6 +1322,10 @@ const COLLECTIONS = {
   AI_PLATFORM_PROMPT_TEMPLATE_REPOSITORY_NAME: "aiPlatformPromptTemplate",
   AI_PLATFORM_PROMPT_TEMPLATE_COLLECTION_NAME: "ai_platform_prompt_templates",
 
+  // MCP server registry (Model Context Protocol server config; system + org scope)
+  AI_PLATFORM_MCP_SERVER_REPOSITORY_NAME: "aiPlatformMcpServer",
+  AI_PLATFORM_MCP_SERVER_COLLECTION_NAME: "ai_platform_mcp_servers",
+
   // ADMIN — Generic cross-tenant entity mapping (used for webhook routing,
   // resource ↔ domain lookup, etc.). Discriminator `type` keeps the table reusable.
   ENTITY_MAPPING_REPOSITORY_NAME: "entityMapping",
