@@ -1462,7 +1462,9 @@
     "ACTION_UPSERT": "upsert"
   },
   "API_HCM_BONUS_EMPLOYEES": {
-    "NAME": "api-hcm.bonusEmployees"
+    "NAME": "api-hcm.bonusEmployees",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail"
   },
   "API_HCM_LEAVES": {
     "NAME": "api-hcm.leaves",
@@ -3444,7 +3446,8 @@
     "ACTION_GET_WIDGET_BY_TOKEN": "getWidgetByToken",
     "EVENT_INTEGRATION_CREATED": "ai-platform.integration.created",
     "EVENT_INTEGRATION_UPDATED": "ai-platform.integration.updated",
-    "EVENT_INTEGRATION_DELETED": "ai-platform.integration.deleted"
+    "EVENT_INTEGRATION_DELETED": "ai-platform.integration.deleted",
+    "ACTION_RECEIVE_WEBHOOK_ERP_CHAT": "receiveWebhookErpChat"
   },
   "API_AI_PLATFORM_BOTS": {
     "NAME": "svc-ai-platform.bots",
@@ -3548,10 +3551,18 @@
     "ACTION_GET_CHANNEL_BY_TOKEN": "getChannelByWidgetToken",
     "ACTION_ATTACHMENT_UPLOAD": "attachmentUpload"
   },
+  "API_AI_PLATFORM_ERP_CHAT": {
+    "NAME": "svc-ai-platform.erp-chat",
+    "ACTION_GET_CONFIG": "getConfig",
+    "ACTION_RESOLVE_CONVERSATION": "resolveConversation",
+    "ACTION_LIST_MESSAGES": "listMessages",
+    "ACTION_ATTACHMENT_UPLOAD": "attachmentUpload"
+  },
   "API_AI_PLATFORM_CLIENTS": {
     "NAME": "svc-ai-platform.clients",
     "ACTION_SIMULATE_BOT_STREAM": "simulateBotStream",
-    "EVENT_STREAM_MESSAGE_CREATED": "ai-platform.stream.message.created"
+    "EVENT_STREAM_MESSAGE_CREATED": "ai-platform.stream.message.created",
+    "EVENT_BOT_TYPING_STATUS": "ai-platform.stream.bot.typing.status"
   },
   "API_AI_PLATFORM_MODEL_CATALOG": {
     "NAME": "svc-ai-platform.model-catalog",
@@ -3588,7 +3599,20 @@
     "ACTION_TEST_PREVIEW": "registry.testPreview",
     "ACTION_GET_LIST_TOOLS": "getListTools",
     "ACTION_EXECUTE_TOOL": "executeTool",
-    "ACTION_INVALIDATE_CACHE": "registry.invalidateCache"
+    "ACTION_INVALIDATE_CACHE": "registry.invalidateCache",
+    "ACTION_DISPATCH": "dispatch"
+  },
+  "API_AI_PLATFORM_RAW_DATA_PROCESS": {
+    "NAME": "svc-ai-platform.raw-data-process",
+    "ACTION_GET_PRESIGNED_UPLOADS": "getPresignedUploads",
+    "ACTION_ESTIMATE_COST": "estimateCost",
+    "ACTION_CREATE_RUN": "createRun",
+    "ACTION_LIST_RUNS": "listRuns",
+    "ACTION_GET_RUN": "getRun",
+    "ACTION_DELETE_RUN": "deleteRun",
+    "ACTION_HANDLE_WORKER_CALLBACK": "handleWorkerCallback",
+    "EVENT_RUN_COMPLETED": "ai-platform.raw-data-process.completed",
+    "EVENT_RUN_FAILED": "ai-platform.raw-data-process.failed"
   },
   "SVC_OBSERVABILITY_AUDIT_QUERY": {
     "NAME": "audit-query",

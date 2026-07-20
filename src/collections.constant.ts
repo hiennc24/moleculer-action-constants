@@ -1326,6 +1326,10 @@ const COLLECTIONS = {
   AI_PLATFORM_MCP_SERVER_REPOSITORY_NAME: "aiPlatformMcpServer",
   AI_PLATFORM_MCP_SERVER_COLLECTION_NAME: "ai_platform_mcp_servers",
 
+  // Raw data processing run (LLM-driven file reshape jobs)
+  AI_PLATFORM_RAW_DATA_PROCESSING_RUN_REPOSITORY_NAME: "aiPlatformRawDataProcessingRun",
+  AI_PLATFORM_RAW_DATA_PROCESSING_RUN_COLLECTION_NAME: "ai_platform_raw_data_processing_runs",
+
   // ADMIN — Generic cross-tenant entity mapping (used for webhook routing,
   // resource ↔ domain lookup, etc.). Discriminator `type` keeps the table reusable.
   ENTITY_MAPPING_REPOSITORY_NAME: "entityMapping",
