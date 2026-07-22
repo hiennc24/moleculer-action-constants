@@ -603,6 +603,7 @@
   },
   "SVC_SALES_ORDERS": {
     "NAME": "svc-sales-orders",
+    "ACTION_PRICE_PREVIEW": "pricePreview",
     "ACTION_GET_SALES_ORDERS_BY_CUSTOMER_ID": "getSalesOrdersByCustomerId",
     "ACTION_GET_ORDER_PRODUCT_LIST": "getListProductBySaleOrderCode",
     "ACTION_UPDATE_PROCESS_STATUS": "updateProcessStatusSalesOrder",
@@ -3012,7 +3013,8 @@
   "SVC_ORDERS_ORDER_VOUCHER": {
     "NAME": "svc-orders.order-vouchers",
     "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail"
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_PRODUCT_LIST": "getProductList"
   },
   "SVC_ORDERS_STOCK_LEDGER": {
     "NAME": "svc-orders.stock-ledger",
@@ -3444,10 +3446,23 @@
     "ACTION_GET_WIDGET_CHAT": "getWidgetChat",
     "ACTION_UPDATE_WIDGET_CHAT": "updateWidgetChat",
     "ACTION_GET_WIDGET_BY_TOKEN": "getWidgetByToken",
+    "ACTION_REFRESH_CREDENTIALS": "refreshCredentials",
     "EVENT_INTEGRATION_CREATED": "ai-platform.integration.created",
     "EVENT_INTEGRATION_UPDATED": "ai-platform.integration.updated",
     "EVENT_INTEGRATION_DELETED": "ai-platform.integration.deleted",
     "ACTION_RECEIVE_WEBHOOK_ERP_CHAT": "receiveWebhookErpChat"
+  },
+  "API_AI_PLATFORM_POSTS": {
+    "NAME": "svc-ai-platform.posts",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_UPDATE": "update",
+    "ACTION_UPSERT": "upsert",
+    "ACTION_INCREMENT_STATS": "incrementStats",
+    "EVENT_POST_CREATED": "ai-platform.post.created",
+    "EVENT_POST_UPDATED": "ai-platform.post.updated",
+    "EVENT_COMMENT_ADDED": "ai-platform.comment.added",
+    "EVENT_POSTS_BACKFILL_REQUESTED": "ai-platform.posts.backfill.requested"
   },
   "API_AI_PLATFORM_BOTS": {
     "NAME": "svc-ai-platform.bots",
