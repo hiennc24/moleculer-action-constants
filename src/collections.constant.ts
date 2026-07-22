@@ -1330,6 +1330,10 @@ const COLLECTIONS = {
   AI_PLATFORM_RAW_DATA_PROCESSING_RUN_REPOSITORY_NAME: "aiPlatformRawDataProcessingRun",
   AI_PLATFORM_RAW_DATA_PROCESSING_RUN_COLLECTION_NAME: "ai_platform_raw_data_processing_runs",
 
+  // Facebook / Instagram feed posts synced for comment moderation
+  AI_PLATFORM_POST_REPOSITORY_NAME: "aiPlatformPost",
+  AI_PLATFORM_POST_COLLECTION_NAME: "ai_platform_posts",
+
   // ADMIN — Generic cross-tenant entity mapping (used for webhook routing,
   // resource ↔ domain lookup, etc.). Discriminator `type` keeps the table reusable.
   ENTITY_MAPPING_REPOSITORY_NAME: "entityMapping",
