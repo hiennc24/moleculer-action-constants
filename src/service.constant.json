@@ -2682,7 +2682,9 @@
     "ACTION_FIND_BY_TARGET": "findByTargetId",
     "ACTION_CREATE_MAPPING": "createMapping",
     "ACTION_SOFT_DELETE_BY_TARGET": "softDeleteByTargetId",
-    "ACTION_UPDATE_DOMAIN": "updateDomainByTargetIds"
+    "ACTION_UPDATE_DOMAIN": "updateDomainByTargetIds",
+    "ACTION_GET_DOMAINS_BY_TYPE": "getDomainsByType",
+    "ACTION_LIST_BY_TYPE": "listByType"
   },
   "SVC_ADMIN_VERIFY_EMAIL_TOKEN": {
     "NAME": "api-admin.verify-email-token"
@@ -3615,7 +3617,8 @@
     "ACTION_GET_LIST_TOOLS": "getListTools",
     "ACTION_EXECUTE_TOOL": "executeTool",
     "ACTION_INVALIDATE_CACHE": "registry.invalidateCache",
-    "ACTION_DISPATCH": "dispatch"
+    "ACTION_DISPATCH": "dispatch",
+    "ACTION_DISPATCH_PUBLIC": "dispatchPublic"
   },
   "API_AI_PLATFORM_RAW_DATA_PROCESS": {
     "NAME": "svc-ai-platform.raw-data-process",
@@ -3636,6 +3639,140 @@
     "ACTION_STATS": "stats",
     "ACTION_LAG": "lag",
     "ACTION_EXPORT": "export"
+  },
+  "SVC_ECOMMERCE_SHOPS": {
+    "NAME": "svc-ecommerce.shops",
+    "ACTION_CREATE": "createShop",
+    "ACTION_LIST": "listShops",
+    "ACTION_GET": "getShop",
+    "ACTION_DISCONNECT": "disconnectShop",
+    "ACTION_UPDATE_STATUS": "updateShopStatus",
+    "ACTION_SET_WAREHOUSE": "setShopWarehouse",
+    "ACTION_UPDATE_NAME": "updateShopName",
+    "ACTION_SET_DEFAULT_LEAD_STATUS": "setShopDefaultLeadStatus",
+    "ACTION_SET_WEBHOOK_SUBSCRIPTIONS": "setShopWebhookSubscriptions",
+    "EVENT_SHOP_CONNECTED": "ecommerce.shop.connected",
+    "EVENT_SHOP_DISCONNECTED": "ecommerce.shop.disconnected"
+  },
+  "SVC_ECOMMERCE_CREDENTIALS": {
+    "NAME": "svc-ecommerce.credentials",
+    "ACTION_UPSERT": "upsertCredential",
+    "ACTION_GET_DECRYPTED": "getDecryptedCredential",
+    "ACTION_REVOKE": "revokeCredential",
+    "ACTION_REFRESH_TOKEN": "refreshCredentialToken",
+    "EVENT_CREDENTIAL_REFRESHED": "ecommerce.credential.refreshed",
+    "EVENT_CREDENTIAL_EXPIRED": "ecommerce.credential.expired"
+  },
+  "SVC_ECOMMERCE_TIKTOK": {
+    "NAME": "svc-ecommerce.tiktok",
+    "ACTION_GET_AUTH_URL": "getAuthUrl",
+    "ACTION_HANDLE_OAUTH_CALLBACK": "handleOAuthCallback",
+    "ACTION_FINALIZE_CONNECTION": "finalizeTikTokConnection",
+    "ACTION_CONNECT_SHOP": "connectShop",
+    "ACTION_REFRESH_TOKEN": "refreshTikTokToken",
+    "ACTION_REAUTHORIZE": "reAuthorizeTikTokShop",
+    "ACTION_GET_SHOP_INFO": "getShopInfo",
+    "ACTION_SYNC_PRODUCTS": "syncTikTokProducts",
+    "ACTION_SYNC_ORDERS": "syncTikTokOrders",
+    "ACTION_SYNC_SETTLEMENTS": "syncTikTokSettlements",
+    "ACTION_SYNC_CREATORS": "syncTikTokCreators"
+  },
+  "SVC_ECOMMERCE_SHOPEE": {
+    "NAME": "svc-ecommerce.shopee",
+    "ACTION_GET_AUTH_URL": "getShopeeAuthUrl",
+    "ACTION_HANDLE_OAUTH_CALLBACK": "handleShopeeOAuthCallback",
+    "ACTION_FINALIZE_CONNECTION": "finalizeShopeeConnection",
+    "ACTION_REFRESH_TOKEN": "refreshShopeeToken",
+    "ACTION_REAUTHORIZE": "reAuthorizeShopeeShop",
+    "ACTION_GET_SHOP_INFO": "getShopeeShopInfo",
+    "ACTION_SYNC_PRODUCTS": "syncShopeeProducts",
+    "ACTION_SYNC_ORDERS": "syncShopeeOrders",
+    "ACTION_SYNC_SETTLEMENTS": "syncShopeeSettlements"
+  },
+  "SVC_ECOMMERCE_LAZADA": {
+    "NAME": "svc-ecommerce.lazada",
+    "ACTION_GET_AUTH_URL": "getLazadaAuthUrl",
+    "ACTION_HANDLE_OAUTH_CALLBACK": "handleLazadaOAuthCallback",
+    "ACTION_FINALIZE_CONNECTION": "finalizeLazadaConnection",
+    "ACTION_REFRESH_TOKEN": "refreshLazadaToken",
+    "ACTION_REAUTHORIZE": "reAuthorizeLazadaShop",
+    "ACTION_GET_SHOP_INFO": "getLazadaShopInfo",
+    "ACTION_SYNC_PRODUCTS": "syncLazadaProducts",
+    "ACTION_SYNC_ORDERS": "syncLazadaOrders",
+    "ACTION_SYNC_SETTLEMENTS": "syncLazadaSettlements"
+  },
+  "SVC_ECOMMERCE_SKU_MAPPING": {
+    "NAME": "svc-ecommerce.sku-mapping",
+    "ACTION_LIST": "listSkuMappings",
+    "ACTION_GET": "getSkuMapping",
+    "ACTION_CREATE": "createSkuMapping",
+    "ACTION_CONFIRM": "confirmSkuMapping",
+    "ACTION_AUTO_SUGGEST": "autoSuggestSkuMappings",
+    "ACTION_UPSERT_FROM_EXTERNAL": "upsertSkuFromExternal",
+    "ACTION_MARK_DEPRECATED": "markSkuMappingDeprecated",
+    "ACTION_IMPORT": "importSkuMappings",
+    "ACTION_EXPORT": "exportSkuMappings",
+    "EVENT_SKU_MAPPED": "ecommerce.sku.mapped",
+    "EVENT_SKU_UNMAPPED_DETECTED": "ecommerce.sku.unmapped_detected"
+  },
+  "SVC_ECOMMERCE_CREATORS": {
+    "NAME": "svc-ecommerce.creators",
+    "ACTION_LIST": "listCreators",
+    "ACTION_GET": "getCreator",
+    "ACTION_UPSERT": "upsertCreator",
+    "ACTION_SYNC_PERFORMANCE": "syncCreatorPerformance",
+    "ACTION_UPDATE_STATUS": "updateCreatorStatus",
+    "EVENT_CREATOR_HIGH_RISK": "ecommerce.creator.high_risk"
+  },
+  "SVC_ECOMMERCE_SETTLEMENTS": {
+    "NAME": "svc-ecommerce.settlements",
+    "ACTION_LIST": "listSettlements",
+    "ACTION_GET": "getSettlement",
+    "ACTION_SYNC_LATEST": "syncLatestSettlements",
+    "ACTION_APPLY_TO_SALE_ORDERS": "applySettlementToSaleOrders",
+    "EVENT_SETTLEMENT_SYNCED": "ecommerce.settlement.synced",
+    "EVENT_SETTLEMENT_ADJUSTED": "ecommerce.settlement.adjusted"
+  },
+  "SVC_ECOMMERCE_ANALYTICS": {
+    "NAME": "svc-ecommerce.analytics",
+    "ACTION_SHOP_STATS": "getShopStats",
+    "ACTION_PLATFORM_OVERVIEW": "getPlatformOverview",
+    "ACTION_FINANCIAL_BREAKDOWN": "getFinancialBreakdown"
+  },
+  "SVC_ECOMMERCE_SYNC": {
+    "NAME": "svc-ecommerce.sync",
+    "ACTION_SYNC_NOW": "syncNow",
+    "ACTION_GET_JOB_STATUS": "getSyncJobStatus",
+    "ACTION_LIST": "listSyncJobs",
+    "EVENT_SYNC_STARTED": "ecommerce.sync.started",
+    "EVENT_SYNC_COMPLETED": "ecommerce.sync.completed",
+    "EVENT_SYNC_FAILED": "ecommerce.sync.failed"
+  },
+  "SVC_ECOMMERCE_WEBHOOKS": {
+    "NAME": "svc-ecommerce.webhooks",
+    "ACTION_RECEIVE_TIKTOK": "receiveTikTokWebhook",
+    "ACTION_RECEIVE_SHOPEE": "receiveShopeeWebhook",
+    "ACTION_RECEIVE_LAZADA": "receiveLazadaWebhook",
+    "ACTION_PROCESS_EVENT": "processWebhookEvent",
+    "ACTION_LIST": "listWebhookEvents",
+    "ACTION_RETRY": "retryWebhookEvent",
+    "EVENT_WEBHOOK_RECEIVED": "ecommerce.webhook.received",
+    "EVENT_WEBHOOK_PROCESSED": "ecommerce.webhook.processed",
+    "EVENT_WEBHOOK_DEAD_LETTER": "ecommerce.webhook.dead_letter"
+  },
+  "SVC_ECOMMERCE_EXTERNAL_ORDERS": {
+    "NAME": "svc-ecommerce.external-orders",
+    "ACTION_INGEST": "ingestExternalOrder",
+    "ACTION_UPDATE_SHIPPING": "updateShippingFromWebhook",
+    "ACTION_UPDATE_STATUS": "updateMarketplaceStatus",
+    "ACTION_MARK_RETURNED": "markOrderReturned",
+    "ACTION_GET_BY_EXTERNAL_ID": "getByExternalId",
+    "ACTION_LIST": "listExternalOrders",
+    "EVENT_ORDER_INGESTED": "ecommerce.order.ingested",
+    "EVENT_ORDER_STATUS_CHANGED": "ecommerce.order.status_changed",
+    "EVENT_SHIPPING_UPDATED": "ecommerce.shipping.updated",
+    "EVENT_ORDER_RETURNED": "ecommerce.order.returned",
+    "EVENT_ORDER_CANCELLED": "ecommerce.order.cancelled"
   },
   "BISO24_API_GATEWAY": {
     "NAME": "BISO24-API-GATEWAY"
