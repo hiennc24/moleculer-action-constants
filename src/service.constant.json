@@ -25,7 +25,11 @@
   "CHANNEL_NAMES": {
     "ORGANIZATION": {
       "EMPLOYEE_UPDATED": "organization.employee.updated",
-      "POSITION_UPDATED": "organization.position.updated"
+      "POSITION_UPDATED": "organization.position.updated",
+      "EMPLOYEE_IMPORT_REQUESTED": "organization.employee.import-requested"
+    },
+    "SHARED": {
+      "IMPORT_JOB_PROGRESS": "shared.import-job.progress"
     },
     "PRODUCT": {
       "UPDATED": "product.product.updated"
@@ -35,6 +39,9 @@
     }
   },
   "CHANNEL_CONSUMER_GROUPS": {
+    "ORGANIZATION": {
+      "EMPLOYEE_IMPORT": "organization.employee-import"
+    },
     "HRM": {
       "LEAVE_MANAGEMENT": "hrm.leave-management",
       "TIMEKEEPING": "hrm.timekeeping",
@@ -48,6 +55,9 @@
     }
   },
   "CHANNEL_DLQ_QUEUES": {
+    "ORGANIZATION": {
+      "EMPLOYEE_IMPORT_REQUESTED": "DEAD_LETTER.organization.employee.import-requested"
+    },
     "HRM": {
       "LEAVE_EMPLOYEE_UPDATED": "DEAD_LETTER.hrm.employee.updated",
       "TIMEKEEPING_EMPLOYEE_UPDATED": "DEAD_LETTER.hrm.timekeeping.employee.updated",
@@ -271,6 +281,29 @@
     "ACTION_PREVIEW_ALLOCATION": "previewAllocation",
     "ACTION_GET_PAYMENT_DETAIL": "getPaymentDetail",
     "ACTION_GET_PAYMENT_LIST": "getPaymentList"
+  },
+  "SVC_DEBT_TRANSACTIONS": {
+    "NAME": "svc-business-partner.debt-transactions",
+    "ACTION_GET_LIST": "lists",
+    "ACTION_GET_DETAIL": "detail",
+    "ACTION_CREATE": "create",
+    "ACTION_CREATE_MANY": "create-many",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_UPDATE_STATUS": "updateStatus",
+    "ACTION_GENERATE_CODE": "generate-code"
+  },
+  "SVC_DEBT_PERIODS": {
+    "NAME": "svc-business-partner.debt-periods",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete"
+  },
+  "SVC_DEBT_HISTORIES": {
+    "NAME": "svc-business-partner.debt-histories",
+    "ACTION_CREATE_HISTORY": "createHistory"
   },
   "SVC_DEBT_RECONCILIATIONS": {
     "NAME": "svc-business-partner.debt-reconciliations",
@@ -1718,14 +1751,16 @@
     "ACTION_GENERATE_CODE_SAMPLE_EMPLOYEES": "generateCodeSampleEmployee",
     "ACTION_GET_EMPLOYEES_BY_DEPARTMENTS": "getEmployeesByDepartments",
     "ACTION_UPDATE_TIMEKEEPING_DETAILS": "updateTimekeepingDetails",
+    "ACTION_GET_PAGE_BY_WORKING_STATUS": "getPageByWorkingStatus",
     "ACTION_UPDATE_EMPLOYEE_FROM_AUTH": "updateEmployeeFromAuth",
     "ACTION_GET_TIMEKEEPING_DETAILS": "getTimekeepingDetails",
-    "ACTION_GET_PAGE_BY_WORKING_STATUS": "getPageByWorkingStatus",
     "ACTION_CREATE_EMPLOYEE_BY_USER": "createEmployeeByUser",
     "ACTION_GET_DETAIL_BY_PASS_AUTH": "getDetailByPassAuth",
+    "ACTION_GET_IMPORT_JOB_PAGE": "getImportJobPage",
     "ACTION_UPDATE_INFORMATION": "updateInformation",
     "ACTION_UPDATE_PROFILE": "updateProfile",
     "ACTION_UPDATE_HISTORY": "updateHistory",
+    "ACTION_GET_IMPORT_JOB": "getImportJob",
     "ACTION_GENERATE_CODE": "generateCode",
     "ACTION_LOCK_UNLOCK": "lockOrUnlock",
     "ACTION_DELETE_MANY": "deleteMany",
