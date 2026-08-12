@@ -112,6 +112,21 @@ const PERMISSIONS = {
     "organization_service:operational_organization:mission:approve",
   ORGANIZATION_MISSION_SETTING:
     "organization_service:operational_organization:mission:setting",
+  // 3. Sales — E-commerce (marketplace); shop-centric single resource.
+  // Every marketplace area (orders, settlements, creators, sku mapping, sync,
+  // analytics, credentials) is shop-scoped, so the module gates on one
+  // resource `sales:ecommerce_management:shop` with standard actions.
+  ECOMMERCE_SHOP_FULL: "sales:ecommerce_management:shop:*",
+  ECOMMERCE_SHOP_LIST: "sales:ecommerce_management:shop:list",
+  ECOMMERCE_SHOP_READ: "sales:ecommerce_management:shop:read",
+  ECOMMERCE_SHOP_CREATE: "sales:ecommerce_management:shop:create",
+  ECOMMERCE_SHOP_UPDATE: "sales:ecommerce_management:shop:update",
+  ECOMMERCE_SHOP_DELETE: "sales:ecommerce_management:shop:delete",
+  ECOMMERCE_SHOP_UPDATE_STATUS: "sales:ecommerce_management:shop:update_status",
+  ECOMMERCE_SHOP_CONFIGURE: "sales:ecommerce_management:shop:configure",
+  ECOMMERCE_SHOP_SETTING: "sales:ecommerce_management:shop:setting",
+  ECOMMERCE_SHOP_SYNC: "sales:ecommerce_management:shop:sync",
+  ECOMMERCE_SHOP_APPROVE: "sales:ecommerce_management:shop:approve",
 };
 
 export default PERMISSIONS;
