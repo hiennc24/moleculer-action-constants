@@ -127,6 +127,148 @@ const PERMISSIONS = {
   ECOMMERCE_SHOP_SETTING: "sales:ecommerce_management:shop:setting",
   ECOMMERCE_SHOP_SYNC: "sales:ecommerce_management:shop:sync",
   ECOMMERCE_SHOP_APPROVE: "sales:ecommerce_management:shop:approve",
+
+  // 4. Sales & CRM. Every id below already exists in the permission catalog and
+  // is already gated on by the frontend, so no role reseed is required — these
+  // constants only give the gateway a typed name for a string tenants already
+  // hold. Only actions that a gateway route actually uses are declared.
+
+  // 4.1 Sales order (SO) — also covers the SO line-item routes.
+  SALES_ORDERS_LIST: "sales:sales_management:sales_operations:sales_order:list",
+  SALES_ORDERS_READ: "sales:sales_management:sales_operations:sales_order:read",
+  SALES_ORDERS_CREATE:
+    "sales:sales_management:sales_operations:sales_order:create",
+  SALES_ORDERS_UPDATE:
+    "sales:sales_management:sales_operations:sales_order:update",
+  SALES_ORDERS_DELETE:
+    "sales:sales_management:sales_operations:sales_order:delete",
+  SALES_ORDERS_DOWNLOAD:
+    "sales:sales_management:sales_operations:sales_order:download",
+  SALES_ORDERS_UPDATE_STATUS:
+    "sales:sales_management:sales_operations:sales_order:update_status",
+
+  // 4.2 Lead — the CRM pipeline, plus its schedules/comments/tasks sub-objects.
+  SALES_LEADS_LIST: "sales:sales_management:sales_operations:lead:list",
+  SALES_LEADS_READ: "sales:sales_management:sales_operations:lead:read",
+  SALES_LEADS_CREATE: "sales:sales_management:sales_operations:lead:create",
+  SALES_LEADS_UPDATE: "sales:sales_management:sales_operations:lead:update",
+  SALES_LEADS_DELETE: "sales:sales_management:sales_operations:lead:delete",
+
+  // 4.3 Promotion.
+  SALES_PROMOTIONS_LIST: "sales:sales_management:sales_operations:promotion:list",
+  SALES_PROMOTIONS_READ: "sales:sales_management:sales_operations:promotion:read",
+  SALES_PROMOTIONS_CREATE:
+    "sales:sales_management:sales_operations:promotion:create",
+  SALES_PROMOTIONS_UPDATE:
+    "sales:sales_management:sales_operations:promotion:update",
+  SALES_PROMOTIONS_DELETE:
+    "sales:sales_management:sales_operations:promotion:delete",
+  SALES_PROMOTIONS_UPDATE_STATUS:
+    "sales:sales_management:sales_operations:promotion:update_status",
+
+  // 4.4 Delivery receipt.
+  SALES_DELIVERY_RECEIPTS_LIST:
+    "sales:sales_management:sales_operations:delivery_receipt:list",
+  SALES_DELIVERY_RECEIPTS_READ:
+    "sales:sales_management:sales_operations:delivery_receipt:read",
+  SALES_DELIVERY_RECEIPTS_CREATE:
+    "sales:sales_management:sales_operations:delivery_receipt:create",
+  SALES_DELIVERY_RECEIPTS_UPDATE:
+    "sales:sales_management:sales_operations:delivery_receipt:update",
+
+  // 4.5 After-sales & complaints. Catalog defines no `list`/`update_status`
+  // for this resource, so listing maps to `read` and status changes to `update`.
+  SALES_AFTER_SALES_READ:
+    "sales:sales_management:sales_operations:after_sales_and_complaints:read",
+  SALES_AFTER_SALES_CREATE:
+    "sales:sales_management:sales_operations:after_sales_and_complaints:create",
+  SALES_AFTER_SALES_UPDATE:
+    "sales:sales_management:sales_operations:after_sales_and_complaints:update",
+  SALES_AFTER_SALES_DELETE:
+    "sales:sales_management:sales_operations:after_sales_and_complaints:delete",
+
+  // 4.6 Pre-sales data. Catalog defines no `list`, so listing maps to `read`.
+  SALES_PRE_SALES_READ:
+    "sales:sales_management:sales_operations:pre_sales_data:read",
+  SALES_PRE_SALES_CREATE:
+    "sales:sales_management:sales_operations:pre_sales_data:create",
+  SALES_PRE_SALES_UPDATE:
+    "sales:sales_management:sales_operations:pre_sales_data:update",
+  SALES_PRE_SALES_DELETE:
+    "sales:sales_management:sales_operations:pre_sales_data:delete",
+
+  // 4.7 Debt — split across three catalog resources. `debts_management` only
+  // defines list/read, so debt mutations (netting, GL posting, reconciliation,
+  // dunning) gate on `payment_document`, the resource that owns write actions.
+  SALES_DEBTS_LIST:
+    "sales:sales_management:sales_operations:debts_management:list",
+  SALES_DEBTS_READ:
+    "sales:sales_management:sales_operations:debts_management:read",
+  SALES_SO_DEBTS_LIST: "sales:sales_management:sales_operations:so_debts:list",
+  SALES_SO_DEBTS_READ: "sales:sales_management:sales_operations:so_debts:read",
+  SALES_PAYMENT_DOCUMENTS_LIST:
+    "sales:sales_management:sales_operations:payment_document:list",
+  SALES_PAYMENT_DOCUMENTS_READ:
+    "sales:sales_management:sales_operations:payment_document:read",
+  SALES_PAYMENT_DOCUMENTS_CREATE:
+    "sales:sales_management:sales_operations:payment_document:create",
+  SALES_PAYMENT_DOCUMENTS_UPDATE:
+    "sales:sales_management:sales_operations:payment_document:update",
+  SALES_PAYMENT_DOCUMENTS_UPDATE_STATUS:
+    "sales:sales_management:sales_operations:payment_document:update_status",
+
+  // 4.8 Reporting.
+  SALES_REPORTS_READ:
+    "sales:sales_management:sales_operations:sales_report:read",
+  SALES_ORDER_VOUCHERS_LIST:
+    "sales:sales_management:sales_reporting:order_vouchers:list",
+  SALES_ORDER_VOUCHERS_READ:
+    "sales:sales_management:sales_reporting:order_vouchers:read",
+  SALES_ORDER_INVENTORY_LIST:
+    "sales:sales_management:sales_reporting:order_inventory:list",
+
+  // 4.9 Planning — sales plan (actual-value screens) and sales cost.
+  SALES_PLANS_READ:
+    "sales:sales_management:planning_reporting:sales_plan:read",
+  SALES_PLANS_CREATE:
+    "sales:sales_management:planning_reporting:sales_plan:create",
+  SALES_PLANS_UPDATE:
+    "sales:sales_management:planning_reporting:sales_plan:update",
+  SALES_PLANS_DELETE:
+    "sales:sales_management:planning_reporting:sales_plan:delete",
+  SALES_COSTS_LIST:
+    "sales:sales_management:planning_reporting:sales_cost:list",
+  SALES_COSTS_READ:
+    "sales:sales_management:planning_reporting:sales_cost:read",
+  SALES_COSTS_CREATE:
+    "sales:sales_management:planning_reporting:sales_cost:create",
+  SALES_COSTS_UPDATE:
+    "sales:sales_management:planning_reporting:sales_cost:update",
+  SALES_COSTS_DELETE:
+    "sales:sales_management:planning_reporting:sales_cost:delete",
+
+  // 4.10 Pricing policy.
+  SALES_PRICING_POLICIES_READ: "sales:sales_management:pricing_policy:read",
+  SALES_PRICING_POLICIES_CREATE: "sales:sales_management:pricing_policy:create",
+  SALES_PRICING_POLICIES_UPDATE: "sales:sales_management:pricing_policy:update",
+  SALES_PRICING_POLICIES_UPDATE_STATUS:
+    "sales:sales_management:pricing_policy:update_status",
+  SALES_PRICING_POLICIES_DELETE: "sales:sales_management:pricing_policy:delete",
+
+  // 4.11 Sales settings — also covers the sale-type catalogue screens.
+  SALES_SETTINGS_LIST: "sales:settings:list",
+  SALES_SETTINGS_READ: "sales:settings:read",
+  SALES_SETTINGS_CREATE: "sales:settings:create",
+  SALES_SETTINGS_UPDATE: "sales:settings:update",
+  SALES_SETTINGS_DELETE: "sales:settings:delete",
+
+  // 4.12 Partners (customers). Lives under the administration application, not
+  // sales — the customer master is shared, and the frontend gates on these ids.
+  ADMINISTRATION_PARTNERS_LIST: "administration:partners:list",
+  ADMINISTRATION_PARTNERS_READ: "administration:partners:read",
+  ADMINISTRATION_PARTNERS_CREATE: "administration:partners:create",
+  ADMINISTRATION_PARTNERS_UPDATE: "administration:partners:update",
+  ADMINISTRATION_PARTNERS_DELETE: "administration:partners:delete",
 };
 
 export default PERMISSIONS;
