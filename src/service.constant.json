@@ -3811,5 +3811,29 @@
   },
   "BISO24_API_GATEWAY": {
     "NAME": "BISO24-API-GATEWAY"
+  },
+  "SVC_PLANNING_PURCHASE_PLAN": {
+    "NAME": "svc-planning.purchase-plans",
+    "ACTION_GET_PENDING_APPROVALS": "getPendingApprovals",
+    "ACTION_REQUEST_REVISION": "requestPlanRevision",
+    "ACTION_DELETE_MANY": "deleteManyPlans",
+    "ACTION_GET_NEXT_CODE": "getNextCode",
+    "ACTION_GET_SUMMARY": "getSummary",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE": "createPlan",
+    "ACTION_UPDATE": "updatePlan",
+    "ACTION_DELETE": "deletePlan",
+    "ACTION_SUBMIT": "submitPlan",
+    "ACTION_APPROVE": "approvePlan",
+    "ACTION_REJECT": "rejectPlan",
+    "ACTION_REVISE": "revisePlan",
+    "ACTION_CLOSE": "closePlan",
+    "ACTION_CANCEL": "cancelPlan"
+  },
+  "SVC_PLANNING_PURCHASE_PLAN_HISTORY": {
+    "NAME": "svc-planning.purchase-plan-histories",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_CREATE": "createHistory"
   }
 }
