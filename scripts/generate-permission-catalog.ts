@@ -40,8 +40,11 @@ interface CatalogNode {
 }
 
 /** `sales:sales_management:sales_order:list` -> `SALES_SALES_MANAGEMENT_SALES_ORDER_LIST` */
-const toConstantName = (id: string): string =>
-  id.replace(/[.:]/g, '_').replace(/[^A-Za-z0-9_]/g, '_').toUpperCase()
+const toConstantName = (id: string): string => {
+  // `a:b:*` reads better as A_B_FULL than as A_B__ once `*` is sanitised away.
+  const normalised = id.endsWith(':*') ? `${id.slice(0, -2)}:full` : id
+  return normalised.replace(/[.:]/g, '_').replace(/[^A-Za-z0-9_]/g, '_').toUpperCase()
+}
 
 const readCatalog = (dir: string, ref: string | null): string[] => {
   if (ref === null) {
@@ -68,12 +71,24 @@ const readCatalog = (dir: string, ref: string | null): string[] => {
   return files.map((f) => git(['show', `${ref}:${f}`]))
 }
 
-/** Every grantable id: each node's own permKey, plus one per declared action. */
+/**
+ * Every grantable id: each node's own permKey, one per declared action, and a
+ * `permKey:*` wildcard per node.
+ *
+ * The wildcard is what lets a role hold a whole branch in one entry instead of
+ * every action under it listed out — the engine expands `a:b:*` to cover
+ * `a:b:read`, `a:b:update` and anything added later. The catalog itself has no
+ * `*`, so these ids exist only here; they are for granting, not for gating a
+ * route, which should always name the concrete action it needs.
+ */
 const collectIds = (bodies: string[]): string[] => {
   const ids = new Set<string>()
   const walk = (node: CatalogNode) => {
     if (node.permKey) {
       ids.add(node.permKey)
+      // A lone `*` would be an unbounded grant and the engine rejects it, so
+      // only nodes that carry a prefix get one — which is every real node.
+      if (node.permKey) ids.add(`${node.permKey}:*`)
       for (const action of node.actions ?? []) ids.add(`${node.permKey}:${action}`)
     }
     for (const child of node.children ?? []) walk(child)
