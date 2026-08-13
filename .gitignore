@@ -74,3 +74,4 @@ dist/
 docker-compose.yml
 
 .npmrc
+.DS_Store
