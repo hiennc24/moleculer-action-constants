@@ -17,3 +17,12 @@ export const addLocalServices = (services: ServiceBrokerConstantType) => {
 };
 
 export { default as PERMISSIONS } from './permission.constant';
+
+// Generated from the svc-auth catalog — every id the role editor can grant.
+// Prefer this over PERMISSIONS for new code; PERMISSIONS keeps the older
+// curated short names for callers already on them.
+export {
+  default as PERMISSION_CATALOG,
+  PermissionCatalogKey,
+  PermissionCatalogId,
+} from './permission-catalog.constant';
