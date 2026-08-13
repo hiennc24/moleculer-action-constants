@@ -1,17 +1,15 @@
 /**
  * GENERATED FILE — DO NOT EDIT BY HAND.
  *
- * Every permission id defined in the svc-auth catalog, keyed by its id with
- * separators replaced by underscores. Regenerate with:
- *   npx ts-node scripts/generate-permission-catalog.ts
+ * Every grantable permission id, keyed by the id with separators replaced by
+ * underscores. Derived from `permission-tree.constant.ts`; regenerate with:
+ *   npm run generate:permissions
  *
  * Entries: 768
- * Source: svc-auth origin/testing
  *
- * Prefer these over hand-written constants: an id here is grantable by
- * construction, because it came from the catalog the role editor reads. See
- * `permission.constant.ts` for the older curated short names, which stay for
- * the callers already using them.
+ * An id exported here is grantable by construction — it came from the same
+ * tree the role editor renders. See `permission.constant.ts` for the older
+ * curated short names, kept for the callers already using them.
  */
 
 const PERMISSION_CATALOG = {

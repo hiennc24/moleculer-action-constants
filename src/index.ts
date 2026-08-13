@@ -26,3 +26,12 @@ export {
   PermissionCatalogKey,
   PermissionCatalogId,
 } from './permission-catalog.constant';
+
+// The catalog tree itself — display metadata and hierarchy, which the flat id
+// list above cannot carry. svc-auth renders the role editor from this; it is
+// exported here so the per-service JSON copies can be retired.
+export {
+  default as PERMISSION_TREE,
+  PERMISSION_ACTION_NAMES,
+  PermissionTreeNode,
+} from './permission-tree.constant';
