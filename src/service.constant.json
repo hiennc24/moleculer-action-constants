@@ -367,7 +367,8 @@
     "ACTION_CONFIRM_VOUCHER": "confirmVoucher",
     "ACTION_CHANGE_STATUS_VOUCHER": "changeStatus",
     "ACTION_GET_ORDER_AVAILABLE_LIST": "getOrderAvailableList",
-    "ACTION_GET_ORDER_REMAINING_PRODUCTS": "getOrderRemainingProducts"
+    "ACTION_GET_ORDER_REMAINING_PRODUCTS": "getOrderRemainingProducts",
+    "ACTION_GET_ORDER_FULFILLMENT_STATUS": "getOrderFulfillmentStatus"
   },
   "SVC_WAREHOUSE_VOUCHER_PRODUCTS": {
     "NAME": "svc-warehouse.voucher-products",
@@ -451,6 +452,15 @@
     "NAME": "api-sales.promotionDetail",
     "ACTION_ADD_OR_UPDATE_PROMOTION_DETAILS": "addOrUpdatePromotionDetails",
     "ACTION_DELETE_BY_PROMOTION_IDS": "deleteByPromotionIds"
+  },
+  "API_SALES_SALES_REPORT": {
+    "NAME": "api-sales.sales-report",
+    "ACTION_GET_OVERVIEW": "getOverview",
+    "ACTION_GET_KPI_SUMMARY": "getKpiSummary",
+    "ACTION_GET_REVENUE_CHART": "getRevenueChart",
+    "ACTION_GET_TOP_SALES": "getTopSales",
+    "ACTION_GET_REVENUE_STRUCTURE": "getRevenueStructure",
+    "ACTION_GET_EXPENSE_SUMMARY": "getExpenseSummary"
   },
   "API_SALES_PERMISSION": {
     "NAME": "api-sales.permission-actions",
@@ -1201,7 +1211,10 @@
     "ACTIONS_DELETE_VERSION": "deleteVersion",
     "ACTIONS_UPDATE_VERSION": "updateVersion",
     "ACTIONS_UPDATE_PAYMENT_VERSION": "updatePaymentVersion",
-    "ACTIONS_GENERATE_CODE": "generateCode"
+    "ACTIONS_GENERATE_CODE": "generateCode",
+    "ACTION_SUBMIT": "submitSalaryRange",
+    "ACTION_APPROVE": "approveSalaryRange",
+    "ACTION_REJECT": "rejectSalaryRange"
   },
   "API_HCM_SALARY_HISTORIES": {
     "NAME": "api-hcm.salaryHistories",
@@ -1216,7 +1229,13 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE": "delete",
     "ACTION_LOCK_UNLOCK": "lockUnlock",
-    "ACTION_BATCH_UPDATE": "batchUpdate"
+    "ACTION_BATCH_UPDATE": "batchUpdate",
+    "ACTION_ADD_VERSION": "addVersion",
+    "ACTION_PROMOTE_VERSION": "promoteVersion",
+    "ACTION_LIST_VERSIONS": "listVersions",
+    "ACTION_GET_ACTIVE_VERSION": "getActiveVersion",
+    "ACTION_ARCHIVE": "archiveComponent",
+    "ACTION_GROUP_BY_PARENT": "groupByParent"
   },
   "API_HCM_PAYROLL_TEMPLATE_SETTINGS": {
     "NAME": "api-hcm.payrollTemplateSettings",
@@ -1243,7 +1262,19 @@
     "ACTION_GET_LIST": "getList",
     "ACTION_PREVIEW": "preview",
     "ACTION_CREATE": "create",
-    "ACTION_UPDATE": "update"
+    "ACTION_UPDATE": "update",
+    "ACTION_PUBLISH": "publish",
+    "ACTION_ARCHIVE_TEMPLATE": "archiveTemplate",
+    "ACTION_RESOLVE_FOR_EMPLOYEE": "resolveForEmployee",
+    "ACTION_UPSERT_ASSIGNMENT": "upsertAssignment",
+    "ACTION_GET_ASSIGNMENT_BY_EMPLOYEE": "getAssignmentByEmployee",
+    "ACTION_LIST_ASSIGNMENTS_BY_TEMPLATE": "listAssignmentsByTemplate",
+    "ACTION_DELETE_ASSIGNMENT": "deleteAssignment",
+    "ACTION_ADD_PIN": "addPin",
+    "ACTION_REMOVE_PIN": "removePin",
+    "ACTION_UPDATE_PIN": "updatePin",
+    "ACTION_REORDER_PINS": "reorderPins",
+    "ACTION_RECOMPUTE_ASSIGNED": "recomputeAssigned"
   },
   "API_HCM_PAYROLL_ADVANCE": {
     "NAME": "api-hcm.payroll-advances",
@@ -2942,7 +2973,14 @@
     "ACTION_CREATE_WAREHOUSE_STOCKTAKING": "createDetailWarehouseStocking",
     "ACTION_UPDATE_WAREHOUSE_STOCKTAKING": "updateDetailWarehouseStocking",
     "ACTION_CHANGE_STATUS_WAREHOUSE_STOCKTAKING": "changeStatusDetailWarehouseStocking",
-    "ACTION_DELETE_MANY_WAREHOUSE_STOCKTAKING": "deleteManyWarehouseStocking"
+    "ACTION_DELETE_MANY_WAREHOUSE_STOCKTAKING": "deleteManyWarehouseStocking",
+    "ACTION_FREEZE": "freezeWarehouseStocktaking",
+    "ACTION_GET_LINES": "getStocktakeLines",
+    "ACTION_SUBMIT_COUNTS": "submitStocktakeCounts",
+    "ACTION_RECONCILE": "reconcileStocktake",
+    "ACTION_UPDATE_LINE": "updateStocktakeLine",
+    "ACTION_APPLY_ADJUSTMENTS": "applyStocktakeAdjustments",
+    "ACTION_GET_REPORT": "getStocktakeReport"
   },
   "API_WAREHOUSE_STOCKTAKING_PRODUCT": {
     "NAME": "api-warehouse.warehouseStockingProduct"

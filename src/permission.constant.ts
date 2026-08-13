@@ -821,6 +821,11 @@ const PERMISSIONS = {
   PURCHASE_PURCHASE_MANAGEMENT_REPORTING_ORDER_INVENTORY_PRINT: 'purchase:purchase_management:reporting:order_inventory:print',
   PURCHASE_PURCHASE_MANAGEMENT_REPORTING_ORDER_INVENTORY_READ: 'purchase:purchase_management:reporting:order_inventory:read',
   PURCHASE_PURCHASE_MANAGEMENT_REPORTING_ORDER_INVENTORY_UPDATE: 'purchase:purchase_management:reporting:order_inventory:update',
+  // Danh sách tồn kho — feature resource under Báo cáo mua hàng.
+  PURCHASE_PURCHASE_MANAGEMENT_REPORTING_ORDER_STOCK_INVENTORY: 'purchase:purchase_management:reporting:order_stock_inventory',
+  PURCHASE_PURCHASE_MANAGEMENT_REPORTING_ORDER_STOCK_INVENTORY_FULL: 'purchase:purchase_management:reporting:order_stock_inventory:*',
+  PURCHASE_PURCHASE_MANAGEMENT_REPORTING_ORDER_STOCK_INVENTORY_DOWNLOAD: 'purchase:purchase_management:reporting:order_stock_inventory:download',
+  PURCHASE_PURCHASE_MANAGEMENT_REPORTING_ORDER_STOCK_INVENTORY_LIST: 'purchase:purchase_management:reporting:order_stock_inventory:list',
   PURCHASE_PURCHASE_MANAGEMENT_REPORTING_ORDER_VOUCHERS: 'purchase:purchase_management:reporting:order_vouchers',
   PURCHASE_PURCHASE_MANAGEMENT_REPORTING_ORDER_VOUCHERS_FULL: 'purchase:purchase_management:reporting:order_vouchers:*',
   PURCHASE_PURCHASE_MANAGEMENT_REPORTING_ORDER_VOUCHERS_CREATE: 'purchase:purchase_management:reporting:order_vouchers:create',
