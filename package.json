@@ -7,8 +7,7 @@
     "build": "tsc",
     "clean": "rimraf lib",
     "prepare": "npm run clean && npm run build",
-    "prepublishOnly": "npm run build",
-    "generate:permissions": "ts-node scripts/generate-permission-catalog.ts"
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "lib",
