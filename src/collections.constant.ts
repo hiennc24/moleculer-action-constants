@@ -1338,6 +1338,39 @@ const COLLECTIONS = {
   // resource ↔ domain lookup, etc.). Discriminator `type` keeps the table reusable.
   ENTITY_MAPPING_REPOSITORY_NAME: "entityMapping",
   ENTITY_MAPPING_COLLECTION_NAME: "entity_mappings",
+
+  // ── Transport Domain (microservice-transports) ─────────────────────────
+  // Core shipment lifecycle
+  SHIPMENT_REPOSITORY_NAME: "Shipment",
+  SHIPMENT_COLLECTION_NAME: "shipments",
+
+  // Carrier (INTERNAL + THIRD_PARTY: GHN, GHTK, VTP, Ahamove)
+  CARRIER_REPOSITORY_NAME: "Carrier",
+  CARRIER_COLLECTION_NAME: "carriers",
+
+  // Fleet (internal own-vehicles)
+  VEHICLE_REPOSITORY_NAME: "Vehicle",
+  VEHICLE_COLLECTION_NAME: "vehicles",
+  DRIVER_REPOSITORY_NAME: "Driver",
+  DRIVER_COLLECTION_NAME: "drivers",
+  ROUTE_REPOSITORY_NAME: "Route",
+  ROUTE_COLLECTION_NAME: "routes",
+
+  // Delivery record + tracking events (immutable append-only)
+  DELIVERY_REPOSITORY_NAME: "Delivery",
+  DELIVERY_COLLECTION_NAME: "deliveries",
+  TRACKING_EVENT_REPOSITORY_NAME: "TrackingEvent",
+  TRACKING_EVENT_COLLECTION_NAME: "tracking_events",
+
+  // Webhook inbound log (dedup + audit + replay)
+  WEBHOOK_LOG_REPOSITORY_NAME: "WebhookLog",
+  WEBHOOK_LOG_COLLECTION_NAME: "webhook_logs",
+
+  // COD reconciliation (manual statement upload — no carrier API in VN market)
+  COD_STATEMENT_REPOSITORY_NAME: "CodStatement",
+  COD_STATEMENT_COLLECTION_NAME: "cod_statements",
+  COD_STATEMENT_UPLOAD_REPOSITORY_NAME: "CodStatementUpload",
+  COD_STATEMENT_UPLOAD_COLLECTION_NAME: "cod_statement_uploads",
 };
 
 export default COLLECTIONS;
