@@ -3724,6 +3724,8 @@
     "ACTION_UPDATE_NAME": "updateShopName",
     "ACTION_SET_DEFAULT_LEAD_STATUS": "setShopDefaultLeadStatus",
     "ACTION_SET_WEBHOOK_SUBSCRIPTIONS": "setShopWebhookSubscriptions",
+    "ACTION_SYNC_WAREHOUSE_LIST": "syncWarehouseList",
+    "ACTION_RECONNECT": "reconnect",
     "EVENT_SHOP_CONNECTED": "ecommerce.shop.connected",
     "EVENT_SHOP_DISCONNECTED": "ecommerce.shop.disconnected"
   },
@@ -3873,5 +3875,121 @@
     "NAME": "svc-planning.purchase-plan-histories",
     "ACTION_GET_LIST": "getList",
     "ACTION_CREATE": "createHistory"
+  },
+  "SVC_TRANSPORT_SHIPMENTS": {
+    "NAME": "svc-transport",
+    "ACTION_LIST": "shipments.list",
+    "ACTION_GET": "shipments.get",
+    "ACTION_TRACK_PUBLIC": "shipments.track",
+    "ACTION_CREATE": "shipments.create",
+    "ACTION_UPDATE": "shipments.update",
+    "ACTION_UPDATE_STATUS": "shipments.updateStatus",
+    "ACTION_ASSIGN_CARRIER": "shipments.assignCarrier",
+    "ACTION_ADD_TRACKING_EVENT": "shipments.addTracking",
+    "ACTION_CANCEL": "shipments.cancel",
+    "ACTION_CREATE_FROM_PICKING_SLIP": "shipments.createFromPickingSlip",
+    "ACTION_HUB_SCAN_IN": "shipments.hubScanIn",
+    "ACTION_HUB_SORT": "shipments.hubSort",
+    "ACTION_ASSIGN_LASTMILE": "shipments.assignLastmile",
+    "ACTION_HUB_SCAN_OUT": "shipments.hubScanOut",
+    "EVENT_STATUS_CHANGED": "transports.shipment.status.changed",
+    "EVENT_COD_REMITTED": "transports.shipment.cod.remitted",
+    "EVENT_3PL_CREATED": "transports.shipment.3pl.created"
+  },
+  "SVC_TRANSPORT_CARRIERS": {
+    "NAME": "svc-transport.carriers",
+    "ACTION_LIST": "carriers.list",
+    "ACTION_GET": "carriers.get",
+    "ACTION_CREATE": "carriers.create",
+    "ACTION_UPDATE": "carriers.update",
+    "ACTION_DELETE": "carriers.delete"
+  },
+  "SVC_TRANSPORT_CARRIERS_ADMIN": {
+    "NAME": "svc-transport.carriers-admin",
+    "ACTION_CONFIGURE_CREDENTIALS": "carriers.configureCredentials",
+    "ACTION_DISCOVER_SHOPS": "carriers.discoverShops",
+    "ACTION_RESYNC_SHOPS": "carriers.resyncShops",
+    "ACTION_UPDATE_DEFAULTS": "carriers.updateDefaults",
+    "ACTION_UPDATE_WAREHOUSE_MAP": "carriers.updateWarehouseMap",
+    "ACTION_ROTATE_WEBHOOK_SECRET": "carriers.rotateWebhookSecret",
+    "ACTION_REMOVE_CREDENTIALS": "carriers.removeCredentials",
+    "ACTION_RETRY_STAFF_LINK": "carriers.retryStaffLink"
+  },
+  "SVC_TRANSPORT_DASHBOARD": {
+    "NAME": "svc-transport.dashboard",
+    "ACTION_STATUS_FUNNEL": "shipments.statusFunnel",
+    "ACTION_PERFORMANCE_METRICS": "carriers.performanceMetrics",
+    "ACTION_REFRESH_STATS": "carriers.refreshStats",
+    "ACTION_HUB_BREAKDOWN": "shipments.hubBreakdown",
+    "ACTION_SHIPPING_OPTIONS": "shipments.shippingOptions"
+  },
+  "SVC_TRANSPORT_DRIVERS": {
+    "NAME": "svc-transport.drivers",
+    "ACTION_LIST": "drivers.list",
+    "ACTION_GET": "drivers.get",
+    "ACTION_CREATE": "drivers.create",
+    "ACTION_UPDATE": "drivers.update",
+    "ACTION_DELETE": "drivers.delete",
+    "ACTION_AVAILABLE": "drivers.available"
+  },
+  "SVC_TRANSPORT_VEHICLES": {
+    "NAME": "svc-transport.vehicles",
+    "ACTION_LIST": "vehicles.list",
+    "ACTION_GET": "vehicles.get",
+    "ACTION_CREATE": "vehicles.create",
+    "ACTION_UPDATE": "vehicles.update",
+    "ACTION_DELETE": "vehicles.delete",
+    "ACTION_AVAILABLE": "vehicles.available"
+  },
+  "SVC_TRANSPORT_ROUTES": {
+    "NAME": "svc-transport.routes",
+    "ACTION_LIST": "routes.list",
+    "ACTION_GET": "routes.get",
+    "ACTION_CREATE": "routes.create",
+    "ACTION_UPDATE": "routes.update",
+    "ACTION_DELETE": "routes.delete"
+  },
+  "SVC_TRANSPORT_DELIVERIES": {
+    "NAME": "svc-transport.deliveries",
+    "ACTION_LIST": "deliveries.list",
+    "ACTION_GET": "deliveries.get",
+    "ACTION_RECORD": "deliveries.record",
+    "ACTION_UPDATE": "deliveries.update"
+  },
+  "SVC_TRANSPORT_TRACKING_EVENTS": {
+    "NAME": "svc-transport.tracking-events",
+    "ACTION_LIST": "trackingEvents.list",
+    "ACTION_GET": "trackingEvents.get",
+    "ACTION_APPEND": "trackingEvents.append"
+  },
+  "SVC_TRANSPORT_WEBHOOKS": {
+    "NAME": "svc-transport.webhooks",
+    "ACTION_RECEIVE": "webhooks.receive"
+  },
+  "SVC_TRANSPORT_COD_STATEMENTS": {
+    "NAME": "svc-transport.cod-statements",
+    "ACTION_UPLOAD": "codStatements.upload",
+    "ACTION_LIST": "codStatements.list",
+    "ACTION_GET_UPLOAD": "codStatements.getUpload",
+    "ACTION_GET_DISCREPANCIES": "codStatements.getDiscrepancies",
+    "ACTION_GET_FEE_VARIANCE_REPORT": "codStatements.getFeeVarianceReport"
+  },
+  "SVC_TRANSPORT_OPS_ADMIN": {
+    "NAME": "svc-transport.ops-admin",
+    "ACTION_LIST_WEBHOOK_EVENTS": "ops.listWebhookEvents",
+    "ACTION_GET_WEBHOOK_EVENT": "ops.getWebhookEvent",
+    "ACTION_REPLAY_WEBHOOK_EVENT": "ops.replayWebhookEvent",
+    "ACTION_GET_CIRCUIT_STATUS": "ops.getCircuitStatus",
+    "ACTION_GET_POLLING_STATUS": "ops.getPollingStatus"
+  },
+  "SVC_TRANSPORT_PICKING_SLIPS": {
+    "NAME": "svc-transport.picking-slips",
+    "ACTION_LIST_AVAILABLE": "pickingSlips.listAvailable"
+  },
+  "SVC_TRANSPORT_ADDRESS": {
+    "NAME": "svc-transport.address",
+    "ACTION_LIST_PROVINCES": "address.provinces",
+    "ACTION_LIST_DISTRICTS": "address.districts",
+    "ACTION_LIST_WARDS": "address.wards"
   }
 }
