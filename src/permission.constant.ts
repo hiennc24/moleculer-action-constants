@@ -230,6 +230,8 @@ const PERMISSIONS = {
     "sales:sales_management:sales_operations:after_sales_and_complaints:delete",
 
   // 4.6 Pre-sales data. Catalog defines no `list`, so listing maps to `read`.
+  SALES_PRE_SALES_LIST:
+    "sales:sales_management:sales_operations:pre_sales_data:list",
   SALES_PRE_SALES_READ:
     "sales:sales_management:sales_operations:pre_sales_data:read",
   SALES_PRE_SALES_CREATE:
