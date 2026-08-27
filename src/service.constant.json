@@ -280,7 +280,17 @@
     "ACTION_RECORD_PAYMENT": "recordPayment",
     "ACTION_PREVIEW_ALLOCATION": "previewAllocation",
     "ACTION_GET_PAYMENT_DETAIL": "getPaymentDetail",
-    "ACTION_GET_PAYMENT_LIST": "getPaymentList"
+    "ACTION_GET_PAYMENT_LIST": "getPaymentList",
+    "ACTION_ADJUST_DEBT_FROM_ORDER": "adjustDebtFromOrder",
+    "ACTION_GET_LEDGERS_BY_ORDER_IDS": "getLedgersByOrderIds",
+    "ACTION_GET_PARTNER_DEBT_LIST": "getPartnerDebtList",
+    "ACTION_GET_PARTNER_CREDIT_BALANCE": "getPartnerCreditBalance",
+    "ACTION_APPLY_CREDIT": "applyCredit",
+    "ACTION_REPOST_CREDIT_JOURNALS": "repostPendingCreditJournals",
+    "ACTION_APPROVE_PAYMENT": "approvePayment",
+    "ACTION_REJECT_PAYMENT": "rejectPayment",
+    "ACTION_GET_DASHBOARD_TREND": "getDashboardTrend",
+    "ACTION_GET_DASHBOARD_UPCOMING": "getDashboardUpcoming"
   },
   "SVC_DEBT_TRANSACTIONS": {
     "NAME": "svc-business-partner.debt-transactions",
