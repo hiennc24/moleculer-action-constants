@@ -462,8 +462,8 @@
     "ACTION_GET_REVENUE_STRUCTURE": "getRevenueStructure",
     "ACTION_GET_EXPENSE_SUMMARY": "getExpenseSummary"
   },
-  "API_PURCHASE_PURCHASE_REPORT": {
-    "NAME": "api-purchase.purchase-report",
+  "SVC_ORDERS_PURCHASE_REPORT": {
+    "NAME": "svc-orders.purchase-report",
     "ACTION_GET_OVERVIEW": "getOverview",
     "ACTION_GET_KPI_SUMMARY": "getKpiSummary",
     "ACTION_GET_COST_CHART": "getCostChart",
