@@ -280,7 +280,17 @@
     "ACTION_RECORD_PAYMENT": "recordPayment",
     "ACTION_PREVIEW_ALLOCATION": "previewAllocation",
     "ACTION_GET_PAYMENT_DETAIL": "getPaymentDetail",
-    "ACTION_GET_PAYMENT_LIST": "getPaymentList"
+    "ACTION_GET_PAYMENT_LIST": "getPaymentList",
+    "ACTION_ADJUST_DEBT_FROM_ORDER": "adjustDebtFromOrder",
+    "ACTION_GET_LEDGERS_BY_ORDER_IDS": "getLedgersByOrderIds",
+    "ACTION_GET_PARTNER_DEBT_LIST": "getPartnerDebtList",
+    "ACTION_GET_PARTNER_CREDIT_BALANCE": "getPartnerCreditBalance",
+    "ACTION_APPLY_CREDIT": "applyCredit",
+    "ACTION_REPOST_CREDIT_JOURNALS": "repostPendingCreditJournals",
+    "ACTION_APPROVE_PAYMENT": "approvePayment",
+    "ACTION_REJECT_PAYMENT": "rejectPayment",
+    "ACTION_GET_DASHBOARD_TREND": "getDashboardTrend",
+    "ACTION_GET_DASHBOARD_UPCOMING": "getDashboardUpcoming"
   },
   "SVC_DEBT_TRANSACTIONS": {
     "NAME": "svc-business-partner.debt-transactions",
@@ -461,6 +471,14 @@
     "ACTION_GET_TOP_SALES": "getTopSales",
     "ACTION_GET_REVENUE_STRUCTURE": "getRevenueStructure",
     "ACTION_GET_EXPENSE_SUMMARY": "getExpenseSummary"
+  },
+  "SVC_ORDERS_PURCHASE_REPORT": {
+    "NAME": "svc-orders.purchase-report",
+    "ACTION_GET_OVERVIEW": "getOverview",
+    "ACTION_GET_KPI_SUMMARY": "getKpiSummary",
+    "ACTION_GET_COST_CHART": "getCostChart",
+    "ACTION_GET_TOP_PURCHASES": "getTopPurchases",
+    "ACTION_GET_COST_STRUCTURE": "getCostStructure"
   },
   "API_SALES_PERMISSION": {
     "NAME": "api-sales.permission-actions",
@@ -3991,5 +4009,32 @@
     "ACTION_LIST_PROVINCES": "address.provinces",
     "ACTION_LIST_DISTRICTS": "address.districts",
     "ACTION_LIST_WARDS": "address.wards"
+  },
+  "API_HCM_SETTING_REQUEST_GENERALS": {
+    "NAME": "api-hcm.setting-request-generals",
+    "ACTION_GET": "get",
+    "ACTION_UPDATE": "update"
+  },
+  "API_HCM_SETTING_APPROVAL_DELEGATIONS": {
+    "NAME": "api-hcm.setting-approval-delegations",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+  "API_HCM_SETTING_OVERTIMES": {
+    "NAME": "api-hcm.setting-overtimes",
+    "ACTION_GET": "get",
+    "ACTION_UPDATE": "update"
+  },
+  "API_HCM_SETTING_OVERTIME_DOCUMENTS": {
+    "NAME": "api-hcm.setting-overtime-documents",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_EXPORT": "export"
   }
 }
