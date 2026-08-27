@@ -571,6 +571,14 @@ const COLLECTIONS = {
     "setting_timekeeping_method_details",
   SETTING_LATE_EARLY_THRESHOLD_REPOSITORY_NAME: "lateEarlyThreshold",
   SETTING_LATE_EARLY_THRESHOLD_COLLECTION_NAME: "late_early_thresholds",
+  SETTING_REQUEST_GENERAL_REPOSITORY_NAME: "settingRequestGeneral",
+  SETTING_REQUEST_GENERAL_COLLECTION_NAME: "setting_request_generals",
+  SETTING_APPROVAL_DELEGATION_REPOSITORY_NAME: "settingApprovalDelegation",
+  SETTING_APPROVAL_DELEGATION_COLLECTION_NAME: "setting_approval_delegations",
+  SETTING_OVERTIME_REPOSITORY_NAME: "settingOvertime",
+  SETTING_OVERTIME_COLLECTION_NAME: "setting_overtimes",
+  SETTING_OVERTIME_DOCUMENT_REPOSITORY_NAME: "settingOvertimeDocument",
+  SETTING_OVERTIME_DOCUMENT_COLLECTION_NAME: "setting_overtime_documents",
 
   // Salary Component
   SETTING_OLE_TARGET_REPOSITORY_NAME: "settingOleTarget",
