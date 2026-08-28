@@ -584,9 +584,51 @@ const COLLECTIONS = {
   SETTING_OLE_TARGET_REPOSITORY_NAME: "settingOleTarget",
   SETTING_OLE_TARGET_COLLECTION_NAME: "setting_ole_targets",
 
+  // Setting Insurance
+  SETTING_INSURANCE_REPOSITORY_NAME: "settingInsurance",
+  SETTING_INSURANCE_COLLECTION_NAME: "setting_insurances",
+
+  // Setting Minimum Wage
+  SETTING_MINIMUM_WAGE_REPOSITORY_NAME: "settingMinimumWage",
+  SETTING_MINIMUM_WAGE_COLLECTION_NAME: "setting_minimum_wages",
+
   // Payslips
   PAYSLIP_REPOSITORY_NAME: "paysLip",
   PAYSLIP_COLLECTION_NAME: "payslips",
+
+  // Employee Payslip
+  EMPLOYEE_PAYSLIP_REPOSITORY_NAME: "employeePayslip",
+  EMPLOYEE_PAYSLIP_COLLECTION_NAME: "employee_payslips",
+
+  // Pay Batch
+  PAY_BATCH_REPOSITORY_NAME: "payBatch",
+  PAY_BATCH_COLLECTION_NAME: "pay_batches",
+  PAY_BATCH_LINE_REPOSITORY_NAME: "payBatchLine",
+  PAY_BATCH_LINE_COLLECTION_NAME: "pay_batch_lines",
+  PAY_BATCH_LEDGER_REPOSITORY_NAME: "payBatchLedger",
+  PAY_BATCH_LEDGER_COLLECTION_NAME: "pay_batch_ledgers",
+  PAY_BATCH_HISTORY_REPOSITORY_NAME: "payBatchHistory",
+  PAY_BATCH_HISTORY_COLLECTION_NAME: "pay_batch_histories",
+
+  // Payment Instruction
+  PAYMENT_INSTRUCTION_REPOSITORY_NAME: "paymentInstruction",
+  PAYMENT_INSTRUCTION_COLLECTION_NAME: "payment_instructions",
+
+  // Payment History
+  PAYMENT_HISTORY_REPOSITORY_NAME: "paymentHistory",
+  PAYMENT_HISTORY_COLLECTION_NAME: "payment_histories",
+
+  // Payment File
+  PAYMENT_FILE_REPOSITORY_NAME: "paymentFile",
+  PAYMENT_FILE_COLLECTION_NAME: "payment_files",
+
+  // Payment Outbox
+  PAYMENT_OUTBOX_REPOSITORY_NAME: "paymentOutbox",
+  PAYMENT_OUTBOX_COLLECTION_NAME: "payment_outbox",
+
+  // Payroll Template Assignment
+  PAYROLL_TEMPLATE_ASSIGNMENT_REPOSITORY_NAME: "payrollTemplateAssignment",
+  PAYROLL_TEMPLATE_ASSIGNMENT_COLLECTION_NAME: "payroll_template_assignments",
 
   // Request management
   REQUEST_REPOSITORY_NAME: "request",

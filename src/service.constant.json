@@ -1292,7 +1292,12 @@
     "ACTION_REMOVE_PIN": "removePin",
     "ACTION_UPDATE_PIN": "updatePin",
     "ACTION_REORDER_PINS": "reorderPins",
-    "ACTION_RECOMPUTE_ASSIGNED": "recomputeAssigned"
+    "ACTION_RECOMPUTE_ASSIGNED": "recomputeAssigned",
+    "ACTION_RESOLVE_PIN_CONTEXT": "resolvePinContext",
+    "ACTION_INIT_MASTER_DATA": "initMasterData",
+    "ACTION_GET_EMPLOYEE_SUMMARY": "getEmployeeSummary",
+    "ACTION_UPDATE_CELL": "updatePayrollTemplateCell",
+    "ACTION_GET_CALC_PLAN": "getTemplateCalcPlan"
   },
   "API_HCM_PAYROLL_ADVANCE": {
     "NAME": "api-hcm.payroll-advances",
@@ -1324,7 +1329,8 @@
     "ACTION_UPDATE_MANY_DETAIL": "updateManyDetail",
     "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail",
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
-    "ACTION_CALCULATE_TOTAL_OLE_AMOUNT_FOR_EMPLOYEES": "calculateTotalOlesAmountForEmployees"
+    "ACTION_CALCULATE_TOTAL_OLE_AMOUNT_FOR_EMPLOYEES": "calculateTotalOlesAmountForEmployees",
+    "ACTION_GET_OLE_DETAILS_FOR_RESOLUTION": "getOleDetailsForResolution"
   },
   "API_HCM_PAYROLL_DATA_TIMESHEET": {
     "NAME": "api-hcm.payroll-data-timesheet",
@@ -1360,7 +1366,11 @@
     "ACTION_RECOMPUTE_BY_TEMPLATE": "recomputeByTemplate",
     "ACTION_RECOMPUTE_DIFF": "recomputeDiff",
     "ACTION_WIZARD_PREVIEW": "wizardPreview",
-    "ACTION_WIZARD_CREATE": "wizardCreate"
+    "ACTION_WIZARD_CREATE": "wizardCreate",
+    "ACTION_SUMMARY_GET_OBLIGATION": "payrollSummary.getObligation",
+    "ACTION_SUMMARY_GET": "payrollSummary.get",
+    "ACTION_SUMMARY_SNAPSHOT": "payrollSummary.snapshot",
+    "ACTION_SUMMARY_COMPARE": "payrollSummary.compare"
   },
   "API_HCM_PAYROLL_DETAILS": {
     "NAME": "api-hcm.payroll-details",
@@ -4040,5 +4050,36 @@
     "ACTION_UPDATE": "update",
     "ACTION_DELETE_MANY": "deleteMany",
     "ACTION_EXPORT": "export"
+  },
+  "API_HCM_PAY_BATCH": {
+    "NAME": "api-hcm.payBatch",
+    "ACTION_CREATE": "create",
+    "ACTION_ALLOCATE": "allocate",
+    "ACTION_APPROVE": "approve",
+    "ACTION_EXECUTE": "execute",
+    "ACTION_CANCEL": "cancel",
+    "ACTION_COMPLETE": "complete",
+    "ACTION_RECLAIM_HELD": "reclaimHeld",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail"
+  },
+  "API_HCM_PAYMENT": {
+    "NAME": "api-hcm.payment",
+    "ACTION_EXPORT": "export",
+    "ACTION_IMPORT_RESULT": "importResult",
+    "ACTION_APPROVE": "approve",
+    "ACTION_EXECUTE": "execute",
+    "ACTION_REVERSE": "reverse",
+    "ACTION_DOWNLOAD_FILE": "downloadFile",
+    "ACTION_REISSUE": "reissue"
+  },
+  "API_HCM_EMPLOYEE_PAYSLIP": {
+    "NAME": "api-hcm.employeePayslip",
+    "ACTION_ISSUE": "issue",
+    "ACTION_REISSUE": "reissue",
+    "ACTION_GET_MINE": "getMine",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_PDF": "pdf",
+    "ACTION_FEEDBACK": "feedback"
   }
 }
