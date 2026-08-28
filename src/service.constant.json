@@ -1356,7 +1356,11 @@
     "ACTION_DELETE_MANY_EMPLOYEES": "deleteManyEmployees",
     "ACTION_PREPARE_DATA_BEFORE_CREATE": "prepareDataBeforeCreate",
     "ACTION_GET_EMPLOYEES_BY_PAYROLL_IDS": "getEmployeesByPayrollIds",
-    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured"
+    "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
+    "ACTION_RECOMPUTE_BY_TEMPLATE": "recomputeByTemplate",
+    "ACTION_RECOMPUTE_DIFF": "recomputeDiff",
+    "ACTION_WIZARD_PREVIEW": "wizardPreview",
+    "ACTION_WIZARD_CREATE": "wizardCreate"
   },
   "API_HCM_PAYROLL_DETAILS": {
     "NAME": "api-hcm.payroll-details",
