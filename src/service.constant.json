@@ -2901,7 +2901,9 @@
     "ACTION_CHAT_TRIGGER": "chat",
     "ACTION_BATCH_TRIGGER": "batch",
     "ACTION_INIT_SUBSCRIPTIONS": "initSubscriptions",
-    "ACTION_UPDATE_SUBSCRIPTION": "updateSubscription"
+    "ACTION_UPDATE_SUBSCRIPTION": "updateSubscription",
+    "ACTION_DELIVERY_WEBHOOK": "deliveryWebhook",
+    "ACTION_DELIVERY_STATUS": "deliveryStatus"
   },
   "SVC_PLATFORM_MANAGEMENTS": {
     "NAME": "svc-shared.platform-managements",
