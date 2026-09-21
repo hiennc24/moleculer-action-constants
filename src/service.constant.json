@@ -4080,6 +4080,14 @@
     "ACTION_GET_MINE": "getMine",
     "ACTION_GET_DETAIL": "getDetail",
     "ACTION_PDF": "pdf",
-    "ACTION_FEEDBACK": "feedback"
+    "ACTION_FEEDBACK": "feedback",
+    "ACTION_ACKNOWLEDGE": "acknowledge",
+    "ACTION_SEND": "send",
+    "ACTION_HR_LIST": "hrList",
+    "ACTION_HR_GET_DETAIL": "hrGetDetail",
+    "ACTION_HR_PDF": "hrPdf",
+    "ACTION_HR_BATCH_ISSUE": "hrBatchIssue",
+    "ACTION_HR_BATCH_SEND": "hrBatchSend",
+    "ACTION_HR_DASHBOARD": "hrDeliveryDashboard"
   }
 }
