@@ -1793,6 +1793,7 @@
     "ACTION_FORGOT_PASSWORD_MOBILE": "forgotPasswordMobile",
     "ACTION_VERIFY_EMAIL_REGISTER": "verifyEmailRegister",
     "ACTION_UPDATE_ACCOUNT_STATUS": "updateAccountStatus",
+    "ACTION_BULK_UPDATE_ACCOUNT_STATUS": "bulkUpdateAccountStatus",
     "ACTION_ASSIGN_ROLE_TO_ACCOUNT": "assignRoleId",
     "ACTION_GET_DETAIL_ACCOUNT": "getDetailAccount",
     "ACTION_GET_LIST_ACCOUNT": "getListAccount",
