@@ -1333,6 +1333,7 @@
     "ACTION_CALCULATE_TOTAL_ADVANCE_AMOUNT_FOR_EMPLOYEES": "calculateTotalAdvancesAmountForEmployees",
     "ACTION_GET_PERIOD_LIST": "getPerPeriodList",
     "ACTION_GET_EMPLOYEE_ENTRIES": "getEmployeeEntries",
+    "ACTION_CREATE_ENTRY": "createEntry",
     "ACTION_IMPORT_EXCEL": "importExcel",
     "ACTION_GET_SCHEDULED_RECOVERY": "getScheduledRecovery",
     "ACTION_INGEST_SELF_REQUEST": "ingestSelfRequest",
