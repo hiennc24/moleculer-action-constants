@@ -20,6 +20,10 @@
       "EVENT_NETTING_FAILED": "debt.nettingFailed",
       "EVENT_OVERDUE_FLAGGED": "debt.overdueFlagged",
       "EVENT_FULLY_PAID": "debt.fullyPaid"
+    },
+    "SALARY_ADVANCE": {
+      "APPROVED": "svc-hrm.salary-advance.approved",
+      "REVOKED": "svc-hrm.salary-advance.revoked"
     }
   },
   "CHANNEL_NAMES": {
@@ -1313,7 +1317,13 @@
     "ACTION_UPDATE_MANY_DETAIL": "updateManyDetail",
     "ACTION_DELETE_MANY_DETAIL": "deleteManyDetail",
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
-    "ACTION_CALCULATE_TOTAL_ADVANCE_AMOUNT_FOR_EMPLOYEES": "calculateTotalAdvancesAmountForEmployees"
+    "ACTION_CALCULATE_TOTAL_ADVANCE_AMOUNT_FOR_EMPLOYEES": "calculateTotalAdvancesAmountForEmployees",
+    "ACTION_GET_PERIOD_LIST": "getPerPeriodList",
+    "ACTION_GET_EMPLOYEE_ENTRIES": "getEmployeeEntries",
+    "ACTION_IMPORT_EXCEL": "importExcel",
+    "ACTION_GET_SCHEDULED_RECOVERY": "getScheduledRecovery",
+    "ACTION_INGEST_SELF_REQUEST": "ingestSelfRequest",
+    "ACTION_REVOKE_SELF_REQUEST": "revokeSelfRequest"
   },
   "API_HCM_PAYROLL_DATA_KPI": {
     "NAME": "api-hcm.payroll-data-kpi",
