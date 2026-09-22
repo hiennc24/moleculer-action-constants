@@ -1301,7 +1301,8 @@
     "ACTION_INIT_MASTER_DATA": "initMasterData",
     "ACTION_GET_EMPLOYEE_SUMMARY": "getEmployeeSummary",
     "ACTION_UPDATE_CELL": "updatePayrollTemplateCell",
-    "ACTION_GET_CALC_PLAN": "getTemplateCalcPlan"
+    "ACTION_GET_CALC_PLAN": "getTemplateCalcPlan",
+    "ACTION_VALIDATE_FORMULA": "validateFormula"
   },
   "API_HCM_PAYROLL_ADVANCE": {
     "NAME": "api-hcm.payroll-advances",
@@ -1380,7 +1381,11 @@
     "ACTION_SUMMARY_GET_OBLIGATION": "payrollSummary.getObligation",
     "ACTION_SUMMARY_GET": "payrollSummary.get",
     "ACTION_SUMMARY_SNAPSHOT": "payrollSummary.snapshot",
-    "ACTION_SUMMARY_COMPARE": "payrollSummary.compare"
+    "ACTION_SUMMARY_COMPARE": "payrollSummary.compare",
+    "ACTION_SUMMARY_GET_OBLIGATION_PAGE": "payrollSummary.getObligationPage",
+    "ACTION_UPDATE_COMPONENTS_LAYOUT": "updateComponentsLayout",
+    "ACTION_UPDATE_COMPONENTS_STRUCTURE": "updateComponentsStructure",
+    "ACTION_RECOMPUTE_SHEET": "recomputeSheet"
   },
   "API_HCM_PAYROLL_DETAILS": {
     "NAME": "api-hcm.payroll-details",
@@ -1596,7 +1601,10 @@
     "ACTION_CREATE_MANY": "createMany",
     "ACTION_GET_STATISTIC": "getStatistic",
     "ACTION_GET_DETAIL_BY_EMPLOYEE": "getDetailByEmployee",
-    "ACTION_GET_EMPLOYEE_WITHOUT_LEAVE": "getEmployeeWithoutLeave"
+    "ACTION_GET_EMPLOYEE_WITHOUT_LEAVE": "getEmployeeWithoutLeave",
+    "ACTION_EXPORT_EXCEL": "exportExcel",
+    "ACTION_GET_IMPORT_TEMPLATE": "getImportTemplate",
+    "ACTION_IMPORT_EXCEL": "importExcel"
   },
   "API_HCM_LEAVE_CONFIGS": {
     "NAME": "api-hcm.leave-configs",
@@ -1756,7 +1764,8 @@
     "ACTION_GET_DETAIL": "getBusinessTripDetail",
     "ACTION_GET_DASHBOARD_STATISTICS": "viewDashboard",
     "ACTION_REJECT_CANCEL": "rejectCancelBusinessTrip",
-    "ACTION_GET_LIST_BY_EMPLOYEE": "getBusinessTripsByEmployeeId"
+    "ACTION_GET_LIST_BY_EMPLOYEE": "getBusinessTripsByEmployeeId",
+    "ACTION_GET_CALENDAR": "getCalendar"
   },
   "API_HCM_SETTING_BUSINESS_TRIP": {
     "NAME": "api-hcm.setting-business-trips",
@@ -4074,7 +4083,8 @@
     "ACTION_COMPLETE": "complete",
     "ACTION_RECLAIM_HELD": "reclaimHeld",
     "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail"
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_PAYMENT_SUMMARY": "payBatch.paymentSummary"
   },
   "API_HCM_PAYMENT": {
     "NAME": "api-hcm.payment",
@@ -4101,6 +4111,10 @@
     "ACTION_HR_PDF": "hrPdf",
     "ACTION_HR_BATCH_ISSUE": "hrBatchIssue",
     "ACTION_HR_BATCH_SEND": "hrBatchSend",
-    "ACTION_HR_DASHBOARD": "hrDeliveryDashboard"
+    "ACTION_HR_DASHBOARD": "hrDeliveryDashboard",
+    "ACTION_MARK_OFFICIAL": "markOfficial",
+    "ACTION_HR_BATCH_MARK_OFFICIAL": "hrBatchMarkOfficial",
+    "ACTION_GET_PRESENTATION_CONFIG": "getPresentationConfig",
+    "ACTION_UPDATE_PRESENTATION_CONFIG": "updatePresentationConfig"
   }
 }
