@@ -24,6 +24,10 @@
     "SALARY_ADVANCE": {
       "APPROVED": "svc-hrm.salary-advance.approved",
       "REVOKED": "svc-hrm.salary-advance.revoked"
+    },
+    "PAYROLL": {
+      "OBLIGATION_RECOGNIZED": "payroll.obligation.recognized",
+      "PAYMENT_SETTLED": "payroll.payment.settled"
     }
   },
   "CHANNEL_NAMES": {
