@@ -3791,8 +3791,13 @@
     "ACTION_GET_DECRYPTED": "getDecryptedCredential",
     "ACTION_REVOKE": "revokeCredential",
     "ACTION_REFRESH_TOKEN": "refreshCredentialToken",
+    "ACTION_GET_INFO": "getInfo",
     "EVENT_CREDENTIAL_REFRESHED": "ecommerce.credential.refreshed",
     "EVENT_CREDENTIAL_EXPIRED": "ecommerce.credential.expired"
+  },
+  "SVC_ECOMMERCE_CRON_INFO": {
+    "NAME": "svc-ecommerce.cron-info",
+    "ACTION_GET_SCHEDULES": "getSchedules"
   },
   "SVC_ECOMMERCE_TIKTOK": {
     "NAME": "svc-ecommerce.tiktok",
@@ -3868,7 +3873,11 @@
     "NAME": "svc-ecommerce.analytics",
     "ACTION_SHOP_STATS": "getShopStats",
     "ACTION_PLATFORM_OVERVIEW": "getPlatformOverview",
-    "ACTION_FINANCIAL_BREAKDOWN": "getFinancialBreakdown"
+    "ACTION_FINANCIAL_BREAKDOWN": "getFinancialBreakdown",
+    "ACTION_GET_ACTIVITY_FEED": "getActivityFeed",
+    "ACTION_GET_SKU_MAPPING_STATS": "getSkuMappingStats",
+    "ACTION_GET_CREATOR_STATS": "getCreatorStats",
+    "ACTION_GET_SYNC_HEALTH": "getSyncHealth"
   },
   "SVC_ECOMMERCE_SYNC": {
     "NAME": "svc-ecommerce.sync",
@@ -3948,6 +3957,10 @@
     "ACTION_HUB_SORT": "shipments.hubSort",
     "ACTION_ASSIGN_LASTMILE": "shipments.assignLastmile",
     "ACTION_HUB_SCAN_OUT": "shipments.hubScanOut",
+    "ACTION_GET_DETAIL": "shipments.getDetail",
+    "ACTION_GET_PRODUCT_LIST": "shipments.getProductList",
+    "ACTION_DELETE": "shipments.delete",
+    "ACTION_DELETE_MANY": "shipments.deleteMany",
     "EVENT_STATUS_CHANGED": "transports.shipment.status.changed",
     "EVENT_COD_REMITTED": "transports.shipment.cod.remitted",
     "EVENT_3PL_CREATED": "transports.shipment.3pl.created"
@@ -3977,7 +3990,8 @@
     "ACTION_PERFORMANCE_METRICS": "carriers.performanceMetrics",
     "ACTION_REFRESH_STATS": "carriers.refreshStats",
     "ACTION_HUB_BREAKDOWN": "shipments.hubBreakdown",
-    "ACTION_SHIPPING_OPTIONS": "shipments.shippingOptions"
+    "ACTION_SHIPPING_OPTIONS": "shipments.shippingOptions",
+    "ACTION_PICKUP_STATIONS": "shipments.pickupStations"
   },
   "SVC_TRANSPORT_DRIVERS": {
     "NAME": "svc-transport.drivers",
@@ -3986,7 +4000,8 @@
     "ACTION_CREATE": "drivers.create",
     "ACTION_UPDATE": "drivers.update",
     "ACTION_DELETE": "drivers.delete",
-    "ACTION_AVAILABLE": "drivers.available"
+    "ACTION_AVAILABLE": "drivers.available",
+    "ACTION_DELETE_MANY": "drivers.deleteMany"
   },
   "SVC_TRANSPORT_VEHICLES": {
     "NAME": "svc-transport.vehicles",
@@ -3995,7 +4010,8 @@
     "ACTION_CREATE": "vehicles.create",
     "ACTION_UPDATE": "vehicles.update",
     "ACTION_DELETE": "vehicles.delete",
-    "ACTION_AVAILABLE": "vehicles.available"
+    "ACTION_AVAILABLE": "vehicles.available",
+    "ACTION_DELETE_MANY": "vehicles.deleteMany"
   },
   "SVC_TRANSPORT_ROUTES": {
     "NAME": "svc-transport.routes",
@@ -4003,7 +4019,9 @@
     "ACTION_GET": "routes.get",
     "ACTION_CREATE": "routes.create",
     "ACTION_UPDATE": "routes.update",
-    "ACTION_DELETE": "routes.delete"
+    "ACTION_DELETE": "routes.delete",
+    "ACTION_DELETE_MANY": "routes.deleteMany",
+    "ACTION_SUGGEST": "routes.suggest"
   },
   "SVC_TRANSPORT_DELIVERIES": {
     "NAME": "svc-transport.deliveries",
