@@ -1182,7 +1182,10 @@
   "SVC_REQUEST_HISTORY": {
     "NAME": "api-hcm.svc-request-history",
     "ACTION_GET_LIST": "getList",
-    "ACTION_GET_DETAIL": "getDetail"
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_GET_STATISTICS": "GET_STATISTICS",
+    "ACTION_GET_TIMELINE": "GET_TIMELINE",
+    "ACTION_SEARCH": "SEARCH"
   },
   "SVC_REQUEST_COMMENT": {
     "NAME": "api-hcm.svc-request-comments",
@@ -1258,7 +1261,11 @@
     "ACTION_LIST_VERSIONS": "listVersions",
     "ACTION_GET_ACTIVE_VERSION": "getActiveVersion",
     "ACTION_ARCHIVE": "archiveComponent",
-    "ACTION_GROUP_BY_PARENT": "groupByParent"
+    "ACTION_GROUP_BY_PARENT": "groupByParent",
+    "ACTION_MIGRATE_LEGAL_FORMULAS": "migrateLegalFormulas",
+    "ACTION_RECONCILE_MASTER_COMPONENTS": "reconcileMasterComponents",
+    "ACTION_BACKFILL_COMPONENT_CLASSIFICATION": "backfillComponentClassification",
+    "ACTION_LIST_COMPONENT_PRESETS": "listComponentPresets"
   },
   "API_HCM_PAYROLL_TEMPLATE_SETTINGS": {
     "NAME": "api-hcm.payrollTemplateSettings",
@@ -1386,7 +1393,14 @@
     "ACTION_SUMMARY_GET_OBLIGATION_PAGE": "payrollSummary.getObligationPage",
     "ACTION_UPDATE_COMPONENTS_LAYOUT": "updateComponentsLayout",
     "ACTION_UPDATE_COMPONENTS_STRUCTURE": "updateComponentsStructure",
-    "ACTION_RECOMPUTE_SHEET": "recomputeSheet"
+    "ACTION_RECOMPUTE_SHEET": "recomputeSheet",
+    "ACTION_SUBMIT_FOR_APPROVAL": "submitForApproval",
+    "ACTION_APPROVE": "approve",
+    "ACTION_REJECT": "reject",
+    "ACTION_CANCEL": "cancelPayroll",
+    "ACTION_RECALL": "recallPayroll",
+    "ACTION_GET_APPROVAL_HISTORY": "getApprovalHistory",
+    "ACTION_CAN_APPROVE": "canApprove"
   },
   "API_HCM_PAYROLL_DETAILS": {
     "NAME": "api-hcm.payroll-details",
@@ -1642,7 +1656,9 @@
     "ACTION_GET_LIST_BY_MANAGERS": "getListByManagers",
     "ACTION_RESET_TIMEKEEPING_DATA": "resetTimekeepingData",
     "ACTION_GET_EMPLOYEES_NOT_CONFIGURED": "getEmployeesNotConfigured",
-    "ACTION_GET_LIST_BY_TIMEKEEPING_DETAIL_ID": "getListsByTimekeepingDetailId"
+    "ACTION_GET_LIST_BY_TIMEKEEPING_DETAIL_ID": "getListsByTimekeepingDetailId",
+    "ACTION_LOCK_DAY": "lockDay",
+    "ACTION_UNLOCK_DAY": "unlockDay"
   },
   "API_HCM_TIMEKEEPING_COMPONENTS": {
     "NAME": "api-hcm.timekeeping-components",
@@ -1827,7 +1843,8 @@
     "ACTION_SWITCH_ORG": "switchOrg",
     "ACTION_REGISTER_TRIAL": "registerTrial",
     "ACTION_GET_MY_PROFILE": "getMyProfile",
-    "ACTION_UPDATE_MY_PROFILE": "updateMyProfile"
+    "ACTION_UPDATE_MY_PROFILE": "updateMyProfile",
+    "ACTION_BULK_UPDATE_ACCOUNT_STATUS": "bulkUpdateAccountStatus"
   },
   "SVC_ORGANIZATION_EMPLOYEES": {
     "NAME": "svc-organization.employees",
@@ -4141,5 +4158,59 @@
     "ACTION_HR_BATCH_MARK_OFFICIAL": "hrBatchMarkOfficial",
     "ACTION_GET_PRESENTATION_CONFIG": "getPresentationConfig",
     "ACTION_UPDATE_PRESENTATION_CONFIG": "updatePresentationConfig"
+  },
+  "API_HCM_REPORTS": {
+    "NAME": "api.hcm.reports",
+    "ACTION_GENERATE_TAX": "generateTaxReport",
+    "ACTION_GENERATE_INSURANCE": "generateInsuranceReport",
+    "ACTION_GENERATE_LABOR": "generateLaborReport",
+    "ACTION_GET_HISTORY": "getHistory",
+    "ACTION_GET_BY_ID": "getById"
+  },
+  "API_HCM_LEAVE_ACCRUAL_JOB": {
+    "NAME": "leave-accrual-job",
+    "ACTION_RUN_MONTHLY": "runMonthly",
+    "ACTION_RUN_MONTHLY_ALL_TENANTS": "runMonthlyAllTenants",
+    "ACTION_RUN_CARRY_FORWARD": "runCarryForward",
+    "ACTION_RUN_EXPIRY": "runExpiry",
+    "ACTION_RUN_SENIORITY": "runSeniority"
+  },
+  "API_HCM_SETTING_HOLIDAY_EFFECTS": {
+    "NAME": "api-hcm.setting-holiday-effects",
+    "ACTION_GET": "get",
+    "ACTION_UPDATE": "update"
+  },
+  "API_HCM_SETTING_NATURE_OF_WORKS": {
+    "NAME": "api-hcm.setting-nature-of-works",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+  "API_HCM_SETTING_SHIFT_ASSIGNMENTS": {
+    "NAME": "api-hcm.setting-shift-assignments",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany"
+  },
+  "API_HCM_SETTING_TIMEKEEPING_RECORD_RULES": {
+    "NAME": "api-hcm.setting-timekeeping-record-rules",
+    "ACTION_GET": "get",
+    "ACTION_UPDATE": "update"
+  },
+  "API_HCM_SETTING_WORKDAY_RULES": {
+    "NAME": "api-hcm.setting-workday-rules",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE_MANY": "deleteMany",
+    "ACTION_GET_IMPACT": "getImpact",
+    "ACTION_GET_EMPLOYEE_STANDARDS": "getEmployeeStandards",
+    "ACTION_GET_PERIOD_RESULTS": "getPeriodResults",
+    "ACTION_PREVIEW_STANDARD": "previewStandard"
   }
 }
