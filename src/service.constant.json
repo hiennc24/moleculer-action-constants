@@ -4084,7 +4084,10 @@
     "ACTION_RECLAIM_HELD": "reclaimHeld",
     "ACTION_GET_LIST": "getList",
     "ACTION_GET_DETAIL": "getDetail",
-    "ACTION_PAYMENT_SUMMARY": "payBatch.paymentSummary"
+    "ACTION_PAYMENT_SUMMARY": "payBatch.paymentSummary",
+    "ACTION_UPDATE": "update",
+    "ACTION_REMOVE": "remove",
+    "ACTION_DELETE_LINES": "deleteLines"
   },
   "API_HCM_PAYMENT": {
     "NAME": "api-hcm.payment",
@@ -4094,7 +4097,9 @@
     "ACTION_EXECUTE": "execute",
     "ACTION_REVERSE": "reverse",
     "ACTION_DOWNLOAD_FILE": "downloadFile",
-    "ACTION_REISSUE": "reissue"
+    "ACTION_REISSUE": "reissue",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_DETAIL": "getDetail"
   },
   "API_HCM_EMPLOYEE_PAYSLIP": {
     "NAME": "api-hcm.employeePayslip",
