@@ -201,6 +201,7 @@
   },
   "SVC_BUSINESS_PARTNER": {
     "NAME": "svc-business-partner.partners",
+    "ACTION_GENERATE_CODE": "generateCode",
     "ACTION_GET_TAX_CODE": "getTaxCode",
     "ACTION_LOCK_UNLOCK": "lockUnlock",
     "ACTION_DELETE_MANY": "deleteMany",
@@ -1963,6 +1964,7 @@
   },
   "SVC_PRODUCT_ITEMS": {
     "NAME": "svc-product.product-items",
+    "ACTION_GENERATE_CODE": "generateCode",
     "ACTION_REMOVE_GROUP_LABEL_OR_PRODUCT_ITEM": "removeGroupLabelOrProductItemIds",
     "ACTION_ASSIGN_INTO_ORD_ID_PRODUCT_ITEM": "assignGroupLabelOrProductIntoOrgId",
     "ACTION_GET_MORE_PRODUCT_ITEM_PAGINATION": "getMoreItemPagination",
