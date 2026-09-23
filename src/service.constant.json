@@ -1335,6 +1335,8 @@
     "ACTION_GET_EMPLOYEE_ENTRIES": "getEmployeeEntries",
     "ACTION_CREATE_ENTRY": "createEntry",
     "ACTION_CREATE_ENTRIES": "createEntries",
+    "ACTION_UPDATE_ENTRIES": "updateEntries",
+    "ACTION_GET_ENTRIES_FOR_PERIOD": "getEntriesForPeriod",
     "ACTION_UPDATE_ENTRY": "updateEntry",
     "ACTION_DELETE_ENTRY": "deleteEntry",
     "ACTION_APPROVE_ENTRY": "approveEntry",
