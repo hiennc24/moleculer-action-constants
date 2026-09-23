@@ -1339,6 +1339,7 @@
     "ACTION_GET_ENTRIES_FOR_PERIOD": "getEntriesForPeriod",
     "ACTION_UPDATE_ENTRY": "updateEntry",
     "ACTION_DELETE_ENTRY": "deleteEntry",
+    "ACTION_DELETE_ENTRIES": "deleteEntries",
     "ACTION_APPROVE_ENTRY": "approveEntry",
     "ACTION_REJECT_ENTRY": "rejectEntry",
     "ACTION_GET_IMPORT_TEMPLATE": "getImportTemplate",
