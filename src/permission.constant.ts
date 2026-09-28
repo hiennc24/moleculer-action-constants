@@ -292,6 +292,7 @@ const PERMISSIONS = {
     "sales:sales_management:planning_reporting:sales_cost:delete",
 
   // 4.10 Pricing policy.
+  SALES_PRICING_POLICIES_LIST: "sales:sales_management:pricing_policy:list",
   SALES_PRICING_POLICIES_READ: "sales:sales_management:pricing_policy:read",
   SALES_PRICING_POLICIES_CREATE: "sales:sales_management:pricing_policy:create",
   SALES_PRICING_POLICIES_UPDATE: "sales:sales_management:pricing_policy:update",
