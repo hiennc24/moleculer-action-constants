@@ -4164,6 +4164,7 @@
     "ACTION_PDF": "pdf",
     "ACTION_FEEDBACK": "feedback",
     "ACTION_ACKNOWLEDGE": "acknowledge",
+    "ACTION_REQUEST_EDIT": "requestEdit",
     "ACTION_SEND": "send",
     "ACTION_HR_LIST": "hrList",
     "ACTION_HR_GET_DETAIL": "hrGetDetail",
