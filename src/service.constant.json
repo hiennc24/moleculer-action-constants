@@ -695,7 +695,8 @@
     "ACTION_UPDATE_ADDITION": "updateAddition",
     "ACTION_GET_LIST": "getListSaleOrder",
     "ACTION_RESCIND": "rescind",
-    "ACTION_AMEND": "amend"
+    "ACTION_AMEND": "amend",
+    "ACTION_UPDATE_DELIVERY_NOTE_FLAG": "updateDeliveryNoteFlag"
   },
   "SVC_SALES_ORDER_DETAILS": {
     "NAME": "svc-sales-order-details"
@@ -3995,6 +3996,8 @@
     "ACTION_GET_PRODUCT_LIST": "shipments.getProductList",
     "ACTION_DELETE": "shipments.delete",
     "ACTION_DELETE_MANY": "shipments.deleteMany",
+    "ACTION_PREVIEW_FROM_SALES_ORDER": "shipments.previewFromSalesOrder",
+    "ACTION_CREATE_FROM_SALES_ORDER": "shipments.createFromSalesOrder",
     "EVENT_STATUS_CHANGED": "transports.shipment.status.changed",
     "EVENT_COD_REMITTED": "transports.shipment.cod.remitted",
     "EVENT_3PL_CREATED": "transports.shipment.3pl.created"
