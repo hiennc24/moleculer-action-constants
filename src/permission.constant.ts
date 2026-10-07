@@ -195,6 +195,7 @@ const PERMISSIONS = {
   SALES_LEADS_CREATE: "sales:sales_management:sales_operations:lead:create",
   SALES_LEADS_UPDATE: "sales:sales_management:sales_operations:lead:update",
   SALES_LEADS_DELETE: "sales:sales_management:sales_operations:lead:delete",
+  SALES_LEADS_SETTING: "sales:sales_management:sales_operations:lead:setting",
 
   // 4.3 Promotion.
   SALES_PROMOTIONS_LIST: "sales:sales_management:sales_operations:promotion:list",

@@ -298,6 +298,7 @@
     "ACTION_REPOST_CREDIT_JOURNALS": "repostPendingCreditJournals",
     "ACTION_APPROVE_PAYMENT": "approvePayment",
     "ACTION_REJECT_PAYMENT": "rejectPayment",
+    "ACTION_UPDATE_PAYMENT": "updatePayment",
     "ACTION_GET_DASHBOARD_TREND": "getDashboardTrend",
     "ACTION_GET_DASHBOARD_UPCOMING": "getDashboardUpcoming"
   },
