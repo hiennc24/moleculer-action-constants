@@ -1245,7 +1245,8 @@
     "ACTIONS_GENERATE_CODE": "generateCode",
     "ACTION_SUBMIT": "submitSalaryRange",
     "ACTION_APPROVE": "approveSalaryRange",
-    "ACTION_REJECT": "rejectSalaryRange"
+    "ACTION_REJECT": "rejectSalaryRange",
+    "ACTION_REVISE": "reviseSalaryRange"
   },
   "API_HCM_SALARY_HISTORIES": {
     "NAME": "api-hcm.salaryHistories",
@@ -1270,7 +1271,38 @@
     "ACTION_MIGRATE_LEGAL_FORMULAS": "migrateLegalFormulas",
     "ACTION_RECONCILE_MASTER_COMPONENTS": "reconcileMasterComponents",
     "ACTION_BACKFILL_COMPONENT_CLASSIFICATION": "backfillComponentClassification",
-    "ACTION_LIST_COMPONENT_PRESETS": "listComponentPresets"
+    "ACTION_LIST_COMPONENT_PRESETS": "listComponentPresets",
+    "ACTION_LIST_SALARY_TYPES": "listSalaryTypes",
+    "ACTION_LIST_REFERENCE_SOURCES": "listReferenceSources",
+    "ACTION_LIST_INPUT_LOCATIONS": "listInputLocations",
+    "ACTION_LIST_FORMULA_FUNCTIONS": "listFormulaFunctions"
+  },
+  "API_HCM_SALARY_PARENT_CODES": {
+    "NAME": "api-hcm.salary-parent-codes",
+    "ACTION_GET_LIST": "getList",
+    "ACTION_GET_INFO": "getInfo",
+    "ACTION_CREATE": "create",
+    "ACTION_UPDATE": "update",
+    "ACTION_DELETE": "delete",
+    "ACTION_RECONCILE_MASTER_DATA": "reconcileMasterData"
+  },
+  "API_HCM_SALARY_PARAMETERS": {
+    "NAME": "api-hcm.salary-parameters",
+    "ACTION_GET_LIST": "getList"
+  },
+  "API_HCM_SETTING_REGULATIONS": {
+    "NAME": "settingRegulations",
+    "ACTION_RESOLVE": "resolveCategory",
+    "ACTION_SET_ENTRY": "setEntry",
+    "ACTION_REVERT_ENTRY": "revertEntry",
+    "ACTION_SET_CONFIG": "setConfig",
+    "ACTION_LIST_VERSIONS": "listVersions",
+    "ACTION_GET_ACTIVE_VERSION": "getActiveVersion",
+    "ACTION_ADD_CUSTOM_ENTRY": "addCustomEntry",
+    "ACTION_REMOVE_CUSTOM_ENTRY": "removeCustomEntry",
+    "ACTION_REVERT_ALL_CATEGORY": "revertAllCategory",
+    "ACTION_LIST_CHANGE_LOGS": "listChangeLogs",
+    "ACTION_GET_VERSION_DIFF": "getVersionDiff"
   },
   "API_HCM_PAYROLL_TEMPLATE_SETTINGS": {
     "NAME": "api-hcm.payrollTemplateSettings",
@@ -1315,7 +1347,14 @@
     "ACTION_GET_EMPLOYEE_SUMMARY": "getEmployeeSummary",
     "ACTION_UPDATE_CELL": "updatePayrollTemplateCell",
     "ACTION_GET_CALC_PLAN": "getTemplateCalcPlan",
-    "ACTION_VALIDATE_FORMULA": "validateFormula"
+    "ACTION_VALIDATE_FORMULA": "validateFormula",
+    "ACTION_V2_LIST": "v2List",
+    "ACTION_V2_DETAIL": "v2Detail",
+    "ACTION_V2_CREATE": "v2Create",
+    "ACTION_V2_UPDATE": "v2Update",
+    "ACTION_V2_RENDER": "v2Render",
+    "ACTION_V2_REFRESH_COLUMNS": "v2RefreshColumns",
+    "ACTION_V2_APPROVE": "v2Approve"
   },
   "API_HCM_PAYROLL_ADVANCE": {
     "NAME": "api-hcm.payroll-advances",
